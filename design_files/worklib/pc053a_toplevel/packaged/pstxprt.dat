@@ -1,0 +1,5193 @@
+FILE_TYPE=EXPANDEDPARTLIST;
+{ Packager-XL run on 29-Aug-2016 AT 16:56:29 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='PC053A_TOPLEVEL';
+ POST_TIME='29-Aug-2016 AT 16:56:29';
+ SOURCE_TOOL='PACKAGER_XL';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I251@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i251@cnpassive.capcers~
+mdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i251@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I251',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ PHYS_PAGE='3',
+ XY='(-3290,4700)',
+ ROT='3',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C1',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C2 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I248@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i248@cnpassive.capcers~
+mdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i248@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I248',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ PHYS_PAGE='3',
+ XY='(-2990,4700)',
+ ROT='3',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C2',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C3 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I244@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i244@cnpassive.capcers~
+mdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i244@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I244',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ PHYS_PAGE='3',
+ XY='(940,4780)',
+ ROT='3',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C3',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C4 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I247@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i247@cnpassive.capcers~
+mdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i247@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I247',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ PHYS_PAGE='3',
+ XY='(1330,4780)',
+ ROT='3',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C4',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C5 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I246@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i246@cnpassive.capcers~
+mdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i246@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I246',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ PHYS_PAGE='3',
+ XY='(750,4780)',
+ ROT='3',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C5',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C6 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I242@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i242@cnpassive.capcers~
+mdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i242@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I242',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ PHYS_PAGE='3',
+ XY='(1130,4780)',
+ ROT='3',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C6',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C7 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I236@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i236@cnpassive.capcers~
+mdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i236@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I236',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ PHYS_PAGE='3',
+ XY='(-3480,790)',
+ ROT='2',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C7',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C8 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I233@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i233@cnpassive.capcers~
+mdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i233@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I233',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ PHYS_PAGE='3',
+ XY='(-2790,790)',
+ ROT='2',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C8',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C9 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I246@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i246@cnpassive.capcers~
+mdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i246@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I246',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ SIZE='1',
+ PHYS_PAGE='2',
+ XY='(-3620,1720)',
+ ROT='1',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C10 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I245@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i245@cnpassive.capcers~
+mdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i245@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I245',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ SIZE='1',
+ PHYS_PAGE='2',
+ XY='(-2830,1720)',
+ ROT='1',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C11 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I170@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i170@cnpassive.capcers~
+mdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i170@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I170',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ PHYS_PAGE='3',
+ XY='(-1590,4900)',
+ ROT='2',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C11',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C12 'CAPCERSMDCL2_0805-2.2UF,10V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I236@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i236@cnpassive.capcers~
+mdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i236@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I236',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ SIZE='1',
+ PHYS_PAGE='2',
+ XY='(-2490,1720)',
+ ROT='1',
+ VER='1',
+ VALUE='2.2UF',
+ PACK_TYPE='0805',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0805-2.2UF,10V_GEN',
+ VOLTAGE='10V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C13 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I210@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i210@cnpassive.capcers~
+mdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i210@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I210',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ SIZE='1',
+ PHYS_PAGE='2',
+ XY='(-160,1970)',
+ ROT='2',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C13',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C14 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I212@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i212@cnpassive.capcers~
+mdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i212@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I212',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ SIZE='1',
+ PHYS_PAGE='2',
+ XY='(280,1970)',
+ ROT='2',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C14',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C15 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I157@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i157@cnpassive.capcer~
+smdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i157@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I157',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(-2210,690)',
+ ROT='1',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C15',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C16 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I193@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i193@cnpassive.capcers~
+mdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i193@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I193',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ SIZE='1',
+ PHYS_PAGE='2',
+ XY='(1220,450)',
+ ROT='2',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C16',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C17 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I199@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i199@cnpassive.capcers~
+mdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i199@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I199',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ SIZE='1',
+ PHYS_PAGE='2',
+ XY='(-130,260)',
+ ROT='1',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C17',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C18 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I183@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i183@cnpassive.capcers~
+mdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i183@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I183',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ SIZE='1',
+ PHYS_PAGE='2',
+ XY='(3350,1350)',
+ ROT='1',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C18',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C19 'CAPCERSMDCL2_0402-100NF_X7R,16V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I65@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i65@cnpassive.capcersm~
+dcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i65@cnpassive.capcersm~
+dcl2(chips)',
+ PATH='I65',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ PHYS_PAGE='4',
+ XY='(-580,-1230)',
+ ROT='3',
+ VER='1',
+ VALUE='100NF_X7R',
+ PACK_TYPE='0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF_X7R,16V',
+ VOLTAGE='16V',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C20 'CAPCERSMDCL2_0402-100NF_X7R,16V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I62@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i62@cnpassive.capcersm~
+dcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i62@cnpassive.capcersm~
+dcl2(chips)',
+ PATH='I62',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ PHYS_PAGE='4',
+ XY='(-470,-1230)',
+ ROT='3',
+ VER='1',
+ VALUE='100NF_X7R',
+ PACK_TYPE='0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF_X7R,16V',
+ VOLTAGE='16V',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C21 'CAPCERSMDCL2_0402-100NF_X7R,16V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I63@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i63@cnpassive.capcersm~
+dcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i63@cnpassive.capcersm~
+dcl2(chips)',
+ PATH='I63',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ PHYS_PAGE='4',
+ XY='(-360,-1230)',
+ ROT='3',
+ VER='1',
+ VALUE='100NF_X7R',
+ PACK_TYPE='0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF_X7R,16V',
+ VOLTAGE='16V',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C22 'CAPCERSMDCL2_0402-100NF_X7R,16V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I59@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i59@cnpassive.capcersm~
+dcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i59@cnpassive.capcersm~
+dcl2(chips)',
+ PATH='I59',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ PHYS_PAGE='4',
+ XY='(-330,1710)',
+ ROT='1',
+ VER='1',
+ VALUE='100NF_X7R',
+ PACK_TYPE='0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF_X7R,16V',
+ VOLTAGE='16V',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C23 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I168@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i168@cnpassive.capcers~
+mdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i168@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I168',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ PHYS_PAGE='3',
+ XY='(-1590,4710)',
+ ROT='2',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C23',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C24 'CAPCERSMDCL2_0402-100NF_X7R,16V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I64@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i64@cnpassive.capcersm~
+dcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i64@cnpassive.capcersm~
+dcl2(chips)',
+ PATH='I64',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ PHYS_PAGE='4',
+ XY='(-260,-1230)',
+ ROT='3',
+ VER='1',
+ VALUE='100NF_X7R',
+ PACK_TYPE='0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF_X7R,16V',
+ VOLTAGE='16V',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C25 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I180@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i180@cnpassive.capcers~
+mdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i180@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I180',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ PHYS_PAGE='3',
+ XY='(-2360,4700)',
+ ROT='3',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C25',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C26 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I183@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i183@cnpassive.capcers~
+mdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i183@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I183',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ PHYS_PAGE='3',
+ XY='(-2680,4700)',
+ ROT='3',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C26',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C27 'CAPCERSMDCL2_0402-100NF_X7R,16V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I57@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i57@cnpassive.capcersm~
+dcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i57@cnpassive.capcersm~
+dcl2(chips)',
+ PATH='I57',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ PHYS_PAGE='4',
+ XY='(1040,2010)',
+ ROT='0',
+ VER='1',
+ VALUE='100NF_X7R',
+ PACK_TYPE='0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF_X7R,16V',
+ VOLTAGE='16V',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C28 'CAPCERSMDCL2_0402-100NF_X7R,16V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I58@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i58@cnpassive.capcersm~
+dcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i58@cnpassive.capcersm~
+dcl2(chips)',
+ PATH='I58',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ PHYS_PAGE='4',
+ XY='(1040,1910)',
+ ROT='0',
+ VER='1',
+ VALUE='100NF_X7R',
+ PACK_TYPE='0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF_X7R,16V',
+ VOLTAGE='16V',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C29 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I156@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i156@cnpassive.capcer~
+smdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i156@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I156',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(1520,1160)',
+ ROT='1',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C29',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C30 'CAPCERSMDCL2_0402-1.0NF,50V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I155@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i155@cnpassive.capcer~
+smdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i155@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I155',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(1610,1160)',
+ ROT='1',
+ VER='1',
+ VALUE='1.0nF',
+ PACK_TYPE='0402',
+ LOCATION='C30',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-1.0NF,50V_GEN',
+ VOLTAGE='50V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C31 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I124@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i124@cnpassive.capcer~
+smdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i124@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I124',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ SEC_TYPE='0402',
+ PHYS_PAGE='1',
+ XY='(1540,3960)',
+ ROT='0',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C31',
+ SEC='1',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C32 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I125@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i125@cnpassive.capcer~
+smdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i125@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I125',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ SEC_TYPE='0402',
+ PHYS_PAGE='1',
+ XY='(1540,4010)',
+ ROT='0',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C32',
+ SEC='1',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C33 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I146@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i146@cnpassive.capcer~
+smdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i146@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I146',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(-340,1160)',
+ ROT='1',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C33',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C34 'CAPCERSMDCL2_0402-1.0NF,50V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I147@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i147@cnpassive.capcer~
+smdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i147@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I147',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(-250,1160)',
+ ROT='1',
+ VER='1',
+ VALUE='1.0nF',
+ PACK_TYPE='0402',
+ LOCATION='C34',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-1.0NF,50V_GEN',
+ VOLTAGE='50V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C35 'CAPCERSMDCL2_0805-10UF,16V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I154@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i154@cnpassive.capcer~
+smdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i154@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I154',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(2080,1150)',
+ ROT='1',
+ VER='1',
+ VALUE='10uF',
+ PACK_TYPE='0805',
+ LOCATION='C35',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0805-10UF,16V',
+ VOLTAGE='16V',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C36 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I148@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i148@cnpassive.capcer~
+smdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i148@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I148',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(270,1160)',
+ ROT='1',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C36',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C37 'CAPCERSMDCL2_0402-1.0NF,50V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I149@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i149@cnpassive.capcer~
+smdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i149@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I149',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(360,1160)',
+ ROT='1',
+ VER='1',
+ VALUE='1.0nF',
+ PACK_TYPE='0402',
+ LOCATION='C37',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-1.0NF,50V_GEN',
+ VOLTAGE='50V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C38 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I127@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i127@cnpassive.capcer~
+smdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i127@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I127',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ SEC_TYPE='0402',
+ PHYS_PAGE='1',
+ XY='(-1070,3710)',
+ ROT='0',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C38',
+ SEC='1',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C39 'CAPCERSMDCL2_0603-470NF,6.3V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I140@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i140@cnpassive.capcer~
+smdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i140@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I140',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(470,3460)',
+ ROT='0',
+ VER='1',
+ VALUE='470nF',
+ PACK_TYPE='0603',
+ LOCATION='C39',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0603-470NF,6.3V',
+ VOLTAGE='6.3V',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C40 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I151@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i151@cnpassive.capcer~
+smdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i151@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I151',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(890,1160)',
+ ROT='1',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C40',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C41 'CAPCERSMDCL2_0402-1.0NF,50V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I152@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i152@cnpassive.capcer~
+smdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i152@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I152',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(980,1160)',
+ ROT='1',
+ VER='1',
+ VALUE='1.0nF',
+ PACK_TYPE='0402',
+ LOCATION='C41',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-1.0NF,50V_GEN',
+ VOLTAGE='50V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C42 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I133@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i133@cnpassive.capcer~
+smdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i133@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I133',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ SEC_TYPE='0402',
+ PHYS_PAGE='1',
+ XY='(-1070,3610)',
+ ROT='0',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C42',
+ SEC='1',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C43 'CAPCERSMDCL2_0603-1.5UF,6.3V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I142@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i142@cnpassive.capcer~
+smdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i142@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I142',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(-870,3810)',
+ ROT='0',
+ VER='1',
+ VALUE='1.5uF',
+ PACK_TYPE='0603',
+ LOCATION='C43',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0603-1.5UF,6.3V',
+ VOLTAGE='6.3V',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C44 'CAPCERSMDCL2_0603-1.5UF,6.3V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I141@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i141@cnpassive.capcer~
+smdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i141@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I141',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(-870,3860)',
+ ROT='0',
+ VER='1',
+ VALUE='1.5uF',
+ PACK_TYPE='0603',
+ LOCATION='C44',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0603-1.5UF,6.3V',
+ VOLTAGE='6.3V',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C45 'CAPCERSMDCL2_0805-2.2UF,10V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I64@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i64@cnpassive.capcersm~
+dcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i64@cnpassive.capcersm~
+dcl2(chips)',
+ PATH='I64',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ SIZE='1',
+ PHYS_PAGE='2',
+ XY='(-2690,650)',
+ ROT='1',
+ VER='1',
+ VALUE='2.2UF',
+ PACK_TYPE='0805',
+ LOCATION='C45',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0805-2.2UF,10V_GEN',
+ VOLTAGE='10V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C46 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I66@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i66@cnpassive.capcersm~
+dcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i66@cnpassive.capcersm~
+dcl2(chips)',
+ PATH='I66',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ SIZE='1',
+ PHYS_PAGE='2',
+ XY='(-3580,640)',
+ ROT='1',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C46',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C47 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I68@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i68@cnpassive.capcersm~
+dcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i68@cnpassive.capcersm~
+dcl2(chips)',
+ PATH='I68',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ SIZE='1',
+ PHYS_PAGE='2',
+ XY='(-2900,660)',
+ ROT='1',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ LOCATION='C47',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C48 'CAPCERSMDCL2_0402-100NF_X7R,16V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I66@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i66@cnpassive.capcersm~
+dcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i66@cnpassive.capcersm~
+dcl2(chips)',
+ PATH='I66',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ PHYS_PAGE='4',
+ XY='(1600,-1350)',
+ ROT='3',
+ VER='1',
+ VALUE='100NF_X7R',
+ PACK_TYPE='0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF_X7R,16V',
+ VOLTAGE='16V',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C49 'CAPCERSMDCL2_0402-100NF_X7R,16V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I67@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i67@cnpassive.capcersm~
+dcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i67@cnpassive.capcersm~
+dcl2(chips)',
+ PATH='I67',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ PHYS_PAGE='4',
+ XY='(1690,-1350)',
+ ROT='3',
+ VER='1',
+ VALUE='100NF_X7R',
+ PACK_TYPE='0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF_X7R,16V',
+ VOLTAGE='16V',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C50 'CAPCERSMDCL2_0402-100NF_X7R,16V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I68@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i68@cnpassive.capcersm~
+dcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i68@cnpassive.capcersm~
+dcl2(chips)',
+ PATH='I68',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ PHYS_PAGE='4',
+ XY='(1790,-1350)',
+ ROT='3',
+ VER='1',
+ VALUE='100NF_X7R',
+ PACK_TYPE='0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF_X7R,16V',
+ VOLTAGE='16V',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C51 'CAPCERSMDCL2_0402-100NF_X7R,16V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I69@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i69@cnpassive.capcersm~
+dcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i69@cnpassive.capcersm~
+dcl2(chips)',
+ PATH='I69',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ PHYS_PAGE='4',
+ XY='(1900,-1350)',
+ ROT='3',
+ VER='1',
+ VALUE='100NF_X7R',
+ PACK_TYPE='0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF_X7R,16V',
+ VOLTAGE='16V',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C52 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I222@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i222@cnpassive.capcer~
+smdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i222@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I222',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(-3920,2850)',
+ ROT='1',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C53 'CAPCERSMDCL2_0402-100NF,16V_GEN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I221@CNPASSIVE.CAPCERSMDCL2(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i221@cnpassive.capcer~
+smdcl2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i221@cnpassive.capcers~
+mdcl2(chips)',
+ PATH='I221',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(-2690,2860)',
+ ROT='1',
+ VER='1',
+ VALUE='100nF',
+ PACK_TYPE='0402',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPCERSMDCL2_0402-100NF,16V_GEN',
+ VOLTAGE='16V_GEN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+
+PART_NAME
+ C54 'CAPACITOR_POLY2.54-10NF,50V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I224@CNPASSIVE.CAPACITOR(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i224@cnpassive.capaci~
+tor(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i224@cnpassive.capacit~
+or(chips)',
+ PATH='I224',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(610,2220)',
+ ROT='2',
+ VER='1',
+ VALUE='10NF',
+ PACK_TYPE='POLY2.54',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPACITOR_POLY2.54-10NF,50V',
+ VOLTAGE='50V',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capacitor/chips/chips.prt';
+
+PART_NAME
+ C55 'CAPACITOR_POLY2.54-10NF,50V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I223@CNPASSIVE.CAPACITOR(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i223@cnpassive.capaci~
+tor(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i223@cnpassive.capacit~
+or(chips)',
+ PATH='I223',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(800,2130)',
+ ROT='2',
+ VER='1',
+ VALUE='10NF',
+ PACK_TYPE='POLY2.54',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPACITOR_POLY2.54-10NF,50V',
+ VOLTAGE='50V',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capacitor/chips/chips.prt';
+
+PART_NAME
+ C56 'CAPACITOR_POLY2.54-10NF,50V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I215@CNPASSIVE.CAPACITOR(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i215@cnpassive.capaci~
+tor(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i215@cnpassive.capacit~
+or(chips)',
+ PATH='I215',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(2070,2050)',
+ ROT='1',
+ VER='1',
+ VALUE='10NF',
+ PACK_TYPE='POLY2.54',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPACITOR_POLY2.54-10NF,50V',
+ VOLTAGE='50V',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capacitor/chips/chips.prt';
+
+PART_NAME
+ C57 'CAPACITOR_POLY2.54-10NF,50V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I216@CNPASSIVE.CAPACITOR(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i216@cnpassive.capaci~
+tor(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i216@cnpassive.capacit~
+or(chips)',
+ PATH='I216',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(2310,2050)',
+ ROT='1',
+ VER='1',
+ VALUE='10NF',
+ PACK_TYPE='POLY2.54',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPACITOR_POLY2.54-10NF,50V',
+ VOLTAGE='50V',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capacitor/chips/chips.prt';
+
+PART_NAME
+ C58 'CAPACITOR_POLY2.54-10NF,50V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I217@CNPASSIVE.CAPACITOR(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i217@cnpassive.capaci~
+tor(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i217@cnpassive.capacit~
+or(chips)',
+ PATH='I217',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(2550,2050)',
+ ROT='1',
+ VER='1',
+ VALUE='10NF',
+ PACK_TYPE='POLY2.54',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPACITOR_POLY2.54-10NF,50V',
+ VOLTAGE='50V',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capacitor/chips/chips.prt';
+
+PART_NAME
+ C59 'CAPACITOR_POLY2.54-10NF,50V':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I218@CNPASSIVE.CAPACITOR(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i218@cnpassive.capaci~
+tor(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i218@cnpassive.capacit~
+or(chips)',
+ PATH='I218',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(2790,2050)',
+ ROT='1',
+ VER='1',
+ VALUE='10NF',
+ PACK_TYPE='POLY2.54',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='CAPACITOR_POLY2.54-10NF,50V',
+ VOLTAGE='50V',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/capacitor/chips/chips.prt';
+
+PART_NAME
+ IC1 '24AA025E48T-I/SN':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I228@CNMEMORY.24AA025E48(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i228@cnmemory.\24aa025~
+e48\(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i228@cnmemory.\24aa025~
+e48\(chips)',
+ PATH='I228',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ TYPE='24AA025E48T-I/SN',
+ PHYS_PAGE='2',
+ XY='(2520,1640)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='SOIC',
+ CDS_LIB='cnmemory',
+ CDS_PART_NAME='24AA025E48T-I/SN',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnmemory/24aa025e48/chips/chips.prt';
+
+PART_NAME
+ IC2 'SN74AVC2T45DCU':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I239@CNINTERFACE.74AVC2T45(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i239@cninterface.\74av~
+c2t45\(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i239@cninterface.\74av~
+c2t45\(chips)',
+ PATH='I239',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ TYPE='SN74AVC2T45DCU',
+ PHYS_PAGE='3',
+ XY='(-3000,460)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='DCU',
+ PART_NAME='74AVC2T45',
+ LOCATION='IC2',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='SN74AVC2T45DCU',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/74avc2t45/chips/chips.prt';
+
+PART_NAME
+ IC3 'SN74AVC4T245PW':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I289@CNINTERFACE.74AVC4T245(CHIPS)'(1):
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i289(1)@cninterface.\7~
+4avc4t245\(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i289(1)@cninterface.\7~
+4avc4t245\(chips)',
+ PATH='I289',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='2',
+ TYPE='SN74AVC4T245PW',
+ PHYS_PAGE='3',
+ XY='(-2760,2110)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='TSSOP',
+ HAS_FIXED_SIZE='2',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='SN74AVC4T245PW',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/74avc4t245/chips/chips.prt';
+
+SECTION_NUMBER 2
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I289@CNINTERFACE.74AVC4T245(CHIPS)'(0):
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i289(0)@cninterface.\7~
+4avc4t245\(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i289(0)@cninterface.\7~
+4avc4t245\(chips)',
+ PATH='I289',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='2',
+ TYPE='SN74AVC4T245PW',
+ PHYS_PAGE='3',
+ XY='(-2760,2110)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='TSSOP',
+ HAS_FIXED_SIZE='2',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='SN74AVC4T245PW',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/74avc4t245/chips/chips.prt';
+
+SECTION_NUMBER 3
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I288@CNINTERFACE.74AVC4T245(CHIPS)'(1):
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i288(1)@cninterface.\7~
+4avc4t245\(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i288(1)@cninterface.\7~
+4avc4t245\(chips)',
+ PATH='I288',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='2',
+ TYPE='SN74AVC4T245PW',
+ PHYS_PAGE='3',
+ XY='(-2790,3020)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='TSSOP',
+ HAS_FIXED_SIZE='2',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='SN74AVC4T245PW',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/74avc4t245/chips/chips.prt';
+
+SECTION_NUMBER 4
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I288@CNINTERFACE.74AVC4T245(CHIPS)'(0):
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i288(0)@cninterface.\7~
+4avc4t245\(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i288(0)@cninterface.\7~
+4avc4t245\(chips)',
+ PATH='I288',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='2',
+ TYPE='SN74AVC4T245PW',
+ PHYS_PAGE='3',
+ XY='(-2790,3020)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='TSSOP',
+ HAS_FIXED_SIZE='2',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='SN74AVC4T245PW',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/74avc4t245/chips/chips.prt';
+
+PART_NAME
+ IC4 'SN65LVDT125DBT-VCC=P3V3':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I187@CNINTERFACE.SN65LVDT125(CHIPS)'(3):
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i187(3)@cninterface.sn~
+65lvdt125(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i187(3)@cninterface.sn~
+65lvdt125(chips)',
+ PATH='I187',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='4',
+ POWER_GROUP='VCC=P3V3',
+ TYPE='SN65LVDT125DBT',
+ SEC_TYPE='TSSOP',
+ PHYS_PAGE='3',
+ XY='(2120,3330)',
+ ROT='0',
+ VER='3',
+ PACK_TYPE='TSSOP',
+ PART_NUMBER='SN65LVDT250DBT',
+ LOCATION='IC4',
+ HAS_FIXED_SIZE='4',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='SN65LVDT125DBT-VCC=P3V3',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/sn65lvdt125/chips/chips.prt';
+
+SECTION_NUMBER 2
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I187@CNINTERFACE.SN65LVDT125(CHIPS)'(2):
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i187(2)@cninterface.sn~
+65lvdt125(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i187(2)@cninterface.sn~
+65lvdt125(chips)',
+ PATH='I187',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='4',
+ POWER_GROUP='VCC=P3V3',
+ TYPE='SN65LVDT125DBT',
+ SEC_TYPE='TSSOP',
+ PHYS_PAGE='3',
+ XY='(2120,3330)',
+ ROT='0',
+ VER='3',
+ PACK_TYPE='TSSOP',
+ PART_NUMBER='SN65LVDT250DBT',
+ LOCATION='IC4',
+ HAS_FIXED_SIZE='4',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='SN65LVDT125DBT-VCC=P3V3',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/sn65lvdt125/chips/chips.prt';
+
+SECTION_NUMBER 3
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I187@CNINTERFACE.SN65LVDT125(CHIPS)'(1):
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i187(1)@cninterface.sn~
+65lvdt125(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i187(1)@cninterface.sn~
+65lvdt125(chips)',
+ PATH='I187',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='4',
+ POWER_GROUP='VCC=P3V3',
+ TYPE='SN65LVDT125DBT',
+ SEC_TYPE='TSSOP',
+ PHYS_PAGE='3',
+ XY='(2120,3330)',
+ ROT='0',
+ VER='3',
+ PACK_TYPE='TSSOP',
+ PART_NUMBER='SN65LVDT250DBT',
+ LOCATION='IC4',
+ HAS_FIXED_SIZE='4',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='SN65LVDT125DBT-VCC=P3V3',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/sn65lvdt125/chips/chips.prt';
+
+SECTION_NUMBER 4
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I187@CNINTERFACE.SN65LVDT125(CHIPS)'(0):
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i187(0)@cninterface.sn~
+65lvdt125(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i187(0)@cninterface.sn~
+65lvdt125(chips)',
+ PATH='I187',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='4',
+ POWER_GROUP='VCC=P3V3',
+ TYPE='SN65LVDT125DBT',
+ SEC_TYPE='TSSOP',
+ PHYS_PAGE='3',
+ XY='(2120,3330)',
+ ROT='0',
+ VER='3',
+ PACK_TYPE='TSSOP',
+ PART_NUMBER='SN65LVDT250DBT',
+ LOCATION='IC4',
+ HAS_FIXED_SIZE='4',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='SN65LVDT125DBT-VCC=P3V3',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/sn65lvdt125/chips/chips.prt';
+
+PART_NAME
+ IC5 'SN74AVC8T245PW-VCCA=P3V3,VCCB=A':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I140@CNINTERFACE.74AVC8T245(CHIPS)'(7):
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(7)@cninterface.\7~
+4avc8t245\(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(7)@cninterface.\7~
+4avc8t245\(chips)',
+ PATH='I140',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='8',
+ POWER_GROUP='VCCA=P3V3;VCCB=CVCC',
+ TYPE='SN74AVC8T245PW',
+ PHYS_PAGE='3',
+ XY='(90,2150)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='TSSOP',
+ HAS_FIXED_SIZE='8',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='SN74AVC8T245PW-VCCA=P3V3;VCCB=A',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/74avc8t245/chips/chips.prt';
+
+SECTION_NUMBER 2
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I140@CNINTERFACE.74AVC8T245(CHIPS)'(6):
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(6)@cninterface.\7~
+4avc8t245\(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(6)@cninterface.\7~
+4avc8t245\(chips)',
+ PATH='I140',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='8',
+ POWER_GROUP='VCCA=P3V3;VCCB=CVCC',
+ TYPE='SN74AVC8T245PW',
+ PHYS_PAGE='3',
+ XY='(90,2150)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='TSSOP',
+ HAS_FIXED_SIZE='8',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='SN74AVC8T245PW-VCCA=P3V3;VCCB=A',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/74avc8t245/chips/chips.prt';
+
+SECTION_NUMBER 3
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I140@CNINTERFACE.74AVC8T245(CHIPS)'(5):
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(5)@cninterface.\7~
+4avc8t245\(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(5)@cninterface.\7~
+4avc8t245\(chips)',
+ PATH='I140',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='8',
+ POWER_GROUP='VCCA=P3V3;VCCB=CVCC',
+ TYPE='SN74AVC8T245PW',
+ PHYS_PAGE='3',
+ XY='(90,2150)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='TSSOP',
+ HAS_FIXED_SIZE='8',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='SN74AVC8T245PW-VCCA=P3V3;VCCB=A',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/74avc8t245/chips/chips.prt';
+
+SECTION_NUMBER 4
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I140@CNINTERFACE.74AVC8T245(CHIPS)'(4):
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(4)@cninterface.\7~
+4avc8t245\(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(4)@cninterface.\7~
+4avc8t245\(chips)',
+ PATH='I140',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='8',
+ POWER_GROUP='VCCA=P3V3;VCCB=CVCC',
+ TYPE='SN74AVC8T245PW',
+ PHYS_PAGE='3',
+ XY='(90,2150)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='TSSOP',
+ HAS_FIXED_SIZE='8',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='SN74AVC8T245PW-VCCA=P3V3;VCCB=A',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/74avc8t245/chips/chips.prt';
+
+SECTION_NUMBER 5
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I140@CNINTERFACE.74AVC8T245(CHIPS)'(3):
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(3)@cninterface.\7~
+4avc8t245\(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(3)@cninterface.\7~
+4avc8t245\(chips)',
+ PATH='I140',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='8',
+ POWER_GROUP='VCCA=P3V3;VCCB=CVCC',
+ TYPE='SN74AVC8T245PW',
+ PHYS_PAGE='3',
+ XY='(90,2150)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='TSSOP',
+ HAS_FIXED_SIZE='8',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='SN74AVC8T245PW-VCCA=P3V3;VCCB=A',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/74avc8t245/chips/chips.prt';
+
+SECTION_NUMBER 6
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I140@CNINTERFACE.74AVC8T245(CHIPS)'(2):
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(2)@cninterface.\7~
+4avc8t245\(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(2)@cninterface.\7~
+4avc8t245\(chips)',
+ PATH='I140',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='8',
+ POWER_GROUP='VCCA=P3V3;VCCB=CVCC',
+ TYPE='SN74AVC8T245PW',
+ PHYS_PAGE='3',
+ XY='(90,2150)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='TSSOP',
+ HAS_FIXED_SIZE='8',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='SN74AVC8T245PW-VCCA=P3V3;VCCB=A',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/74avc8t245/chips/chips.prt';
+
+SECTION_NUMBER 7
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I140@CNINTERFACE.74AVC8T245(CHIPS)'(1):
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(1)@cninterface.\7~
+4avc8t245\(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(1)@cninterface.\7~
+4avc8t245\(chips)',
+ PATH='I140',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='8',
+ POWER_GROUP='VCCA=P3V3;VCCB=CVCC',
+ TYPE='SN74AVC8T245PW',
+ PHYS_PAGE='3',
+ XY='(90,2150)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='TSSOP',
+ HAS_FIXED_SIZE='8',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='SN74AVC8T245PW-VCCA=P3V3;VCCB=A',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/74avc8t245/chips/chips.prt';
+
+SECTION_NUMBER 8
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I140@CNINTERFACE.74AVC8T245(CHIPS)'(0):
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(0)@cninterface.\7~
+4avc8t245\(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(0)@cninterface.\7~
+4avc8t245\(chips)',
+ PATH='I140',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='8',
+ POWER_GROUP='VCCA=P3V3;VCCB=CVCC',
+ TYPE='SN74AVC8T245PW',
+ PHYS_PAGE='3',
+ XY='(90,2150)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='TSSOP',
+ HAS_FIXED_SIZE='8',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='SN74AVC8T245PW-VCCA=P3V3;VCCB=A',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/74avc8t245/chips/chips.prt';
+
+PART_NAME
+ IC6 '74LCX04MTC-VCC=P3V3':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I75@CNINTERFACE.74LCX04(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i75@cninterface.\74lcx~
+04\(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i75@cninterface.\74lcx~
+04\(chips)',
+ PATH='I75',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ POWER_GROUP='VCC=P3V3',
+ TYPE='74LCX04MTC',
+ PHYS_PAGE='4',
+ XY='(-360,-1770)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='TSSOP',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='74LCX04MTC-VCC=P3V3',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/74lcx04/chips/chips.prt';
+
+SECTION_NUMBER 2
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I72@CNINTERFACE.74LCX04(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i72@cninterface.\74lcx~
+04\(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i72@cninterface.\74lcx~
+04\(chips)',
+ PATH='I72',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ POWER_GROUP='VCC=P3V3',
+ TYPE='74LCX04MTC',
+ PHYS_PAGE='4',
+ XY='(-360,-1930)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='TSSOP',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='74LCX04MTC-VCC=P3V3',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/74lcx04/chips/chips.prt';
+
+SECTION_NUMBER 3
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I73@CNINTERFACE.74LCX04(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i73@cninterface.\74lcx~
+04\(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i73@cninterface.\74lcx~
+04\(chips)',
+ PATH='I73',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ POWER_GROUP='VCC=P3V3',
+ TYPE='74LCX04MTC',
+ PHYS_PAGE='4',
+ XY='(1130,-2050)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='TSSOP',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='74LCX04MTC-VCC=P3V3',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/74lcx04/chips/chips.prt';
+
+SECTION_NUMBER 4
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I74@CNINTERFACE.74LCX04(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i74@cninterface.\74lcx~
+04\(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i74@cninterface.\74lcx~
+04\(chips)',
+ PATH='I74',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ POWER_GROUP='VCC=P3V3',
+ TYPE='74LCX04MTC',
+ PHYS_PAGE='4',
+ XY='(1130,-2210)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='TSSOP',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='74LCX04MTC-VCC=P3V3',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/74lcx04/chips/chips.prt';
+
+SECTION_NUMBER 5
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I9@CNINTERFACE.74LCX04(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i9@cninterface.\74lcx~
+04\(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i9@cninterface.\74lcx0~
+4\(chips)',
+ PATH='I9',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ POWER_GROUP='VCC=P3V3',
+ TYPE='74LCX04MTC',
+ PHYS_PAGE='1',
+ XY='(-3160,660)',
+ ROT='2',
+ VER='1',
+ PACK_TYPE='TSSOP',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='74LCX04MTC-VCC=P3V3',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/74lcx04/chips/chips.prt';
+
+SECTION_NUMBER 6
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I179@CNINTERFACE.74LCX04(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i179@cninterface.\74l~
+cx04\(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i179@cninterface.\74lc~
+x04\(chips)',
+ PATH='I179',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ POWER_GROUP='VCC=P3V3',
+ TYPE='74LCX04MTC',
+ PHYS_PAGE='1',
+ XY='(-3150,960)',
+ ROT='2',
+ VER='1',
+ PACK_TYPE='TSSOP',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='74LCX04MTC-VCC=P3V3',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/74lcx04/chips/chips.prt';
+
+PART_NAME
+ IC7 'SI5344B-B-GM-VDD=P1V8,VDDA=P3VA':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I1@CNINTERFACE.SI5344(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i1@cninterface.si5344(~
+chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i1@cninterface.si5344(~
+chips)',
+ PATH='I1',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ POWER_GROUP='VDDA=P3V3;VDDS=P3V3;VDD=P1V8',
+ TYPE='SI5344B-B-GM',
+ PHYS_PAGE='4',
+ XY='(4650,700)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='QFN',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='SI5344B-B-GM-VDDA=P3V3;VDDS=P3A',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/si5344/chips/chips.prt';
+
+PART_NAME
+ IC8 'NBSG53AMNG-VCC=P3V3,VEE=GND':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I206@CNINTERFACE.NBSG53A(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i206@cninterface.nbsg~
+53a(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i206@cninterface.nbsg5~
+3a(chips)',
+ PATH='I206',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ POWER_GROUP='VCC=P3V3;VEE=GND',
+ TYPE='NBSG53AMNG',
+ PHYS_PAGE='1',
+ XY='(-10,2120)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='QFN',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='NBSG53AMNG-VCC=P3V3;VEE=GND',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/nbsg53a/chips/chips.prt';
+
+PART_NAME
+ IC9 'SY58608UMG-VCC=P3V3':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I207@CNINTERFACE.SY58608U(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i207@cninterface.sy58~
+608u(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i207@cninterface.sy586~
+08u(chips)',
+ PATH='I207',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ POWER_GROUP='VCC=P3V3',
+ TYPE='SY58608UMG',
+ PHYS_PAGE='1',
+ XY='(1980,3520)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='QFN',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='SY58608UMG-VCC=P3V3',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/sy58608u/chips/chips.prt';
+
+PART_NAME
+ IC12 'ADN2814ACPZ-VCC=P3V3,VEE=GND':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I23@CNINTERFACE.ADN2814(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i23@cninterface.adn28~
+14(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i23@cninterface.adn281~
+4(chips)',
+ PATH='I23',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ POWER_GROUP='VCC=P3V3;VEE=GND',
+ TYPE='ADN2814ACPZ',
+ SEC_TYPE='LFCSP',
+ PHYS_PAGE='1',
+ XY='(-40,3660)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='LFCSP',
+ LOCATION='IC12',
+ SEC='1',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='ADN2814ACPZ-VCC=P3V3;VEE=GND',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/adn2814/chips/chips.prt';
+
+PART_NAME
+ IC15 'PCA9517DGKR':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I162@CNINTERFACE.PCA9517(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i162@cninterface.pca95~
+17(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i162@cninterface.pca95~
+17(chips)',
+ PATH='I162',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ TYPE='PCA9517DGKR',
+ SEC_TYPE='MSOP',
+ PHYS_PAGE='2',
+ XY='(190,550)',
+ ROT='2',
+ VER='1',
+ PACK_TYPE='MSOP',
+ LOCATION='IC15',
+ SEC='1',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='PCA9517DGKR',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/pca9517/chips/chips.prt';
+
+PART_NAME
+ IC16 'SN74AVC2T45DCU':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I10@CNINTERFACE.74AVC2T45(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i10@cninterface.\74avc~
+2t45\(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i10@cninterface.\74avc~
+2t45\(chips)',
+ PATH='I10',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ TYPE='SN74AVC2T45DCU',
+ SEC_TYPE='DCU',
+ PHYS_PAGE='2',
+ XY='(70,1640)',
+ ROT='0',
+ VER='1',
+ PACK_TYPE='DCU',
+ PART_NAME='74AVC2T45',
+ LOCATION='IC16',
+ SEC='1',
+ CDS_LIB='cninterface',
+ CDS_PART_NAME='SN74AVC2T45DCU',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cninterface/74avc2t45/chips/chips.prt';
+
+PART_NAME
+ J1 'RJ45_DUAL_JGL_0001NL':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I60@UOB_HEP_PC053A_LIB.RJ45_DUAL_JGL_0001NL(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i60@uob_hep_pc053a_lib~
+.rj45_dual_jgl_0001nl(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i60@uob_hep_pc053a_lib~
+.rj45_dual_jgl_0001nl(chips)',
+ PATH='I60',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ PHYS_PAGE='4',
+ XY='(150,-880)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='uob_hep_pc053a_lib',
+ CDS_PART_NAME='RJ45_DUAL_JGL_0001NL',
+ PRIM_FILE='./worklib/rj45_dual_jgl_0001nl/chips/chips.prt';
+
+SECTION_NUMBER 2
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I61@UOB_HEP_PC053A_LIB.RJ45_DUAL_JGL_0001NL(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i61@uob_hep_pc053a_lib~
+.rj45_dual_jgl_0001nl(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i61@uob_hep_pc053a_lib~
+.rj45_dual_jgl_0001nl(chips)',
+ PATH='I61',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ PHYS_PAGE='4',
+ XY='(2320,-880)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='uob_hep_pc053a_lib',
+ CDS_PART_NAME='RJ45_DUAL_JGL_0001NL',
+ PRIM_FILE='./worklib/rj45_dual_jgl_0001nl/chips/chips.prt';
+
+PART_NAME
+ J2 'CON3P-MTLW-103-07-L-S-250':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I27@CNCONNECTOR.CON3P(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i27@cnconnector.con3p(~
+chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i27@cnconnector.con3p(~
+chips)',
+ PATH='I27',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ TYPE='MTLW-103-07-L-S-250',
+ PHYS_PAGE='4',
+ XY='(2880,420)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='CON3P-MTLW-103-07-L-S-250',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnconnector/con3p/chips/chips.prt';
+
+PART_NAME
+ J3 'CON3P-MTLW-103-07-L-S-250':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I33@CNCONNECTOR.CON3P(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i33@cnconnector.con3p(~
+chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i33@cnconnector.con3p(~
+chips)',
+ PATH='I33',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ TYPE='MTLW-103-07-L-S-250',
+ PHYS_PAGE='4',
+ XY='(3400,1590)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='CON3P-MTLW-103-07-L-S-250',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnconnector/con3p/chips/chips.prt';
+
+PART_NAME
+ J4 'CON20P_SFP-1888247-1':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I175@CNCONNECTOR.CON20P_SFP(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i175@cnconnector.con2~
+0p_sfp(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i175@cnconnector.con20~
+p_sfp(chips)',
+ PATH='I175',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ TYPE='1888247-1',
+ PHYS_PAGE='1',
+ XY='(-3250,3050)',
+ ROT='2',
+ VER='2',
+ LOCATION='J4',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='CON20P_SFP-1888247-1',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnconnector/con20p_sfp/chips/chips.prt';
+
+PART_NAME
+ J5 'CON3P-MTLW-103-07-L-S-250':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I170@CNCONNECTOR.CON3P(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i170@cnconnector.con3p~
+(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i170@cnconnector.con3p~
+(chips)',
+ PATH='I170',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ TYPE='MTLW-103-07-L-S-250',
+ SEC_TYPE='',
+ PHYS_PAGE='2',
+ XY='(2770,2940)',
+ ROT='0',
+ VER='1',
+ LOCATION='J5',
+ SEC='1',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='CON3P-MTLW-103-07-L-S-250',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnconnector/con3p/chips/chips.prt';
+
+PART_NAME
+ J6 'CON3P-MTLW-103-07-L-S-250':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I171@CNCONNECTOR.CON3P(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i171@cnconnector.con3p~
+(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i171@cnconnector.con3p~
+(chips)',
+ PATH='I171',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ TYPE='MTLW-103-07-L-S-250',
+ SEC_TYPE='',
+ PHYS_PAGE='2',
+ XY='(2790,2600)',
+ ROT='0',
+ VER='1',
+ LOCATION='J6',
+ SEC='1',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='CON3P-MTLW-103-07-L-S-250',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnconnector/con3p/chips/chips.prt';
+
+PART_NAME
+ J7 'CON6P-90131-0123':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I167@CNCONNECTOR.CON6P(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i167@cnconnector.con6p~
+(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i167@cnconnector.con6p~
+(chips)',
+ PATH='I167',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ TYPE='90131-0123',
+ SEC_TYPE='',
+ PHYS_PAGE='2',
+ XY='(-2270,920)',
+ ROT='0',
+ VER='3',
+ LOCATION='J7',
+ SEC='1',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='CON6P-90131-0123',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnconnector/con6p/chips/chips.prt';
+
+PART_NAME
+ J8 'CON3P-MTLW-103-07-L-S-250':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I174@CNCONNECTOR.CON3P(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i174@cnconnector.con3p~
+(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i174@cnconnector.con3p~
+(chips)',
+ PATH='I174',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ MOUNTED='NO',
+ TYPE='MTLW-103-07-L-S-250',
+ SEC_TYPE='',
+ PHYS_PAGE='2',
+ XY='(3030,4430)',
+ ROT='0',
+ VER='1',
+ LOCATION='J8',
+ SEC='1',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='CON3P-MTLW-103-07-L-S-250',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnconnector/con3p/chips/chips.prt';
+
+PART_NAME
+ L1 'INDUCTANCE_LQH32C_23-4.7UH':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I99@CNDISCRETE.INDUCTANCE(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i99@cndiscrete.induct~
+ance(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i99@cndiscrete.inducta~
+nce(chips)',
+ PATH='I99',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(-2540,3000)',
+ ROT='0',
+ VER='1',
+ VALUE='4.7uH',
+ PACK_TYPE='LQH32C_23',
+ LOCATION='L1',
+ CDS_LIB='cndiscrete',
+ CDS_PART_NAME='INDUCTANCE_LQH32C_23-4.7UH',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cndiscrete/inductance/chips/chips.prt';
+
+PART_NAME
+ L2 'INDUCTANCE_LQH32C_23-4.7UH':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I105@CNDISCRETE.INDUCTANCE(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i105@cndiscrete.induc~
+tance(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i105@cndiscrete.induct~
+ance(chips)',
+ PATH='I105',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ PHYS_PAGE='1',
+ XY='(-4140,3000)',
+ ROT='0',
+ VER='1',
+ VALUE='4.7uH',
+ PACK_TYPE='LQH32C_23',
+ LOCATION='L2',
+ CDS_LIB='cndiscrete',
+ CDS_PART_NAME='INDUCTANCE_LQH32C_23-4.7UH',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cndiscrete/inductance/chips/chips.prt';
+
+PART_NAME
+ LD1 'LGL29K-G2J1-24':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I225@CNDISCRETE.LED1(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i225@cndiscrete.led1(~
+chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i225@cndiscrete.led1(c~
+hips)',
+ PATH='I225',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ TYPE='LGL29K-G2J1-24',
+ PHYS_PAGE='1',
+ XY='(-3910,960)',
+ ROT='0',
+ VER='3',
+ CDS_LIB='cndiscrete',
+ CDS_PART_NAME='LGL29K-G2J1-24',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cndiscrete/led1/chips/chips.prt';
+
+PART_NAME
+ LD2 'LGL29K-G2J1-24':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I226@CNDISCRETE.LED1(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i226@cndiscrete.led1(~
+chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i226@cndiscrete.led1(c~
+hips)',
+ PATH='I226',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ TYPE='LGL29K-G2J1-24',
+ PHYS_PAGE='1',
+ XY='(-3910,660)',
+ ROT='0',
+ VER='3',
+ CDS_LIB='cndiscrete',
+ CDS_PART_NAME='LGL29K-G2J1-24',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cndiscrete/led1/chips/chips.prt';
+
+PART_NAME
+ LD3 'LGL29K-G2J1-24':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I227@CNDISCRETE.LED1(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i227@cndiscrete.led1(~
+chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i227@cndiscrete.led1(c~
+hips)',
+ PATH='I227',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ TYPE='LGL29K-G2J1-24',
+ PHYS_PAGE='1',
+ XY='(-1930,660)',
+ ROT='1',
+ VER='3',
+ CDS_LIB='cndiscrete',
+ CDS_PART_NAME='LGL29K-G2J1-24',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cndiscrete/led1/chips/chips.prt';
+
+PART_NAME
+ P1 'CON400P_40ABCDEFGHJK-SEAM-40-0A':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I139@CNCONNECTOR.CON400P_40ABCDEFGHJK(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i139@cnconnector.con40~
+0p_40abcdefghjk(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i139@cnconnector.con40~
+0p_40abcdefghjk(chips)',
+ PATH='I139',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ TYPE='SEAM-40-03.5-S-10-2-A-K-TR',
+ SEC_TYPE='',
+ PHYS_PAGE='2',
+ XY='(-3290,3820)',
+ ROT='0',
+ VER='1',
+ LOCATION='P1',
+ SEC='1',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='CON400P_40ABCDEFGHJK-SEAM-40-0A',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt';
+
+SECTION_NUMBER 2
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I126@CNCONNECTOR.CON400P_40ABCDEFGHJK(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i126@cnconnector.con40~
+0p_40abcdefghjk(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i126@cnconnector.con40~
+0p_40abcdefghjk(chips)',
+ PATH='I126',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ TYPE='SEAM-40-03.5-S-10-2-A-K-TR',
+ SEC_TYPE='',
+ PHYS_PAGE='2',
+ XY='(-290,3810)',
+ ROT='0',
+ VER='2',
+ LOCATION='P1',
+ SEC='2',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='CON400P_40ABCDEFGHJK-SEAM-40-0A',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt';
+
+SECTION_NUMBER 3
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I136@CNCONNECTOR.CON400P_40ABCDEFGHJK(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i136@cnconnector.con40~
+0p_40abcdefghjk(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i136@cnconnector.con40~
+0p_40abcdefghjk(chips)',
+ PATH='I136',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ TYPE='SEAM-40-03.5-S-10-2-A-K-TR',
+ SEC_TYPE='',
+ PHYS_PAGE='2',
+ XY='(-2550,3820)',
+ ROT='0',
+ VER='3',
+ LOCATION='P1',
+ SEC='3',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='CON400P_40ABCDEFGHJK-SEAM-40-0A',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt';
+
+SECTION_NUMBER 4
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I129@CNCONNECTOR.CON400P_40ABCDEFGHJK(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i129@cnconnector.con40~
+0p_40abcdefghjk(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i129@cnconnector.con40~
+0p_40abcdefghjk(chips)',
+ PATH='I129',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ TYPE='SEAM-40-03.5-S-10-2-A-K-TR',
+ SEC_TYPE='',
+ PHYS_PAGE='2',
+ XY='(1670,3820)',
+ ROT='0',
+ VER='4',
+ LOCATION='P1',
+ SEC='4',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='CON400P_40ABCDEFGHJK-SEAM-40-0A',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt';
+
+SECTION_NUMBER 5
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I128@CNCONNECTOR.CON400P_40ABCDEFGHJK(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i128@cnconnector.con40~
+0p_40abcdefghjk(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i128@cnconnector.con40~
+0p_40abcdefghjk(chips)',
+ PATH='I128',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ TYPE='SEAM-40-03.5-S-10-2-A-K-TR',
+ SEC_TYPE='',
+ PHYS_PAGE='2',
+ XY='(-1660,3820)',
+ ROT='0',
+ VER='5',
+ LOCATION='P1',
+ SEC='5',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='CON400P_40ABCDEFGHJK-SEAM-40-0A',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt';
+
+PART_NAME
+ PX1 'PCOAX-U.FL-R-SMT-1(10)':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I2@CNCONNECTOR.PCOAX(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i2@cnconnector.pcoax(c~
+hips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i2@cnconnector.pcoax(c~
+hips)',
+ PATH='I2',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ TYPE='U.FL-R-SMT-1(10)',
+ PHYS_PAGE='4',
+ XY='(5840,2290)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='PCOAX-U.FL-R-SMT-1(10)',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnconnector/pcoax/chips/chips.prt';
+
+PART_NAME
+ PX2 'PCOAX-U.FL-R-SMT-1(10)':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I39@CNCONNECTOR.PCOAX(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i39@cnconnector.pcoax(~
+chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i39@cnconnector.pcoax(~
+chips)',
+ PATH='I39',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ TYPE='U.FL-R-SMT-1(10)',
+ PHYS_PAGE='4',
+ XY='(5840,2150)',
+ ROT='0',
+ VER='1',
+ CDS_LIB='cnconnector',
+ CDS_PART_NAME='PCOAX-U.FL-R-SMT-1(10)',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnconnector/pcoax/chips/chips.prt';
+
+PART_NAME
+ QZ1 'OSC_6P_ENDIS_OUT_COMPOUT_145-CB':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I56@CNDISCRETE.OSC_6P_ENDIS_OUT_COMPOUT(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i56@cndiscrete.osc_6p_~
+endis_out_compout(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i56@cndiscrete.osc_6p_~
+endis_out_compout(chips)',
+ PATH='I56',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ POWER_GROUP='VCC=P3V3',
+ TYPE='CCLD-033-50-100.000',
+ PHYS_PAGE='4',
+ XY='(270,1960)',
+ ROT='0',
+ VER='1',
+ VALUE='100.000MHZ',
+ PACK_TYPE='145',
+ CDS_LIB='cndiscrete',
+ CDS_PART_NAME='OSC_6P_ENDIS_OUT_COMPOUT_145-CB',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cndiscrete/osc_6p_endis_out_compout/chips/chips.prt';
+
+PART_NAME
+ R1 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I287@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i287@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i287@cnpassive.rsmd040~
+2(chips)',
+ PATH='I287',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='3',
+ XY='(-3470,410)',
+ ROT='0',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R2 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I281@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i281@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i281@cnpassive.rsmd040~
+2(chips)',
+ PATH='I281',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='3',
+ XY='(-2080,510)',
+ ROT='0',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R3 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I284@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i284@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i284@cnpassive.rsmd040~
+2(chips)',
+ PATH='I284',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='3',
+ XY='(-2080,410)',
+ ROT='0',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R4 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I292@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i292@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i292@cnpassive.rsmd040~
+2(chips)',
+ PATH='I292',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='3',
+ XY='(-1910,3170)',
+ ROT='0',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R5 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I276@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i276@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i276@cnpassive.rsmd040~
+2(chips)',
+ PATH='I276',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='3',
+ XY='(-1910,2260)',
+ ROT='0',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R6 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I274@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i274@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i274@cnpassive.rsmd040~
+2(chips)',
+ PATH='I274',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='3',
+ XY='(-1910,2110)',
+ ROT='0',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R7 'RSMD0402_1/16W-100K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I279@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i279@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i279@cnpassive.rsmd040~
+2(chips)',
+ PATH='I279',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='3',
+ XY='(-1670,3400)',
+ ROT='1',
+ VER='2',
+ VALUE='100K',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-100K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R8 'RSMD0402_1/16W-100K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I297@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i297@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i297@cnpassive.rsmd040~
+2(chips)',
+ PATH='I297',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='3',
+ XY='(-1670,2390)',
+ ROT='1',
+ VER='2',
+ VALUE='100K',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-100K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R9 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I254@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i254@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i254@cnpassive.rsmd040~
+2(chips)',
+ PATH='I254',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='3',
+ XY='(930,1900)',
+ ROT='0',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R10 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I293@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i293@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i293@cnpassive.rsmd040~
+2(chips)',
+ PATH='I293',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='3',
+ XY='(2450,4040)',
+ ROT='1',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R11 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I294@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i294@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i294@cnpassive.rsmd040~
+2(chips)',
+ PATH='I294',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='3',
+ XY='(2550,4040)',
+ ROT='1',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R12 'RSMD0603_-00,':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I137@CNPASSIVE.RSMD0603(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i137@cnpassive.rsmd06~
+03(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i137@cnpassive.rsmd060~
+3(chips)',
+ PATH='I137',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='1',
+ XY='(450,3710)',
+ ROT='0',
+ VER='1',
+ VALUE='00',
+ PACK_TYPE='',
+ LOCATION='R12',
+ TOL='',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0603_-00,',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
+
+PART_NAME
+ R13 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I231@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i231@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i231@cnpassive.rsmd040~
+2(chips)',
+ PATH='I231',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='3',
+ XY='(-1910,3020)',
+ ROT='2',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ LOCATION='R13',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R14 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I295@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i295@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i295@cnpassive.rsmd040~
+2(chips)',
+ PATH='I295',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='3',
+ XY='(2640,4040)',
+ ROT='1',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R15 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I194@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i194@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i194@cnpassive.rsmd040~
+2(chips)',
+ PATH='I194',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='3',
+ XY='(930,2250)',
+ ROT='0',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ LOCATION='R15',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R16 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I195@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i195@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i195@cnpassive.rsmd040~
+2(chips)',
+ PATH='I195',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='3',
+ XY='(930,2200)',
+ ROT='0',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ LOCATION='R16',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R17 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I196@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i196@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i196@cnpassive.rsmd040~
+2(chips)',
+ PATH='I196',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='3',
+ XY='(930,2150)',
+ ROT='0',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ LOCATION='R17',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R18 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I209@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i209@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i209@cnpassive.rsmd040~
+2(chips)',
+ PATH='I209',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='3',
+ XY='(930,2100)',
+ ROT='0',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ LOCATION='R18',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R19 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I198@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i198@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i198@cnpassive.rsmd040~
+2(chips)',
+ PATH='I198',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='3',
+ XY='(930,2050)',
+ ROT='0',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ LOCATION='R19',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R20 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I210@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i210@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i210@cnpassive.rsmd040~
+2(chips)',
+ PATH='I210',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='3',
+ XY='(930,2000)',
+ ROT='0',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ LOCATION='R20',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R21 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I200@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i200@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i200@cnpassive.rsmd040~
+2(chips)',
+ PATH='I200',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='3',
+ XY='(930,1950)',
+ ROT='0',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ LOCATION='R21',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R22 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I104@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i104@cnpassive.rsmd04~
+02(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i104@cnpassive.rsmd040~
+2(chips)',
+ PATH='I104',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ MOUNTED='NO',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='1',
+ XY='(-3770,3090)',
+ ROT='0',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ LOCATION='R22',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R23 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I102@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i102@cnpassive.rsmd04~
+02(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i102@cnpassive.rsmd040~
+2(chips)',
+ PATH='I102',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='1',
+ XY='(-3770,3190)',
+ ROT='0',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ LOCATION='R23',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R24 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I98@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i98@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i98@cnpassive.rsmd0402~
+(chips)',
+ PATH='I98',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ MOUNTED='NO',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='1',
+ XY='(-2540,3100)',
+ ROT='0',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ LOCATION='R24',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R25 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I95@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i95@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i95@cnpassive.rsmd0402~
+(chips)',
+ PATH='I95',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='1',
+ XY='(-2740,3340)',
+ ROT='0',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ LOCATION='R25',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R26 'RSMD0402_1/16W-56,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I84@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i84@cnpassive.rsmd0402~
+(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i84@cnpassive.rsmd0402~
+(chips)',
+ PATH='I84',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='4',
+ XY='(600,-1430)',
+ ROT='1',
+ VER='2',
+ VALUE='56',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-56,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R27 'RSMD0402_0.0625W-XX,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I22@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i22@cnpassive.rsmd0402~
+(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i22@cnpassive.rsmd0402~
+(chips)',
+ PATH='I22',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='4',
+ XY='(640,1760)',
+ ROT='3',
+ VER='1',
+ VALUE='XX',
+ PACK_TYPE='0.0625W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_0.0625W-XX,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R28 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I109@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i109@cnpassive.rsmd04~
+02(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i109@cnpassive.rsmd040~
+2(chips)',
+ PATH='I109',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='1',
+ XY='(-4150,3300)',
+ ROT='0',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ LOCATION='R28',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R29 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I103@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i103@cnpassive.rsmd04~
+02(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i103@cnpassive.rsmd040~
+2(chips)',
+ PATH='I103',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='1',
+ XY='(-4150,3250)',
+ ROT='0',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ LOCATION='R29',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R30 'RSMD0603_1/10W-100,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I118@CNPASSIVE.RSMD0603(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i118@cnpassive.rsmd06~
+03(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i118@cnpassive.rsmd060~
+3(chips)',
+ PATH='I118',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='1',
+ XY='(1280,4240)',
+ ROT='1',
+ VER='1',
+ VALUE='100',
+ PACK_TYPE='1/10W',
+ LOCATION='R30',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0603_1/10W-100,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
+
+PART_NAME
+ R31 'RSMD0603_1/10W-100,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I117@CNPASSIVE.RSMD0603(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i117@cnpassive.rsmd06~
+03(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i117@cnpassive.rsmd060~
+3(chips)',
+ PATH='I117',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='1',
+ XY='(1110,4230)',
+ ROT='1',
+ VER='1',
+ VALUE='100',
+ PACK_TYPE='1/10W',
+ LOCATION='R31',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0603_1/10W-100,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
+
+PART_NAME
+ R32 'RSMD0603_1/10W-100,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I116@CNPASSIVE.RSMD0603(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i116@cnpassive.rsmd06~
+03(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i116@cnpassive.rsmd060~
+3(chips)',
+ PATH='I116',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='1',
+ XY='(920,4230)',
+ ROT='1',
+ VER='1',
+ VALUE='100',
+ PACK_TYPE='1/10W',
+ LOCATION='R32',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0603_1/10W-100,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
+
+PART_NAME
+ R33 'RSMD0603_1/10W-100,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I115@CNPASSIVE.RSMD0603(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i115@cnpassive.rsmd06~
+03(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i115@cnpassive.rsmd060~
+3(chips)',
+ PATH='I115',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='1',
+ XY='(740,4230)',
+ ROT='1',
+ VER='1',
+ VALUE='100',
+ PACK_TYPE='1/10W',
+ LOCATION='R33',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0603_1/10W-100,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
+
+PART_NAME
+ R34 'RSMD0603_-00,':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I134@CNPASSIVE.RSMD0603(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i134@cnpassive.rsmd06~
+03(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i134@cnpassive.rsmd060~
+3(chips)',
+ PATH='I134',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='1',
+ XY='(-1050,3480)',
+ ROT='0',
+ VER='1',
+ VALUE='00',
+ PACK_TYPE='',
+ LOCATION='R34',
+ TOL='',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0603_-00,',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
+
+PART_NAME
+ R35 'RSMD0402_1/16W-56,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I85@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i85@cnpassive.rsmd0402~
+(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i85@cnpassive.rsmd0402~
+(chips)',
+ PATH='I85',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='4',
+ XY='(760,-1430)',
+ ROT='1',
+ VER='2',
+ VALUE='56',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-56,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R36 'RSMD0402_0.0625W-XX,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I23@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i23@cnpassive.rsmd0402~
+(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i23@cnpassive.rsmd0402~
+(chips)',
+ PATH='I23',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='4',
+ XY='(770,1640)',
+ ROT='3',
+ VER='1',
+ VALUE='XX',
+ PACK_TYPE='0.0625W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_0.0625W-XX,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R37 'RSMD0402_1/16W-100,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I18@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i18@cnpassive.rsmd0402~
+(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i18@cnpassive.rsmd0402~
+(chips)',
+ PATH='I18',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='4',
+ XY='(2570,1060)',
+ ROT='0',
+ VER='2',
+ VALUE='100',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-100,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R38 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I222@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i222@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i222@cnpassive.rsmd040~
+2(chips)',
+ PATH='I222',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='2',
+ XY='(1830,1940)',
+ ROT='1',
+ VER='1',
+ VALUE='4.7k',
+ PACK_TYPE='1/16W',
+ LOCATION='R38',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R39 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I223@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i223@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i223@cnpassive.rsmd040~
+2(chips)',
+ PATH='I223',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='2',
+ XY='(3070,1730)',
+ ROT='1',
+ VER='1',
+ VALUE='4.7k',
+ PACK_TYPE='1/16W',
+ LOCATION='R39',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R40 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I224@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i224@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i224@cnpassive.rsmd040~
+2(chips)',
+ PATH='I224',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='2',
+ XY='(-790,650)',
+ ROT='0',
+ VER='1',
+ VALUE='4.7k',
+ PACK_TYPE='1/16W',
+ LOCATION='R40',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R41 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I225@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i225@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i225@cnpassive.rsmd040~
+2(chips)',
+ PATH='I225',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='2',
+ XY='(-790,600)',
+ ROT='0',
+ VER='1',
+ VALUE='4.7k',
+ PACK_TYPE='1/16W',
+ LOCATION='R41',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R42 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I226@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i226@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i226@cnpassive.rsmd040~
+2(chips)',
+ PATH='I226',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='2',
+ XY='(1270,650)',
+ ROT='0',
+ VER='1',
+ VALUE='4.7k',
+ PACK_TYPE='1/16W',
+ LOCATION='R42',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R43 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I227@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i227@cnpassive.rsmd040~
+2(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i227@cnpassive.rsmd040~
+2(chips)',
+ PATH='I227',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='2',
+ XY='(1280,600)',
+ ROT='0',
+ VER='1',
+ VALUE='4.7k',
+ PACK_TYPE='1/16W',
+ LOCATION='R43',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R44 'RSMD0402_1/16W-100,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I45@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i45@cnpassive.rsmd0402~
+(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i45@cnpassive.rsmd0402~
+(chips)',
+ PATH='I45',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='4',
+ XY='(2580,550)',
+ ROT='0',
+ VER='2',
+ VALUE='100',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-100,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R45 'RSMD0402_1/16W-56,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I82@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i82@cnpassive.rsmd0402~
+(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i82@cnpassive.rsmd0402~
+(chips)',
+ PATH='I82',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='4',
+ XY='(2800,-1420)',
+ ROT='1',
+ VER='2',
+ VALUE='56',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-56,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R46 'RSMD0402_1/16W-56,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I83@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i83@cnpassive.rsmd0402~
+(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i83@cnpassive.rsmd0402~
+(chips)',
+ PATH='I83',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='4',
+ XY='(2950,-1420)',
+ ROT='1',
+ VER='2',
+ VALUE='56',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-56,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R47 'RSMD0402_1/16W-1K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I16@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i16@cnpassive.rsmd0402~
+(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i16@cnpassive.rsmd0402~
+(chips)',
+ PATH='I16',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='4',
+ XY='(3420,-260)',
+ ROT='3',
+ VER='2',
+ VALUE='1K',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-1K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R48 'RSMD0402_1/16W-1K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I49@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i49@cnpassive.rsmd0402~
+(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i49@cnpassive.rsmd0402~
+(chips)',
+ PATH='I49',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='4',
+ XY='(3510,-260)',
+ ROT='3',
+ VER='2',
+ VALUE='1K',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-1K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R49 'RSMD0402_1/16W-1K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I50@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i50@cnpassive.rsmd0402~
+(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i50@cnpassive.rsmd0402~
+(chips)',
+ PATH='I50',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='4',
+ XY='(3590,-260)',
+ ROT='3',
+ VER='2',
+ VALUE='1K',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-1K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R50 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I47@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i47@cnpassive.rsmd0402~
+(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i47@cnpassive.rsmd0402~
+(chips)',
+ PATH='I47',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='4',
+ XY='(3740,300)',
+ ROT='2',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R51 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I48@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i48@cnpassive.rsmd0402~
+(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i48@cnpassive.rsmd0402~
+(chips)',
+ PATH='I48',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='4',
+ XY='(3740,250)',
+ ROT='2',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R52 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I51@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i51@cnpassive.rsmd0402~
+(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i51@cnpassive.rsmd0402~
+(chips)',
+ PATH='I51',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='4',
+ XY='(3740,200)',
+ ROT='2',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R53 'RSMD0402_1/16W-4.7K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I14@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i14@cnpassive.rsmd0402~
+(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i14@cnpassive.rsmd0402~
+(chips)',
+ PATH='I14',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='4',
+ XY='(3740,50)',
+ ROT='2',
+ VER='2',
+ VALUE='4.7K',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-4.7K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R54 'RSMD0402_1/16W-100,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I32@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i32@cnpassive.rsmd0402~
+(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i32@cnpassive.rsmd0402~
+(chips)',
+ PATH='I32',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='4',
+ XY='(3770,1310)',
+ ROT='0',
+ VER='2',
+ VALUE='100',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-100,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R55 'RSMD0402_1/16W-100,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I26@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i26@cnpassive.rsmd0402~
+(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i26@cnpassive.rsmd0402~
+(chips)',
+ PATH='I26',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='4',
+ XY='(3860,420)',
+ ROT='0',
+ VER='2',
+ VALUE='100',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-100,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R56 'RSMD0402_1/16W-1K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I53@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i53@cnpassive.rsmd0402~
+(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i53@cnpassive.rsmd0402~
+(chips)',
+ PATH='I53',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='4',
+ XY='(3970,1460)',
+ ROT='1',
+ VER='2',
+ VALUE='1K',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-1K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R57 'RSMD0402_1/16W-1K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I52@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i52@cnpassive.rsmd0402~
+(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i52@cnpassive.rsmd0402~
+(chips)',
+ PATH='I52',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='4',
+ XY='(4030,1460)',
+ ROT='1',
+ VER='2',
+ VALUE='1K',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-1K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R58 'RSMD0402_1/16W-750,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I232@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i232@cnpassive.rsmd04~
+02(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i232@cnpassive.rsmd040~
+2(chips)',
+ PATH='I232',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='1',
+ XY='(-3610,960)',
+ ROT='0',
+ VER='2',
+ VALUE='750',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-750,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R59 'RSMD0402_1/16W-750,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I233@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i233@cnpassive.rsmd04~
+02(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i233@cnpassive.rsmd040~
+2(chips)',
+ PATH='I233',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='1',
+ XY='(-3610,660)',
+ ROT='0',
+ VER='2',
+ VALUE='750',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-750,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R60 'RSMD0402_1/16W-750,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I236@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i236@cnpassive.rsmd04~
+02(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i236@cnpassive.rsmd040~
+2(chips)',
+ PATH='I236',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='1',
+ XY='(-1930,880)',
+ ROT='1',
+ VER='2',
+ VALUE='750',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-750,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R61 'RSMD0402_1/16W-2K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I210@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i210@cnpassive.rsmd04~
+02(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i210@cnpassive.rsmd040~
+2(chips)',
+ PATH='I210',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ MOUNTED='YES',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='1',
+ XY='(-930,1740)',
+ ROT='1',
+ VER='2',
+ VALUE='2K',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-2K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R62 'RSMD0402_1/16W-2K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I202@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i202@cnpassive.rsmd04~
+02(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i202@cnpassive.rsmd040~
+2(chips)',
+ PATH='I202',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ MOUNTED='YES',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='1',
+ XY='(-490,2570)',
+ ROT='1',
+ VER='2',
+ VALUE='2K',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-2K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R63 'RSMD0402_1/16W-2K,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I212@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i212@cnpassive.rsmd04~
+02(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i212@cnpassive.rsmd040~
+2(chips)',
+ PATH='I212',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ MOUNTED='NO',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='1',
+ XY='(-470,1820)',
+ ROT='2',
+ VER='2',
+ VALUE='2K',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-2K,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R64 'RSMD0402_1/16W-150,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I234@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i234@cnpassive.rsmd04~
+02(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i234@cnpassive.rsmd040~
+2(chips)',
+ PATH='I234',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='1',
+ XY='(390,2000)',
+ ROT='1',
+ VER='2',
+ VALUE='150',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-150,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ R65 'RSMD0402_1/16W-150,1%':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I235@CNPASSIVE.RSMD0402(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i235@cnpassive.rsmd04~
+02(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i235@cnpassive.rsmd040~
+2(chips)',
+ PATH='I235',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ SIZE='1',
+ TOL_ON_OFF='ON',
+ TC2='RTMPQ',
+ TC1='RTMPL',
+ SLOPE='RSMAX',
+ POWER='RMAX',
+ POSTOL='RTOL%',
+ NEGTOL='RTOL%',
+ MAX_TEMP='RTMAX',
+ DIST='FLAT',
+ PHYS_PAGE='1',
+ XY='(560,2000)',
+ ROT='1',
+ VER='2',
+ VALUE='150',
+ PACK_TYPE='1/16W',
+ TOL='1%',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='RSMD0402_1/16W-150,1%',
+ VOLTAGE='RVMAX',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+
+PART_NAME
+ REG1 'TPS79925DDCT':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I214@CNLINEAR.TPS799XX(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i214@cnlinear.tps799xx~
+(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i214@cnlinear.tps799xx~
+(chips)',
+ PATH='I214',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ TYPE='TPS79925DDCT',
+ SEC_TYPE='TSOT23',
+ PHYS_PAGE='2',
+ XY='(-3190,870)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='TSOT23',
+ PART_NAME='TPS799XX',
+ SEC='1',
+ CDS_LIB='cnlinear',
+ CDS_PART_NAME='TPS79925DDCT',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnlinear/tps799xx/chips/chips.prt';
+
+PART_NAME
+ REG2 'TPS799185DDCTG4':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I244@CNLINEAR.TPS799XX(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i244@cnlinear.tps799xx~
+(chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i244@cnlinear.tps799xx~
+(chips)',
+ PATH='I244',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ TYPE='TPS799185DDCTG4',
+ PHYS_PAGE='2',
+ XY='(-3160,1920)',
+ ROT='0',
+ VER='2',
+ PACK_TYPE='TSOT23',
+ PART_NAME='TPS799XX',
+ CDS_LIB='cnlinear',
+ CDS_PART_NAME='TPS799185DDCTG4',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnlinear/tps799xx/chips/chips.prt';
+
+PART_NAME
+ SFP1 'SFP_CAGE-SP-74737-004':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I176@CNMECH.SFP_CAGE(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i176@cnmech.sfp_cage(~
+chips)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i176@cnmech.sfp_cage(c~
+hips)',
+ PATH='I176',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11',
+ TYPE='SP-74737-004',
+ PHYS_PAGE='1',
+ XY='(-3130,2350)',
+ ROT='0',
+ VER='2',
+ CDS_LIB='cnmech',
+ CDS_PART_NAME='SFP_CAGE-SP-74737-004',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnmech/sfp_cage/chips/chips.prt';
+
+PART_NAME
+ TP1 'TP_HOLE-0.8MM':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I249@CNPASSIVE.TP(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i249@cnpassive.tp(chip~
+s)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i249@cnpassive.tp(chip~
+s)',
+ PATH='I249',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ SIZE='1',
+ PHYS_PAGE='2',
+ XY='(940,740)',
+ ROT='1',
+ VER='1',
+ VALUE='0.8mm',
+ PACK_TYPE='HOLE',
+ PART_NAME='TP',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='TP_HOLE-0.8MM',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+
+PART_NAME
+ TP2 'TP_HOLE-0.8MM':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I219@CNPASSIVE.TP(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i219@cnpassive.tp(chip~
+s)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i219@cnpassive.tp(chip~
+s)',
+ PATH='I219',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ SIZE='1',
+ PHYS_PAGE='2',
+ XY='(940,500)',
+ ROT='0',
+ VER='1',
+ VALUE='0.8mm',
+ PACK_TYPE='HOLE',
+ PART_NAME='TP',
+ LOCATION='TP2',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='TP_HOLE-0.8MM',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+
+PART_NAME
+ TP3 'TP_HOLE-0.8MM':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I250@CNPASSIVE.TP(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i250@cnpassive.tp(chip~
+s)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i250@cnpassive.tp(chip~
+s)',
+ PATH='I250',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2',
+ SIZE='1',
+ PHYS_PAGE='2',
+ XY='(1030,740)',
+ ROT='1',
+ VER='1',
+ VALUE='0.8mm',
+ PACK_TYPE='HOLE',
+ PART_NAME='TP',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='TP_HOLE-0.8MM',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+
+PART_NAME
+ TP4 'TP_HOLE-0.8MM':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I40@CNPASSIVE.TP(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i40@cnpassive.tp(chips~
+)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i40@cnpassive.tp(chips~
+)',
+ PATH='I40',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ PHYS_PAGE='4',
+ XY='(2320,740)',
+ ROT='1',
+ VER='1',
+ VALUE='0.8mm',
+ PACK_TYPE='HOLE',
+ PART_NAME='TP',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='TP_HOLE-0.8MM',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+
+PART_NAME
+ TP5 'TP_HOLE-0.8MM':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I41@CNPASSIVE.TP(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i41@cnpassive.tp(chips~
+)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i41@cnpassive.tp(chips~
+)',
+ PATH='I41',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ PHYS_PAGE='4',
+ XY='(2320,550)',
+ ROT='3',
+ VER='1',
+ VALUE='0.8mm',
+ PACK_TYPE='HOLE',
+ PART_NAME='TP',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='TP_HOLE-0.8MM',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+
+PART_NAME
+ TP6 'TP_HOLE-0.8MM':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I37@CNPASSIVE.TP(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i37@cnpassive.tp(chips~
+)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i37@cnpassive.tp(chips~
+)',
+ PATH='I37',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ PHYS_PAGE='4',
+ XY='(2810,1250)',
+ ROT='1',
+ VER='1',
+ VALUE='0.8mm',
+ PACK_TYPE='HOLE',
+ PART_NAME='TP',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='TP_HOLE-0.8MM',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+
+PART_NAME
+ TP7 'TP_HOLE-0.8MM':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I38@CNPASSIVE.TP(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i38@cnpassive.tp(chips~
+)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i38@cnpassive.tp(chips~
+)',
+ PATH='I38',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ PHYS_PAGE='4',
+ XY='(2810,1080)',
+ ROT='3',
+ VER='1',
+ VALUE='0.8mm',
+ PACK_TYPE='HOLE',
+ PART_NAME='TP',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='TP_HOLE-0.8MM',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+
+PART_NAME
+ TP8 'TP_HOLE-0.8MM':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I29@CNPASSIVE.TP(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i29@cnpassive.tp(chips~
+)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i29@cnpassive.tp(chips~
+)',
+ PATH='I29',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ PHYS_PAGE='4',
+ XY='(5300,350)',
+ ROT='0',
+ VER='1',
+ VALUE='0.8mm',
+ PACK_TYPE='HOLE',
+ PART_NAME='TP',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='TP_HOLE-0.8MM',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+
+PART_NAME
+ TP9 'TP_HOLE-0.8MM':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I30@CNPASSIVE.TP(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i30@cnpassive.tp(chips~
+)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i30@cnpassive.tp(chips~
+)',
+ PATH='I30',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ PHYS_PAGE='4',
+ XY='(5300,300)',
+ ROT='0',
+ VER='1',
+ VALUE='0.8mm',
+ PACK_TYPE='HOLE',
+ PART_NAME='TP',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='TP_HOLE-0.8MM',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+
+PART_NAME
+ TP10 'TP_HOLE-0.8MM':;
+
+SECTION_NUMBER 1
+ '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I55@CNPASSIVE.TP(CHIPS)':
+ C_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i55@cnpassive.tp(chips~
+)',
+ P_PATH='@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i55@cnpassive.tp(chips~
+)',
+ PATH='I55',
+ DRAWING='@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4',
+ SIZE='1',
+ PHYS_PAGE='4',
+ XY='(5300,50)',
+ ROT='0',
+ VER='1',
+ VALUE='0.8mm',
+ PACK_TYPE='HOLE',
+ PART_NAME='TP',
+ CDS_LIB='cnpassive',
+ CDS_PART_NAME='TP_HOLE-0.8MM',
+ PRIM_FILE='/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_li~
+bs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+
+END.

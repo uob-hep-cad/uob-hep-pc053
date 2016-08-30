@@ -1,0 +1,42 @@
+\t (00:00:00) pad_designer 16.6-2015 S051 (v16-6-112DY) Windows 32
+\t (00:00:00)     Journal start - Wed Aug 24 11:54:39 2016
+\t (00:00:00)         Host=IT062971 User=phpgb Pid=8232 CPUs=8
+\t (00:00:00) CmdLine= C:\Cadence\SPB_16.6\tools\pcb\bin\pad_designer.exe
+\t (00:00:00) 
+\i (00:00:06) setwindow form.padedit
+\i (00:00:06) pse_open P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/symbols/pad_55_36_pb.pad 
+\i (00:00:09) FORM padedit layers  
+\i (00:00:11) FORM padedit grid row default_internal 
+\i (00:00:12) FORM padedit flashbutton_th  
+\i (00:00:26) fillin "menu_cancel"
+\i (00:00:37) FORM padedit flashbutton_th  
+\i (00:00:48) fillin "menu_cancel"
+\i (00:03:15) FORM padedit flashbutton_th  
+\i (00:03:18) fillin "Tr_75_55_Pb"
+\i (00:03:22) FORM padedit parameters  
+\i (00:03:30) FORM padedit layers  
+\i (00:03:37) FORM padedit width_ant 75 
+\i (00:03:53) FORM padedit grid row begin_layer 
+\i (00:03:56) FORM padedit width_th 75 
+\i (00:03:58) FORM padedit width_ant 75 
+\i (00:03:59) FORM padedit grid row end_layer 
+\i (00:04:01) FORM padedit width_th 75 
+\i (00:04:05) FORM padedit width_ant 75 
+\i (00:04:09) pse_save 
+\i (00:04:10) fillin yes 
+\i (00:04:14) pse_open P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/symbols/pad_55_36d_pb.pad 
+\i (00:04:17) FORM padedit width_th 75 
+\i (00:04:18) FORM padedit width_ant 75 
+\i (00:04:20) FORM padedit grid row default_internal 
+\i (00:04:21) FORM padedit flashbutton_th  
+\i (00:04:23) fillin "Tr_75_55_Pb"
+\i (00:04:25) FORM padedit width_ant 75 
+\i (00:04:27) FORM padedit grid row end_layer 
+\i (00:04:29) FORM padedit width_th 75 
+\i (00:04:32) FORM padedit width_ant 8750.0 
+\i (00:04:33) FORM padedit height_ant 75 
+\i (00:04:36) pse_save 
+\i (00:04:38) fillin yes 
+\i (00:04:41) FORM padedit parameters  
+\i (00:04:42) pse_exit
+\t (00:04:42)     Journal end - Wed Aug 24 11:59:22 2016

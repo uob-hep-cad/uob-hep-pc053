@@ -1,0 +1,247 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  .../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_11.brd    |
+|                                                    Mon Aug 29 16:56:34 2016  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2           -21.700 59.6000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C2.2           -21.300 43.3000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C3.2           -24.700 53.9500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C4.2           -20.750 54.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C5.2           -20.750 52.9000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C6.2           -16.200 53.9500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C7.2           -12.700 59.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C8.2           -12.800 56.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C9.2           -30.800 11.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C10.2          -25.600  9.5000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C11.2          -16.850 34.7500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C12.2          -29.500 13.2000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C13.2          -30.300 27.9000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C14.2          -30.400 17.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C15.2          -31.300 20.7000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C16.2          -37.700  6.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C17.2          -31.000  5.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C18.2          -11.850  3.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C19.2          -40.800 40.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C20.2          -40.800 39.5000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C21.2          -40.900 37.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C22.2          -24.000 61.5000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C23.2          -13.700 33.2000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C24.2          -41.300 27.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C25.2          -10.300 28.9000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C26.2          -21.500 25.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C27.2          -10.850 21.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C28.2          -11.850 21.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C29.2          -14.550 21.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C30.2          -15.550 21.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C31.2          -9.7000 17.6500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C32.2          -9.7000 16.6500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C33.2          -12.550 15.0500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C34.2          -13.550 15.0500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C35.2          -13.050 12.3000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C36.2          -15.300 11.5500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C37.2          -16.300 11.5500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C38.2          -17.300 11.5500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C39.2          -23.050 18.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C40.2          -22.800 17.5500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C41.2          -22.800 16.5500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C42.2          -22.800 15.5500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C43.2          -22.250 12.6500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C44.2          -22.250 11.1500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C45.2          -27.250  5.2500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  .../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_11.brd    |
+|                                                    Mon Aug 29 16:56:34 2016  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C46.2          -24.250  2.7500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C47.2          -27.250 -0.2500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C48.2          -40.700 23.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C49.2          -40.600 21.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C50.2          -40.600 19.5000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C51.2          -40.500 17.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C52.2          -31.500 48.9000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C53.2          -31.500 51.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C54.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capacitor/chips/chips.prt
+ C55.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capacitor/chips/chips.prt
+ C56.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capacitor/chips/chips.prt
+ C57.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capacitor/chips/chips.prt
+ C58.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capacitor/chips/chips.prt
+ C59.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capacitor/chips/chips.prt
+ IC1.4          -13.500  2.6500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnmemory/24aa025e48/chips/chips.prt
+ IC2.8          -12.700 57.9000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74avc2t45/chips/chips.prt
+ IC3.10         -39.200 26.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74avc4t245/chips/chips.prt
+ IC3.11         -39.200 26.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74avc4t245/chips/chips.prt
+ IC3.12         -39.200 26.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74avc4t245/chips/chips.prt
+ IC3.13         -39.200 26.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74avc4t245/chips/chips.prt
+ IC4.23         -26.500 33.9000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/sn65lvdt125/chips/chips.prt
+ IC4.26         -26.500 33.9000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/sn65lvdt125/chips/chips.prt
+ IC4.32         -26.500 33.9000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/sn65lvdt125/chips/chips.prt
+ IC4.35         -26.500 33.9000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/sn65lvdt125/chips/chips.prt
+ IC5.14         -14.600 37.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74avc8t245/chips/chips.prt
+ IC5.15         -14.600 37.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74avc8t245/chips/chips.prt
+ IC5.16         -14.600 37.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74avc8t245/chips/chips.prt
+ IC5.17         -14.600 37.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74avc8t245/chips/chips.prt
+ IC5.18         -14.600 37.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74avc8t245/chips/chips.prt
+ IC5.19         -14.600 37.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74avc8t245/chips/chips.prt
+ IC5.20         -14.600 37.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74avc8t245/chips/chips.prt
+ IC5.21         -14.600 37.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74avc8t245/chips/chips.prt
+ IC6.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74lcx04/chips/chips.prt
+ IC6.4                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74lcx04/chips/chips.prt
+ IC6.6                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74lcx04/chips/chips.prt
+ IC6.8                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74lcx04/chips/chips.prt
+ IC6.10                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74lcx04/chips/chips.prt
+ IC6.12                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74lcx04/chips/chips.prt
+ IC7.6                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/si5344/chips/chips.prt
+ IC8.5                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/nbsg53a/chips/chips.prt
+ IC9.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/sy58608u/chips/chips.prt
+ IC12.3         -17.800 17.5500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/adn2814/chips/chips.prt
+ IC15.8         -35.500  6.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/pca9517/chips/chips.prt
+ IC16.8         -26.900 25.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74avc2t45/chips/chips.prt
+ J2.3                           PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con3p/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  .../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_11.brd    |
+|                                                    Mon Aug 29 16:56:34 2016  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J3.3                           PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con3p/chips/chips.prt
+ J4.20          -33.150 50.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con20p_sfp/chips/chips.prt
+ J5.3                           PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con3p/chips/chips.prt
+ J6.3                           PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con3p/chips/chips.prt
+ J7.6           -36.000  1.5000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con6p/chips/chips.prt
+ J8.3           -47.040  1.5000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con3p/chips/chips.prt
+ L1.2           -23.500 50.2500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/inductance/chips/chips.prt
+ L2.2           -23.500 47.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/inductance/chips/chips.prt
+ LD1.2          -56.400 23.7000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/led1/chips/chips.prt
+ LD2.2          -54.700 23.7000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/led1/chips/chips.prt
+ LD3.2          -53.000 23.7000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/led1/chips/chips.prt
+ P1.B9           1.9850 31.5350 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt
+ P1.D9           1.9850 31.5350 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt
+ P1.F9           1.9850 31.5350 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt
+ P1.H9           1.9850 31.5350 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt
+ P1.K9           1.9850 31.5350 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt
+ PX1.1          -38.000 37.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ PX2.1          -33.400 37.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/pcoax/chips/chips.prt
+ QZ1.4          21.7000 19.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/osc_6p_endis_out_compout/chips/chips.prt
+ R1.2                           PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R2.2                           PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R3.2           -18.200 60.2000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R4.2           -20.000 61.7000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R5.2                           PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R6.2           -14.500 40.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R7.2           -14.500 39.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R8.2                           PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R9.2                           PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R10.2          -31.800 31.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R11.2          -31.800 32.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R12.2          -14.900 18.3000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R13.2          -11.600 55.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R14.2          -31.800 33.2000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R15.2          -8.6000 44.2000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R16.2          -8.6000 43.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R17.2          -8.6000 41.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R18.2          -8.6000 40.6000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R19.2          -8.6000 39.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R20.2          -8.6000 38.2000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R21.2          -8.6000 37.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R22.2          -40.500 54.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R23.2          -40.500 53.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R24.2          -40.500 52.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R25.2          -40.500 51.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R26.2          -58.200 24.3000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  .../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_11.brd    |
+|                                                    Mon Aug 29 16:56:34 2016  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R27.2          -13.600 55.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R28.2          -40.500 48.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R29.2          -40.500 47.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R30.2          -9.4500 21.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R31.2          -13.200 21.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R32.2          -9.2000 18.9000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R33.2          -9.2000 15.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R34.2          -22.300 14.3000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt
+ R35.2          -54.500 39.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R36.2          -40.500 50.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R37.2          -40.500 49.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R38.2          -17.100  2.5500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R39.2          -18.200  2.5500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R40.2          -31.300  7.3000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R41.2          -31.300  5.3000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R42.2          -39.550  7.3000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R43.2          -39.550  5.5500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R44.2          -39.600 14.2000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R45.2          -54.500  8.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R46.2          -58.200 23.2000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R47.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R48.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R49.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R50.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R51.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R52.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R53.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R54.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R55.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R56.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R57.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R58.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R59.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R60.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R61.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R62.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R63.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R64.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R65.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ REG1.5         -27.250  2.2500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnlinear/tps799xx/chips/chips.prt
+ REG2.5         -28.200 10.3000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnlinear/tps799xx/chips/chips.prt
+ SFP1.NC        -33.150 50.4500 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnmech/sfp_cage/chips/chips.prt
+ TP1.1          -15.250 24.1000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP2.1          -33.300  9.4000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP3.1                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  .../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_11.brd    |
+|                                                    Mon Aug 29 16:56:34 2016  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ TP4.1                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP5.1                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP6.1                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP7.1                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP8.1                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP9.1                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt
+ TP10.1                         PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt
+|------------------------------------------------------------------------------|
+|       Slot property added   :     187                                        |
+|                                                                              |
+|   Total ECO changes reported:     187                                        |
+|------------------------------------------------------------------------------|

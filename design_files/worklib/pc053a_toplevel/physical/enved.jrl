@@ -1,0 +1,8 @@
+\t (00:00:01) enved 16.6-2015 S053 (v16-6-112EB) Windows 32
+\t (00:00:01)     Journal start - Wed Aug 24 17:26:44 2016
+\t (00:00:01)         Host=IT062971 User=phpgb Pid=9800 CPUs=8
+\t (00:00:01) CmdLine= enved -product PCB_librarian_expert -proj P:/cad/designs/uob-hep-pc053a/trunk/design_files/pc053a_toplevel.cpm -mpssession phpgb_ProjectMgr20288 -mpshost IT062971
+\t (00:00:01) 
+\i (00:00:04) setwindow form.prfedit
+\i (00:00:04) FORM prfedit cancel  
+\t (00:00:04)     Journal end - Wed Aug 24 17:26:47 2016

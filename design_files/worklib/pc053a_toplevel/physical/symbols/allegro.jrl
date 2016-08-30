@@ -1,0 +1,16 @@
+\t (00:00:11) allegro 16.6-2015 S058 (v16-6-112EP) Windows 32
+\t (00:00:11)     Journal start - Wed Aug 24 18:20:02 2016
+\t (00:00:11)         Host=IT062971 User=phpgb Pid=9276 CPUs=8
+\t (00:00:11) CmdLine= allegro -proj P:\cad\designs\uob-hep-pc053a\trunk\design_files\pc053a_toplevel.cpm -product PCB_librarian_expert -mpssession phpgb_ProjectMgr20288 -mpshost IT062971
+\t (00:00:11) 
+\d (00:00:11) Design opened: P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/symbols/rj45_dual_JGL.dra
+\i (00:00:11) generaledit 
+\i (00:01:13) opencd P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_07.brd 
+\t (00:01:13) Opening existing design...
+\i (00:01:13) trapsize 10191
+\i (00:01:13) trapsize 9973
+\i (00:01:13) trapsize 10191
+\i (00:01:14) trapsize 10003
+\t (00:01:14) Grids are drawn 6.4000, 6.4000 apart for enhanced viewability.
+\i (00:01:14) trapsize 10003
+\t (00:01:14)     Journal end - Wed Aug 24 18:21:05 2016

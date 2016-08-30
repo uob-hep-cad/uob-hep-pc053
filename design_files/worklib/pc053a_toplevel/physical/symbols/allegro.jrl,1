@@ -1,0 +1,87 @@
+\t (00:00:16) allegro 16.6-2015 S058 (v16-6-112EP) Windows 32
+\t (00:00:16)     Journal start - Wed Aug 24 15:48:58 2016
+\t (00:00:16)         Host=IT062971 User=phpgb Pid=8568 CPUs=8
+\t (00:00:16) CmdLine= allegro -proj P:\cad\designs\uob-hep-pc053a\trunk\design_files\pc053a_toplevel.cpm -product PCB_design_studio -mpssession phpgb_ProjectMgr20288 -mpshost IT062971
+\t (00:00:16) 
+\d (00:00:16) Design opened: P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/symbols/rj45_dual_JGL.dra
+\i (00:00:16) generaledit 
+\i (00:29:12) zoom in 1 
+\i (00:29:12) setwindow pcb
+\i (00:29:12) zoom in 19.22 -43.72
+\i (00:29:12) trapsize 629
+\i (00:29:12) zoom in 1 
+\i (00:29:12) setwindow pcb
+\i (00:29:12) zoom in 19.22 -43.72
+\i (00:29:12) trapsize 315
+\i (00:29:12) zoom in 1 
+\i (00:29:12) setwindow pcb
+\i (00:29:12) zoom in 19.23 -43.72
+\i (00:29:12) trapsize 157
+\i (00:29:12) zoom in 1 
+\i (00:29:12) setwindow pcb
+\i (00:29:12) zoom in 19.23 -43.72
+\i (00:29:12) trapsize 79
+\i (00:29:12) zoom in 1 
+\i (00:29:12) setwindow pcb
+\i (00:29:12) zoom in 19.23 -43.71
+\i (00:29:12) trapsize 39
+\i (00:29:12) zoom in 1 
+\i (00:29:12) setwindow pcb
+\i (00:29:12) zoom in 19.23 -43.71
+\i (00:29:12) trapsize 20
+\i (00:29:12) zoom in 1 
+\i (00:29:12) setwindow pcb
+\i (00:29:12) zoom in 19.23 -43.71
+\i (00:29:12) trapsize 10
+\i (00:29:12) zoom in 1 
+\i (00:29:12) setwindow pcb
+\i (00:29:12) zoom in 19.24 -43.71
+\i (00:29:12) trapsize 5
+\i (00:29:13) zoom out 1 
+\i (00:29:13) setwindow pcb
+\i (00:29:13) zoom out 19.23 -43.71
+\i (00:29:13) trapsize 10
+\i (00:29:13) zoom out 1 
+\i (00:29:13) setwindow pcb
+\i (00:29:13) zoom out 19.25 -43.71
+\i (00:29:13) trapsize 20
+\i (00:29:13) zoom out 1 
+\i (00:29:13) setwindow pcb
+\i (00:29:13) zoom out 19.24 -43.71
+\i (00:29:13) trapsize 39
+\i (00:29:13) zoom out 1 
+\i (00:29:13) setwindow pcb
+\i (00:29:13) zoom out 19.24 -43.71
+\i (00:29:13) trapsize 79
+\i (00:29:13) zoom out 1 
+\i (00:29:13) setwindow pcb
+\i (00:29:13) zoom out 19.24 -43.70
+\i (00:29:13) trapsize 157
+\i (00:29:13) zoom out 1 
+\i (00:29:13) setwindow pcb
+\i (00:29:13) zoom out 19.24 -43.71
+\i (00:29:13) trapsize 315
+\i (00:29:13) zoom out 1 
+\i (00:29:13) setwindow pcb
+\i (00:29:13) zoom out 19.25 -43.70
+\i (00:29:13) trapsize 629
+\i (00:37:43) roam y -96 
+\i (00:37:43) roam y -96
+\i (00:37:44) roam y -96 
+\i (00:37:44) roam y -96
+\i (00:37:44) roam y -96 
+\i (00:37:44) roam y -96
+\i (00:37:44) roam y 96 
+\i (00:37:44) roam y 96
+\i (00:37:44) roam y 96 
+\i (00:37:44) roam y 96
+\i (00:37:45) roam y 96 
+\i (00:37:45) roam y 96
+\i (02:24:44) pick grid -815.39 181.61
+\t (02:24:44) last pick:  -800.00 200.00
+\i (02:24:46) zoom out 1 
+\i (02:24:46) setwindow pcb
+\i (02:24:46) zoom out -815.39 181.61
+\i (02:24:46) trapsize 1259
+\i (02:24:52) exit 
+\t (02:24:52)     Journal end - Wed Aug 24 18:13:35 2016

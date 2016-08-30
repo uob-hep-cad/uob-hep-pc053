@@ -1,0 +1,10 @@
+\t (00:00:01) enved 16.6-2015 S053 (v16-6-112EB) Windows 32
+\t (00:00:01)     Journal start - Tue Aug 23 10:38:15 2016
+\t (00:00:01)         Host=IT062971 User=phpgb Pid=8300 CPUs=8
+\t (00:00:01) CmdLine= enved -proj P:\cad\designs\uob-hep-pc053a\trunk\design_files\pc053a_toplevel.cpm
+\t (00:00:01) 
+\i (00:00:04) setwindow form.prfedit
+\i (00:00:04) FORM prfedit treelist  Library Paths 
+\i (00:00:06) FORM prfedit psmpath  
+\i (00:00:12) FORM prfedit done  
+\t (00:00:13)     Journal end - Tue Aug 23 10:38:27 2016
