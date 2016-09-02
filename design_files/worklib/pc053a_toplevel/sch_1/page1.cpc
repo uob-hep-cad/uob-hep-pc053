@@ -1,5 +1,5 @@
 #ISCELL
-  cnstandard a3 *
+  bris_cds_standard a3-2000 *
   *
 #ISCELL
   cnpower gnd *
@@ -25,27 +25,6 @@
 #ISCELL
   cnpower gnd *
   page11_i110
-#CELL
-  cnpassive rsmd0603 *
-  page11_i115
-#CELL
-  cnpassive rsmd0603 *
-  page11_i116
-#CELL
-  cnpassive rsmd0603 *
-  page11_i117
-#CELL
-  cnpassive rsmd0603 *
-  page11_i118
-#CELL
-  cnpassive capcersmdcl2 *
-  page11_i124
-#CELL
-  cnpassive capcersmdcl2 *
-  page11_i125
-#ISCELL
-  cnpower p3v3 *
-  page11_i126
 #CELL
   cnpassive capcersmdcl2 *
   page11_i127
@@ -142,9 +121,6 @@
 #ISCELL
   cnpower p3v3 *
   page11_i183
-#ISCELL
-  cnpower p3v3 *
-  page11_i201
 #CELL
   cnpassive rsmd0402 *
   page11_i202
@@ -167,16 +143,16 @@
   cnpower p3v3 *
   page11_i213
 #CELL
-  cnpassive capacitor *
+  cnpassive capcersmdcl2 *
   page11_i215
 #CELL
-  cnpassive capacitor *
+  cnpassive capcersmdcl2 *
   page11_i216
 #CELL
-  cnpassive capacitor *
+  cnpassive capcersmdcl2 *
   page11_i217
 #CELL
-  cnpassive capacitor *
+  cnpassive capcersmdcl2 *
   page11_i218
 #ISCELL
   cnpower gnd *
@@ -229,6 +205,27 @@
 #CELL
   cnpassive rsmd0402 *
   page11_i236
+#CELL
+  cnpassive rsmd0402 *
+  page11_i237
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i238
+#CELL
+  cnpassive rsmd0603 *
+  page11_i239
+#CELL
+  cnpassive rsmd0603 *
+  page11_i240
+#CELL
+  cnpassive rsmd0603 *
+  page11_i241
+#CELL
+  cnpassive rsmd0603 *
+  page11_i242
+#ISCELL
+  cnpower gnd *
+  page11_i243
 #ISCELL
   cnpower gnd *
   page11_i42

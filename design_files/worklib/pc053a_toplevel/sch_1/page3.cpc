@@ -1,5 +1,5 @@
 #ISCELL
-  cnstandard a3 *
+  bris_cds_standard a3-2000 *
   *
 #ISCELL
   cnpower gnd *
@@ -137,9 +137,6 @@
   cnpassive rsmd0402 *
   page3_i254
 #ISCELL
-  cnpower cvcc *
-  page3_i267
-#ISCELL
   cnpower gnd *
   page3_i272
 #CELL
@@ -153,22 +150,13 @@
   page3_i277
 #CELL
   cnpassive rsmd0402 *
-  page3_i279
-#CELL
-  cnpassive rsmd0402 *
   page3_i281
 #CELL
   cnpassive rsmd0402 *
   page3_i284
 #ISCELL
   cnpower gnd *
-  page3_i285
-#ISCELL
-  cnpower gnd *
   page3_i286
-#CELL
-  cnpassive rsmd0402 *
-  page3_i287
 #CELL
   cninterface 74avc4t245 *
   page3_i288
@@ -199,6 +187,3 @@
 #CELL
   cnpassive rsmd0402 *
   page3_i297
-#ISCELL
-  cnpower cvcc *
-  page3_i298

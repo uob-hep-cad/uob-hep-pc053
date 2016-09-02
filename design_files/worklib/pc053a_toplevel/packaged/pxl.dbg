@@ -1,6 +1,6 @@
-Log File: /tmp/file9aBb2L
-Markers File: /tmp/file5CR2CW
-Debug File: /tmp/filehNqrXh
+Log File: /tmp/fileqj3SGK
+Markers File: /tmp/fileuKmwmQ
+Debug File: /tmp/filesaaKN1
      Debug[0] := TRUE
 Elapsed time since start = (00:00:00)
 
@@ -33,4 +33,4 @@ Elapsed time since start = (00:00:01)
 DDB_INFO: State file for design PC053A_TOPLEVEL successfully written.
 DDB_INFO: Pst files for design PC053A_TOPLEVEL successfully written.
 system time  0
-user time    1
+user time    0

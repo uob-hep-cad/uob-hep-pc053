@@ -1,6 +1,6 @@
-Log File: C:\Users\phpgb\AppData\Local\Temp\smk.
-Markers File: C:\Users\phpgb\AppData\Local\Temp\smk.1
-Debug File: C:\Users\phpgb\AppData\Local\Temp\smk.3
+Log File: /tmp/fileuI5yEM
+Markers File: /tmp/filev9cPCb
+Debug File: /tmp/file06PVEZ
      Debug[0] := TRUE
 Elapsed time since start = (00:00:00)
 
@@ -13,7 +13,7 @@ Elapsed time since start = (00:00:00)
  *  Starting to assign physical parts.  *
  ****************************************
 
-Elapsed time since start = (00:00:10)
+Elapsed time since start = (00:00:01)
 
  ***********************************************
  *  End assigning physical parts.  (00:00:00)  *
@@ -24,7 +24,7 @@ Elapsed time since start = (00:00:10)
  *  Packaging  *
  ***************
 
-Elapsed time since start = (00:00:10)
+Elapsed time since start = (00:00:01)
 
  *******************************
  *  End packaging  (00:00:00)  *
@@ -32,3 +32,5 @@ Elapsed time since start = (00:00:10)
 
 DDB_INFO: State file for design PC053A_TOPLEVEL successfully written.
 DDB_INFO: Pst files for design PC053A_TOPLEVEL successfully written.
+system time  0
+user time    0

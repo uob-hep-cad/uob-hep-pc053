@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : pc053a_toplevel_11.brd                        )
+(    Drawing          : pc053a_toplevel_20.brd                        )
 (    Software Version : 16.6-2015S055                                 )
-(    Date/Time        : Mon Aug 29 16:56:34 2016                      )
+(    Date/Time        : Thu Sep  1 16:02:07 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,15 +19,15 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged'
 Design Directory:            '.'
-Old design name:             '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_11.brd'
-New design name:             'pc053a_toplevel_12.brd'
+Old design name:             '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_20.brd'
+New design name:             'pc053a_toplevel_21.brd'
 
-CmdLine: netrev -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/pc053a_toplevel.cpm -y 2 -x -O /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_11.brd /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_12.brd -q /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/temp/constraints_difference_report.xml -$
+CmdLine: netrev -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/pc053a_toplevel.cpm -y 2 -x -O /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_20.brd /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_21.brd -w /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/temp/constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
 Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstchip.dat 
-   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstchip.dat (00:00:00.12)
+   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstchip.dat (00:00:00.10)
 Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstxprt.dat 
    Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstxprt.dat (00:00:00.00)
 Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstxnet.dat 
@@ -41,16 +41,12 @@ Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/
 ===========================================================
 Start Constraint Diff3 Import
 	Constraint File:    /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstcmdb.dat
-	Allegro Baseline:   /tmp/#Taaaaad12550.tmp
-	Start time: Mon Aug 29 16:56:34 2016
+	Allegro Baseline:   /tmp/#Taaaaad02375.tmp
+	Schematic Baseline: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstcmbc.dat
+	Start time: Thu Sep  1 16:02:07 2016
 ===========================================================
-
-
-The constraint difference report file can be viewed using the following command:
-/software/CAD/Cadence/2015-16/RHELx86/SPB_16.60.055/tools/firefox/bin/firefox -app /software/CAD/Cadence/2015-16/RHELx86/SPB_16.60.055/share/pcb/consmgr/VDD/diff3rptViewer/diff3rptViewer.ini -file file:///projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/temp/constraints_difference_report.xml
-
 ===========================================================
-Finished Constraint Update	Time: Mon Aug 29 16:56:34 2016
+Finished Constraint Update	Time: Thu Sep  1 16:02:07 2016
 ===========================================================
 
 ------ Library Paths ------
@@ -99,9 +95,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Aug 29 16:56:34 2016
+netrev run on Sep 1 16:02:07 2016
    DESIGN NAME : 'PC053A_TOPLEVEL'
-   PACKAGING ON 29-Aug-2016 AT 16:56:29
+   PACKAGING ON 01-Sep-2016 AT 16:02:04
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -113,7 +109,7 @@ netrev run on Aug 29 16:56:34 2016
    LIBRARIES  'uob_hep_pc053a_lib' 'cnstandard' 'cnpower' 'cnconnector'
               'cndiscrete' 'cninterface' 'cnlinear' 'cnmemory' 'cnspecial'
               'cnmech' 'cncmos' 'standard' 'bris_cds_standard' 'bris_cds_logic'
-              'cnpassive'
+              'cnpassive' 'bris_cds_analogue' 'bris_cds_discrete'
    MASTER_LIBRARIES  <none>
    MAX_ERRORS 500
    MERGE_MINIMUM 5

@@ -6,7 +6,7 @@
     Packager-XL 16.6-S055 (v16-6-112EM) lnx86 8/3/2015 12:00:00 IST
     (C) Copyright 1994, Cadence Design Systems, Inc.
 
-    Run on Mon Aug 29 16:56:29 2016
+    Run on Thu Sep  1 16:02:04 2016
 
 
  **********************************************
@@ -100,7 +100,7 @@ e_cern_lib/parttables/cnpassive.ptf
     LIBRARY  'uob_hep_pc053a_lib' 'cnstandard' 'cnpower' 'cnconnector'
              'cndiscrete' 'cninterface' 'cnlinear' 'cnmemory' 'cnspecial'
              'cnmech' 'cncmos' 'standard' 'bris_cds_standard' 'bris_cds_logic'
-             'cnpassive'
+             'cnpassive' 'bris_cds_analogue' 'bris_cds_discrete'
     CDSPROP_FILE 
     VIEW_PTF part_table
     VIEW_PACKAGER packaged
@@ -167,21 +167,15 @@ INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
 d16.x/concept_libs/pe16/pe_cern_lib/cninterface/74avc2t45/part_table/74avc2t45~
 .ptf.
 INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
-d16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/part_table/capcersm~
-dcl2.ptf.
-INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
 d16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con400p_40abcdefghjk/part_tabl~
 e/con400p_40abcdefghjk.ptf.
 INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
 d16.x/concept_libs/pe16/pe_cern_lib/cninterface/pca9517/part_table/part.ptf.
 INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
-d16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con6p/part_table/con6p.ptf.
-INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
 d16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con3p/part_table/con3p.ptf.
 INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
-d16.x/concept_libs/pe16/pe_cern_lib/cnlinear/tps799xx/part_table/part.ptf.
-INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
-d16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/part_table/tp.ptf.
+d16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/part_table/capcersm~
+dcl2.ptf.
 INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
 d16.x/concept_libs/pe16/pe_cern_lib/cnmemory/24aa025e48/part_table/24aa025e48.~
 ptf.
@@ -204,25 +198,30 @@ fp.ptf.
 INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
 d16.x/concept_libs/pe16/pe_cern_lib/cnmech/sfp_cage/part_table/sfp_cage.ptf.
 INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
-d16.x/concept_libs/pe16/pe_cern_lib/cninterface/si5344/part_table/si5344.ptf.
-INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
-d16.x/concept_libs/pe16/pe_cern_lib/cnconnector/pcoax/part_table/pcoax.ptf.
-INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
-d16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/osc_6p_endis_out_compout/part_t~
-able/osc_6p_endis_out_compout.ptf.
+d16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/part_table/tp.ptf.
 INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
 d16.x/concept_libs/pe16/pe_cern_lib/cninterface/nbsg53a/part_table/nbsg53a.ptf.
 INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
 d16.x/concept_libs/pe16/pe_cern_lib/cninterface/sy58608u/part_table/sy58608u.p~
 tf.
 INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
-d16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capacitor/part_table/capacitor.p~
-tf.
-INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
 d16.x/concept_libs/pe16/pe_cern_lib/cninterface/74avc4t245/part_table/74avc4t2~
 45.ptf.
 INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
+d16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capacitor/part_table/capacitor.p~
+tf.
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
 d16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/led1/part_table/led1.ptf.
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
+d16.x/concept_libs/pe16/pe_cern_lib/cnlinear/tps799xx/part_table/part.ptf.
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
+d16.x/concept_libs/pe16/pe_cern_lib/cninterface/si5344/part_table/si5344.ptf.
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/bris_cdslib/lib_ps~
+d14.x/cds_discrete/dsc1123ci5/part_table/DSC1123CI5.ptf.
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
+d16.x/concept_libs/pe16/pe_cern_lib/cninterface/pca9306/part_table/pca9306.ptf.
+INFO(SPCODD-181): Loading /projects/HEP_Instrumentation/cad/cern_cdslib/lib_ps~
+d16.x/concept_libs/pe16/pe_cern_lib/cnconnector/pcoax/part_table/pcoax.ptf.
 
  ****************************************
  *  Starting to assign physical parts.  *
@@ -245,10 +244,10 @@ d16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/led1/part_table/led1.ptf.
 
 INFO(SPCOPK-1442): No errors detected
 INFO(SPCOPK-1444): No warnings detected
-    Start time   16:56:29
-    End time     16:56:31
-    CPU time      0:00:01
-    Elapsed time  0:00:02
+    Start time   16:02:04
+    End time     16:02:05
+    CPU time      0:00:00
+    Elapsed time  0:00:01
 
  ***************************************************************************
  *  Packager-XL execution done.

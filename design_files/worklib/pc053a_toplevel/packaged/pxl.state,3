@@ -1,6 +1,6 @@
 FILE_TYPE = PXL_HDL_CENTRIC_STATE_FILE;
 VERSION = PXL_HDL_CENTRIC_VERSION_1;
-TIME = '26-Aug-2016 AT 16:15:38.00';
+TIME = '01-Sep-2016 AT 15:46:16.00';
 
 {--------------------------------------------------------------------------}
 
@@ -221,18 +221,6 @@ BEGIN_SIGNAL:
 CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):S41';
 LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):S41';
 PHY_SIGNAL = 'S41';
-END_SIGNAL;
-
-BEGIN_SIGNAL:
-CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):DATAOUT_N';
-LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):DATAOUT_N';
-PHY_SIGNAL = 'DATAOUT_N';
-END_SIGNAL;
-
-BEGIN_SIGNAL:
-CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):DATAOUT_P';
-LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):DATAOUT_P';
-PHY_SIGNAL = 'DATAOUT_P';
 END_SIGNAL;
 
 BEGIN_SIGNAL:
@@ -590,6 +578,42 @@ PHY_SIGNAL = 'SERPAR_LED2';
 END_SIGNAL;
 
 BEGIN_SIGNAL:
+CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):CLK_SCL';
+LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):CLK_SCL';
+PHY_SIGNAL = 'CLK_SCL';
+END_SIGNAL;
+
+BEGIN_SIGNAL:
+CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):CLK_SDA';
+LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):CLK_SDA';
+PHY_SIGNAL = 'CLK_SDA';
+END_SIGNAL;
+
+BEGIN_SIGNAL:
+CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):FMC_LA11_N';
+LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):FMC_LA11_N';
+PHY_SIGNAL = 'FMC_LA11_N';
+END_SIGNAL;
+
+BEGIN_SIGNAL:
+CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):FMC_LA11_P';
+LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):FMC_LA11_P';
+PHY_SIGNAL = 'FMC_LA11_P';
+END_SIGNAL;
+
+BEGIN_SIGNAL:
+CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):SFP_LOS';
+LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):SFP_LOS';
+PHY_SIGNAL = 'SFP_LOS';
+END_SIGNAL;
+
+BEGIN_SIGNAL:
+CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):FPGA_SFP_LOS';
+LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):FPGA_SFP_LOS';
+PHY_SIGNAL = 'FPGA_SFP_LOS';
+END_SIGNAL;
+
+BEGIN_SIGNAL:
 CANON_SIGNAL = 'NC';
 LOG_SIGNAL = 'NC';
 PHY_SIGNAL = 'NC';
@@ -608,53 +632,11 @@ LOCATION   = 'IC16';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74avc2t45/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74avc2t45/chips/chips.prt';
  PART_NAME = 'SN74AVC2T45DCU';
  PARENT_PPT = '74AVC2T45';
  PARENT_PPT_PART = 'SN74AVC2T45DCU';
  PARENT_CHIPS_PHYS_PART = '74AVC2T45_DCU';
-END_LIB_INFO;
-END_PRIM;
-
-BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I64@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
-LOCATION   = 'C45';
-SEC = '1';
-
-BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
- PART_NAME = 'CAPCERSMDCL2_0805-2.2UF,10V_GEN';
- PARENT_PPT = 'CAPCERSMDCL2';
- PARENT_PPT_PART = 'CAPCERSMDCL2_0805-2.2UF,10V_GEN';
- PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0805';
-END_LIB_INFO;
-END_PRIM;
-
-BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I66@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
-LOCATION   = 'C46';
-SEC = '1';
-
-BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
- PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
- PARENT_PPT = 'CAPCERSMDCL2';
- PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
- PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
-END_LIB_INFO;
-END_PRIM;
-
-BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I68@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
-LOCATION   = 'C47';
-SEC = '1';
-
-BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
- PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
- PARENT_PPT = 'CAPCERSMDCL2';
- PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
- PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
 END_LIB_INFO;
 END_PRIM;
 
@@ -664,7 +646,7 @@ LOCATION   = 'P1';
 SEC = '2';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt';
  PART_NAME = 'CON400P_40ABCDEFGHJK-SEAM-40-0A';
  PARENT_PPT = 'CON400P_40ABCDEFGHJK';
  PARENT_PPT_PART = 'CON400P_40ABCDEFGHJK-SEAM-40-03.5-S-10-2-A-K-TR';
@@ -678,7 +660,7 @@ LOCATION   = 'P1';
 SEC = '5';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt';
  PART_NAME = 'CON400P_40ABCDEFGHJK-SEAM-40-0A';
  PARENT_PPT = 'CON400P_40ABCDEFGHJK';
  PARENT_PPT_PART = 'CON400P_40ABCDEFGHJK-SEAM-40-03.5-S-10-2-A-K-TR';
@@ -692,7 +674,7 @@ LOCATION   = 'P1';
 SEC = '4';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt';
  PART_NAME = 'CON400P_40ABCDEFGHJK-SEAM-40-0A';
  PARENT_PPT = 'CON400P_40ABCDEFGHJK';
  PARENT_PPT_PART = 'CON400P_40ABCDEFGHJK-SEAM-40-03.5-S-10-2-A-K-TR';
@@ -706,7 +688,7 @@ LOCATION   = 'P1';
 SEC = '3';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt';
  PART_NAME = 'CON400P_40ABCDEFGHJK-SEAM-40-0A';
  PARENT_PPT = 'CON400P_40ABCDEFGHJK';
  PARENT_PPT_PART = 'CON400P_40ABCDEFGHJK-SEAM-40-03.5-S-10-2-A-K-TR';
@@ -720,7 +702,7 @@ LOCATION   = 'P1';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con400p_40abcdefghjk/chips/chips.prt';
  PART_NAME = 'CON400P_40ABCDEFGHJK-SEAM-40-0A';
  PARENT_PPT = 'CON400P_40ABCDEFGHJK';
  PARENT_PPT_PART = 'CON400P_40ABCDEFGHJK-SEAM-40-03.5-S-10-2-A-K-TR';
@@ -734,25 +716,11 @@ LOCATION   = 'IC15';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/pca9517/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/pca9517/chips/chips.prt';
  PART_NAME = 'PCA9517DGKR';
  PARENT_PPT = 'PCA9517';
  PARENT_PPT_PART = 'PCA9517DGKR';
  PARENT_CHIPS_PHYS_PART = 'PCA9517_MSOP';
-END_LIB_INFO;
-END_PRIM;
-
-BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I167@CNCONNECTOR.CON6P(CHIPS)';
-LOCATION   = 'J7';
-SEC = '1';
-
-BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con6p/chips/chips.prt';
- PART_NAME = 'CON6P-90131-0123';
- PARENT_PPT = 'CON6P';
- PARENT_PPT_PART = 'CON6P-90131-0123';
- PARENT_CHIPS_PHYS_PART = 'CON6P';
 END_LIB_INFO;
 END_PRIM;
 
@@ -762,7 +730,7 @@ LOCATION   = 'J5';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con3p/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con3p/chips/chips.prt';
  PART_NAME = 'CON3P-MTLW-103-07-L-S-250';
  PARENT_PPT = 'CON3P';
  PARENT_PPT_PART = 'CON3P-MTLW-103-07-L-S-250';
@@ -776,7 +744,7 @@ LOCATION   = 'J6';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con3p/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con3p/chips/chips.prt';
  PART_NAME = 'CON3P-MTLW-103-07-L-S-250';
  PARENT_PPT = 'CON3P';
  PARENT_PPT_PART = 'CON3P-MTLW-103-07-L-S-250';
@@ -790,7 +758,7 @@ LOCATION   = 'J8';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con3p/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con3p/chips/chips.prt';
  PART_NAME = 'CON3P-MTLW-103-07-L-S-250';
  PARENT_PPT = 'CON3P';
  PARENT_PPT_PART = 'CON3P-MTLW-103-07-L-S-250';
@@ -804,7 +772,7 @@ LOCATION   = 'C18';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
@@ -818,7 +786,7 @@ LOCATION   = 'C16';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
@@ -828,11 +796,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I199@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
-LOCATION   = 'C17';
+LOCATION   = 'C107';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
@@ -846,7 +814,7 @@ LOCATION   = 'C13';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
@@ -860,7 +828,7 @@ LOCATION   = 'C14';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
@@ -869,40 +837,12 @@ END_LIB_INFO;
 END_PRIM;
 
 BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I214@CNLINEAR.TPS799XX(CHIPS)';
-LOCATION   = 'REG1';
-SEC = '1';
-
-BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnlinear/tps799xx/chips/chips.prt';
- PART_NAME = 'TPS79925DDCT';
- PARENT_PPT = 'TPS799XX';
- PARENT_PPT_PART = 'TPS79925DDCT';
- PARENT_CHIPS_PHYS_PART = 'TPS799XX_TSOT23';
-END_LIB_INFO;
-END_PRIM;
-
-BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I219@CNPASSIVE.TP(CHIPS)';
-LOCATION   = 'TP2';
-SEC = '1';
-
-BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
- PART_NAME = 'TP_HOLE-0.8MM';
- PARENT_PPT = 'TP';
- PARENT_PPT_PART = 'TP_HOLE-0.8MM';
- PARENT_CHIPS_PHYS_PART = 'TP_HOLE';
-END_LIB_INFO;
-END_PRIM;
-
-BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I222@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R38';
+LOCATION   = 'R103';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -916,7 +856,7 @@ LOCATION   = 'R39';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -926,11 +866,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I224@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R40';
+LOCATION   = 'R140';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -940,11 +880,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I225@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R41';
+LOCATION   = 'R411';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -954,11 +894,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I226@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R42';
+LOCATION   = 'R142';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -968,11 +908,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I227@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R43';
+LOCATION   = 'R143';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -982,11 +922,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I228@CNMEMORY.24AA025E48(CHIPS)';
-LOCATION   = 'IC1';
+LOCATION   = 'IC3';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnmemory/24aa025e48/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnmemory/24aa025e48/chips/chips.prt';
  PART_NAME = '24AA025E48T-I/SN';
  PARENT_PPT = '24AA025E48';
  PARENT_PPT_PART = '24AA025E48T-I/SN';
@@ -995,68 +935,12 @@ END_LIB_INFO;
 END_PRIM;
 
 BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I236@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
-LOCATION   = 'C12';
-SEC = '1';
-
-BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
- PART_NAME = 'CAPCERSMDCL2_0805-2.2UF,10V_GEN';
- PARENT_PPT = 'CAPCERSMDCL2';
- PARENT_PPT_PART = 'CAPCERSMDCL2_0805-2.2UF,10V_GEN';
- PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0805';
-END_LIB_INFO;
-END_PRIM;
-
-BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I244@CNLINEAR.TPS799XX(CHIPS)';
-LOCATION   = 'REG2';
-SEC = '1';
-
-BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnlinear/tps799xx/chips/chips.prt';
- PART_NAME = 'TPS799185DDCTG4';
- PARENT_PPT = 'TPS799XX';
- PARENT_PPT_PART = 'TPS799185DDCTG4';
- PARENT_CHIPS_PHYS_PART = 'TPS799XX_TSOT23';
-END_LIB_INFO;
-END_PRIM;
-
-BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I245@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
-LOCATION   = 'C10';
-SEC = '1';
-
-BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
- PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
- PARENT_PPT = 'CAPCERSMDCL2';
- PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
- PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
-END_LIB_INFO;
-END_PRIM;
-
-BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I246@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
-LOCATION   = 'C9';
-SEC = '1';
-
-BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
- PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
- PARENT_PPT = 'CAPCERSMDCL2';
- PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
- PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
-END_LIB_INFO;
-END_PRIM;
-
-BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I249@CNPASSIVE.TP(CHIPS)';
-LOCATION   = 'TP1';
+LOCATION   = 'TP2';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
  PART_NAME = 'TP_HOLE-0.8MM';
  PARENT_PPT = 'TP';
  PARENT_PPT_PART = 'TP_HOLE-0.8MM';
@@ -1066,11 +950,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I250@CNPASSIVE.TP(CHIPS)';
-LOCATION   = 'TP3';
+LOCATION   = 'TP4';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
  PART_NAME = 'TP_HOLE-0.8MM';
  PARENT_PPT = 'TP';
  PARENT_PPT_PART = 'TP_HOLE-0.8MM';
@@ -1078,23 +962,187 @@ BEGIN_LIB_INFO:
 END_LIB_INFO;
 END_PRIM;
 
-BEGIN_SIGNAL:
-CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):P1V8';
-LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):P1V8';
-PHY_SIGNAL = 'P1V8';
-END_SIGNAL;
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I257@CNPASSIVE.RSMD0402(CHIPS)';
+LOCATION   = 'R138';
+SEC = '1';
 
-BEGIN_SIGNAL:
-CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):VPP';
-LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):VPP';
-PHY_SIGNAL = 'VPP';
-END_SIGNAL;
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
+ PARENT_PPT = 'RSMD0402';
+ PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
+ PARENT_CHIPS_PHYS_PART = 'RSMD0402_1/16W';
+END_LIB_INFO;
+END_PRIM;
 
-BEGIN_SIGNAL:
-CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):P2V5';
-LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):P2V5';
-PHY_SIGNAL = 'P2V5';
-END_SIGNAL;
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I259@CNPASSIVE.RSMD0402(CHIPS)';
+LOCATION   = 'R1328';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
+ PARENT_PPT = 'RSMD0402';
+ PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
+ PARENT_CHIPS_PHYS_PART = 'RSMD0402_1/16W';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I263@CNPASSIVE.RSMD0402(CHIPS)';
+LOCATION   = 'R242';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
+ PARENT_PPT = 'RSMD0402';
+ PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
+ PARENT_CHIPS_PHYS_PART = 'RSMD0402_1/16W';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I264@CNPASSIVE.RSMD0402(CHIPS)';
+LOCATION   = 'R43';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
+ PARENT_PPT = 'RSMD0402';
+ PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
+ PARENT_CHIPS_PHYS_PART = 'RSMD0402_1/16W';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I267@CNPASSIVE.TP(CHIPS)';
+LOCATION   = 'TP3';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+ PART_NAME = 'TP_HOLE-0.8MM';
+ PARENT_PPT = 'TP';
+ PARENT_PPT_PART = 'TP_HOLE-0.8MM';
+ PARENT_CHIPS_PHYS_PART = 'TP_HOLE';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I268@CNPASSIVE.TP(CHIPS)';
+LOCATION   = 'TP1';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+ PART_NAME = 'TP_HOLE-0.8MM';
+ PARENT_PPT = 'TP';
+ PARENT_PPT_PART = 'TP_HOLE-0.8MM';
+ PARENT_CHIPS_PHYS_PART = 'TP_HOLE';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I270@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C117';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I272@CNPASSIVE.RSMD0402(CHIPS)';
+LOCATION   = 'R40';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
+ PARENT_PPT = 'RSMD0402';
+ PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
+ PARENT_CHIPS_PHYS_PART = 'RSMD0402_1/16W';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I273@CNPASSIVE.RSMD0402(CHIPS)';
+LOCATION   = 'R41';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
+ PARENT_PPT = 'RSMD0402';
+ PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
+ PARENT_CHIPS_PHYS_PART = 'RSMD0402_1/16W';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I276@CNINTERFACE.PCA9306(CHIPS)';
+LOCATION   = 'IC1';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/pca9306/chips/chips.prt';
+ PART_NAME = 'PCA9306DCU';
+ PARENT_PPT = 'PCA9306';
+ PARENT_PPT_PART = 'PCA9306DCU';
+ PARENT_CHIPS_PHYS_PART = 'PCA9306_VSSOP/DCU';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I278@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C17';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I279@CNPASSIVE.RSMD0402(CHIPS)';
+LOCATION   = 'R1';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PART_NAME = 'RSMD0402_1/16W-200K,1%';
+ PARENT_PPT = 'RSMD0402';
+ PARENT_PPT_PART = 'RSMD0402_1/16W-200K,1%';
+ PARENT_CHIPS_PHYS_PART = 'RSMD0402_1/16W';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE2_I280@CNPASSIVE.RSMD0402(CHIPS)';
+LOCATION   = 'R42';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
+ PARENT_PPT = 'RSMD0402';
+ PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
+ PARENT_CHIPS_PHYS_PART = 'RSMD0402_1/16W';
+END_LIB_INFO;
+END_PRIM;
 
 BEGIN_SIGNAL:
 CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):P12V';
@@ -1106,12 +1154,6 @@ BEGIN_SIGNAL:
 CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):CTRLVCC';
 LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):CTRLVCC';
 PHY_SIGNAL = 'CTRLVCC';
-END_SIGNAL;
-
-BEGIN_SIGNAL:
-CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_2_CAPCERSMDCL2_I68_B';
-LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_2_CAPCERSMDCL2_I68_B';
-PHY_SIGNAL = 'UNNAMED_2_CAPCERSMDCL2_I68_B';
 END_SIGNAL;
 
 BEGIN_SIGNAL:
@@ -1127,9 +1169,9 @@ PHY_SIGNAL = 'UNNAMED_2_PCA9517_I162_EN';
 END_SIGNAL;
 
 BEGIN_SIGNAL:
-CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_2_CAPCERSMDCL2_I245_B';
-LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_2_CAPCERSMDCL2_I245_B';
-PHY_SIGNAL = 'UNNAMED_2_CAPCERSMDCL2_I245_B';
+CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_2_PCA9306_I276_EN';
+LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_2_PCA9306_I276_EN';
+PHY_SIGNAL = 'UNNAMED_2_PCA9306_I276_EN';
 END_SIGNAL;
 
 END_MODULE; { end of module '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1)'}
@@ -1141,11 +1183,11 @@ PAGE = '11';
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I9@CNINTERFACE.74LCX04(CHIPS)';
-LOCATION   = 'IC6';
+LOCATION   = 'IC7';
 SEC = '5';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74lcx04/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74lcx04/chips/chips.prt';
  PART_NAME = '74LCX04MTC-VCC=P3V3';
  LONG_PART_NAME = '74LCX04MTC-VCC=P3V3';
  PARENT_PPT_PHYS_PART = '74LCX04MTC';
@@ -1161,7 +1203,7 @@ LOCATION   = 'IC12';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/adn2814/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/adn2814/chips/chips.prt';
  PART_NAME = 'ADN2814ACPZ-VCC=P3V3,VEE=GND';
  LONG_PART_NAME = 'ADN2814ACPZ-VCC=P3V3,VEE=GND';
  PARENT_PPT_PHYS_PART = 'ADN2814ACPZ';
@@ -1177,7 +1219,7 @@ LOCATION   = 'R25';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -1191,7 +1233,7 @@ LOCATION   = 'R24';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -1205,7 +1247,7 @@ LOCATION   = 'L1';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/inductance/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/inductance/chips/chips.prt';
  PART_NAME = 'INDUCTANCE_LQH32C_23-4.7UH';
  PARENT_PPT = 'INDUCTANCE';
  PARENT_PPT_PART = 'INDUCTANCE_LQH32C_23-4.7UH';
@@ -1219,7 +1261,7 @@ LOCATION   = 'R23';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -1233,7 +1275,7 @@ LOCATION   = 'R29';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -1247,7 +1289,7 @@ LOCATION   = 'R22';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -1261,7 +1303,7 @@ LOCATION   = 'L2';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/inductance/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/inductance/chips/chips.prt';
  PART_NAME = 'INDUCTANCE_LQH32C_23-4.7UH';
  PARENT_PPT = 'INDUCTANCE';
  PARENT_PPT_PART = 'INDUCTANCE_LQH32C_23-4.7UH';
@@ -1275,95 +1317,11 @@ LOCATION   = 'R28';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_CHIPS_PHYS_PART = 'RSMD0402_1/16W';
-END_LIB_INFO;
-END_PRIM;
-
-BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I115@CNPASSIVE.RSMD0603(CHIPS)';
-LOCATION   = 'R33';
-SEC = '1';
-
-BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
- PART_NAME = 'RSMD0603_1/10W-100,1%';
- PARENT_PPT = 'RSMD0603';
- PARENT_PPT_PART = 'RSMD0603_1/10W-100,1%';
- PARENT_CHIPS_PHYS_PART = 'RSMD0603_1/10W';
-END_LIB_INFO;
-END_PRIM;
-
-BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I116@CNPASSIVE.RSMD0603(CHIPS)';
-LOCATION   = 'R32';
-SEC = '1';
-
-BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
- PART_NAME = 'RSMD0603_1/10W-100,1%';
- PARENT_PPT = 'RSMD0603';
- PARENT_PPT_PART = 'RSMD0603_1/10W-100,1%';
- PARENT_CHIPS_PHYS_PART = 'RSMD0603_1/10W';
-END_LIB_INFO;
-END_PRIM;
-
-BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I117@CNPASSIVE.RSMD0603(CHIPS)';
-LOCATION   = 'R31';
-SEC = '1';
-
-BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
- PART_NAME = 'RSMD0603_1/10W-100,1%';
- PARENT_PPT = 'RSMD0603';
- PARENT_PPT_PART = 'RSMD0603_1/10W-100,1%';
- PARENT_CHIPS_PHYS_PART = 'RSMD0603_1/10W';
-END_LIB_INFO;
-END_PRIM;
-
-BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I118@CNPASSIVE.RSMD0603(CHIPS)';
-LOCATION   = 'R30';
-SEC = '1';
-
-BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
- PART_NAME = 'RSMD0603_1/10W-100,1%';
- PARENT_PPT = 'RSMD0603';
- PARENT_PPT_PART = 'RSMD0603_1/10W-100,1%';
- PARENT_CHIPS_PHYS_PART = 'RSMD0603_1/10W';
-END_LIB_INFO;
-END_PRIM;
-
-BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I124@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
-LOCATION   = 'C31';
-SEC = '1';
-
-BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
- PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
- PARENT_PPT = 'CAPCERSMDCL2';
- PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
- PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
-END_LIB_INFO;
-END_PRIM;
-
-BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I125@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
-LOCATION   = 'C32';
-SEC = '1';
-
-BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
- PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
- PARENT_PPT = 'CAPCERSMDCL2';
- PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
- PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
 END_LIB_INFO;
 END_PRIM;
 
@@ -1373,7 +1331,7 @@ LOCATION   = 'C38';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
@@ -1387,7 +1345,7 @@ LOCATION   = 'C42';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
@@ -1401,7 +1359,7 @@ LOCATION   = 'R34';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
  PART_NAME = 'RSMD0603_-00,';
  PARENT_PPT = 'RSMD0603';
  PARENT_PPT_PART = 'RSMD0603_-00,';
@@ -1415,7 +1373,7 @@ LOCATION   = 'R12';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
  PART_NAME = 'RSMD0603_-00,';
  PARENT_PPT = 'RSMD0603';
  PARENT_PPT_PART = 'RSMD0603_-00,';
@@ -1429,7 +1387,7 @@ LOCATION   = 'C39';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0603-470NF,6.3V';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0603-470NF,6.3V';
@@ -1443,7 +1401,7 @@ LOCATION   = 'C44';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0603-1.5UF,6.3V';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0603-1.5UF,6.3V';
@@ -1457,7 +1415,7 @@ LOCATION   = 'C43';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0603-1.5UF,6.3V';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0603-1.5UF,6.3V';
@@ -1471,7 +1429,7 @@ LOCATION   = 'C33';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
@@ -1485,7 +1443,7 @@ LOCATION   = 'C34';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-1.0NF,50V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-1.0NF,50V_GEN';
@@ -1499,7 +1457,7 @@ LOCATION   = 'C36';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
@@ -1513,7 +1471,7 @@ LOCATION   = 'C37';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-1.0NF,50V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-1.0NF,50V_GEN';
@@ -1527,7 +1485,7 @@ LOCATION   = 'C40';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
@@ -1541,7 +1499,7 @@ LOCATION   = 'C41';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-1.0NF,50V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-1.0NF,50V_GEN';
@@ -1555,7 +1513,7 @@ LOCATION   = 'C35';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0805-10UF,16V';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0805-10UF,16V';
@@ -1569,7 +1527,7 @@ LOCATION   = 'C30';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-1.0NF,50V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-1.0NF,50V_GEN';
@@ -1583,7 +1541,7 @@ LOCATION   = 'C29';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
@@ -1597,7 +1555,7 @@ LOCATION   = 'C15';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
@@ -1611,7 +1569,7 @@ LOCATION   = 'J4';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con20p_sfp/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con20p_sfp/chips/chips.prt';
  PART_NAME = 'CON20P_SFP-1888247-1';
  PARENT_PPT = 'CON20P_SFP';
  PARENT_PPT_PART = 'CON20P_SFP-1888247-1';
@@ -1625,7 +1583,7 @@ LOCATION   = 'SFP1';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnmech/sfp_cage/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnmech/sfp_cage/chips/chips.prt';
  PART_NAME = 'SFP_CAGE-SP-74737-004';
  PARENT_PPT = 'SFP_CAGE';
  PARENT_PPT_PART = 'SFP_CAGE-SP-74737-004';
@@ -1635,11 +1593,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I179@CNINTERFACE.74LCX04(CHIPS)';
-LOCATION   = 'IC6';
+LOCATION   = 'IC7';
 SEC = '6';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74lcx04/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74lcx04/chips/chips.prt';
  PART_NAME = '74LCX04MTC-VCC=P3V3';
  LONG_PART_NAME = '74LCX04MTC-VCC=P3V3';
  PARENT_PPT_PHYS_PART = '74LCX04MTC';
@@ -1651,11 +1609,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I202@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R62';
+LOCATION   = 'R58';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-2K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-2K,1%';
@@ -1665,11 +1623,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I206@CNINTERFACE.NBSG53A(CHIPS)';
-LOCATION   = 'IC8';
+LOCATION   = 'IC9';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/nbsg53a/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/nbsg53a/chips/chips.prt';
  PART_NAME = 'NBSG53AMNG-VCC=P3V3,VEE=GND';
  LONG_PART_NAME = 'NBSG53AMNG-VCC=P3V3,VEE=GND';
  PARENT_PPT_PHYS_PART = 'NBSG53AMNG';
@@ -1681,11 +1639,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I207@CNINTERFACE.SY58608U(CHIPS)';
-LOCATION   = 'IC9';
+LOCATION   = 'IC10';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/sy58608u/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/sy58608u/chips/chips.prt';
  PART_NAME = 'SY58608UMG-VCC=P3V3';
  LONG_PART_NAME = 'SY58608UMG-VCC=P3V3';
  PARENT_PPT_PHYS_PART = 'SY58608UMG';
@@ -1697,11 +1655,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I210@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R61';
+LOCATION   = 'R51';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-2K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-2K,1%';
@@ -1711,11 +1669,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I212@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R63';
+LOCATION   = 'R59';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-2K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-2K,1%';
@@ -1724,68 +1682,68 @@ END_LIB_INFO;
 END_PRIM;
 
 BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I215@CNPASSIVE.CAPACITOR(CHIPS)';
-LOCATION   = 'C56';
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I215@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C69';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capacitor/chips/chips.prt';
- PART_NAME = 'CAPACITOR_POLY2.54-10NF,50V';
- PARENT_PPT = 'CAPACITOR';
- PARENT_PPT_PART = 'CAPACITOR_POLY2.54-10NF,50V';
- PARENT_CHIPS_PHYS_PART = 'CAPACITOR_POLY2.54';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
 END_LIB_INFO;
 END_PRIM;
 
 BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I216@CNPASSIVE.CAPACITOR(CHIPS)';
-LOCATION   = 'C57';
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I216@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C70';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capacitor/chips/chips.prt';
- PART_NAME = 'CAPACITOR_POLY2.54-10NF,50V';
- PARENT_PPT = 'CAPACITOR';
- PARENT_PPT_PART = 'CAPACITOR_POLY2.54-10NF,50V';
- PARENT_CHIPS_PHYS_PART = 'CAPACITOR_POLY2.54';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
 END_LIB_INFO;
 END_PRIM;
 
 BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I217@CNPASSIVE.CAPACITOR(CHIPS)';
-LOCATION   = 'C58';
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I217@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C71';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capacitor/chips/chips.prt';
- PART_NAME = 'CAPACITOR_POLY2.54-10NF,50V';
- PARENT_PPT = 'CAPACITOR';
- PARENT_PPT_PART = 'CAPACITOR_POLY2.54-10NF,50V';
- PARENT_CHIPS_PHYS_PART = 'CAPACITOR_POLY2.54';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
 END_LIB_INFO;
 END_PRIM;
 
 BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I218@CNPASSIVE.CAPACITOR(CHIPS)';
-LOCATION   = 'C59';
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I218@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C72';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capacitor/chips/chips.prt';
- PART_NAME = 'CAPACITOR_POLY2.54-10NF,50V';
- PARENT_PPT = 'CAPACITOR';
- PARENT_PPT_PART = 'CAPACITOR_POLY2.54-10NF,50V';
- PARENT_CHIPS_PHYS_PART = 'CAPACITOR_POLY2.54';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
 END_LIB_INFO;
 END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I221@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
-LOCATION   = 'C53';
+LOCATION   = 'C65';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
@@ -1795,11 +1753,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I222@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
-LOCATION   = 'C52';
+LOCATION   = 'C64';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
@@ -1809,11 +1767,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I223@CNPASSIVE.CAPACITOR(CHIPS)';
-LOCATION   = 'C55';
+LOCATION   = 'C68';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capacitor/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capacitor/chips/chips.prt';
  PART_NAME = 'CAPACITOR_POLY2.54-10NF,50V';
  PARENT_PPT = 'CAPACITOR';
  PARENT_PPT_PART = 'CAPACITOR_POLY2.54-10NF,50V';
@@ -1823,11 +1781,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I224@CNPASSIVE.CAPACITOR(CHIPS)';
-LOCATION   = 'C54';
+LOCATION   = 'C66';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capacitor/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capacitor/chips/chips.prt';
  PART_NAME = 'CAPACITOR_POLY2.54-10NF,50V';
  PARENT_PPT = 'CAPACITOR';
  PARENT_PPT_PART = 'CAPACITOR_POLY2.54-10NF,50V';
@@ -1841,7 +1799,7 @@ LOCATION   = 'LD1';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/led1/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/led1/chips/chips.prt';
  PART_NAME = 'LGL29K-G2J1-24';
  PARENT_PPT = 'LED1';
  PARENT_PPT_PART = 'LGL29K-G2J1-24';
@@ -1855,7 +1813,7 @@ LOCATION   = 'LD2';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/led1/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/led1/chips/chips.prt';
  PART_NAME = 'LGL29K-G2J1-24';
  PARENT_PPT = 'LED1';
  PARENT_PPT_PART = 'LGL29K-G2J1-24';
@@ -1869,7 +1827,7 @@ LOCATION   = 'LD3';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/led1/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/led1/chips/chips.prt';
  PART_NAME = 'LGL29K-G2J1-24';
  PARENT_PPT = 'LED1';
  PARENT_PPT_PART = 'LGL29K-G2J1-24';
@@ -1879,11 +1837,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I232@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R58';
+LOCATION   = 'R56';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-750,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-750,1%';
@@ -1893,11 +1851,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I233@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R59';
+LOCATION   = 'R57';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-750,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-750,1%';
@@ -1907,11 +1865,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I234@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R64';
+LOCATION   = 'R60';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-150,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-150,1%';
@@ -1921,11 +1879,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I235@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R65';
+LOCATION   = 'R61';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-150,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-150,1%';
@@ -1935,15 +1893,99 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I236@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R60';
+LOCATION   = 'R62';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-750,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-750,1%';
  PARENT_CHIPS_PHYS_PART = 'RSMD0402_1/16W';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I237@CNPASSIVE.RSMD0402(CHIPS)';
+LOCATION   = 'R63';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PART_NAME = 'RSMD0402_1/16W-2K,1%';
+ PARENT_PPT = 'RSMD0402';
+ PARENT_PPT_PART = 'RSMD0402_1/16W-2K,1%';
+ PARENT_CHIPS_PHYS_PART = 'RSMD0402_1/16W';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I238@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C67';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0603-10UF_X5R,6.3V';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0603-10UF_X5R,6.3V';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0603';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I239@CNPASSIVE.RSMD0603(CHIPS)';
+LOCATION   = 'R52';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
+ PART_NAME = 'RSMD0603_-00,';
+ PARENT_PPT = 'RSMD0603';
+ PARENT_PPT_PART = 'RSMD0603_-00,';
+ PARENT_CHIPS_PHYS_PART = 'RSMD0603_';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I240@CNPASSIVE.RSMD0603(CHIPS)';
+LOCATION   = 'R53';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
+ PART_NAME = 'RSMD0603_-00,';
+ PARENT_PPT = 'RSMD0603';
+ PARENT_PPT_PART = 'RSMD0603_-00,';
+ PARENT_CHIPS_PHYS_PART = 'RSMD0603_';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I241@CNPASSIVE.RSMD0603(CHIPS)';
+LOCATION   = 'R54';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
+ PART_NAME = 'RSMD0603_-00,';
+ PARENT_PPT = 'RSMD0603';
+ PARENT_PPT_PART = 'RSMD0603_-00,';
+ PARENT_CHIPS_PHYS_PART = 'RSMD0603_';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE11_I242@CNPASSIVE.RSMD0603(CHIPS)';
+LOCATION   = 'R55';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0603/chips/chips.prt';
+ PART_NAME = 'RSMD0603_-00,';
+ PARENT_PPT = 'RSMD0603';
+ PARENT_PPT_PART = 'RSMD0603_-00,';
+ PARENT_CHIPS_PHYS_PART = 'RSMD0603_';
 END_LIB_INFO;
 END_PRIM;
 
@@ -1987,12 +2029,6 @@ BEGIN_SIGNAL:
 CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_11_ADN2814_I23_VREF';
 LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_11_ADN2814_I23_VREF';
 PHY_SIGNAL = 'UNNAMED_11_ADN2814_I23_VREF';
-END_SIGNAL;
-
-BEGIN_SIGNAL:
-CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_11_CON20PSFP_I175_LOS';
-LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_11_CON20PSFP_I175_LOS';
-PHY_SIGNAL = 'UNNAMED_11_CON20PSFP_I175_LOS';
 END_SIGNAL;
 
 BEGIN_SIGNAL:
@@ -2085,6 +2121,36 @@ LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_11_LED1_I227_A'
 PHY_SIGNAL = 'UNNAMED_11_LED1_I227_A';
 END_SIGNAL;
 
+BEGIN_SIGNAL:
+CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_11_ADN2814_I23_SADDRS';
+LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_11_ADN2814_I23_SADDRS';
+PHY_SIGNAL = 'UNNAMED_11_ADN2814_I23_SADDRS';
+END_SIGNAL;
+
+BEGIN_SIGNAL:
+CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_11_ADN2814_I23_DATAOUTN';
+LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_11_ADN2814_I23_DATAOUTN';
+PHY_SIGNAL = 'UNNAMED_11_ADN2814_I23_DATAOUTN';
+END_SIGNAL;
+
+BEGIN_SIGNAL:
+CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_11_ADN2814_I23_DATAOUTP';
+LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_11_ADN2814_I23_DATAOUTP';
+PHY_SIGNAL = 'UNNAMED_11_ADN2814_I23_DATAOUTP';
+END_SIGNAL;
+
+BEGIN_SIGNAL:
+CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_11_RSMD0603_I241_B';
+LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_11_RSMD0603_I241_B';
+PHY_SIGNAL = 'UNNAMED_11_RSMD0603_I241_B';
+END_SIGNAL;
+
+BEGIN_SIGNAL:
+CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_11_RSMD0603_I242_B';
+LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_11_RSMD0603_I242_B';
+PHY_SIGNAL = 'UNNAMED_11_RSMD0603_I242_B';
+END_SIGNAL;
+
 END_MODULE; { end of module '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1)'}
 
 {--------------------------------------------------------------------------}
@@ -2093,42 +2159,12 @@ BEGIN_MODULE: 'PC053A_TOPLEVEL' = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1)';
 PAGE = '4';
 
 BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I1@CNINTERFACE.SI5344(CHIPS)';
-LOCATION   = 'IC7';
-SEC = '1';
-
-BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/si5344/chips/chips.prt';
- PART_NAME = 'SI5344B-B-GM-VDD=P1V8,VDDA=P3VA';
- LONG_PART_NAME = 'SI5344B-B-GM-VDD=P1V8,VDDA=P3V3,VDDS=P3V3';
- PARENT_PPT_PHYS_PART = 'SI5344B-B-GM';
- PARENT_PPT = 'SI5344';
- PARENT_PPT_PART = 'SI5344B-B-GM';
- PARENT_CHIPS_PHYS_PART = 'SI5344_QFN';
-END_LIB_INFO;
-END_PRIM;
-
-BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I2@CNCONNECTOR.PCOAX(CHIPS)';
-LOCATION   = 'PX1';
-SEC = '1';
-
-BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/pcoax/chips/chips.prt';
- PART_NAME = 'PCOAX-U.FL-R-SMT-1(10)';
- PARENT_PPT = 'PCOAX';
- PARENT_PPT_PART = 'PCOAX-U.FL-R-SMT-1(10)';
- PARENT_CHIPS_PHYS_PART = 'PCOAX';
-END_LIB_INFO;
-END_PRIM;
-
-BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I14@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R53';
+LOCATION   = 'R46';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -2138,11 +2174,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I16@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R47';
+LOCATION   = 'R36';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-1K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-1K,1%';
@@ -2152,11 +2188,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I18@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R37';
+LOCATION   = 'R35';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-100,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-100,1%';
@@ -2165,40 +2201,12 @@ END_LIB_INFO;
 END_PRIM;
 
 BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I22@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R27';
-SEC = '1';
-
-BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
- PART_NAME = 'RSMD0402_0.0625W-XX,1%';
- PARENT_PPT = 'RSMD0402';
- PARENT_PPT_PART = 'RSMD0402_0.0625W-XX,1%';
- PARENT_CHIPS_PHYS_PART = 'RSMD0402';
-END_LIB_INFO;
-END_PRIM;
-
-BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I23@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R36';
-SEC = '1';
-
-BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
- PART_NAME = 'RSMD0402_0.0625W-XX,1%';
- PARENT_PPT = 'RSMD0402';
- PARENT_PPT_PART = 'RSMD0402_0.0625W-XX,1%';
- PARENT_CHIPS_PHYS_PART = 'RSMD0402';
-END_LIB_INFO;
-END_PRIM;
-
-BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I26@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R55';
+LOCATION   = 'R31';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-100,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-100,1%';
@@ -2212,7 +2220,7 @@ LOCATION   = 'J2';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con3p/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con3p/chips/chips.prt';
  PART_NAME = 'CON3P-MTLW-103-07-L-S-250';
  PARENT_PPT = 'CON3P';
  PARENT_PPT_PART = 'CON3P-MTLW-103-07-L-S-250';
@@ -2222,11 +2230,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I29@CNPASSIVE.TP(CHIPS)';
-LOCATION   = 'TP8';
+LOCATION   = 'TP9';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
  PART_NAME = 'TP_HOLE-0.8MM';
  PARENT_PPT = 'TP';
  PARENT_PPT_PART = 'TP_HOLE-0.8MM';
@@ -2236,11 +2244,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I30@CNPASSIVE.TP(CHIPS)';
-LOCATION   = 'TP9';
+LOCATION   = 'TP10';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
  PART_NAME = 'TP_HOLE-0.8MM';
  PARENT_PPT = 'TP';
  PARENT_PPT_PART = 'TP_HOLE-0.8MM';
@@ -2250,11 +2258,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I32@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R54';
+LOCATION   = 'R37';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-100,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-100,1%';
@@ -2268,7 +2276,7 @@ LOCATION   = 'J3';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con3p/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/con3p/chips/chips.prt';
  PART_NAME = 'CON3P-MTLW-103-07-L-S-250';
  PARENT_PPT = 'CON3P';
  PARENT_PPT_PART = 'CON3P-MTLW-103-07-L-S-250';
@@ -2278,11 +2286,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I37@CNPASSIVE.TP(CHIPS)';
-LOCATION   = 'TP6';
+LOCATION   = 'TP7';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
  PART_NAME = 'TP_HOLE-0.8MM';
  PARENT_PPT = 'TP';
  PARENT_PPT_PART = 'TP_HOLE-0.8MM';
@@ -2292,11 +2300,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I38@CNPASSIVE.TP(CHIPS)';
-LOCATION   = 'TP7';
+LOCATION   = 'TP8';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
  PART_NAME = 'TP_HOLE-0.8MM';
  PARENT_PPT = 'TP';
  PARENT_PPT_PART = 'TP_HOLE-0.8MM';
@@ -2305,26 +2313,12 @@ END_LIB_INFO;
 END_PRIM;
 
 BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I39@CNCONNECTOR.PCOAX(CHIPS)';
-LOCATION   = 'PX2';
-SEC = '1';
-
-BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/pcoax/chips/chips.prt';
- PART_NAME = 'PCOAX-U.FL-R-SMT-1(10)';
- PARENT_PPT = 'PCOAX';
- PARENT_PPT_PART = 'PCOAX-U.FL-R-SMT-1(10)';
- PARENT_CHIPS_PHYS_PART = 'PCOAX';
-END_LIB_INFO;
-END_PRIM;
-
-BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I40@CNPASSIVE.TP(CHIPS)';
-LOCATION   = 'TP4';
+LOCATION   = 'TP5';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
  PART_NAME = 'TP_HOLE-0.8MM';
  PARENT_PPT = 'TP';
  PARENT_PPT_PART = 'TP_HOLE-0.8MM';
@@ -2334,11 +2328,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I41@CNPASSIVE.TP(CHIPS)';
-LOCATION   = 'TP5';
+LOCATION   = 'TP6';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
  PART_NAME = 'TP_HOLE-0.8MM';
  PARENT_PPT = 'TP';
  PARENT_PPT_PART = 'TP_HOLE-0.8MM';
@@ -2348,11 +2342,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I45@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R44';
+LOCATION   = 'R33';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-100,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-100,1%';
@@ -2362,11 +2356,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I47@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R50';
+LOCATION   = 'R38';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -2376,11 +2370,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I48@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R51';
+LOCATION   = 'R44';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -2390,11 +2384,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I49@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R48';
+LOCATION   = 'R49';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-1K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-1K,1%';
@@ -2404,11 +2398,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I50@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R49';
+LOCATION   = 'R50';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-1K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-1K,1%';
@@ -2418,11 +2412,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I51@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R52';
+LOCATION   = 'R45';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -2432,11 +2426,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I52@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R57';
+LOCATION   = 'R48';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-1K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-1K,1%';
@@ -2446,11 +2440,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I53@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R56';
+LOCATION   = 'R47';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-1K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-1K,1%';
@@ -2460,11 +2454,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I55@CNPASSIVE.TP(CHIPS)';
-LOCATION   = 'TP10';
+LOCATION   = 'TP11';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/tp/chips/chips.prt';
  PART_NAME = 'TP_HOLE-0.8MM';
  PARENT_PPT = 'TP';
  PARENT_PPT_PART = 'TP_HOLE-0.8MM';
@@ -2473,56 +2467,12 @@ END_LIB_INFO;
 END_PRIM;
 
 BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I56@CNDISCRETE.OSC_6P_ENDIS_OUT_COMPOUT(CHIPS)';
-LOCATION   = 'QZ1';
-SEC = '1';
-
-BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cndiscrete/osc_6p_endis_out_compout/chips/chips.prt';
- PART_NAME = 'OSC_6P_ENDIS_OUT_COMPOUT_145-CB';
- LONG_PART_NAME = 'OSC_6P_ENDIS_OUT_COMPOUT_145-CA-VCC=P3V3';
- PARENT_PPT_PHYS_PART = 'OSC_6P_ENDIS_OUT_COMPOUT_145-CA';
- PARENT_PPT = 'OSC_6P_ENDIS_OUT_COMPOUT';
- PARENT_PPT_PART = 'OSC_6P_ENDIS_OUT_COMPOUT_145-CCLD-033-50-100.000,100.000MHZ';
- PARENT_CHIPS_PHYS_PART = 'OSC_6P_ENDIS_OUT_COMPOUT_145';
-END_LIB_INFO;
-END_PRIM;
-
-BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I57@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
-LOCATION   = 'C27';
-SEC = '1';
-
-BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
- PART_NAME = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
- PARENT_PPT = 'CAPCERSMDCL2';
- PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
- PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
-END_LIB_INFO;
-END_PRIM;
-
-BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I58@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
-LOCATION   = 'C28';
-SEC = '1';
-
-BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
- PART_NAME = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
- PARENT_PPT = 'CAPCERSMDCL2';
- PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
- PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
-END_LIB_INFO;
-END_PRIM;
-
-BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I59@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
-LOCATION   = 'C22';
+LOCATION   = 'C20';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
@@ -2537,7 +2487,9 @@ SEC = '1';
 
 BEGIN_LIB_INFO:
  PRIM_FILE = './worklib/rj45_dual_jgl_0001nl/chips/chips.prt';
- PART_NAME = 'RJ45_DUAL_JGL_0001NL';
+ PART_NAME = 'RJ45_DUAL_JGL_0001NL-GND_SHLD=A';
+ LONG_PART_NAME = 'RJ45_DUAL_JGL_0001NL-GND_SHLD=GND';
+ PARENT_CHIPS_PHYS_PART = 'RJ45_DUAL_JGL_0001NL';
 END_LIB_INFO;
 END_PRIM;
 
@@ -2548,17 +2500,19 @@ SEC = '2';
 
 BEGIN_LIB_INFO:
  PRIM_FILE = './worklib/rj45_dual_jgl_0001nl/chips/chips.prt';
- PART_NAME = 'RJ45_DUAL_JGL_0001NL';
+ PART_NAME = 'RJ45_DUAL_JGL_0001NL-GND_SHLD=A';
+ LONG_PART_NAME = 'RJ45_DUAL_JGL_0001NL-GND_SHLD=GND';
+ PARENT_CHIPS_PHYS_PART = 'RJ45_DUAL_JGL_0001NL';
 END_LIB_INFO;
 END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I62@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
-LOCATION   = 'C20';
+LOCATION   = 'C12';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
@@ -2568,11 +2522,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I63@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
-LOCATION   = 'C21';
+LOCATION   = 'C19';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
@@ -2582,11 +2536,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I64@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
-LOCATION   = 'C24';
+LOCATION   = 'C21';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
@@ -2596,11 +2550,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I65@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
-LOCATION   = 'C19';
+LOCATION   = 'C10';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
@@ -2610,11 +2564,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I66@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
-LOCATION   = 'C48';
+LOCATION   = 'C45';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
@@ -2624,11 +2578,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I67@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
-LOCATION   = 'C49';
+LOCATION   = 'C46';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
@@ -2638,11 +2592,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I68@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
-LOCATION   = 'C50';
+LOCATION   = 'C47';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
@@ -2652,11 +2606,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I69@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
-LOCATION   = 'C51';
+LOCATION   = 'C48';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
@@ -2666,11 +2620,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I72@CNINTERFACE.74LCX04(CHIPS)';
-LOCATION   = 'IC6';
+LOCATION   = 'IC7';
 SEC = '2';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74lcx04/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74lcx04/chips/chips.prt';
  PART_NAME = '74LCX04MTC-VCC=P3V3';
  LONG_PART_NAME = '74LCX04MTC-VCC=P3V3';
  PARENT_PPT_PHYS_PART = '74LCX04MTC';
@@ -2682,11 +2636,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I73@CNINTERFACE.74LCX04(CHIPS)';
-LOCATION   = 'IC6';
+LOCATION   = 'IC7';
 SEC = '3';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74lcx04/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74lcx04/chips/chips.prt';
  PART_NAME = '74LCX04MTC-VCC=P3V3';
  LONG_PART_NAME = '74LCX04MTC-VCC=P3V3';
  PARENT_PPT_PHYS_PART = '74LCX04MTC';
@@ -2698,11 +2652,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I74@CNINTERFACE.74LCX04(CHIPS)';
-LOCATION   = 'IC6';
+LOCATION   = 'IC7';
 SEC = '4';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74lcx04/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74lcx04/chips/chips.prt';
  PART_NAME = '74LCX04MTC-VCC=P3V3';
  LONG_PART_NAME = '74LCX04MTC-VCC=P3V3';
  PARENT_PPT_PHYS_PART = '74LCX04MTC';
@@ -2714,11 +2668,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I75@CNINTERFACE.74LCX04(CHIPS)';
-LOCATION   = 'IC6';
+LOCATION   = 'IC7';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74lcx04/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74lcx04/chips/chips.prt';
  PART_NAME = '74LCX04MTC-VCC=P3V3';
  LONG_PART_NAME = '74LCX04MTC-VCC=P3V3';
  PARENT_PPT_PHYS_PART = '74LCX04MTC';
@@ -2730,11 +2684,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I82@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R45';
+LOCATION   = 'R30';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-56,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-56,1%';
@@ -2744,11 +2698,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I83@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R46';
+LOCATION   = 'R32';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-56,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-56,1%';
@@ -2762,7 +2716,7 @@ LOCATION   = 'R26';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-56,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-56,1%';
@@ -2772,17 +2726,377 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I85@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R35';
+LOCATION   = 'R27';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-56,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-56,1%';
  PARENT_CHIPS_PHYS_PART = 'RSMD0402_1/16W';
 END_LIB_INFO;
 END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I86@CNLINEAR.TPS799XX(CHIPS)';
+LOCATION   = 'REG1';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnlinear/tps799xx/chips/chips.prt';
+ PART_NAME = 'TPS799185DDCTG4';
+ PARENT_PPT = 'TPS799XX';
+ PARENT_PPT_PART = 'TPS799185DDCTG4';
+ PARENT_CHIPS_PHYS_PART = 'TPS799XX_TSOT23';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I89@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C24';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0805-2.2UF,10V_GEN';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0805-2.2UF,10V_GEN';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0805';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I90@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C22';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I91@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C9';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I98@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C57';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I100@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C60';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I101@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C59';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I102@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C58';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I103@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C63';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I104@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C62';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I105@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C61';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I106@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C27';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I107@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C28';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I108@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C31';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I109@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C32';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I110@CNINTERFACE.SI5344(CHIPS)';
+LOCATION   = 'IC8';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/si5344/chips/chips.prt';
+ PART_NAME = 'SI5344B-B-GM-VDD=P1V8,VDDA=P3VA';
+ LONG_PART_NAME = 'SI5344B-B-GM-VDD=P1V8,VDDA=P3V3,VDDS=P3V3';
+ PARENT_PPT_PHYS_PART = 'SI5344B-B-GM';
+ PARENT_PPT = 'SI5344';
+ PARENT_PPT_PART = 'SI5344B-B-GM';
+ PARENT_CHIPS_PHYS_PART = 'SI5344_QFN';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I111@BRIS_CDS_DISCRETE.DSC1123CI5(CHIPS)';
+LOCATION   = 'QZ1';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/cds_discrete/dsc1123ci5/chips/chips.prt';
+ PART_NAME = 'DSC1123CI5-40.0000-VDD=P3V3';
+ LONG_PART_NAME = 'DSC1123CI5-40.0000-VDD=P3V3';
+ PARENT_PPT_PHYS_PART = 'DSC1123CI5-40.0000';
+ PARENT_PPT = 'DSC1123CI5';
+ PARENT_PPT_PART = 'DSC1123CI5-40.0000';
+ PARENT_CHIPS_PHYS_PART = 'DSC1123CI5_SMD';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I113@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C51';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I114@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C54';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I115@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C52';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I116@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C55';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I117@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C50';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I118@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C56';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I119@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C49';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE4_I120@CNPASSIVE.CAPCERSMDCL2(CHIPS)';
+LOCATION   = 'C53';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PART_NAME = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
+ PARENT_PPT = 'CAPCERSMDCL2';
+ PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF_X7R,16V';
+ PARENT_CHIPS_PHYS_PART = 'CAPCERSMDCL2_0402';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_SIGNAL:
+CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):P1V8';
+LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):P1V8';
+PHY_SIGNAL = 'P1V8';
+END_SIGNAL;
 
 BEGIN_SIGNAL:
 CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):P3V3';
@@ -2809,18 +3123,6 @@ PHY_SIGNAL = 'UNNAMED_4_RSMD0402_I14_A';
 END_SIGNAL;
 
 BEGIN_SIGNAL:
-CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_SI5344_I1_INTR';
-LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_SI5344_I1_INTR';
-PHY_SIGNAL = 'UNNAMED_4_SI5344_I1_INTR';
-END_SIGNAL;
-
-BEGIN_SIGNAL:
-CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_SI5344_I1_LOL';
-LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_SI5344_I1_LOL';
-PHY_SIGNAL = 'UNNAMED_4_SI5344_I1_LOL';
-END_SIGNAL;
-
-BEGIN_SIGNAL:
 CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_RSMD0402_I47_A';
 LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_RSMD0402_I47_A';
 PHY_SIGNAL = 'UNNAMED_4_RSMD0402_I47_A';
@@ -2836,24 +3138,6 @@ BEGIN_SIGNAL:
 CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_RSMD0402_I50_A';
 LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_RSMD0402_I50_A';
 PHY_SIGNAL = 'UNNAMED_4_RSMD0402_I50_A';
-END_SIGNAL;
-
-BEGIN_SIGNAL:
-CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_SI5344_I1_LOSXAXB';
-LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_SI5344_I1_LOSXAXB';
-PHY_SIGNAL = 'UNNAMED_4_SI5344_I1_LOSXAXB';
-END_SIGNAL;
-
-BEGIN_SIGNAL:
-CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_CAPCERSMDCL2_I57_A';
-LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_CAPCERSMDCL2_I57_A';
-PHY_SIGNAL = 'UNNAMED_4_CAPCERSMDCL2_I57_A';
-END_SIGNAL;
-
-BEGIN_SIGNAL:
-CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_CAPCERSMDCL2_I58_A';
-LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_CAPCERSMDCL2_I58_A';
-PHY_SIGNAL = 'UNNAMED_4_CAPCERSMDCL2_I58_A';
 END_SIGNAL;
 
 BEGIN_SIGNAL:
@@ -2952,6 +3236,78 @@ LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_RJ45DUALJGL00
 PHY_SIGNAL = 'UNNAMED_4_RJ45DUALJGL0001NL_I_2';
 END_SIGNAL;
 
+BEGIN_SIGNAL:
+CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_CAPCERSMDCL2_I90_B';
+LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_CAPCERSMDCL2_I90_B';
+PHY_SIGNAL = 'UNNAMED_4_CAPCERSMDCL2_I90_B';
+END_SIGNAL;
+
+BEGIN_SIGNAL:
+CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_SI5344_I110_INTR';
+LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_SI5344_I110_INTR';
+PHY_SIGNAL = 'UNNAMED_4_SI5344_I110_INTR';
+END_SIGNAL;
+
+BEGIN_SIGNAL:
+CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_SI5344_I110_LOL';
+LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_SI5344_I110_LOL';
+PHY_SIGNAL = 'UNNAMED_4_SI5344_I110_LOL';
+END_SIGNAL;
+
+BEGIN_SIGNAL:
+CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_SI5344_I110_LOSXAXB';
+LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_SI5344_I110_LOSXAXB';
+PHY_SIGNAL = 'UNNAMED_4_SI5344_I110_LOSXAXB';
+END_SIGNAL;
+
+BEGIN_SIGNAL:
+CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_CAPCERSMDCL2_I113_B';
+LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_CAPCERSMDCL2_I113_B';
+PHY_SIGNAL = 'UNNAMED_4_CAPCERSMDCL2_I113_B';
+END_SIGNAL;
+
+BEGIN_SIGNAL:
+CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_CAPCERSMDCL2_I114_B';
+LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_CAPCERSMDCL2_I114_B';
+PHY_SIGNAL = 'UNNAMED_4_CAPCERSMDCL2_I114_B';
+END_SIGNAL;
+
+BEGIN_SIGNAL:
+CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_CAPCERSMDCL2_I115_B';
+LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_CAPCERSMDCL2_I115_B';
+PHY_SIGNAL = 'UNNAMED_4_CAPCERSMDCL2_I115_B';
+END_SIGNAL;
+
+BEGIN_SIGNAL:
+CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_CAPCERSMDCL2_I116_B';
+LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_CAPCERSMDCL2_I116_B';
+PHY_SIGNAL = 'UNNAMED_4_CAPCERSMDCL2_I116_B';
+END_SIGNAL;
+
+BEGIN_SIGNAL:
+CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_CAPCERSMDCL2_I117_B';
+LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_CAPCERSMDCL2_I117_B';
+PHY_SIGNAL = 'UNNAMED_4_CAPCERSMDCL2_I117_B';
+END_SIGNAL;
+
+BEGIN_SIGNAL:
+CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_CAPCERSMDCL2_I118_B';
+LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_CAPCERSMDCL2_I118_B';
+PHY_SIGNAL = 'UNNAMED_4_CAPCERSMDCL2_I118_B';
+END_SIGNAL;
+
+BEGIN_SIGNAL:
+CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_CAPCERSMDCL2_I119_A';
+LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_CAPCERSMDCL2_I119_A';
+PHY_SIGNAL = 'UNNAMED_4_CAPCERSMDCL2_I119_A';
+END_SIGNAL;
+
+BEGIN_SIGNAL:
+CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_CAPCERSMDCL2_I120_A';
+LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_4_CAPCERSMDCL2_I120_A';
+PHY_SIGNAL = 'UNNAMED_4_CAPCERSMDCL2_I120_A';
+END_SIGNAL;
+
 END_MODULE; { end of module '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1)'}
 
 {--------------------------------------------------------------------------}
@@ -2961,11 +3317,11 @@ PAGE = '3';
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I140@CNINTERFACE.74AVC8T245(CHIPS)';
-LOCATION   = 'IC5';
+LOCATION   = 'IC6';
 SEC = '8,7,6,5,4,3,2,1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74avc8t245/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74avc8t245/chips/chips.prt';
  PART_NAME = 'SN74AVC8T245PW-VCCA=P3V3,VCCB=A';
  LONG_PART_NAME = 'SN74AVC8T245PW-VCCA=P3V3,VCCB=CVCC';
  PARENT_PPT_PHYS_PART = 'SN74AVC8T245PW';
@@ -2981,7 +3337,7 @@ LOCATION   = 'C23';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
@@ -2995,7 +3351,7 @@ LOCATION   = 'C11';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
@@ -3009,7 +3365,7 @@ LOCATION   = 'C25';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
@@ -3023,7 +3379,7 @@ LOCATION   = 'C26';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
@@ -3037,7 +3393,7 @@ LOCATION   = 'IC4';
 SEC = '4,3,2,1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/sn65lvdt125/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/sn65lvdt125/chips/chips.prt';
  PART_NAME = 'SN65LVDT125DBT-VCC=P3V3';
  LONG_PART_NAME = 'SN65LVDT125DBT-VCC=P3V3';
  PARENT_PPT_PHYS_PART = 'SN65LVDT125DBT';
@@ -3053,7 +3409,7 @@ LOCATION   = 'R15';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -3067,7 +3423,7 @@ LOCATION   = 'R16';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -3081,7 +3437,7 @@ LOCATION   = 'R17';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -3095,7 +3451,7 @@ LOCATION   = 'R19';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -3109,7 +3465,7 @@ LOCATION   = 'R21';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -3123,7 +3479,7 @@ LOCATION   = 'R18';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -3137,7 +3493,7 @@ LOCATION   = 'R20';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -3151,7 +3507,7 @@ LOCATION   = 'R13';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -3165,7 +3521,7 @@ LOCATION   = 'C8';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
@@ -3179,7 +3535,7 @@ LOCATION   = 'C7';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
@@ -3193,7 +3549,7 @@ LOCATION   = 'IC2';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74avc2t45/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74avc2t45/chips/chips.prt';
  PART_NAME = 'SN74AVC2T45DCU';
  PARENT_PPT = '74AVC2T45';
  PARENT_PPT_PART = 'SN74AVC2T45DCU';
@@ -3207,7 +3563,7 @@ LOCATION   = 'C6';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
@@ -3221,7 +3577,7 @@ LOCATION   = 'C3';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
@@ -3235,7 +3591,7 @@ LOCATION   = 'C5';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
@@ -3249,7 +3605,7 @@ LOCATION   = 'C4';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
@@ -3263,7 +3619,7 @@ LOCATION   = 'C2';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
@@ -3277,7 +3633,7 @@ LOCATION   = 'C1';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt';
  PART_NAME = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
  PARENT_PPT = 'CAPCERSMDCL2';
  PARENT_PPT_PART = 'CAPCERSMDCL2_0402-100NF,16V_GEN';
@@ -3291,7 +3647,7 @@ LOCATION   = 'R9';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -3301,11 +3657,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I274@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R6';
+LOCATION   = 'R4';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -3315,11 +3671,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I276@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R5';
+LOCATION   = 'R3';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -3333,7 +3689,7 @@ LOCATION   = 'R7';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-100K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-100K,1%';
@@ -3343,11 +3699,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I281@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R2';
+LOCATION   = 'R5';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -3357,25 +3713,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I284@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R3';
+LOCATION   = 'R6';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
- PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
- PARENT_PPT = 'RSMD0402';
- PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
- PARENT_CHIPS_PHYS_PART = 'RSMD0402_1/16W';
-END_LIB_INFO;
-END_PRIM;
-
-BEGIN_PRIM:
-PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I287@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R1';
-SEC = '1';
-
-BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -3385,12 +3727,14 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I288@CNINTERFACE.74AVC4T245(CHIPS)';
-LOCATION   = 'IC3';
+LOCATION   = 'IC5';
 SEC = '4,3';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74avc4t245/chips/chips.prt';
- PART_NAME = 'SN74AVC4T245PW';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74avc4t245/chips/chips.prt';
+ PART_NAME = 'SN74AVC4T245PW-VCCA=P3V3,VCCB=A';
+ LONG_PART_NAME = 'SN74AVC4T245PW-VCCA=P3V3,VCCB=CVCC';
+ PARENT_PPT_PHYS_PART = 'SN74AVC4T245PW';
  PARENT_PPT = '74AVC4T245';
  PARENT_PPT_PART = 'SN74AVC4T245PW';
  PARENT_CHIPS_PHYS_PART = '74AVC4T245_TSSOP';
@@ -3399,12 +3743,14 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I289@CNINTERFACE.74AVC4T245(CHIPS)';
-LOCATION   = 'IC3';
+LOCATION   = 'IC5';
 SEC = '2,1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74avc4t245/chips/chips.prt';
- PART_NAME = 'SN74AVC4T245PW';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cninterface/74avc4t245/chips/chips.prt';
+ PART_NAME = 'SN74AVC4T245PW-VCCA=P3V3,VCCB=A';
+ LONG_PART_NAME = 'SN74AVC4T245PW-VCCA=P3V3,VCCB=CVCC';
+ PARENT_PPT_PHYS_PART = 'SN74AVC4T245PW';
  PARENT_PPT = '74AVC4T245';
  PARENT_PPT_PART = 'SN74AVC4T245PW';
  PARENT_CHIPS_PHYS_PART = '74AVC4T245_TSSOP';
@@ -3413,11 +3759,11 @@ END_PRIM;
 
 BEGIN_PRIM:
 PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I292@CNPASSIVE.RSMD0402(CHIPS)';
-LOCATION   = 'R4';
+LOCATION   = 'R2';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -3431,7 +3777,7 @@ LOCATION   = 'R10';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -3445,7 +3791,7 @@ LOCATION   = 'R11';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -3459,7 +3805,7 @@ LOCATION   = 'R14';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-4.7K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-4.7K,1%';
@@ -3473,7 +3819,7 @@ LOCATION   = 'R8';
 SEC = '1';
 
 BEGIN_LIB_INFO:
- PRIM_FILE = 'P:/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt';
  PART_NAME = 'RSMD0402_1/16W-100K,1%';
  PARENT_PPT = 'RSMD0402';
  PARENT_PPT_PART = 'RSMD0402_1/16W-100K,1%';
@@ -3481,22 +3827,38 @@ BEGIN_LIB_INFO:
 END_LIB_INFO;
 END_PRIM;
 
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I299@CNCONNECTOR.PCOAX(CHIPS)';
+LOCATION   = 'PX2';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/pcoax/chips/chips.prt';
+ PART_NAME = 'PCOAX-U.FL-R-SMT-1(10)';
+ PARENT_PPT = 'PCOAX';
+ PARENT_PPT_PART = 'PCOAX-U.FL-R-SMT-1(10)';
+ PARENT_CHIPS_PHYS_PART = 'PCOAX';
+END_LIB_INFO;
+END_PRIM;
+
+BEGIN_PRIM:
+PATH_NAME  = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):PAGE3_I300@CNCONNECTOR.PCOAX(CHIPS)';
+LOCATION   = 'PX1';
+SEC = '1';
+
+BEGIN_LIB_INFO:
+ PRIM_FILE = '/projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnconnector/pcoax/chips/chips.prt';
+ PART_NAME = 'PCOAX-U.FL-R-SMT-1(10)';
+ PARENT_PPT = 'PCOAX';
+ PARENT_PPT_PART = 'PCOAX-U.FL-R-SMT-1(10)';
+ PARENT_CHIPS_PHYS_PART = 'PCOAX';
+END_LIB_INFO;
+END_PRIM;
+
 BEGIN_SIGNAL:
 CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):CVCC';
 LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):CVCC';
 PHY_SIGNAL = 'CVCC';
-END_SIGNAL;
-
-BEGIN_SIGNAL:
-CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_3_74AVC2T45_I239_A2';
-LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_3_74AVC2T45_I239_A2';
-PHY_SIGNAL = 'UNNAMED_3_74AVC2T45_I239_A2';
-END_SIGNAL;
-
-BEGIN_SIGNAL:
-CANON_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_3_74AVC2T45_I239_B2';
-LOG_SIGNAL = '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1):UNNAMED_3_74AVC2T45_I239_B2';
-PHY_SIGNAL = 'UNNAMED_3_74AVC2T45_I239_B2';
 END_SIGNAL;
 
 BEGIN_SIGNAL:
@@ -3521,14 +3883,15 @@ END_MODULE; { end of module '@UOB_HEP_PC053A_LIB.PC053A_TOPLEVEL(SCH_1)'}
 
 BEGIN_REFDES_LIST:
 C1, C2, C3, SFP1, C4, C5, C6, C7, C8, C9, C40, C41, C42, C43, C44, C45, C46, ~
-C47, C48, C49, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R1, R2, R3, R4, ~
-R5, R6, R7, R8, R9, C50, C51, C52, C53, C54, C55, C56, C57, C58, C59, R40, R41, ~
-R42, R43, R44, R45, R46, R47, R48, R49, TP1, TP2, TP3, TP4, TP5, TP6, IC12, TP7, ~
-TP8, C10, C11, LD1, TP9, IC15, LD2, C12, IC16, C13, LD3, C14, C15, C16, C17, C18, ~
-C19, J1, J2, J3, J4, J5, J6, J7, J8, R50, R51, R52, IC1, IC2, R53, R54, IC3, IC4, ~
-R55, R56, IC5, R57, IC6, R58, IC7, IC8, R59, IC9, C20, C21, C22, C23, C24, C25, ~
-C26, C27, C28, C29, R10, REG1, R11, REG2, R12, R13, R14, R15, R16, R17, R18, R19, ~
-P1, R60, R61, TP10, R62, R63, R64, R65, C30, C31, C32, QZ1, C33, C34, C35, C36, ~
-C37, PX1, C38, PX2, C39, L1, L2, R20, R21, R22, R23, R24, R25, R26, R27, R28, ~
-R29;
+C47, C48, C49, R30, R31, R32, R33, R34, R35, R36, R37, R38, R39, R1, R2, R3, R~
+242, R4, R5, R6, R7, R8, R9, R1328, C50, C51, C52, C107, C53, C54, C55, C56, C57, ~
+C58, C59, R40, R41, R42, R43, R44, R45, R46, R47, R48, R49, TP1, TP2, TP3, TP4, ~
+IC10, TP5, TP6, IC12, TP7, TP8, C10, C11, LD1, TP9, IC15, LD2, C12, IC16, C13, ~
+LD3, C14, C15, C16, R138, C17, C18, C19, J1, J2, C60, J3, J4, C61, J5, C62, J6, ~
+C117, C63, C64, J8, C65, C66, C67, C68, C69, R50, R51, R52, IC1, R53, IC2, R54, ~
+IC3, R55, IC4, R56, IC5, R57, IC6, R58, IC7, R59, IC8, IC9, R140, R142, C20, R~
+143, C21, C22, R411, C23, C24, C25, C26, C27, C28, C29, C70, C71, REG1, R10, C72, ~
+R11, R12, R13, R14, R15, R16, R17, R18, R19, P1, R60, R61, TP10, R62, TP11, R63, ~
+R103, C30, C31, C32, QZ1, C33, C34, C35, C36, C37, PX1, C38, PX2, C39, L1, L2, ~
+R20, R21, R22, R23, R24, R25, R26, R27, R28, R29;
 END_REFDES_LIST; { end of REFDES_LIST }

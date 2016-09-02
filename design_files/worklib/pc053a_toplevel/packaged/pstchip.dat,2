@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 26-Aug-2016 AT 13:26:54 }
+{ Packager-XL run on 01-Sep-2016 AT 15:25:52 }
 primitive '24AA025E48T-I/SN';
   pin
     'VCC':
@@ -461,6 +461,49 @@ primitive 'CAPCERSMDCL2_0603-1.5UF,6.3V';
       PARENT_PART_TYPE='CAPCERSMDCL2_0603';
       PARENT_PPT='CAPCERSMDCL2';
       PARENT_PPT_PART='CAPCERSMDCL2_0603-1.5UF,6.3V';
+  end_body;
+end_primitive;
+primitive 'CAPCERSMDCL2_0603-10UF_X5R,6.3V';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='CAPCERSMDCL2';
+      BODY_NAME='CAPCERSMDCL2';
+      UNKNOWN_LOADING='TRUE';
+      NO_LOAD_CHECK='TRUE';
+      ALLOW_CONNECT='TRUE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='C';
+      CLASS='DISCRETE';
+      STATUS='Preferred';
+      PART_NUMBER='CC0603_10UF_6V3_5%_X5R';
+      MANUFACTURER='GENERIC';
+      DESCRIPTION='SMD X5R Ceramic Capacitor';
+      DATASHEET_URL='';
+      SMD='YES';
+      CASE='0603';
+      JEDEC_TYPE='C0603';
+      VALUE='10uF';
+      VOLT='6.3V';
+      TOL='5%';
+      PARENT_PART_TYPE='CAPCERSMDCL2_0603';
+      PARENT_PPT='CAPCERSMDCL2';
+      PARENT_PPT_PART='CAPCERSMDCL2_0603-10UF_X5R,6.3V';
   end_body;
 end_primitive;
 primitive 'CAPCERSMDCL2_0603-470NF,6.3V';
@@ -3191,52 +3234,42 @@ df';
       PARENT_PPT_PART='CON400P_40ABCDEFGHJK-SEAM-40-03.5-S-10-2-A-K-TR';
   end_body;
 end_primitive;
-primitive 'CON6P-90131-0123';
+primitive 'DSC1123CI5-40.0000-VDD=P3V3';
   pin
-    'A'<5>:
-      PIN_NUMBER='(6)';
-      PINUSE='UNSPEC';
-    'A'<4>:
+    'OUTN':
       PIN_NUMBER='(5)';
-      PINUSE='UNSPEC';
-    'A'<3>:
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'OUTP':
       PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
-    'A'<2>:
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    'A'<1>:
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-    'A'<0>:
+      OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
+    'EN':
       PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
+      INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
   end_pin;
   body
-      PART_NAME='CON6P';
-      BODY_NAME='CON6P';
-      VER='3';
-      NO_IO_CHECK='TRUE';
-      NO_LOAD_CHECK='TRUE';
-      UNKNOWN_LOADING='TRUE';
-      FAMILY='CONNECTOR';
-      ALLOW_CONNECT='TRUE';
-      SIZE='1';
-      PHYS_DES_PREFIX='J';
-      CLASS='IO';
+      PART_NAME='DSC1123CI5';
+      BODY_NAME='DSC1123CI5';
+      PHYS_DES_PREFIX='QZ';
+      CLASS='IC';
+      NC_PINS='(2)';
       STATUS='Preferred';
-      PART_NUMBER='90131-0123';
-      MANUFACTURER='MOLEX';
-      DESCRIPTION='2.54 mm Pitch, Header, Dual Row, Vertical 6 Circuits';
-      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/Molex_sda-901~
-31.pdf';
+      PART_NUMBER='DSC1123CI5-40.0000';
+      MANUFACTURER='Micrel';
+      DESCRIPTION='3.3V 100ppm 3.2x2.5mm SMD LVDS Oscillator - DSC1103  Series';
+      DATASHEET_URL='http://www.micrel.com/_PDF/clk/DSC1103-23.pdf';
       PINCOUNT='6';
-      SMD='NO';
-      CASE='_';
-      JEDEC_TYPE='MOLEX_90131-0123';
-      PARENT_PART_TYPE='CON6P';
-      PARENT_PPT='CON6P';
-      PARENT_PPT_PART='CON6P-90131-0123';
+      SMD='YES';
+      CASE='3.2mmx2.5mm';
+      JEDEC_TYPE='OSCSC105P250X320X180-6N';
+      VALUE='40.00MHz';
+      POWER_PINS='(GND:3;P3V3:6)';
+      PARENT_PART_TYPE='DSC1123CI5_SMD';
+      SCH_MODIFIED_PART='TRUE';
+      PARENT_PPT='DSC1123CI5';
+      PARENT_PPT_PART='DSC1123CI5-40.0000';
   end_body;
 end_primitive;
 primitive 'INDUCTANCE_LQH32C_23-4.7UH';
@@ -3387,43 +3420,64 @@ op/Clock Divider with Reset and OLS';
       PARENT_PPT_PART='NBSG53AMNG';
   end_body;
 end_primitive;
-primitive 'OSC_6P_ENDIS_OUT_COMPOUT_145-CB';
+primitive 'PCA9306DCU';
   pin
-    'EN/DIS':
-      PIN_NUMBER='(1)';
-      INTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='UNSPEC';
-    'OUT':
+    'EN':
+      OUTPUT_TYPE='';
+      INPUT_LOAD='(*,*)';
+      PIN_NUMBER='(8)';
+      PINUSE='IN';
+    'SCL1':
+      OUTPUT_TYPE='';
+      INPUT_LOAD='(*,*)';
+      PIN_NUMBER='(3)';
+      PINUSE='IN';
+    'SCL2':
+      OUTPUT_TYPE='';
+      INPUT_LOAD='(*,*)';
+      PIN_NUMBER='(6)';
+      PINUSE='IN';
+    'SDA1':
+      OUTPUT_TYPE='';
+      INPUT_LOAD='(*,*)';
       PIN_NUMBER='(4)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'C/OUT':
+      PINUSE='IN';
+    'SDA2':
+      OUTPUT_TYPE='';
+      INPUT_LOAD='(*,*)';
       PIN_NUMBER='(5)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
+      PINUSE='IN';
+    'VREF1':
+      OUTPUT_TYPE='';
+      INPUT_LOAD='(*,*)';
+      PIN_NUMBER='(2)';
+      PINUSE='IN';
+    'VREF2':
+      OUTPUT_TYPE='';
+      INPUT_LOAD='(*,*)';
+      PIN_NUMBER='(7)';
+      PINUSE='IN';
   end_pin;
   body
-      BODY_NAME='OSC_6P_ENDIS_OUT_COMPOUT';
-      PART_NAME='OSC_6P_ENDIS_OUT_COMPOUT';
+      PART_NAME='PCA9306';
+      BODY_NAME='PCA9306';
+      PHYS_DES_PREFIX='IC';
       CLASS='IC';
-      PHYS_DES_PREFIX='QZ';
       STATUS='Preferred';
-      PART_NUMBER='CCLD-033-50-100.000';
-      MANUFACTURER='CRYSTEK CRYSTALS';
-      DESCRIPTION='3.3V LVDS Clock Oscillator - CCLD-033 Series';
-      DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/datasheets/osc_crystek_c~
-cld-033.pdf';
-      PINCOUNT='6';
-      SMD='YES';
-      CASE='SMD5X7mm';
-      JEDEC_TYPE='OSCSC254P490X696X180-6N';
-      VALUE='100.000MHz';
-      NC_PINS='(2)';
-      POWER_PINS='(GND:3;P3V3:6)';
-      PARENT_PART_TYPE='OSC_6P_ENDIS_OUT_COMPOUT_145';
-      SCH_MODIFIED_PART='TRUE';
-      PARENT_PPT='OSC_6P_ENDIS_OUT_COMPOUT';
-      PARENT_PPT_PART='OSC_6P_ENDIS_OUT_COMPOUT_145-CCLD-033-50-100.000,100.000MHZ';
+      PART_NUMBER='PCA9306DCU';
+      MANUFACTURER='TEXAS INSTRUMENTS';
+      DESCRIPTION='Dual Bidirectional I2C Bus and SMBus Voltage-Level Translator~
+';
+      DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/Datasheets/pca9306dcu.pd~
+f';
+      PINCOUNT='8';
+      SMD='Yes';
+      CASE='VSSOP/DCU';
+      JEDEC_TYPE='SOP50P310X90-8N';
+      POWER_PINS='(GND:1)';
+      PARENT_PART_TYPE='PCA9306_VSSOP/DCU';
+      PARENT_PPT='PCA9306';
+      PARENT_PPT_PART='PCA9306DCU';
   end_body;
 end_primitive;
 primitive 'PCA9517DGKR';
@@ -3526,7 +3580,7 @@ primitive 'PCOAX-U.FL-R-SMT-1(10)';
       PARENT_PPT_PART='PCOAX-U.FL-R-SMT-1(10)';
   end_body;
 end_primitive;
-primitive 'RJ45_DUAL_JGL_0001NL';
+primitive 'RJ45_DUAL_JGL_0001NL-GND_SHLD=A';
   pin
     '+MD1_':
       PIN_NUMBER='(1,17)';
@@ -3680,47 +3734,9 @@ primitive 'RJ45_DUAL_JGL_0001NL';
       PHYS_DES_PREFIX='J';
       CLASS='DISCRETE';
       GROUND_NETS='GND_SHLD';
-      POWER_PINS='(GND_SHLD:33,34)';
-  end_body;
-end_primitive;
-primitive 'RSMD0402_0.0625W-XX,1%';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='RSMD0402';
-      BODY_NAME='RSMD0402';
-      CLASS='DISCRETE';
-      PINCOUNT='2';
-      SIZE='1';
-      PHYS_DES_PREFIX='R';
-      DESCRIPTION='Unspecified Value SMD Resistor';
-      CASE='0402';
-      SMD='YES';
-      STATUS='Not Preferred';
-      PART_NUMBER='R0402_XX_1%_0.063W';
-      VALUE='XX';
-      TOL='1%';
-      PWR='0.063W';
-      JEDEC_TYPE='C0402';
-      MANUFACTURER='GENERIC';
-      MOUNTED='NO';
-      PARENT_PART_TYPE='RSMD0402';
-      PARENT_PPT='RSMD0402';
-      PARENT_PPT_PART='RSMD0402_0.0625W-XX,1%';
+      POWER_PINS='(GND:33,34)';
+      PARENT_PART_TYPE='RJ45_DUAL_JGL_0001NL';
+      SCH_MODIFIED_PART='TRUE';
   end_body;
 end_primitive;
 primitive 'RSMD0402_1/16W-100,1%';
@@ -3877,6 +3893,45 @@ primitive 'RSMD0402_1/16W-1K,1%';
       PARENT_PART_TYPE='RSMD0402_1/16W';
       PARENT_PPT='RSMD0402';
       PARENT_PPT_PART='RSMD0402_1/16W-1K,1%';
+  end_body;
+end_primitive;
+primitive 'RSMD0402_1/16W-200K,1%';
+  pin
+    'A'<0>:
+      PIN_NUMBER='(1)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+    'B'<0>:
+      PIN_NUMBER='(2)';
+      PIN_GROUP='1';
+      INPUT_LOAD='(*,*)';
+      OUTPUT_LOAD='(*,*)';
+      BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
+  end_pin;
+  body
+      PART_NAME='RSMD0402';
+      BODY_NAME='RSMD0402';
+      CLASS='DISCRETE';
+      PINCOUNT='2';
+      SIZE='1';
+      PHYS_DES_PREFIX='R';
+      DESCRIPTION='SMD Resistor';
+      CASE='0402';
+      SMD='YES';
+      STATUS='Preferred';
+      PART_NUMBER='R0402_200K_1%_0.063W_200PPM';
+      VALUE='200k';
+      TOL='1%';
+      PWR='0.063W';
+      JEDEC_TYPE='C0402';
+      MANUFACTURER='GENERIC';
+      PARENT_PART_TYPE='RSMD0402_1/16W';
+      PARENT_PPT='RSMD0402';
+      PARENT_PPT_PART='RSMD0402_1/16W-200K,1%';
   end_body;
 end_primitive;
 primitive 'RSMD0402_1/16W-2K,1%';
@@ -4074,47 +4129,6 @@ primitive 'RSMD0603_-00,';
       PARENT_PART_TYPE='RSMD0603_';
       PARENT_PPT='RSMD0603';
       PARENT_PPT_PART='RSMD0603_-00,';
-  end_body;
-end_primitive;
-primitive 'RSMD0603_1/10W-100,1%';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='RSMD0603';
-      BODY_NAME='RSMD0603';
-      CLASS='DISCRETE';
-      PINCOUNT='2';
-      SIZE='1';
-      PHYS_DES_PREFIX='R';
-      DESCRIPTION='SMD Resistor';
-      CASE='0603';
-      SMD='YES';
-      STATUS='Preferred';
-      PART_NUMBER='R0603_100R_1%_0.1W_100PPM';
-      VALUE='100';
-      TOL='1%';
-      PWR='0.1W';
-      JEDEC_TYPE='C0603';
-      MANUFACTURER='GENERIC';
-      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
-03.200.9';
-      PARENT_PART_TYPE='RSMD0603_1/10W';
-      PARENT_PPT='RSMD0603';
-      PARENT_PPT_PART='RSMD0603_1/10W-100,1%';
   end_body;
 end_primitive;
 primitive 'SFP_CAGE-SP-74737-004';
@@ -4450,7 +4464,7 @@ df';
       PARENT_PPT_PART='SN74AVC2T45DCU';
   end_body;
 end_primitive;
-primitive 'SN74AVC4T245PW';
+primitive 'SN74AVC4T245PW-VCCA=P3V3,VCCB=A';
   pin
     '2B'<0>:
       PIN_NUMBER='(10,11,0,0)';
@@ -4499,9 +4513,6 @@ primitive 'SN74AVC4T245PW';
       PHYS_DES_PREFIX='IC';
       CLASS='IC';
       GROUND_NETS='GND';
-      POWER_PINS='(GND:8,9)';
-      POWER_PINS='(VCCA:1)';
-      POWER_PINS='(VCCB:16)';
       STATUS='Preferred';
       PART_NUMBER='SN74AVC4T245PW';
       MANUFACTURER='TEXAS INSTRUMENTS';
@@ -4513,7 +4524,9 @@ pdf';
       SMD='YES';
       CASE='TSSOP16';
       JEDEC_TYPE='TSSOP16MA_065';
+      POWER_PINS='(GND:8,9;P3V3:1;CVCC:16)';
       PARENT_PART_TYPE='74AVC4T245_TSSOP';
+      SCH_MODIFIED_PART='TRUE';
       PARENT_PPT='74AVC4T245';
       PARENT_PPT_PART='SN74AVC4T245PW';
   end_body;
@@ -4671,53 +4684,6 @@ Dropout Linear Regulator';
       PARENT_PART_TYPE='TPS799XX_TSOT23';
       PARENT_PPT='TPS799XX';
       PARENT_PPT_PART='TPS799185DDCTG4';
-  end_body;
-end_primitive;
-primitive 'TPS79925DDCT';
-  pin
-    'EN':
-      PIN_NUMBER='(3)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'GND':
-      PIN_NUMBER='(2)';
-      PINUSE='GROUND';
-      NO_LOAD_CHECK='Both';
-      NO_IO_CHECK='Both';
-      NO_ASSERT_CHECK='TRUE';
-      NO_DIR_CHECK='TRUE';
-      ALLOW_CONNECT='TRUE';
-    'OUT':
-      PIN_NUMBER='(5)';
-      OUTPUT_LOAD='(1.0,-1.0)';
-      PINUSE='OUT';
-    'IN':
-      PIN_NUMBER='(1)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-    'NR':
-      PIN_NUMBER='(4)';
-      INPUT_LOAD='(-0.01,0.01)';
-      PINUSE='IN';
-  end_pin;
-  body
-      PART_NAME='TPS799XX';
-      BODY_NAME='TPS799XX';
-      PHYS_DES_PREFIX='REG';
-      CLASS='IC';
-      STATUS='Preferred';
-      PART_NUMBER='TPS79925DDCT';
-      MANUFACTURER='TEXAS INSTRUMENTS';
-      DESCRIPTION='200mA, Low Quiescent Current, Ultra-Low Noise, High PSRR Low ~
-Dropout Linear Regulator';
-      DATASHEET_URL='file://cern.ch/dfs/Services/cdslib/Datasheets/tps799xx.pdf';
-      PINCOUNT='5';
-      SMD='YES';
-      CASE='SOT23_5';
-      JEDEC_TYPE='SOT95P280X110-5N';
-      PARENT_PART_TYPE='TPS799XX_TSOT23';
-      PARENT_PPT='TPS799XX';
-      PARENT_PPT_PART='TPS79925DDCT';
   end_body;
 end_primitive;
 primitive 'TP_HOLE-0.8MM';

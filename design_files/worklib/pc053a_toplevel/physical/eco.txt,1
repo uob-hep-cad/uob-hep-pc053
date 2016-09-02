@@ -2,10 +2,570 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  P:.../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_09.brd  |
-|                                                    Fri Aug 26 16:15:43 2016  |
+|  .../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_19.brd    |
+|                                                    Thu Sep  1 15:46:18 2016  |
 |------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  CLK_SCL      pins MOVED FROM this net (to net name listed on right)
+                                 R45.1           27.1615 60.0117
+                                                                        CLK_SDA
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CLK_SDA      pins MOVED FROM this net (to net name listed on right)
+                                 R46.1                          
+                                                       UNNAMED_4_RSMD0402_I14_A
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  CVCC         pins MOVED FROM this net (to net name listed on right)
+                                 R6.2            -14.050 40.1000
+                                                                            GND
+                                 R10.2           26.2615 44.2766
+                                                                           P3V3
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FMC_LA05_P   pins MOVED FROM this net (to net name listed on right)
+                                 R10.1           27.1615 44.2766
+                                                      UNNAMED_3_RSMD0402_I293_A
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FPGA_IN_SEL0 pins MOVED FROM this net (to net name listed on right)
+                                 R5.1            27.1615 42.5149
+                                                                FPGA_SFP_TX_FLT
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FPGA_IN_SEL1 pins MOVED FROM this net (to net name listed on right)
+                                 R4.1            -19.550 61.7000
+                                                                   FPGA_IN_SEL0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FPGA_SFP_LOS pins ADDED TO this new net
+                                 P1.D14           3.8900 39.7900
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FPGA_SFP_TX_DIS pins MOVED FROM this net (to net name listed on right)
+                                 R3.1                           
+                                                                   FPGA_IN_SEL1
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FPGA_SFP_TX_FLT pins MOVED FROM this net (to net name listed on right)
+                                 R6.1            -14.950 40.1000
+                                                                   FPGA_SFP_LOS
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins MOVED FROM this net (to net name listed on right)
+                                 R2.1            27.1615 40.7532
+                                                                FPGA_SFP_TX_DIS
+                                 R5.2            26.2615 42.5149
+                                                                           CVCC
+                                 R7.2            -18.650 60.2000
+                                                                           CVCC
+                                 R9.1            27.1615 49.5617
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
+|  .../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_19.brd    |
+|                                                    Thu Sep  1 15:46:18 2016  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                                                     FMC_LA05_P
+                                 R31.1           -40.050 50.0000
+                                                                      OSC_CLK_P
+                                 R33.1                          
+                                                  UNNAMED_4_CAPCERSMDCL2_I117_B
+                                 R37.2           -40.950 49.0000
+                                                  UNNAMED_4_CAPCERSMDCL2_I115_B
+                                 R49.1           27.1615 33.7064
+                                                       UNNAMED_4_RSMD0402_I49_A
+                                 R51.2            8.9393 106.404
+                                                      UNNAMED_11_NBSG53A_I206_R
+                                 R56.1                          
+                                                         UNNAMED_11_LED1_I225_A
+                                 R62.1           27.1615 47.8000
+                                                         UNNAMED_11_LED1_I227_A
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  IN_SEL0      pins MOVED FROM this net (to net name listed on right)
+                                 R48.2           26.2615 46.0383
+                                                                        IN_SEL1
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  IN_SEL1      pins MOVED FROM this net (to net name listed on right)
+                                 R49.2           26.2615 33.7064
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OSC_CLK_N    pins MOVED FROM this net (to net name listed on right)
+                                 R32.2           -54.950  8.4000
+                                                UNNAMED_4_RJ45DUALJGL0001NL_I_2
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  OSC_CLK_P    pins MOVED FROM this net (to net name listed on right)
+                                 R32.1           -54.050  8.4000
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P1V8         pins MOVED FROM this net (to net name listed on right)
+                                 R47.2           -58.650 23.2000
+                                                                        IN_SEL0
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  P3V3         pins MOVED FROM this net (to net name listed on right)
+                                 R26.2           -32.250 33.2000
+                                                UNNAMED_4_RJ45DUALJGL0001NL_I60
+                                 R60.2           -1.7067 106.404
+                                                    UNNAMED_11_CAPACITOR_I224_B
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_74LCX04_I179_Y pins MOVED FROM this net (to net name listed on right)
+                                 R57.2                          
+                                                        UNNAMED_11_74LCX04_I9_Y
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  .../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_19.brd    |
+|                                                    Thu Sep  1 15:46:18 2016  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  UNNAMED_11_74LCX04_I9_Y pins MOVED FROM this net (to net name listed on right)
+                                 R58.2            3.6163 106.404
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_CAPACITOR_I223_B pins MOVED FROM this net (to net name listed on right)
+                                 R62.2           26.2615 47.8000
+                                                                           P3V3
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_CAPACITOR_I224_B pins MOVED FROM this net (to net name listed on right)
+                                 R61.2           26.2615 65.2968
+                                                    UNNAMED_11_CAPACITOR_I223_B
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_CON20PSFP_I175_LOS pins MOVED FROM this net (to net name listed on right)
+                                 J4.8            -37.250 52.6000
+                                                                        SFP_LOS
+                                 R23.2           -40.050 53.0000
+                                                                        SFP_LOS
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_LED1_I225_A pins MOVED FROM this net (to net name listed on right)
+                                 R57.1                          
+                                                         UNNAMED_11_LED1_I226_A
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_LED1_I226_A pins MOVED FROM this net (to net name listed on right)
+                                 R58.1            4.5163 106.404
+                                                    UNNAMED_11_NBSG53A_I206_OLS
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_LED1_I227_A pins MOVED FROM this net (to net name listed on right)
+                                 R63.1                          
+                                                  UNNAMED_11_ADN2814_I23_SADDRS
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_NBSG53A_I206_OLS pins MOVED FROM this net (to net name listed on right)
+                                 R59.1                          
+                                                    UNNAMED_11_NBSG53A_I206_SEL
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_NBSG53A_I206_R pins MOVED FROM this net (to net name listed on right)
+                                 R56.2                          
+                                                      UNNAMED_11_74LCX04_I179_Y
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_11_NBSG53A_I206_SEL pins MOVED FROM this net (to net name listed on right)
+                                 R60.1           -0.8067 106.404
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_3_74AVC2T45_I239_A2 pins MOVED FROM this net (to net name listed on right)
+                                 IC2.3           -12.450 59.4500
+                                                                        SFP_LOS
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  .../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_19.brd    |
+|                                                    Thu Sep  1 15:46:18 2016  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 R2.2            26.2615 40.7532
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_3_74AVC2T45_I239_B2 pins MOVED FROM this net (to net name listed on right)
+                                 IC2.6           -12.450 56.3500
+                                                                   FPGA_SFP_LOS
+                                 R7.1            -17.750 60.2000
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_3_RSMD0402_I293_A pins MOVED FROM this net (to net name listed on right)
+                                 R11.1           -31.350 31.0000
+                                                  UNNAMED_3_SN65LVDT125_I187_DE
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_3_RSMD0402_I295_A pins MOVED FROM this net (to net name listed on right)
+                                 R26.1           -31.350 33.2000
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_3_SN65LVDT125_I187_DE pins MOVED FROM this net (to net name listed on right)
+                                 R14.1           -31.350 32.1000
+                                                      UNNAMED_3_RSMD0402_I295_A
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_CAPCERSMDCL2_I113_B pins MOVED FROM this net (to net name listed on right)
+                                 R36.1                          
+                                                       UNNAMED_4_RSMD0402_I16_A
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_CAPCERSMDCL2_I114_B pins MOVED FROM this net (to net name listed on right)
+                                 R36.2                          
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_CAPCERSMDCL2_I115_B pins MOVED FROM this net (to net name listed on right)
+                                 R38.2                          
+                                                                           P1V8
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_CAPCERSMDCL2_I116_B pins MOVED FROM this net (to net name listed on right)
+                                 R38.1                          
+                                                       UNNAMED_4_RSMD0402_I47_A
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_CAPCERSMDCL2_I117_B pins MOVED FROM this net (to net name listed on right)
+                                 R35.1           -8.6714 106.404
+                                                  UNNAMED_4_CAPCERSMDCL2_I113_B
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_CAPCERSMDCL2_I118_B pins MOVED FROM this net (to net name listed on right)
+                                 R35.2           -9.5714 106.404
+                                                  UNNAMED_4_CAPCERSMDCL2_I114_B
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  .../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_19.brd    |
+|                                                    Thu Sep  1 15:46:18 2016  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  UNNAMED_4_RJ45DUALJGL0001NL_I60 pins MOVED FROM this net (to net name listed on right)
+                                 R27.2           -58.650 24.3000
+                                                UNNAMED_4_RJ45DUALJGL0001NL_I_1
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_RJ45DUALJGL0001NL_I61 pins MOVED FROM this net (to net name listed on right)
+                                 R31.2           -40.950 50.0000
+                                                                      OSC_CLK_N
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_RJ45DUALJGL0001NL_I_1 pins MOVED FROM this net (to net name listed on right)
+                                 R30.2           -54.950 39.8000
+                                                UNNAMED_4_RJ45DUALJGL0001NL_I61
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_RJ45DUALJGL0001NL_I_2 pins MOVED FROM this net (to net name listed on right)
+                                 R33.2                          
+                                                  UNNAMED_4_CAPCERSMDCL2_I118_B
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_RSMD0402_I14_A pins MOVED FROM this net (to net name listed on right)
+                                 R47.1           -57.750 23.2000
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_RSMD0402_I16_A pins MOVED FROM this net (to net name listed on right)
+                                 R37.1           -40.050 49.0000
+                                                  UNNAMED_4_CAPCERSMDCL2_I116_B
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_RSMD0402_I47_A pins MOVED FROM this net (to net name listed on right)
+                                 R44.1           27.1615 51.3234
+                                                                        CLK_SCL
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_RSMD0402_I49_A pins MOVED FROM this net (to net name listed on right)
+                                 R50.1            1.8548 106.404
+                                                       UNNAMED_4_RSMD0402_I50_A
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  UNNAMED_4_RSMD0402_I50_A pins MOVED FROM this net (to net name listed on right)
+                                 R51.1            9.8393 106.404
+                                                                            GND
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  .../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_19.brd    |
+|                                                    Thu Sep  1 15:46:18 2016  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R31                 RSMD0402_1/16W-100,1%                
+ R36                 RSMD0402_1/16W-1K,1%  -39.600 14.2000
+ R51                 RSMD0402_1/16W-2K,1%                 
+ R62                 RSMD0402_1/16W-750,1% 26.7115 56.4883
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  .../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_19.brd    |
+|                                                    Thu Sep  1 15:46:18 2016  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R33                 RSMD0402_1/16W-100,1% 
+ R38                 RSMD0402_1/16W-4.7K,1% 
+ R56                 RSMD0402_1/16W-750,1% 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  .../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_19.brd    |
+|                                                    Thu Sep  1 15:46:18 2016  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R7                  RSMD0402_1/16W-100K,1% -18.200 60.2000 RSMD0402_1/16W-4.7K,1%
+ R9                  RSMD0402_1/16W-4.7K,1% 26.7115 49.5617 RSMD0402_1/16W-100K,1%
+ R26                 RSMD0402_1/16W-56,1%  -31.800 33.2000 RSMD0402_1/16W-4.7K,1%
+ R31                 RSMD0402_1/16W-100,1% -40.500 50.0000 RSMD0402_1/16W-56,1%
+ R36                 RSMD0402_1/16W-1K,1%                  RSMD0402_1/16W-100,1%
+ R47                 RSMD0402_1/16W-1K,1%  -58.200 23.2000 RSMD0402_1/16W-4.7K,1%
+ R51                 RSMD0402_1/16W-2K,1%   9.3893 106.404 RSMD0402_1/16W-1K,1%
+ R58                 RSMD0402_1/16W-2K,1%   4.0663 106.404 RSMD0402_1/16W-750,1%
+ R60                 RSMD0402_1/16W-150,1% -1.2567 106.404 RSMD0402_1/16W-2K,1%
+ R62                 RSMD0402_1/16W-750,1% 26.7115 47.8000 RSMD0402_1/16W-150,1%
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  .../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_19.brd    |
+|                                                    Thu Sep  1 15:46:18 2016  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R2.2           26.7115 40.7532 P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i292@cnpassive.rsmd0402(chips)
+ R3.2                           P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i276@cnpassive.rsmd0402(chips)
+ R4.2           -20.000 61.7000 P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i274@cnpassive.rsmd0402(chips)
+ R5.2           26.7115 42.5149 P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i281@cnpassive.rsmd0402(chips)
+ R6.2           -14.500 40.1000 P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i284@cnpassive.rsmd0402(chips)
+ R7.2           -18.200 60.2000 DIST           FLAT
+ R7.2           -18.200 60.2000 MAX_TEMP       RTMAX
+ R7.2           -18.200 60.2000 NEGTOL         RTOL%
+ R7.2           -18.200 60.2000 PHYS_PAGE      3
+ R7.2           -18.200 60.2000 POSTOL         RTOL%
+ R7.2           -18.200 60.2000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R7.2           -18.200 60.2000 P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i279@cnpassive.rsmd0402(chips)
+ R7.2           -18.200 60.2000 SIZE           1
+ R7.2           -18.200 60.2000 SLOPE          RSMAX
+ R7.2           -18.200 60.2000 TC1            RTMPL
+ R7.2           -18.200 60.2000 TC2            RTMPQ
+ R7.2           -18.200 60.2000 TOL_ON_OFF     ON
+ R8.2           -14.500 39.0000 P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i297@cnpassive.rsmd0402(chips)
+ R9.2           26.7115 49.5617 DIST           FLAT
+ R9.2           26.7115 49.5617 MAX_TEMP       RTMAX
+ R9.2           26.7115 49.5617 NEGTOL         RTOL%
+ R9.2           26.7115 49.5617 PHYS_PAGE      3
+ R9.2           26.7115 49.5617 POSTOL         RTOL%
+ R9.2           26.7115 49.5617 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R9.2           26.7115 49.5617 P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i254@cnpassive.rsmd0402(chips)
+ R9.2           26.7115 49.5617 SIZE           1
+ R9.2           26.7115 49.5617 SLOPE          RSMAX
+ R9.2           26.7115 49.5617 TC1            RTMPL
+ R9.2           26.7115 49.5617 TC2            RTMPQ
+ R9.2           26.7115 49.5617 TOL_ON_OFF     ON
+ R10.2          26.7115 44.2766 P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i293@cnpassive.rsmd0402(chips)
+ R11.2          -31.800 31.0000 P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i294@cnpassive.rsmd0402(chips)
+ R14.2          -31.800 32.1000 P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i295@cnpassive.rsmd0402(chips)
+ R26.2          -31.800 33.2000 DIST           FLAT
+ R26.2          -31.800 33.2000 MAX_TEMP       RTMAX
+ R26.2          -31.800 33.2000 NEGTOL         RTOL%
+ R26.2          -31.800 33.2000 PHYS_PAGE      4
+ R26.2          -31.800 33.2000 POSTOL         RTOL%
+ R26.2          -31.800 33.2000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R26.2          -31.800 33.2000 P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i84@cnpassive.rsmd0402(chips)
+ R26.2          -31.800 33.2000 SIZE           1
+ R26.2          -31.800 33.2000 SLOPE          RSMAX
+ R26.2          -31.800 33.2000 TC1            RTMPL
+ R26.2          -31.800 33.2000 TC2            RTMPQ
+ R26.2          -31.800 33.2000 TOL_ON_OFF     ON
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  10  |
+|------------------------------------------------------------------------------|
+|  .../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_19.brd    |
+|                                                    Thu Sep  1 15:46:18 2016  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R27.2          -58.200 24.3000 P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i85@cnpassive.rsmd0402(chips)
+ R30.2          -54.500 39.8000 P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i82@cnpassive.rsmd0402(chips)
+ R31.2          -40.500 50.0000 DIST           FLAT
+ R31.2          -40.500 50.0000 MAX_TEMP       RTMAX
+ R31.2          -40.500 50.0000 NEGTOL         RTOL%
+ R31.2          -40.500 50.0000 PHYS_PAGE      4
+ R31.2          -40.500 50.0000 POSTOL         RTOL%
+ R31.2          -40.500 50.0000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R31.2          -40.500 50.0000 P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i26@cnpassive.rsmd0402(chips)
+ R31.2          -40.500 50.0000 SIZE           1
+ R31.2          -40.500 50.0000 SLOPE          RSMAX
+ R31.2          -40.500 50.0000 TC1            RTMPL
+ R31.2          -40.500 50.0000 TC2            RTMPQ
+ R31.2          -40.500 50.0000 TOL_ON_OFF     ON
+ R33.2                          DIST           FLAT
+ R33.2                          MAX_TEMP       RTMAX
+ R33.2                          NEGTOL         RTOL%
+ R33.2                          PHYS_PAGE      4
+ R33.2                          POSTOL         RTOL%
+ R33.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R33.2                          P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i45@cnpassive.rsmd0402(chips)
+ R33.2                          SIZE           1
+ R33.2                          SLOPE          RSMAX
+ R33.2                          TC1            RTMPL
+ R33.2                          TC2            RTMPQ
+ R33.2                          TOL_ON_OFF     ON
+ R35.2          -9.1214 106.404 P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i18@cnpassive.rsmd0402(chips)
+ R36.2                          DIST           FLAT
+ R36.2                          MAX_TEMP       RTMAX
+ R36.2                          NEGTOL         RTOL%
+ R36.2                          PHYS_PAGE      4
+ R36.2                          POSTOL         RTOL%
+ R36.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R36.2                          P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i16@cnpassive.rsmd0402(chips)
+ R36.2                          SIZE           1
+ R36.2                          SLOPE          RSMAX
+ R36.2                          TC1            RTMPL
+ R36.2                          TC2            RTMPQ
+ R36.2                          TOL_ON_OFF     ON
+ R38.2                          DIST           FLAT
+ R38.2                          MAX_TEMP       RTMAX
+ R38.2                          NEGTOL         RTOL%
+ R38.2                          PHYS_PAGE      4
+ R38.2                          POSTOL         RTOL%
+ R38.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  11  |
+|------------------------------------------------------------------------------|
+|  .../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_19.brd    |
+|                                                    Thu Sep  1 15:46:18 2016  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R38.2                          P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i47@cnpassive.rsmd0402(chips)
+ R38.2                          SIZE           1
+ R38.2                          SLOPE          RSMAX
+ R38.2                          TC1            RTMPL
+ R38.2                          TC2            RTMPQ
+ R38.2                          TOL_ON_OFF     ON
+ R44.2          26.7115 51.3234 P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i48@cnpassive.rsmd0402(chips)
+ R45.2          26.7115 60.0117 P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i51@cnpassive.rsmd0402(chips)
+ R46.2                          P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i14@cnpassive.rsmd0402(chips)
+ R47.2          -58.200 23.2000 DIST           FLAT
+ R47.2          -58.200 23.2000 MAX_TEMP       RTMAX
+ R47.2          -58.200 23.2000 NEGTOL         RTOL%
+ R47.2          -58.200 23.2000 PHYS_PAGE      4
+ R47.2          -58.200 23.2000 POSTOL         RTOL%
+ R47.2          -58.200 23.2000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R47.2          -58.200 23.2000 P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i53@cnpassive.rsmd0402(chips)
+ R47.2          -58.200 23.2000 SIZE           1
+ R47.2          -58.200 23.2000 SLOPE          RSMAX
+ R47.2          -58.200 23.2000 TC1            RTMPL
+ R47.2          -58.200 23.2000 TC2            RTMPQ
+ R47.2          -58.200 23.2000 TOL_ON_OFF     ON
+ R48.2          26.7115 46.0383 P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i52@cnpassive.rsmd0402(chips)
+ R49.2          26.7115 33.7064 P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i49@cnpassive.rsmd0402(chips)
+ R50.2           1.4048 106.404 P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i50@cnpassive.rsmd0402(chips)
+ R51.2           9.3893 106.404 DIST           FLAT
+ R51.2           9.3893 106.404 MAX_TEMP       RTMAX
+ R51.2           9.3893 106.404 MOUNTED        YES
+ R51.2           9.3893 106.404 NEGTOL         RTOL%
+ R51.2           9.3893 106.404 PHYS_PAGE      1
+ R51.2           9.3893 106.404 POSTOL         RTOL%
+ R51.2           9.3893 106.404 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R51.2           9.3893 106.404 P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i210@cnpassive.rsmd0402(chips)
+ R51.2           9.3893 106.404 SIZE           1
+ R51.2           9.3893 106.404 SLOPE          RSMAX
+ R51.2           9.3893 106.404 TC1            RTMPL
+ R51.2           9.3893 106.404 TC2            RTMPQ
+ R51.2           9.3893 106.404 TOL_ON_OFF     ON
+ R56.2                          DIST           FLAT
+ R56.2                          MAX_TEMP       RTMAX
+ R56.2                          NEGTOL         RTOL%
+ R56.2                          PHYS_PAGE      1
+ R56.2                          POSTOL         RTOL%
+ R56.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R56.2                          P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i232@cnpassive.rsmd0402(chips)
+ R56.2                          SIZE           1
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  12  |
+|------------------------------------------------------------------------------|
+|  .../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_19.brd    |
+|                                                    Thu Sep  1 15:46:18 2016  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R56.2                          SLOPE          RSMAX
+ R56.2                          TC1            RTMPL
+ R56.2                          TC2            RTMPQ
+ R56.2                          TOL_ON_OFF     ON
+ R57.2                          P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i233@cnpassive.rsmd0402(chips)
+ R58.2           4.0663 106.404 DIST           FLAT
+ R58.2           4.0663 106.404 MAX_TEMP       RTMAX
+ R58.2           4.0663 106.404 MOUNTED        YES
+ R58.2           4.0663 106.404 NEGTOL         RTOL%
+ R58.2           4.0663 106.404 PHYS_PAGE      1
+ R58.2           4.0663 106.404 POSTOL         RTOL%
+ R58.2           4.0663 106.404 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R58.2           4.0663 106.404 P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i202@cnpassive.rsmd0402(chips)
+ R58.2           4.0663 106.404 SIZE           1
+ R58.2           4.0663 106.404 SLOPE          RSMAX
+ R58.2           4.0663 106.404 TC1            RTMPL
+ R58.2           4.0663 106.404 TC2            RTMPQ
+ R58.2           4.0663 106.404 TOL_ON_OFF     ON
+ R59.2                          MOUNTED        NO
+ R59.2                          P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i212@cnpassive.rsmd0402(chips)
+ R60.2          -1.2567 106.404 DIST           FLAT
+ R60.2          -1.2567 106.404 MAX_TEMP       RTMAX
+ R60.2          -1.2567 106.404 NEGTOL         RTOL%
+ R60.2          -1.2567 106.404 PHYS_PAGE      1
+ R60.2          -1.2567 106.404 POSTOL         RTOL%
+ R60.2          -1.2567 106.404 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R60.2          -1.2567 106.404 P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i234@cnpassive.rsmd0402(chips)
+ R60.2          -1.2567 106.404 SIZE           1
+ R60.2          -1.2567 106.404 SLOPE          RSMAX
+ R60.2          -1.2567 106.404 TC1            RTMPL
+ R60.2          -1.2567 106.404 TC2            RTMPQ
+ R60.2          -1.2567 106.404 TOL_ON_OFF     ON
+ R61.2          26.7115 65.2968 P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i235@cnpassive.rsmd0402(chips)
+ R62.2          26.7115 47.8000 DIST           FLAT
+ R62.2          26.7115 47.8000 MAX_TEMP       RTMAX
+ R62.2          26.7115 47.8000 NEGTOL         RTOL%
+ R62.2          26.7115 47.8000 PHYS_PAGE      1
+ R62.2          26.7115 47.8000 POSTOL         RTOL%
+ R62.2          26.7115 47.8000 PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/rsmd0402/chips/chips.prt
+ R62.2          26.7115 47.8000 P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i236@cnpassive.rsmd0402(chips)
+ R62.2          26.7115 47.8000 SIZE           1
+ R62.2          26.7115 47.8000 SLOPE          RSMAX
+ R62.2          26.7115 47.8000 TC1            RTMPL
+ R62.2          26.7115 47.8000 TC2            RTMPQ
+ R62.2          26.7115 47.8000 TOL_ON_OFF     ON
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  13  |
+|------------------------------------------------------------------------------|
+|  .../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_19.brd    |
+|                                                    Thu Sep  1 15:46:18 2016  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R33.1                          CDS_PINID      A(0)
+ R33.2                          CDS_PINID      B(0)
+ R38.1                          CDS_PINID      A(0)
+ R38.2                          CDS_PINID      B(0)
+ R56.1                          CDS_PINID      A(0)
+ R56.2                          CDS_PINID      B(0)
+|------------------------------------------------------------------------------|
+|       Nets changed          :      62                                        |
+|       Components added      :       3                                        |
+|       Components deleted    :       4                                        |
+|       Components changed    :      10                                        |
+|       Pin property added    :       6                                        |
+|       Slot property added   :     180                                        |
 |                                                                              |
-|   Total ECO changes reported:       0                                        |
+|   Total ECO changes reported:     265                                        |
 |------------------------------------------------------------------------------|

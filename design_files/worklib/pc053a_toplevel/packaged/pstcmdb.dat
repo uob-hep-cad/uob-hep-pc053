@@ -1,4 +1,4 @@
-; Packager-XL run on 29-Aug-2016 AT 16:56:29 CONSTRAINTS_VIEW_GENERATED
+; Packager-XL run on 01-Sep-2016 AT 16:02:04 CONSTRAINTS_VIEW_GENERATED
 ( ConstraintFile "pc053a_toplevel"
 	( constraintHeader
 		( objectKey
@@ -8,8 +8,8 @@
 			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 707 )
-			( physicalViewRevNum 25 )
+			( logicalViewRevNum 774 )
+			( physicalViewRevNum 26 )
 			( otherViewRevNum 0 )
 		)
 		( contents
@@ -318,6 +318,38 @@
 			( Analysis
 			)
 		)
+		( Attribute
+			( Name "NO_ASSERT_CHECK" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
+		( Attribute
+			( Name "NO_DIR_CHECK" )
+			( Description " " )
+			( Value
+				( DataType ( dString ) )
+				( Status  sProperty  sPackage )
+			)
+			( Objects
+				( ValidObjects  oPin  oPinDefn )
+				( NoInherit
+					( oGate oPin )
+				)
+			)
+			( Analysis
+			)
+		)
 	)
 	( crossSection
 		( layer "SURFACE_INDEX_0"
@@ -386,7 +418,13 @@
 			( attribute "CDS_LAYER_IS_NAMED" "1"
 				( Origin gBackEnd )
 			)
+			( attribute "CDS_LAYER_IS_TOP_SUBSTRATE" "1"
+				( Origin gBackEnd )
+			)
 			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
 				( Origin gBackEnd )
 			)
 		)
@@ -459,6 +497,9 @@
 			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
 				( Origin gBackEnd )
 			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
 		)
 		( layer "DIELECTRIC_BELOW_L2PWR"
 			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
@@ -529,6 +570,9 @@
 			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
 				( Origin gBackEnd )
 			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
+				( Origin gBackEnd )
+			)
 		)
 		( layer "DIELECTRIC_BELOW_L3GND"
 			( attribute "CDS_LAYER_TYPE" "DIELECTRIC"
@@ -596,7 +640,13 @@
 			( attribute "CDS_LAYER_IS_NAMED" "1"
 				( Origin gBackEnd )
 			)
+			( attribute "CDS_LAYER_IS_BOTTOM_SUBSTRATE" "1"
+				( Origin gBackEnd )
+			)
 			( attribute "CDS_LAYER_ETCH_FACTOR" "90.00"
+				( Origin gBackEnd )
+			)
+			( attribute "CDS_LAYER_EMBEDDED_STATUS" "NOT_EMBEDDED"
 				( Origin gBackEnd )
 			)
 		)
@@ -1126,6 +1176,21 @@
 				)
 				( objectStatus "@glib_lib.glib(sch_1):\DEFAULT\" )
 			)
+			( signal "CTRLVCC"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):ctrlvcc" )
+			)
+			( signal "CVCC"
+				( attribute "MIN_LINE_WIDTH" "0.3000"
+					( Origin gBackEnd )
+				)
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):cvcc" )
+			)
+			( signal "GND"
+				( attribute "MIN_LINE_WIDTH" "0.3000"
+					( Origin gBackEnd )
+				)
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):gnd" )
+			)
 			( signal "P12V"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):p12v" )
 			)
@@ -1138,20 +1203,11 @@
 				)
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):p3v3" )
 			)
-			( signal "P2V5"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):p2v5" )
-			)
-			( signal "GND"
-				( attribute "MIN_LINE_WIDTH" "0.3000"
+			( signal "P1V8"
+				( attribute "NO_RAT" "1"
 					( Origin gBackEnd )
 				)
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):gnd" )
-			)
-			( signal "CTRLVCC"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):ctrlvcc" )
-			)
-			( signal "VPP"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):vpp" )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):p1v8" )
 			)
 			( signal "IN_N"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):in_n" )
@@ -1159,23 +1215,17 @@
 			( signal "IN_P"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):in_p" )
 			)
-			( signal "DATAOUT_N"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):dataout_n" )
+			( signal "UNNAMED_4_CAPCERSMDCL2_I114_B"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_4_capcersmdcl2_i114_b" )
 			)
-			( signal "DATAOUT_P"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):dataout_p" )
+			( signal "UNNAMED_4_CAPCERSMDCL2_I113_B"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_4_capcersmdcl2_i113_b" )
 			)
 			( signal "FMC_REC_CLK_P"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_rec_clk_p" )
 			)
 			( signal "FMC_REC_CLK_N"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_rec_clk_n" )
-			)
-			( signal "CRD_DI_N"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):crd_di_n" )
-			)
-			( signal "UNNAMED_3_74AVC2T45_I239_A2"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_3_74avc2t45_i239_a2" )
 			)
 			( signal "CDR_DO_N"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):cdr_do_n" )
@@ -1188,12 +1238,6 @@
 			)
 			( signal "CDR_CLKO_P"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):cdr_clko_p" )
-			)
-			( signal "CVCC"
-				( attribute "MIN_LINE_WIDTH" "0.3000"
-					( Origin gBackEnd )
-				)
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):cvcc" )
 			)
 			( signal "CDR_DI_P"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):cdr_di_p" )
@@ -1230,9 +1274,6 @@
 			)
 			( signal "TO_COAX_N"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):to_coax_n" )
-			)
-			( signal "UNNAMED_3_74AVC2T45_I239_B2"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_3_74avc2t45_i239_b2" )
 			)
 			( signal "CDR_LOL"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):cdr_lol" )
@@ -1282,8 +1323,8 @@
 			( signal "FMC_SDA"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_sda" )
 			)
-			( signal "UNNAMED_2_CAPCERSMDCL2_I68_B"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_2_capcersmdcl2_i68_b" )
+			( signal "UNNAMED_4_CAPCERSMDCL2_I90_B"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_4_capcersmdcl2_i90_b" )
 			)
 			( signal "UNNAMED_2_CON400P40ABCDEFGHJK_I"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_2_con400p40abcdefghjk_i126_d" )
@@ -1360,8 +1401,8 @@
 			( signal "UNNAMED_11_ADN2814_I23_VREF"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_11_adn2814_i23_vref" )
 			)
-			( signal "UNNAMED_11_CON20PSFP_I175_LOS"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_11_con20psfp_i175_los" )
+			( signal "FPGA_SFP_LOS"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fpga_sfp_los" )
 			)
 			( signal "UNNAMED_11_CON20PSFP_I175_MODDE"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_11_con20psfp_i175_moddef0" )
@@ -1422,12 +1463,6 @@
 			)
 			( signal "PAR_DI_N"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):par_di_n" )
-			)
-			( signal "UNNAMED_4_SI5344_I1_INTR"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_4_si5344_i1_intr" )
-			)
-			( signal "UNNAMED_4_SI5344_I1_LOL"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_4_si5344_i1_lol" )
 			)
 			( signal "FMC_CLK_N"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_clk_n" )
@@ -1522,9 +1557,6 @@
 			( signal "FPGA_IN_SEL1"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fpga_in_sel1" )
 			)
-			( signal "UNNAMED_4_SI5344_I1_LOSXAXB"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_4_si5344_i1_losxaxb" )
-			)
 			( signal "UNNAMED_11_NBSG53A_I206_OLS"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_11_nbsg53a_i206_ols" )
 			)
@@ -1534,17 +1566,8 @@
 			( signal "UNNAMED_11_NBSG53A_I206_SEL"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_11_nbsg53a_i206_sel" )
 			)
-			( signal "P1V8"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):p1v8" )
-			)
-			( signal "UNNAMED_4_CAPCERSMDCL2_I57_A"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_4_capcersmdcl2_i57_a" )
-			)
-			( signal "UNNAMED_4_CAPCERSMDCL2_I58_A"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_4_capcersmdcl2_i58_a" )
-			)
-			( signal "UNNAMED_2_CAPCERSMDCL2_I245_B"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_2_capcersmdcl2_i245_b" )
+			( signal "UNNAMED_2_PCA9306_I276_EN"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_2_pca9306_i276_en" )
 			)
 			( signal "UNNAMED_11_NBSG53A_I206_VTCLK"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_11_nbsg53a_i206_vtclk" )
@@ -1627,6 +1650,63 @@
 			( signal "SERPAR_LED2"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):serpar_led2" )
 			)
+			( signal "UNNAMED_4_SI5344_I110_INTR"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_4_si5344_i110_intr" )
+			)
+			( signal "UNNAMED_4_SI5344_I110_LOL"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_4_si5344_i110_lol" )
+			)
+			( signal "UNNAMED_4_SI5344_I110_LOSXAXB"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_4_si5344_i110_losxaxb" )
+			)
+			( signal "CLK_SCL"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):clk_scl" )
+			)
+			( signal "CLK_SDA"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):clk_sda" )
+			)
+			( signal "FMC_LA11_N"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_la11_n" )
+			)
+			( signal "FMC_LA11_P"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):fmc_la11_p" )
+			)
+			( signal "UNNAMED_11_ADN2814_I23_SADDRS"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_11_adn2814_i23_saddrs" )
+			)
+			( signal "UNNAMED_11_ADN2814_I23_DATAOUTN"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_11_adn2814_i23_dataoutn" )
+			)
+			( signal "UNNAMED_11_ADN2814_I23_DATAOUTP"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_11_adn2814_i23_dataoutp" )
+			)
+			( signal "UNNAMED_4_CAPCERSMDCL2_I115_B"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_4_capcersmdcl2_i115_b" )
+			)
+			( signal "UNNAMED_4_CAPCERSMDCL2_I116_B"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_4_capcersmdcl2_i116_b" )
+			)
+			( signal "UNNAMED_4_CAPCERSMDCL2_I117_B"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_4_capcersmdcl2_i117_b" )
+			)
+			( signal "UNNAMED_4_CAPCERSMDCL2_I118_B"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_4_capcersmdcl2_i118_b" )
+			)
+			( signal "UNNAMED_4_CAPCERSMDCL2_I119_A"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_4_capcersmdcl2_i119_a" )
+			)
+			( signal "UNNAMED_4_CAPCERSMDCL2_I120_A"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_4_capcersmdcl2_i120_a" )
+			)
+			( signal "UNNAMED_11_RSMD0603_I241_B"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_11_rsmd0603_i241_b" )
+			)
+			( signal "UNNAMED_11_RSMD0603_I242_B"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_11_rsmd0603_i242_b" )
+			)
+			( signal "SFP_LOS"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):sfp_los" )
+			)
 			( gate "IC16"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i10" )
 				( pin "IC16.2"
@@ -1654,30 +1734,21 @@
 					( objectStatus "vccb" )
 				)
 			)
-			( gate "C45"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i64" )
-				( pin "C45.1"
+			( gate "C9"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i91" )
+				( pin "C9.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "C45.2"
+				( pin "C9.2"
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "C46"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i66" )
-				( pin "C46.1"
+			( gate "C22"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i90" )
+				( pin "C22.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "C46.2"
-					( objectStatus "b(0)" )
-				)
-			)
-			( gate "C47"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i68" )
-				( pin "C47.1"
-					( objectStatus "a(0)" )
-				)
-				( pin "C47.2"
+				( pin "C22.2"
 					( objectStatus "b(0)" )
 				)
 			)
@@ -2920,25 +2991,13 @@
 					( objectStatus "vccb" )
 				)
 			)
-			( gate "J7"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i167" )
-				( pin "J7.1"
+			( gate "C24"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i89" )
+				( pin "C24.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "J7.2"
-					( objectStatus "a(1)" )
-				)
-				( pin "J7.3"
-					( objectStatus "a(2)" )
-				)
-				( pin "J7.4"
-					( objectStatus "a(3)" )
-				)
-				( pin "J7.5"
-					( objectStatus "a(4)" )
-				)
-				( pin "J7.6"
-					( objectStatus "a(5)" )
+				( pin "C24.2"
+					( objectStatus "b(0)" )
 				)
 			)
 			( gate "J5"
@@ -2995,12 +3054,12 @@
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "C17"
+			( gate "C107"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i199" )
-				( pin "C17.1"
+				( pin "C107.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "C17.2"
+				( pin "C107.2"
 					( objectStatus "b(0)" )
 				)
 			)
@@ -3023,7 +3082,7 @@
 				)
 			)
 			( gate "REG1"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i214" )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i86" )
 				( pin "REG1.3"
 					( objectStatus "en" )
 				)
@@ -3040,18 +3099,21 @@
 					( objectStatus "\out\" )
 				)
 			)
-			( gate "TP2"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i219" )
-				( pin "TP2.1"
+			( gate "R42"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i280" )
+				( pin "R42.1"
 					( objectStatus "a(0)" )
+				)
+				( pin "R42.2"
+					( objectStatus "b(0)" )
 				)
 			)
-			( gate "R38"
+			( gate "R103"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i222" )
-				( pin "R38.1"
+				( pin "R103.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "R38.2"
+				( pin "R103.2"
 					( objectStatus "b(0)" )
 				)
 			)
@@ -3064,106 +3126,106 @@
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "R40"
+			( gate "R140"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i224" )
-				( pin "R40.1"
+				( pin "R140.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "R40.2"
+				( pin "R140.2"
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "R41"
+			( gate "R411"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i225" )
-				( pin "R41.1"
+				( pin "R411.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "R41.2"
+				( pin "R411.2"
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "R42"
+			( gate "R142"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i226" )
-				( pin "R42.1"
+				( pin "R142.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "R42.2"
+				( pin "R142.2"
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "R43"
+			( gate "R143"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i227" )
-				( pin "R43.1"
+				( pin "R143.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "R43.2"
+				( pin "R143.2"
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "IC1"
+			( gate "IC3"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i228" )
-				( pin "IC1.1"
+				( pin "IC3.1"
 					( objectStatus "a0" )
 				)
-				( pin "IC1.2"
+				( pin "IC3.2"
 					( objectStatus "a1" )
 				)
-				( pin "IC1.3"
+				( pin "IC3.3"
 					( objectStatus "a2" )
 				)
-				( pin "IC1.6"
+				( pin "IC3.6"
 					( objectStatus "scl" )
 				)
-				( pin "IC1.5"
+				( pin "IC3.5"
 					( objectStatus "sda" )
 				)
-				( pin "IC1.8"
+				( pin "IC3.8"
 					( objectStatus "vcc" )
 				)
-				( pin "IC1.4"
+				( pin "IC3.4"
 					( objectStatus "vss" )
 				)
 			)
-			( gate "TP3"
+			( gate "TP4"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i250" )
-				( pin "TP3.1"
+				( pin "TP4.1"
 					( objectStatus "a(0)" )
 				)
 			)
-			( gate "IC9"
+			( gate "IC10"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i207" )
-				( pin "IC9.1"
+				( pin "IC10.1"
 					( objectStatus "\in\" )
 				)
-				( pin "IC9.4"
+				( pin "IC10.4"
 					( objectStatus "\in*\" )
 				)
-				( pin "IC9.12"
+				( pin "IC10.12"
 					( objectStatus "q0" )
 				)
-				( pin "IC9.11"
+				( pin "IC10.11"
 					( objectStatus "\q0*\" )
 				)
-				( pin "IC9.10"
+				( pin "IC10.10"
 					( objectStatus "q1" )
 				)
-				( pin "IC9.9"
+				( pin "IC10.9"
 					( objectStatus "\q1*\" )
 				)
-				( pin "IC9.3"
+				( pin "IC10.3"
 					( objectStatus "\vref-ac\" )
 				)
-				( pin "IC9.2"
+				( pin "IC10.2"
 					( objectStatus "vt" )
 				)
 			)
-			( gate "TP1"
+			( gate "TP2"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i249" )
-				( pin "TP1.1"
+				( pin "TP2.1"
 					( objectStatus "a(0)" )
 				)
 			)
-			( gate "IC5"
+			( gate "IC6"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140" )
 			)
 			( gate "C23"
@@ -3268,24 +3330,12 @@
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "QZ1"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i56" )
-				( pin "QZ1.5"
-					( objectStatus "\c/out\" )
-				)
-				( pin "QZ1.1"
-					( objectStatus "\en/dis\" )
-				)
-				( pin "QZ1.4"
-					( objectStatus "\out\" )
-				)
-			)
-			( gate "C22"
+			( gate "C20"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i59" )
-				( pin "C22.1"
+				( pin "C20.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "C22.2"
+				( pin "C20.2"
 					( objectStatus "b(0)" )
 				)
 			)
@@ -3415,12 +3465,12 @@
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "IC6"
+			( gate "IC7"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i9" )
-				( pin "IC6.3"
+				( pin "IC7.3"
 					( objectStatus "a(0)" )
 				)
-				( pin "IC6.4"
+				( pin "IC7.4"
 					( objectStatus "\y*\(0)" )
 				)
 			)
@@ -3490,12 +3540,12 @@
 					( objectStatus "vref" )
 				)
 			)
-			( gate "R65"
+			( gate "R61"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i235" )
-				( pin "R65.1"
+				( pin "R61.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "R65.2"
+				( pin "R61.2"
 					( objectStatus "b(0)" )
 				)
 			)
@@ -3571,66 +3621,57 @@
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "R27"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i22" )
-				( pin "R27.1"
+			( gate "C55"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i116" )
+				( pin "C55.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "R27.2"
+				( pin "C55.2"
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "R33"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i115" )
-				( pin "R33.1"
+			( gate "C52"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i115" )
+				( pin "C52.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "R33.2"
+				( pin "C52.2"
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "R32"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i116" )
-				( pin "R32.1"
+			( gate "C54"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i114" )
+				( pin "C54.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "R32.2"
+				( pin "C54.2"
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "R31"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i117" )
-				( pin "R31.1"
+			( gate "C51"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i113" )
+				( pin "C51.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "R31.2"
+				( pin "C51.2"
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "R30"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i118" )
-				( pin "R30.1"
+			( gate "R53"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i240" )
+				( pin "R53.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "R30.2"
+				( pin "R53.2"
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "C31"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i124" )
-				( pin "C31.1"
+			( gate "R52"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i239" )
+				( pin "R52.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "C31.2"
-					( objectStatus "b(0)" )
-				)
-			)
-			( gate "C32"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i125" )
-				( pin "C32.1"
-					( objectStatus "a(0)" )
-				)
-				( pin "C32.2"
+				( pin "R52.2"
 					( objectStatus "b(0)" )
 				)
 			)
@@ -3865,30 +3906,30 @@
 					( objectStatus "b" )
 				)
 			)
-			( gate "IC6"
+			( gate "IC7"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i179" )
-				( pin "IC6.1"
+				( pin "IC7.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "IC6.2"
+				( pin "IC7.2"
 					( objectStatus "\y*\(0)" )
 				)
 			)
-			( gate "R64"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i234" )
-				( pin "R64.1"
-					( objectStatus "a(0)" )
-				)
-				( pin "R64.2"
-					( objectStatus "b(0)" )
-				)
-			)
 			( gate "R60"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i236" )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i234" )
 				( pin "R60.1"
 					( objectStatus "a(0)" )
 				)
 				( pin "R60.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "R62"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i236" )
+				( pin "R62.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "R62.2"
 					( objectStatus "b(0)" )
 				)
 			)
@@ -3910,121 +3951,13 @@
 					( objectStatus "b" )
 				)
 			)
-			( gate "IC7"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i1" )
-				( pin "IC7.16"
-					( objectStatus "\a0/cs\" )
+			( gate "C57"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i98" )
+				( pin "C57.1"
+					( objectStatus "a(0)" )
 				)
-				( pin "IC7.15"
-					( objectStatus "\a1/sdo\" )
-				)
-				( pin "IC7.38"
-					( objectStatus "i2c_sel" )
-				)
-				( pin "IC7.43"
-					( objectStatus "in0" )
-				)
-				( pin "IC7.44"
-					( objectStatus "\in0*\" )
-				)
-				( pin "IC7.1"
-					( objectStatus "in1" )
-				)
-				( pin "IC7.2"
-					( objectStatus "\in1*\" )
-				)
-				( pin "IC7.10"
-					( objectStatus "in2" )
-				)
-				( pin "IC7.11"
-					( objectStatus "\in2*\" )
-				)
-				( pin "IC7.41"
-					( objectStatus "\in3/fb_in\" )
-				)
-				( pin "IC7.42"
-					( objectStatus "\in3/fb_in*\" )
-				)
-				( pin "IC7.3"
-					( objectStatus "in_sel0" )
-				)
-				( pin "IC7.37"
-					( objectStatus "in_sel1" )
-				)
-				( pin "IC7.33"
-					( objectStatus "\intr*\" )
-				)
-				( pin "IC7.27"
-					( objectStatus "\lol*\" )
-				)
-				( pin "IC7.28"
-					( objectStatus "\los_xaxb*\" )
-				)
-				( pin "IC7.12"
-					( objectStatus "\oe*\" )
-				)
-				( pin "IC7.20"
-					( objectStatus "out0" )
-				)
-				( pin "IC7.19"
-					( objectStatus "\out0*\" )
-				)
-				( pin "IC7.25"
-					( objectStatus "out1" )
-				)
-				( pin "IC7.24"
-					( objectStatus "\out1*\" )
-				)
-				( pin "IC7.31"
-					( objectStatus "out2" )
-				)
-				( pin "IC7.30"
-					( objectStatus "\out2*\" )
-				)
-				( pin "IC7.36"
-					( objectStatus "out3" )
-				)
-				( pin "IC7.35"
-					( objectStatus "\out3*\" )
-				)
-				( pin "IC7.17"
-					( objectStatus "\rst*\" )
-				)
-				( pin "IC7.14"
-					( objectStatus "sclk" )
-				)
-				( pin "IC7.13"
-					( objectStatus "\sda/sdio\" )
-				)
-				( pin "IC7.18"
-					( objectStatus "vddo0" )
-				)
-				( pin "IC7.23"
-					( objectStatus "vddo1" )
-				)
-				( pin "IC7.29"
-					( objectStatus "vddo2" )
-				)
-				( pin "IC7.34"
-					( objectStatus "vddo3" )
-				)
-				( pin "IC7.4"
-					( objectStatus "x1" )
-				)
-				( pin "IC7.7"
-					( objectStatus "x2" )
-				)
-				( pin "IC7.5"
-					( objectStatus "xa" )
-				)
-				( pin "IC7.6"
-					( objectStatus "xb" )
-				)
-			)
-			( gate "PX1"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i2" )
-				( pin "PX1.1"
-					( objectStatus "a" )
+				( pin "C57.2"
+					( objectStatus "b(0)" )
 				)
 			)
 			( gate "J1"
@@ -4138,12 +4071,12 @@
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "C52"
+			( gate "C64"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i222" )
-				( pin "C52.1"
+				( pin "C64.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "C52.2"
+				( pin "C64.2"
 					( objectStatus "b(0)" )
 				)
 			)
@@ -4156,17 +4089,8 @@
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "R4"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i292" )
-				( pin "R4.1"
-					( objectStatus "a(0)" )
-				)
-				( pin "R4.2"
-					( objectStatus "b(0)" )
-				)
-			)
 			( gate "R2"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i281" )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i292" )
 				( pin "R2.1"
 					( objectStatus "a(0)" )
 				)
@@ -4174,62 +4098,47 @@
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "R62"
+			( gate "R5"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i281" )
+				( pin "R5.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "R5.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "R58"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i202" )
-				( pin "R62.1"
+				( pin "R58.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "R62.2"
+				( pin "R58.2"
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "C28"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i58" )
-				( pin "C28.1"
-					( objectStatus "a(0)" )
+			( gate "QZ1"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i111" )
+				( pin "QZ1.1"
+					( objectStatus "en" )
 				)
-				( pin "C28.2"
-					( objectStatus "b(0)" )
+				( pin "QZ1.5"
+					( objectStatus "outn" )
 				)
-			)
-			( gate "C27"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i57" )
-				( pin "C27.1"
-					( objectStatus "a(0)" )
-				)
-				( pin "C27.2"
-					( objectStatus "b(0)" )
+				( pin "QZ1.4"
+					( objectStatus "outp" )
 				)
 			)
-			( gate "R53"
+			( gate "R46"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i14" )
-				( pin "R53.1"
+				( pin "R46.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "R53.2"
-					( objectStatus "b(0)" )
-				)
-			)
-			( gate "R47"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i16" )
-				( pin "R47.1"
-					( objectStatus "a(0)" )
-				)
-				( pin "R47.2"
-					( objectStatus "b(0)" )
-				)
-			)
-			( gate "R37"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i18" )
-				( pin "R37.1"
-					( objectStatus "a(0)" )
-				)
-				( pin "R37.2"
+				( pin "R46.2"
 					( objectStatus "b(0)" )
 				)
 			)
 			( gate "R36"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i23" )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i16" )
 				( pin "R36.1"
 					( objectStatus "a(0)" )
 				)
@@ -4237,12 +4146,21 @@
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "R55"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i26" )
-				( pin "R55.1"
+			( gate "R35"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i18" )
+				( pin "R35.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "R55.2"
+				( pin "R35.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "R31"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i26" )
+				( pin "R31.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "R31.2"
 					( objectStatus "b(0)" )
 				)
 			)
@@ -4258,24 +4176,24 @@
 					( objectStatus "a(2)" )
 				)
 			)
-			( gate "TP8"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i29" )
-				( pin "TP8.1"
-					( objectStatus "a(0)" )
-				)
-			)
 			( gate "TP9"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i30" )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i29" )
 				( pin "TP9.1"
 					( objectStatus "a(0)" )
 				)
 			)
-			( gate "R54"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i32" )
-				( pin "R54.1"
+			( gate "TP10"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i30" )
+				( pin "TP10.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "R54.2"
+			)
+			( gate "R37"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i32" )
+				( pin "R37.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "R37.2"
 					( objectStatus "b(0)" )
 				)
 			)
@@ -4291,170 +4209,62 @@
 					( objectStatus "a(2)" )
 				)
 			)
-			( gate "TP6"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i37" )
-				( pin "TP6.1"
-					( objectStatus "a(0)" )
-				)
-			)
 			( gate "TP7"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i38" )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i37" )
 				( pin "TP7.1"
 					( objectStatus "a(0)" )
 				)
 			)
-			( gate "PX2"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i39" )
-				( pin "PX2.1"
-					( objectStatus "a" )
+			( gate "TP8"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i38" )
+				( pin "TP8.1"
+					( objectStatus "a(0)" )
 				)
 			)
-			( gate "IC8"
+			( gate "IC9"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i206" )
-				( pin "IC8.3"
+				( pin "IC9.3"
 					( objectStatus "clk" )
 				)
-				( pin "IC8.2"
+				( pin "IC9.2"
 					( objectStatus "\clk*\" )
 				)
-				( pin "IC8.7"
+				( pin "IC9.7"
 					( objectStatus "d" )
 				)
-				( pin "IC8.6"
+				( pin "IC9.6"
 					( objectStatus "\d*\" )
 				)
-				( pin "IC8.13"
+				( pin "IC9.13"
 					( objectStatus "ols" )
 				)
-				( pin "IC8.10"
+				( pin "IC9.10"
 					( objectStatus "q" )
 				)
-				( pin "IC8.11"
+				( pin "IC9.11"
 					( objectStatus "\q*\" )
 				)
-				( pin "IC8.15"
+				( pin "IC9.15"
 					( objectStatus "r" )
 				)
-				( pin "IC8.14"
+				( pin "IC9.14"
 					( objectStatus "sel" )
 				)
-				( pin "IC8.4"
+				( pin "IC9.4"
 					( objectStatus "vtclk" )
 				)
-				( pin "IC8.1"
+				( pin "IC9.1"
 					( objectStatus "\vtclk*\" )
 				)
-				( pin "IC8.8"
+				( pin "IC9.8"
 					( objectStatus "vtd" )
 				)
-				( pin "IC8.5"
+				( pin "IC9.5"
 					( objectStatus "\vtd*\" )
 				)
 			)
-			( gate "R1"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i287" )
-				( pin "R1.1"
-					( objectStatus "a(0)" )
-				)
-				( pin "R1.2"
-					( objectStatus "b(0)" )
-				)
-			)
-			( gate "R3"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i284" )
-				( pin "R3.1"
-					( objectStatus "a(0)" )
-				)
-				( pin "R3.2"
-					( objectStatus "b(0)" )
-				)
-			)
-			( gate "TP4"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i40" )
-				( pin "TP4.1"
-					( objectStatus "a(0)" )
-				)
-			)
-			( gate "TP5"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i41" )
-				( pin "TP5.1"
-					( objectStatus "a(0)" )
-				)
-			)
-			( gate "R44"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i45" )
-				( pin "R44.1"
-					( objectStatus "a(0)" )
-				)
-				( pin "R44.2"
-					( objectStatus "b(0)" )
-				)
-			)
-			( gate "R50"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i47" )
-				( pin "R50.1"
-					( objectStatus "a(0)" )
-				)
-				( pin "R50.2"
-					( objectStatus "b(0)" )
-				)
-			)
-			( gate "R51"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i48" )
-				( pin "R51.1"
-					( objectStatus "a(0)" )
-				)
-				( pin "R51.2"
-					( objectStatus "b(0)" )
-				)
-			)
-			( gate "R48"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i49" )
-				( pin "R48.1"
-					( objectStatus "a(0)" )
-				)
-				( pin "R48.2"
-					( objectStatus "b(0)" )
-				)
-			)
-			( gate "R49"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i50" )
-				( pin "R49.1"
-					( objectStatus "a(0)" )
-				)
-				( pin "R49.2"
-					( objectStatus "b(0)" )
-				)
-			)
-			( gate "R52"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i51" )
-				( pin "R52.1"
-					( objectStatus "a(0)" )
-				)
-				( pin "R52.2"
-					( objectStatus "b(0)" )
-				)
-			)
-			( gate "R57"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i52" )
-				( pin "R57.1"
-					( objectStatus "a(0)" )
-				)
-				( pin "R57.2"
-					( objectStatus "b(0)" )
-				)
-			)
-			( gate "R56"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i53" )
-				( pin "R56.1"
-					( objectStatus "a(0)" )
-				)
-				( pin "R56.2"
-					( objectStatus "b(0)" )
-				)
-			)
 			( gate "R6"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i274" )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i284" )
 				( pin "R6.1"
 					( objectStatus "a(0)" )
 				)
@@ -4462,21 +4272,114 @@
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "R5"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i276" )
-				( pin "R5.1"
+			( gate "TP5"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i40" )
+				( pin "TP5.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "R5.2"
+			)
+			( gate "TP6"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i41" )
+				( pin "TP6.1"
+					( objectStatus "a(0)" )
+				)
+			)
+			( gate "R33"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i45" )
+				( pin "R33.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "R33.2"
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "C53"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i221" )
-				( pin "C53.1"
+			( gate "R38"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i47" )
+				( pin "R38.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "C53.2"
+				( pin "R38.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "R44"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i48" )
+				( pin "R44.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "R44.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "R49"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i49" )
+				( pin "R49.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "R49.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "R50"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i50" )
+				( pin "R50.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "R50.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "R45"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i51" )
+				( pin "R45.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "R45.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "R48"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i52" )
+				( pin "R48.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "R48.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "R47"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i53" )
+				( pin "R47.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "R47.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "R4"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i274" )
+				( pin "R4.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "R4.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "R3"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i276" )
+				( pin "R3.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "R3.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "C65"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i221" )
+				( pin "C65.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "C65.2"
 					( objectStatus "b(0)" )
 				)
 			)
@@ -4489,122 +4392,101 @@
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "TP10"
+			( gate "TP11"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i55" )
-				( pin "TP10.1"
+				( pin "TP11.1"
 					( objectStatus "a(0)" )
 				)
 			)
-			( gate "R61"
+			( gate "R51"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i210" )
-				( pin "R61.1"
+				( pin "R51.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "R61.2"
+				( pin "R51.2"
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "R63"
+			( gate "R59"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i212" )
-				( pin "R63.1"
+				( pin "R59.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "R63.2"
+				( pin "R59.2"
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "C56"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i215" )
-				( pin "C56.1"
-					( objectStatus "a(0)" )
-				)
-				( pin "C56.2"
-					( objectStatus "b(0)" )
-				)
-			)
-			( gate "C57"
+			( gate "C70"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i216" )
-				( pin "C57.1"
+				( pin "C70.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "C57.2"
+				( pin "C70.2"
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "C58"
+			( gate "C71"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i217" )
-				( pin "C58.1"
+				( pin "C71.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "C58.2"
+				( pin "C71.2"
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "C59"
+			( gate "C72"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i218" )
-				( pin "C59.1"
+				( pin "C72.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "C59.2"
+				( pin "C72.2"
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "C12"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i236" )
-				( pin "C12.1"
+			( gate "PX2"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i299" )
+				( pin "PX2.1"
+					( objectStatus "a" )
+				)
+			)
+			( gate "R242"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i263" )
+				( pin "R242.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "C12.2"
+				( pin "R242.2"
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "C9"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i246" )
-				( pin "C9.1"
+			( gate "R138"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i257" )
+				( pin "R138.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "C9.2"
+				( pin "R138.2"
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "C10"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i245" )
-				( pin "C10.1"
+			( gate "R1328"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i259" )
+				( pin "R1328.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "C10.2"
+				( pin "R1328.2"
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "REG2"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i244" )
-				( pin "REG2.3"
-					( objectStatus "en" )
-				)
-				( pin "REG2.2"
-					( objectStatus "gnd" )
-				)
-				( pin "REG2.1"
-					( objectStatus "\in\" )
-				)
-				( pin "REG2.4"
-					( objectStatus "nr" )
-				)
-				( pin "REG2.5"
-					( objectStatus "\out\" )
-				)
-			)
-			( gate "C24"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i64" )
-				( pin "C24.1"
+			( gate "R1"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i279" )
+				( pin "R1.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "C24.2"
+				( pin "R1.2"
 					( objectStatus "b(0)" )
 				)
 			)
 			( gate "C21"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i63" )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i64" )
 				( pin "C21.1"
 					( objectStatus "a(0)" )
 				)
@@ -4612,17 +4494,8 @@
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "C20"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i62" )
-				( pin "C20.1"
-					( objectStatus "a(0)" )
-				)
-				( pin "C20.2"
-					( objectStatus "b(0)" )
-				)
-			)
 			( gate "C19"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i65" )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i63" )
 				( pin "C19.1"
 					( objectStatus "a(0)" )
 				)
@@ -4630,8 +4503,53 @@
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "C48"
+			( gate "C12"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i62" )
+				( pin "C12.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "C12.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "C10"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i65" )
+				( pin "C10.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "C10.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "C45"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i66" )
+				( pin "C45.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "C45.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "C46"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i67" )
+				( pin "C46.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "C46.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "C47"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i68" )
+				( pin "C47.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "C47.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "C48"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i69" )
 				( pin "C48.1"
 					( objectStatus "a(0)" )
 				)
@@ -4639,99 +4557,72 @@
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "C49"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i67" )
-				( pin "C49.1"
-					( objectStatus "a(0)" )
-				)
-				( pin "C49.2"
-					( objectStatus "b(0)" )
-				)
-			)
-			( gate "C50"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i68" )
-				( pin "C50.1"
-					( objectStatus "a(0)" )
-				)
-				( pin "C50.2"
-					( objectStatus "b(0)" )
-				)
-			)
-			( gate "C51"
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i69" )
-				( pin "C51.1"
-					( objectStatus "a(0)" )
-				)
-				( pin "C51.2"
-					( objectStatus "b(0)" )
-				)
-			)
-			( gate "IC3"
+			( gate "IC5"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i288" )
 			)
-			( gate "IC3"
+			( gate "IC5"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i289" )
 			)
-			( gate "C55"
+			( gate "C68"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i223" )
-				( pin "C55.1"
+				( pin "C68.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "C55.2"
+				( pin "C68.2"
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "C54"
+			( gate "C66"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i224" )
-				( pin "C54.1"
+				( pin "C66.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "C54.2"
+				( pin "C66.2"
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "IC6"
+			( gate "IC7"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i72" )
-				( pin "IC6.11"
+				( pin "IC7.11"
 					( objectStatus "a(0)" )
 				)
-				( pin "IC6.10"
+				( pin "IC7.10"
 					( objectStatus "\y*\(0)" )
 				)
 			)
-			( gate "IC6"
+			( gate "IC7"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i73" )
-				( pin "IC6.9"
+				( pin "IC7.9"
 					( objectStatus "a(0)" )
 				)
-				( pin "IC6.8"
+				( pin "IC7.8"
 					( objectStatus "\y*\(0)" )
 				)
 			)
-			( gate "IC6"
+			( gate "IC7"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i74" )
-				( pin "IC6.5"
+				( pin "IC7.5"
 					( objectStatus "a(0)" )
 				)
-				( pin "IC6.6"
+				( pin "IC7.6"
 					( objectStatus "\y*\(0)" )
 				)
 			)
-			( gate "IC6"
+			( gate "IC7"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i75" )
-				( pin "IC6.13"
+				( pin "IC7.13"
 					( objectStatus "a(0)" )
 				)
-				( pin "IC6.12"
+				( pin "IC7.12"
 					( objectStatus "\y*\(0)" )
 				)
 			)
-			( gate "R35"
+			( gate "R27"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i85" )
-				( pin "R35.1"
+				( pin "R27.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "R35.2"
+				( pin "R27.2"
 					( objectStatus "b(0)" )
 				)
 			)
@@ -4744,39 +4635,39 @@
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "R46"
+			( gate "R32"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i83" )
-				( pin "R46.1"
+				( pin "R32.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "R46.2"
+				( pin "R32.2"
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "R45"
+			( gate "R30"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i82" )
-				( pin "R45.1"
+				( pin "R30.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "R45.2"
+				( pin "R30.2"
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "R59"
+			( gate "R57"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i233" )
-				( pin "R59.1"
+				( pin "R57.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "R59.2"
+				( pin "R57.2"
 					( objectStatus "b(0)" )
 				)
 			)
-			( gate "R58"
+			( gate "R56"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i232" )
-				( pin "R58.1"
+				( pin "R56.1"
 					( objectStatus "a(0)" )
 				)
-				( pin "R58.2"
+				( pin "R56.2"
 					( objectStatus "b(0)" )
 				)
 			)
@@ -4789,58 +4680,427 @@
 					( objectStatus "b(0)" )
 				)
 			)
-			( pin "IC5.3"
+			( gate "C60"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i100" )
+				( pin "C60.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "C60.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "C59"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i101" )
+				( pin "C59.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "C59.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "C58"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i102" )
+				( pin "C58.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "C58.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "C63"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i103" )
+				( pin "C63.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "C63.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "C62"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i104" )
+				( pin "C62.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "C62.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "C61"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i105" )
+				( pin "C61.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "C61.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "C27"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i106" )
+				( pin "C27.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "C27.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "C28"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i107" )
+				( pin "C28.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "C28.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "C31"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i108" )
+				( pin "C31.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "C31.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "C32"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i109" )
+				( pin "C32.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "C32.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "IC8"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i110" )
+				( pin "IC8.16"
+					( objectStatus "\a0/cs\" )
+				)
+				( pin "IC8.15"
+					( objectStatus "\a1/sdo\" )
+				)
+				( pin "IC8.38"
+					( objectStatus "i2c_sel" )
+				)
+				( pin "IC8.43"
+					( objectStatus "in0" )
+				)
+				( pin "IC8.44"
+					( objectStatus "\in0*\" )
+				)
+				( pin "IC8.1"
+					( objectStatus "in1" )
+				)
+				( pin "IC8.2"
+					( objectStatus "\in1*\" )
+				)
+				( pin "IC8.10"
+					( objectStatus "in2" )
+				)
+				( pin "IC8.11"
+					( objectStatus "\in2*\" )
+				)
+				( pin "IC8.41"
+					( objectStatus "\in3/fb_in\" )
+				)
+				( pin "IC8.42"
+					( objectStatus "\in3/fb_in*\" )
+				)
+				( pin "IC8.3"
+					( objectStatus "in_sel0" )
+				)
+				( pin "IC8.37"
+					( objectStatus "in_sel1" )
+				)
+				( pin "IC8.33"
+					( objectStatus "\intr*\" )
+				)
+				( pin "IC8.27"
+					( objectStatus "\lol*\" )
+				)
+				( pin "IC8.28"
+					( objectStatus "\los_xaxb*\" )
+				)
+				( pin "IC8.12"
+					( objectStatus "\oe*\" )
+				)
+				( pin "IC8.20"
+					( objectStatus "out0" )
+				)
+				( pin "IC8.19"
+					( objectStatus "\out0*\" )
+				)
+				( pin "IC8.25"
+					( objectStatus "out1" )
+				)
+				( pin "IC8.24"
+					( objectStatus "\out1*\" )
+				)
+				( pin "IC8.31"
+					( objectStatus "out2" )
+				)
+				( pin "IC8.30"
+					( objectStatus "\out2*\" )
+				)
+				( pin "IC8.36"
+					( objectStatus "out3" )
+				)
+				( pin "IC8.35"
+					( objectStatus "\out3*\" )
+				)
+				( pin "IC8.17"
+					( objectStatus "\rst*\" )
+				)
+				( pin "IC8.14"
+					( objectStatus "sclk" )
+				)
+				( pin "IC8.13"
+					( objectStatus "\sda/sdio\" )
+				)
+				( pin "IC8.18"
+					( objectStatus "vddo0" )
+				)
+				( pin "IC8.23"
+					( objectStatus "vddo1" )
+				)
+				( pin "IC8.29"
+					( objectStatus "vddo2" )
+				)
+				( pin "IC8.34"
+					( objectStatus "vddo3" )
+				)
+				( pin "IC8.4"
+					( objectStatus "x1" )
+				)
+				( pin "IC8.7"
+					( objectStatus "x2" )
+				)
+				( pin "IC8.5"
+					( objectStatus "xa" )
+				)
+				( pin "IC8.6"
+					( objectStatus "xb" )
+				)
+			)
+			( gate "R43"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i264" )
+				( pin "R43.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "R43.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "C17"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i278" )
+				( pin "C17.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "C17.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "TP3"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i267" )
+				( pin "TP3.1"
+					( objectStatus "a(0)" )
+				)
+			)
+			( gate "TP1"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i268" )
+				( pin "TP1.1"
+					( objectStatus "a(0)" )
+				)
+			)
+			( gate "IC1"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i276" )
+				( pin "IC1.8"
+					( objectStatus "en" )
+				)
+				( pin "IC1.3"
+					( objectStatus "scl1" )
+				)
+				( pin "IC1.6"
+					( objectStatus "scl2" )
+				)
+				( pin "IC1.4"
+					( objectStatus "sda1" )
+				)
+				( pin "IC1.5"
+					( objectStatus "sda2" )
+				)
+				( pin "IC1.2"
+					( objectStatus "vref1" )
+				)
+				( pin "IC1.7"
+					( objectStatus "vref2" )
+				)
+			)
+			( gate "C117"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i270" )
+				( pin "C117.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "C117.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "R40"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i272" )
+				( pin "R40.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "R40.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "R41"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i273" )
+				( pin "R41.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "R41.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "R63"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i237" )
+				( pin "R63.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "R63.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "C69"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i215" )
+				( pin "C69.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "C69.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "PX1"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i300" )
+				( pin "PX1.1"
+					( objectStatus "a" )
+				)
+			)
+			( gate "C67"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i238" )
+				( pin "C67.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "C67.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "C50"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i117" )
+				( pin "C50.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "C50.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "C56"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i118" )
+				( pin "C56.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "C56.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "C49"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i119" )
+				( pin "C49.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "C49.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "C53"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i120" )
+				( pin "C53.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "C53.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "R54"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i241" )
+				( pin "R54.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "R54.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( gate "R55"
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i242" )
+				( pin "R55.1"
+					( objectStatus "a(0)" )
+				)
+				( pin "R55.2"
+					( objectStatus "b(0)" )
+				)
+			)
+			( pin "IC6.3"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(0):a(0)" )
 			)
-			( pin "IC5.4"
+			( pin "IC6.4"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(1):a(1)" )
 			)
-			( pin "IC5.5"
+			( pin "IC6.5"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(2):a(2)" )
 			)
-			( pin "IC5.6"
+			( pin "IC6.6"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(3):a(3)" )
 			)
-			( pin "IC5.7"
+			( pin "IC6.7"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(4):a(4)" )
 			)
-			( pin "IC5.8"
+			( pin "IC6.8"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(5):a(5)" )
 			)
-			( pin "IC5.9"
+			( pin "IC6.9"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(6):a(6)" )
 			)
-			( pin "IC5.10"
+			( pin "IC6.10"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(7):a(7)" )
 			)
-			( pin "IC5.21"
+			( pin "IC6.21"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(0):b(0)" )
 			)
-			( pin "IC5.20"
+			( pin "IC6.20"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(1):b(1)" )
 			)
-			( pin "IC5.19"
+			( pin "IC6.19"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(2):b(2)" )
 			)
-			( pin "IC5.18"
+			( pin "IC6.18"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(3):b(3)" )
 			)
-			( pin "IC5.17"
+			( pin "IC6.17"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(4):b(4)" )
 			)
-			( pin "IC5.16"
+			( pin "IC6.16"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(5):b(5)" )
 			)
-			( pin "IC5.15"
+			( pin "IC6.15"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(6):b(6)" )
 			)
-			( pin "IC5.14"
+			( pin "IC6.14"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(7):b(7)" )
 			)
-			( pin "IC5.2"
+			( pin "IC6.2"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(7):dir" )
 			)
-			( pin "IC5.22"
+			( pin "IC6.22"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i140(7):\oe*\" )
 			)
 			( pin "IC4.16"
@@ -4927,40 +5187,40 @@
 			( pin "IC4.35"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i187(3):\z*\(3)" )
 			)
-			( pin "IC3.4"
+			( pin "IC5.4"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i288(0):\1a\(0)" )
 			)
-			( pin "IC3.5"
+			( pin "IC5.5"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i288(1):\1a\(1)" )
 			)
-			( pin "IC3.13"
+			( pin "IC5.13"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i288(0):\1b\(0)" )
 			)
-			( pin "IC3.12"
+			( pin "IC5.12"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i288(1):\1b\(1)" )
 			)
-			( pin "IC3.2"
+			( pin "IC5.2"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i288(1):\1dir\" )
 			)
-			( pin "IC3.15"
+			( pin "IC5.15"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i288(1):\1oe*\" )
 			)
-			( pin "IC3.6"
+			( pin "IC5.6"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i289(0):\2a\(0)" )
 			)
-			( pin "IC3.7"
+			( pin "IC5.7"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i289(1):\2a\(1)" )
 			)
-			( pin "IC3.11"
+			( pin "IC5.11"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i289(0):\2b\(0)" )
 			)
-			( pin "IC3.10"
+			( pin "IC5.10"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i289(1):\2b\(1)" )
 			)
-			( pin "IC3.3"
+			( pin "IC5.3"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i289(1):\2dir\" )
 			)
-			( pin "IC3.14"
+			( pin "IC5.14"
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i289(1):\2oe*\" )
 			)
 			( differentialPair "IN"
@@ -4972,16 +5232,6 @@
 				( member ( signalRef "IN_N") )
 				( member ( signalRef "IN_P") )
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\IN\" )
-			)
-			( differentialPair "DATAOUT"
-				( memberType ( signal ) )
-				( electricalCSetRef "PDIFF" )
-				( attribute "LINE_TO_LINE_SPACING" "0.1400"
-					( Origin gBackEnd )
-				)
-				( member ( signalRef "DATAOUT_N") )
-				( member ( signalRef "DATAOUT_P") )
-				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\DATAOUT\" )
 			)
 			( differentialPair "CDR_DATAOUT"
 				( memberType ( signal ) )
@@ -5030,6 +5280,146 @@
 				( member ( signalRef "FMC_LA06_N") )
 				( member ( signalRef "FMC_LA06_P") )
 				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\FMC_LA06\" )
+			)
+			( differentialPair "CDR_DI"
+				( memberType ( signal ) )
+				( electricalCSetRef "PDIFF" )
+				( member ( signalRef "CDR_DI_N") )
+				( member ( signalRef "CDR_DI_P") )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\CDR_DI\" )
+			)
+			( differentialPair "FFD_CLK"
+				( memberType ( signal ) )
+				( electricalCSetRef "PDIFF" )
+				( member ( signalRef "FFD_CLK_N") )
+				( member ( signalRef "FFD_CLK_P") )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\FFD_CLK\" )
+			)
+			( differentialPair "FFD_DI"
+				( memberType ( signal ) )
+				( electricalCSetRef "PDIFF" )
+				( member ( signalRef "FFD_DI_N") )
+				( member ( signalRef "FFD_DI_P") )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\FFD_DI\" )
+			)
+			( differentialPair "FFD_DO"
+				( memberType ( signal ) )
+				( electricalCSetRef "PDIFF" )
+				( member ( signalRef "FFD_DO_N") )
+				( member ( signalRef "FFD_DO_P") )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\FFD_DO\" )
+			)
+			( differentialPair "FMC_CLK"
+				( memberType ( signal ) )
+				( electricalCSetRef "PDIFF" )
+				( member ( signalRef "FMC_CLK_N") )
+				( member ( signalRef "FMC_CLK_P") )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\FMC_CLK\" )
+			)
+			( differentialPair "FMC_DI"
+				( memberType ( signal ) )
+				( electricalCSetRef "PDIFF" )
+				( member ( signalRef "FMC_DI_N") )
+				( member ( signalRef "FMC_DI_P") )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\FMC_DI\" )
+			)
+			( differentialPair "FMC_REC_CLK"
+				( memberType ( signal ) )
+				( electricalCSetRef "PDIFF" )
+				( member ( signalRef "FMC_REC_CLK_N") )
+				( member ( signalRef "FMC_REC_CLK_P") )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\FMC_REC_CLK\" )
+			)
+			( differentialPair "OSC_CLK"
+				( memberType ( signal ) )
+				( electricalCSetRef "PDIFF" )
+				( member ( signalRef "OSC_CLK_N") )
+				( member ( signalRef "OSC_CLK_P") )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\OSC_CLK\" )
+			)
+			( differentialPair "PAR_CLKI"
+				( memberType ( signal ) )
+				( electricalCSetRef "PDIFF" )
+				( member ( signalRef "PAR_CLKI_N") )
+				( member ( signalRef "PAR_CLKI_P") )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PAR_CLKI\" )
+			)
+			( differentialPair "PAR_CLKO"
+				( memberType ( signal ) )
+				( electricalCSetRef "PDIFF" )
+				( member ( signalRef "PAR_CLKO_N") )
+				( member ( signalRef "PAR_CLKO_P") )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PAR_CLKO\" )
+			)
+			( differentialPair "PAR_DI"
+				( memberType ( signal ) )
+				( electricalCSetRef "PDIFF" )
+				( member ( signalRef "PAR_DI_N") )
+				( member ( signalRef "PAR_DI_P") )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PAR_DI\" )
+			)
+			( differentialPair "PAR_DO"
+				( memberType ( signal ) )
+				( electricalCSetRef "PDIFF" )
+				( member ( signalRef "PAR_DO_N") )
+				( member ( signalRef "PAR_DO_P") )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\PAR_DO\" )
+			)
+			( differentialPair "REC_CLK"
+				( memberType ( signal ) )
+				( electricalCSetRef "PDIFF" )
+				( member ( signalRef "REC_CLK_N") )
+				( member ( signalRef "REC_CLK_P") )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\REC_CLK\" )
+			)
+			( differentialPair "SERPAR_CLKI"
+				( memberType ( signal ) )
+				( electricalCSetRef "PDIFF" )
+				( member ( signalRef "SERPAR_CLKI_N") )
+				( member ( signalRef "SERPAR_CLKI_P") )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\SERPAR_CLKI\" )
+			)
+			( differentialPair "SERPAR_CLKO"
+				( memberType ( signal ) )
+				( electricalCSetRef "PDIFF" )
+				( member ( signalRef "SERPAR_CLKO_N") )
+				( member ( signalRef "SERPAR_CLKO_P") )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\SERPAR_CLKO\" )
+			)
+			( differentialPair "SERPAR_DI"
+				( memberType ( signal ) )
+				( electricalCSetRef "PDIFF" )
+				( member ( signalRef "SERPAR_DI_N") )
+				( member ( signalRef "SERPAR_DI_P") )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\SERPAR_DI\" )
+			)
+			( differentialPair "SERPAR_DO"
+				( memberType ( signal ) )
+				( electricalCSetRef "PDIFF" )
+				( member ( signalRef "SERPAR_DO_N") )
+				( member ( signalRef "SERPAR_DO_P") )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\SERPAR_DO\" )
+			)
+			( differentialPair "SFP_DI"
+				( memberType ( signal ) )
+				( electricalCSetRef "PDIFF" )
+				( member ( signalRef "SFP_DI_N") )
+				( member ( signalRef "SFP_DI_P") )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\SFP_DI\" )
+			)
+			( differentialPair "SFP_DO"
+				( memberType ( signal ) )
+				( electricalCSetRef "PDIFF" )
+				( member ( signalRef "SFP_DO_N") )
+				( member ( signalRef "SFP_DO_P") )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\SFP_DO\" )
+			)
+			( differentialPair "TO_COAX"
+				( memberType ( signal ) )
+				( electricalCSetRef "PDIFF" )
+				( member ( signalRef "TO_COAX_N") )
+				( member ( signalRef "TO_COAX_P") )
+				( objectStatus "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):\TO_COAX\" )
 			)
 			( region "BGA"
 				( attribute "MIN_LINE_WIDTH" "0.1000"
