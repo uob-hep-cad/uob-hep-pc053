@@ -71,33 +71,6 @@
   cnpower cvcc *
   page3_i213
 #CELL
-  cnpassive rsmd0402 *
-  page3_i231
-#ISCELL
-  cnpower gnd *
-  page3_i232
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i233
-#ISCELL
-  cnpower cvcc *
-  page3_i234
-#ISCELL
-  cnpower p3v3 *
-  page3_i235
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i236
-#ISCELL
-  cnpower gnd *
-  page3_i237
-#ISCELL
-  cnpower gnd *
-  page3_i238
-#CELL
-  cninterface 74avc2t45 *
-  page3_i239
-#CELL
   cnpassive capcersmdcl2 *
   page3_i242
 #ISCELL
@@ -137,41 +110,8 @@
   cnpassive rsmd0402 *
   page3_i254
 #ISCELL
-  cnpower gnd *
-  page3_i272
-#CELL
-  cnpassive rsmd0402 *
-  page3_i274
-#CELL
-  cnpassive rsmd0402 *
-  page3_i276
-#ISCELL
-  cnpower gnd *
-  page3_i277
-#CELL
-  cnpassive rsmd0402 *
-  page3_i281
-#CELL
-  cnpassive rsmd0402 *
-  page3_i284
-#ISCELL
-  cnpower gnd *
-  page3_i286
-#CELL
-  cninterface 74avc4t245 *
-  page3_i288
-#CELL
-  cninterface 74avc4t245 *
-  page3_i289
-#ISCELL
   cnpower p3v3 *
   page3_i290
-#ISCELL
-  cnpower gnd *
-  page3_i291
-#CELL
-  cnpassive rsmd0402 *
-  page3_i292
 #CELL
   cnpassive rsmd0402 *
   page3_i293
@@ -181,9 +121,57 @@
 #CELL
   cnpassive rsmd0402 *
   page3_i295
-#ISCELL
-  cnpower gnd *
-  page3_i296
 #CELL
   cnpassive rsmd0402 *
   page3_i297
+#CELL
+  cninterface nbsg53a *
+  page3_i298
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i299
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i300
+#ISCELL
+  cnpower p3v3 *
+  page3_i301
+#ISCELL
+  cnpower gnd *
+  page3_i302
+#CELL
+  cnpassive capacitor *
+  page3_i303
+#CELL
+  cnpassive capacitor *
+  page3_i304
+#CELL
+  cnpassive rsmd0402 *
+  page3_i305
+#ISCELL
+  cnpower gnd *
+  page3_i306
+#CELL
+  cnpassive rsmd0402 *
+  page3_i307
+#ISCELL
+  cnpower gnd *
+  page3_i308
+#ISCELL
+  cnpower gnd *
+  page3_i309
+#CELL
+  cnpassive rsmd0402 *
+  page3_i310
+#CELL
+  cnpassive rsmd0402 *
+  page3_i311
+#ISCELL
+  cnpower p3v3 *
+  page3_i312
+#ISCELL
+  cnpower gnd *
+  page3_i313
+#CELL
+  cnpassive rsmd0402 *
+  page3_i314

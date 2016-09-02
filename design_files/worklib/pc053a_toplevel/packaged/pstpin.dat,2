@@ -1,6 +1,6 @@
 FILE_TYPE=PINLIST;
-{ Packager-XL run on 01-Sep-2016 AT 15:25:52 }
-TIME=' COMPILATION ON 01-Sep-2016 AT 15:25:52';
+{ Packager-XL run on 02-Sep-2016 AT 16:30:55 }
+TIME=' COMPILATION ON 02-Sep-2016 AT 16:30:55';
 primitive '24AA025E48T-I/SN';body '24AA025E48';
     'VCC':'(8)';
     'VSS':'(4)';
@@ -548,9 +548,6 @@ primitive 'PCA9517DGKR'; body 'PCA9517';
     'VCCB':'(8)';
     'EN':'(5)';IN;
 end_primitive;
-primitive 'PCOAX-U.FL-R-SMT-1(10)';body 'PCOAX';
-    'A':'(1)';
-end_primitive;
 primitive 'RJ45_DUAL_JGL_0001NL-GND_SHLD=A';body 'RJ45_DUAL_JGL_0001NL';
     '+MD1_':'(1,17)';$S;
     'MDCT1_':'(3,19)';$S;
@@ -570,10 +567,6 @@ primitive 'RJ45_DUAL_JGL_0001NL-GND_SHLD=A';body 'RJ45_DUAL_JGL_0001NL';
     '-LED2_':'(15,31)';$S;
 end_primitive;
 primitive 'RSMD0402_1/16W-100,1%';body 'RSMD0402';
-    'A'<0>:'(1)';BIDI;
-    'B'<0>:'(2)';BIDI;
-end_primitive;
-primitive 'RSMD0402_1/16W-100K,1%';body 'RSMD0402';
     'A'<0>:'(1)';BIDI;
     'B'<0>:'(2)';BIDI;
 end_primitive;

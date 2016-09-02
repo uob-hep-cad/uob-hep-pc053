@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 01-Sep-2016 AT 15:46:15 }
+{ Packager-XL run on 02-Sep-2016 AT 16:37:42 }
 primitive '24AA025E48T-I/SN';
   pin
     'VCC':
@@ -3549,37 +3549,6 @@ primitive 'PCA9517DGKR';
       PARENT_PPT_PART='PCA9517DGKR';
   end_body;
 end_primitive;
-primitive 'PCOAX-U.FL-R-SMT-1(10)';
-  pin
-    'A':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-      PART_NAME='PCOAX';
-      BODY_NAME='PCOAX';
-      ALLOW_CONNECT='TRUE';
-      NO_IO_CHECK='TRUE';
-      UNKNOWN_LOADING='TRUE';
-      NO_LOAD_CHECK='TRUE';
-      PHYS_DES_PREFIX='PX';
-      CLASS='IO';
-      STATUS='Preferred';
-      PART_NUMBER='U.FL-R-SMT-1(10)';
-      MANUFACTURER='HIROSE';
-      DESCRIPTION='Ultra Small Surface Mount Coaxial Connector - U.FL Series';
-      DATASHEET_URL='file://cern.ch/dfs/services/cdslib/datasheets/hirose_u-fl-r~
--smt-1(10).pdf';
-      PINCOUNT='3';
-      SMD='YES';
-      CASE='_';
-      JEDEC_TYPE='HIROSE_U-FL-R-SMT-1_10';
-      POWER_PINS='(GND:2,3)';
-      PARENT_PART_TYPE='PCOAX';
-      PARENT_PPT='PCOAX';
-      PARENT_PPT_PART='PCOAX-U.FL-R-SMT-1(10)';
-  end_body;
-end_primitive;
 primitive 'RJ45_DUAL_JGL_0001NL-GND_SHLD=A';
   pin
     '+MD1_':
@@ -3776,45 +3745,6 @@ primitive 'RSMD0402_1/16W-100,1%';
       PARENT_PART_TYPE='RSMD0402_1/16W';
       PARENT_PPT='RSMD0402';
       PARENT_PPT_PART='RSMD0402_1/16W-100,1%';
-  end_body;
-end_primitive;
-primitive 'RSMD0402_1/16W-100K,1%';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-      PINUSE='BI';
-  end_pin;
-  body
-      PART_NAME='RSMD0402';
-      BODY_NAME='RSMD0402';
-      CLASS='DISCRETE';
-      PINCOUNT='2';
-      SIZE='1';
-      PHYS_DES_PREFIX='R';
-      DESCRIPTION='SMD Resistor';
-      CASE='0402';
-      SMD='YES';
-      STATUS='Preferred';
-      PART_NUMBER='R0402_100K_1%_0.063W_200PPM';
-      VALUE='100k';
-      TOL='1%';
-      PWR='0.063W';
-      JEDEC_TYPE='C0402';
-      MANUFACTURER='GENERIC';
-      PARENT_PART_TYPE='RSMD0402_1/16W';
-      PARENT_PPT='RSMD0402';
-      PARENT_PPT_PART='RSMD0402_1/16W-100K,1%';
   end_body;
 end_primitive;
 primitive 'RSMD0402_1/16W-150,1%';

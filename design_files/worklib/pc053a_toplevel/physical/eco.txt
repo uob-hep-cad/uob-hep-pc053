@@ -2,26 +2,69 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  .../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_20.brd    |
-|                                                    Thu Sep  1 16:02:07 2016  |
+|  .../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_23.brd    |
+|                                                    Fri Sep  2 16:43:23 2016  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-  CRD_DI_N     pins MOVED FROM this net (to net name listed on right)
-                                 IC4.32          -29.400 35.4000
-                                                                       CDR_DI_N
+  P3V3         pins MOVED FROM this net (to net name listed on right)
+                                 C69.2                          
+                                                 UNNAMED_11_CON20PSFP_I175_VCCR
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  REC_CLK_N    pins MOVED FROM this net (to net name listed on right)
-                                 P1.G3            0.0800 53.7600
-                                                                  FMC_REC_CLK_N
+  UNNAMED_11_CON20PSFP_I175_VCCR pins MOVED FROM this net (to net name listed on right)
+                                 C67.2                          
+                                                 UNNAMED_11_CON20PSFP_I175_VCCT
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  REC_CLK_P    pins MOVED FROM this net (to net name listed on right)
-                                 P1.G2            0.0800 55.0300
-                                                                  FMC_REC_CLK_P
+  UNNAMED_11_CON20PSFP_I175_VCCT pins MOVED FROM this net (to net name listed on right)
+                                 C66.2                          
+                                                                           CVCC
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  .../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_23.brd    |
+|                                                    Fri Sep  2 16:43:23 2016  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C66                 CAPCERSMDCL2_0402-100NF,16V_GEN 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  .../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_23.brd    |
+|                                                    Fri Sep  2 16:43:23 2016  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C66.2                          PHYS_PAGE      1
+ C66.2                          PRIM_FILE      /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/concept_libs/pe16/pe_cern_lib/cnpassive/capcersmdcl2/chips/chips.prt
+ C66.2                          P_PATH         @uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page1_i285@cnpassive.capcersmdcl2(chips)
+ C66.2                          SIZE           1
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  .../design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_23.brd    |
+|                                                    Fri Sep  2 16:43:23 2016  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C66.1                          CDS_PINID      A(0)
+ C66.2                          CDS_PINID      B(0)
 |------------------------------------------------------------------------------|
 |       Nets changed          :       3                                        |
+|       Components added      :       1                                        |
+|       Pin property added    :       2                                        |
+|       Slot property added   :       4                                        |
 |                                                                              |
-|   Total ECO changes reported:       3                                        |
+|   Total ECO changes reported:      10                                        |
 |------------------------------------------------------------------------------|

@@ -1,5 +1,5 @@
 FILE_TYPE = LIBRARY_PARTS;
-{ Packager-XL run on 01-Sep-2016 AT 13:44:00 }
+{ Packager-XL run on 01-Sep-2016 AT 16:02:04 }
 primitive '24AA025E48T-I/SN';
   pin
     'VCC':
@@ -23,18 +23,23 @@ primitive '24AA025E48T-I/SN';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'SCL':
       PIN_NUMBER='(6)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'A0':
       PIN_NUMBER='(1)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'A1':
       PIN_NUMBER='(2)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'A2':
       PIN_NUMBER='(3)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
   end_pin;
   body
       PART_NAME='24AA025E48';
@@ -62,9 +67,11 @@ primitive '74LCX04MTC-VCC=P3V3';
     'A'<0>:
       INPUT_LOAD='(-0.5,0.02)';
       PIN_NUMBER='(13,11,9,5,3,1)';
+      PINUSE='IN';
     'Y*'<0>:
       OUTPUT_LOAD='(20.0,-2.0)';
       PIN_NUMBER='(12,10,8,6,4,2)';
+      PINUSE='OUT';
   end_pin;
   body
       PART_NAME='74LCX04';
@@ -97,6 +104,7 @@ primitive 'ADN2814ACPZ-VCC=P3V3,VEE=GND';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
     'NIN':
       PIN_NUMBER='(4)';
       PIN_TYPE='ANALOG';
@@ -105,6 +113,7 @@ primitive 'ADN2814ACPZ-VCC=P3V3,VEE=GND';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
     'PIN':
       PIN_NUMBER='(5)';
       PIN_TYPE='ANALOG';
@@ -113,6 +122,7 @@ primitive 'ADN2814ACPZ-VCC=P3V3,VEE=GND';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
     'SLICEP':
       PIN_NUMBER='(6)';
       PIN_TYPE='ANALOG';
@@ -121,6 +131,7 @@ primitive 'ADN2814ACPZ-VCC=P3V3,VEE=GND';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
     'SLICEN':
       PIN_NUMBER='(7)';
       PIN_TYPE='ANALOG';
@@ -129,6 +140,7 @@ primitive 'ADN2814ACPZ-VCC=P3V3,VEE=GND';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
     'THRADJ':
       PIN_NUMBER='(9)';
       PIN_TYPE='ANALOG';
@@ -137,12 +149,15 @@ primitive 'ADN2814ACPZ-VCC=P3V3,VEE=GND';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
     'REFCLKP':
       PIN_NUMBER='(10)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'REFCLKN':
       PIN_NUMBER='(11)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'CF2':
       PIN_NUMBER='(14)';
       PIN_TYPE='ANALOG';
@@ -151,6 +166,7 @@ primitive 'ADN2814ACPZ-VCC=P3V3,VEE=GND';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
     'CF1':
       PIN_NUMBER='(15)';
       PIN_TYPE='ANALOG';
@@ -159,36 +175,47 @@ primitive 'ADN2814ACPZ-VCC=P3V3,VEE=GND';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
     'LOL':
       PIN_NUMBER='(16)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'SADDRS':
       PIN_NUMBER='(19)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'SCK':
       PIN_NUMBER='(20)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'SDA':
       PIN_NUMBER='(21)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'LOS':
       PIN_NUMBER='(22)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'CLKOUTN':
       PIN_NUMBER='(25)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'CLKOUTP':
       PIN_NUMBER='(26)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'SQUELCH':
       PIN_NUMBER='(27)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'DATAOUTN':
       PIN_NUMBER='(28)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'DATAOUTP':
       PIN_NUMBER='(29)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'PAD':
       PIN_NUMBER='(33)';
       PINUSE='GROUND';
@@ -229,12 +256,14 @@ primitive 'CAPACITOR_POLY2.54-10NF,50V';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
   end_pin;
   body
       PART_NAME='CAPACITOR';
@@ -270,12 +299,14 @@ primitive 'CAPCERSMDCL2_0402-1.0NF,50V_GEN';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
   end_pin;
   body
       PART_NAME='CAPCERSMDCL2';
@@ -311,12 +342,14 @@ primitive 'CAPCERSMDCL2_0402-100NF,16V_GEN';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
   end_pin;
   body
       PART_NAME='CAPCERSMDCL2';
@@ -352,12 +385,14 @@ primitive 'CAPCERSMDCL2_0402-100NF_X7R,16V';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
   end_pin;
   body
       PART_NAME='CAPCERSMDCL2';
@@ -393,12 +428,14 @@ primitive 'CAPCERSMDCL2_0603-1.5UF,6.3V';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
   end_pin;
   body
       PART_NAME='CAPCERSMDCL2';
@@ -434,12 +471,14 @@ primitive 'CAPCERSMDCL2_0603-10UF_X5R,6.3V';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
   end_pin;
   body
       PART_NAME='CAPCERSMDCL2';
@@ -475,12 +514,14 @@ primitive 'CAPCERSMDCL2_0603-470NF,6.3V';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
   end_pin;
   body
       PART_NAME='CAPCERSMDCL2';
@@ -516,12 +557,14 @@ primitive 'CAPCERSMDCL2_0805-10UF,16V';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
   end_pin;
   body
       PART_NAME='CAPCERSMDCL2';
@@ -558,12 +601,14 @@ primitive 'CAPCERSMDCL2_0805-2.2UF,10V_GEN';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
   end_pin;
   body
       PART_NAME='CAPCERSMDCL2';
@@ -596,6 +641,7 @@ primitive 'CON20P_SFP-1888247-1';
     'TX_DISABLE':
       PIN_NUMBER='(3)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'VEET1':
       PIN_NUMBER='(1)';
       PINUSE='GROUND';
@@ -607,9 +653,11 @@ primitive 'CON20P_SFP-1888247-1';
     'TX_FAULT':
       PIN_NUMBER='(2)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'LOS':
       PIN_NUMBER='(8)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'VEER1':
       PIN_NUMBER='(10)';
       PINUSE='GROUND';
@@ -629,6 +677,7 @@ primitive 'CON20P_SFP-1888247-1';
     'TD-':
       PIN_NUMBER='(19)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'VEET3':
       PIN_NUMBER='(20)';
       PINUSE='GROUND';
@@ -640,6 +689,7 @@ primitive 'CON20P_SFP-1888247-1';
     'TD+':
       PIN_NUMBER='(18)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'VCCT':
       PIN_NUMBER='(16)';
       PINUSE='POWER';
@@ -667,9 +717,11 @@ primitive 'CON20P_SFP-1888247-1';
     'RD+':
       PIN_NUMBER='(13)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'RD-':
       PIN_NUMBER='(12)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'VEER3':
       PIN_NUMBER='(14)';
       PINUSE='GROUND';
@@ -681,18 +733,23 @@ primitive 'CON20P_SFP-1888247-1';
     'MOD_DEF0/MOD_ABS':
       PIN_NUMBER='(6)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'RATE_SELECT/RS0':
       PIN_NUMBER='(7)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'MOD_DEF2/SDA':
       PIN_NUMBER='(4)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'MOD_DEF1/SCL':
       PIN_NUMBER='(5)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'VEER/RS1':
       PIN_NUMBER='(9)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
   end_pin;
   body
       PART_NAME='CON20P_SFP';
@@ -719,10 +776,13 @@ primitive 'CON3P-MTLW-103-07-L-S-250';
   pin
     'A'<2>:
       PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
     'A'<1>:
       PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
     'A'<0>:
       PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
   end_pin;
   body
       PART_NAME='CON3P';
@@ -757,2001 +817,2401 @@ primitive 'CON400P_40ABCDEFGHJK-SEAM-40-0A';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<39>:
       PIN_NUMBER='(A39,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<38>:
       PIN_NUMBER='(A38,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<37>:
       PIN_NUMBER='(A37,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<36>:
       PIN_NUMBER='(A36,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<35>:
       PIN_NUMBER='(A35,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<33>:
       PIN_NUMBER='(A33,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<32>:
       PIN_NUMBER='(A32,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<34>:
       PIN_NUMBER='(A34,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<30>:
       PIN_NUMBER='(A30,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<31>:
       PIN_NUMBER='(A31,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<29>:
       PIN_NUMBER='(A29,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<27>:
       PIN_NUMBER='(A27,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<28>:
       PIN_NUMBER='(A28,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<25>:
       PIN_NUMBER='(A25,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<26>:
       PIN_NUMBER='(A26,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<24>:
       PIN_NUMBER='(A24,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<23>:
       PIN_NUMBER='(A23,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<22>:
       PIN_NUMBER='(A22,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<21>:
       PIN_NUMBER='(A21,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<19>:
       PIN_NUMBER='(A19,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<20>:
       PIN_NUMBER='(A20,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<18>:
       PIN_NUMBER='(A18,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<17>:
       PIN_NUMBER='(A17,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<14>:
       PIN_NUMBER='(A14,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<15>:
       PIN_NUMBER='(A15,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<16>:
       PIN_NUMBER='(A16,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<13>:
       PIN_NUMBER='(A13,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<12>:
       PIN_NUMBER='(A12,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<11>:
       PIN_NUMBER='(A11,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<9>:
       PIN_NUMBER='(A9,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<10>:
       PIN_NUMBER='(A10,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<8>:
       PIN_NUMBER='(A8,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<7>:
       PIN_NUMBER='(A7,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<6>:
       PIN_NUMBER='(A6,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<5>:
       PIN_NUMBER='(A5,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<4>:
       PIN_NUMBER='(A4,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<3>:
       PIN_NUMBER='(A3,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<2>:
       PIN_NUMBER='(A2,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'A'<1>:
       PIN_NUMBER='(A1,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<1>:
       PIN_NUMBER='(B1,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<2>:
       PIN_NUMBER='(B2,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<3>:
       PIN_NUMBER='(B3,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<5>:
       PIN_NUMBER='(B5,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<4>:
       PIN_NUMBER='(B4,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<6>:
       PIN_NUMBER='(B6,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<7>:
       PIN_NUMBER='(B7,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<8>:
       PIN_NUMBER='(B8,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<9>:
       PIN_NUMBER='(B9,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<10>:
       PIN_NUMBER='(B10,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<11>:
       PIN_NUMBER='(B11,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<12>:
       PIN_NUMBER='(B12,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<13>:
       PIN_NUMBER='(B13,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<16>:
       PIN_NUMBER='(B16,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<15>:
       PIN_NUMBER='(B15,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<14>:
       PIN_NUMBER='(B14,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<18>:
       PIN_NUMBER='(B18,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<17>:
       PIN_NUMBER='(B17,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<20>:
       PIN_NUMBER='(B20,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<19>:
       PIN_NUMBER='(B19,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<21>:
       PIN_NUMBER='(B21,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<23>:
       PIN_NUMBER='(B23,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<22>:
       PIN_NUMBER='(B22,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<24>:
       PIN_NUMBER='(B24,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<25>:
       PIN_NUMBER='(B25,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<26>:
       PIN_NUMBER='(B26,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<27>:
       PIN_NUMBER='(B27,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<28>:
       PIN_NUMBER='(B28,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<29>:
       PIN_NUMBER='(B29,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<31>:
       PIN_NUMBER='(B31,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<30>:
       PIN_NUMBER='(B30,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<34>:
       PIN_NUMBER='(B34,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<33>:
       PIN_NUMBER='(B33,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<32>:
       PIN_NUMBER='(B32,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<36>:
       PIN_NUMBER='(B36,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<35>:
       PIN_NUMBER='(B35,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<37>:
       PIN_NUMBER='(B37,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<38>:
       PIN_NUMBER='(B38,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<39>:
       PIN_NUMBER='(B39,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'B'<40>:
       PIN_NUMBER='(B40,0,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<1>:
       PIN_NUMBER='(0,C1,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<2>:
       PIN_NUMBER='(0,C2,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<3>:
       PIN_NUMBER='(0,C3,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<4>:
       PIN_NUMBER='(0,C4,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<5>:
       PIN_NUMBER='(0,C5,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<6>:
       PIN_NUMBER='(0,C6,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<7>:
       PIN_NUMBER='(0,C7,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<8>:
       PIN_NUMBER='(0,C8,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<9>:
       PIN_NUMBER='(0,C9,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<10>:
       PIN_NUMBER='(0,C10,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<11>:
       PIN_NUMBER='(0,C11,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<12>:
       PIN_NUMBER='(0,C12,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<13>:
       PIN_NUMBER='(0,C13,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<14>:
       PIN_NUMBER='(0,C14,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<15>:
       PIN_NUMBER='(0,C15,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<16>:
       PIN_NUMBER='(0,C16,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<17>:
       PIN_NUMBER='(0,C17,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<18>:
       PIN_NUMBER='(0,C18,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<19>:
       PIN_NUMBER='(0,C19,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<20>:
       PIN_NUMBER='(0,C20,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<21>:
       PIN_NUMBER='(0,C21,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<22>:
       PIN_NUMBER='(0,C22,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<23>:
       PIN_NUMBER='(0,C23,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<24>:
       PIN_NUMBER='(0,C24,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<25>:
       PIN_NUMBER='(0,C25,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<26>:
       PIN_NUMBER='(0,C26,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<27>:
       PIN_NUMBER='(0,C27,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<28>:
       PIN_NUMBER='(0,C28,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<29>:
       PIN_NUMBER='(0,C29,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<30>:
       PIN_NUMBER='(0,C30,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<31>:
       PIN_NUMBER='(0,C31,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<32>:
       PIN_NUMBER='(0,C32,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<33>:
       PIN_NUMBER='(0,C33,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<34>:
       PIN_NUMBER='(0,C34,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<35>:
       PIN_NUMBER='(0,C35,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<36>:
       PIN_NUMBER='(0,C36,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<37>:
       PIN_NUMBER='(0,C37,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<38>:
       PIN_NUMBER='(0,C38,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<39>:
       PIN_NUMBER='(0,C39,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'C'<40>:
       PIN_NUMBER='(0,C40,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<1>:
       PIN_NUMBER='(0,D1,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<2>:
       PIN_NUMBER='(0,D2,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<3>:
       PIN_NUMBER='(0,D3,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<4>:
       PIN_NUMBER='(0,D4,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<5>:
       PIN_NUMBER='(0,D5,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<6>:
       PIN_NUMBER='(0,D6,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<7>:
       PIN_NUMBER='(0,D7,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<8>:
       PIN_NUMBER='(0,D8,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<9>:
       PIN_NUMBER='(0,D9,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<10>:
       PIN_NUMBER='(0,D10,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<11>:
       PIN_NUMBER='(0,D11,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<12>:
       PIN_NUMBER='(0,D12,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<13>:
       PIN_NUMBER='(0,D13,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<14>:
       PIN_NUMBER='(0,D14,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<15>:
       PIN_NUMBER='(0,D15,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<16>:
       PIN_NUMBER='(0,D16,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<17>:
       PIN_NUMBER='(0,D17,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<18>:
       PIN_NUMBER='(0,D18,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<19>:
       PIN_NUMBER='(0,D19,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<20>:
       PIN_NUMBER='(0,D20,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<21>:
       PIN_NUMBER='(0,D21,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<22>:
       PIN_NUMBER='(0,D22,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<23>:
       PIN_NUMBER='(0,D23,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<24>:
       PIN_NUMBER='(0,D24,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<25>:
       PIN_NUMBER='(0,D25,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<26>:
       PIN_NUMBER='(0,D26,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<27>:
       PIN_NUMBER='(0,D27,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<28>:
       PIN_NUMBER='(0,D28,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<29>:
       PIN_NUMBER='(0,D29,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<30>:
       PIN_NUMBER='(0,D30,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<31>:
       PIN_NUMBER='(0,D31,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<32>:
       PIN_NUMBER='(0,D32,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<33>:
       PIN_NUMBER='(0,D33,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<34>:
       PIN_NUMBER='(0,D34,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<35>:
       PIN_NUMBER='(0,D35,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<36>:
       PIN_NUMBER='(0,D36,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<37>:
       PIN_NUMBER='(0,D37,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<38>:
       PIN_NUMBER='(0,D38,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<39>:
       PIN_NUMBER='(0,D39,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'D'<40>:
       PIN_NUMBER='(0,D40,0,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<1>:
       PIN_NUMBER='(0,0,E1,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<2>:
       PIN_NUMBER='(0,0,E2,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<3>:
       PIN_NUMBER='(0,0,E3,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<4>:
       PIN_NUMBER='(0,0,E4,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<5>:
       PIN_NUMBER='(0,0,E5,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<6>:
       PIN_NUMBER='(0,0,E6,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<7>:
       PIN_NUMBER='(0,0,E7,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<8>:
       PIN_NUMBER='(0,0,E8,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<9>:
       PIN_NUMBER='(0,0,E9,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<10>:
       PIN_NUMBER='(0,0,E10,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<11>:
       PIN_NUMBER='(0,0,E11,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<12>:
       PIN_NUMBER='(0,0,E12,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<13>:
       PIN_NUMBER='(0,0,E13,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<14>:
       PIN_NUMBER='(0,0,E14,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<15>:
       PIN_NUMBER='(0,0,E15,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<16>:
       PIN_NUMBER='(0,0,E16,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<17>:
       PIN_NUMBER='(0,0,E17,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<18>:
       PIN_NUMBER='(0,0,E18,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<19>:
       PIN_NUMBER='(0,0,E19,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<20>:
       PIN_NUMBER='(0,0,E20,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<21>:
       PIN_NUMBER='(0,0,E21,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<22>:
       PIN_NUMBER='(0,0,E22,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<23>:
       PIN_NUMBER='(0,0,E23,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<24>:
       PIN_NUMBER='(0,0,E24,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<25>:
       PIN_NUMBER='(0,0,E25,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<26>:
       PIN_NUMBER='(0,0,E26,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<27>:
       PIN_NUMBER='(0,0,E27,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<28>:
       PIN_NUMBER='(0,0,E28,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<29>:
       PIN_NUMBER='(0,0,E29,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<30>:
       PIN_NUMBER='(0,0,E30,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<31>:
       PIN_NUMBER='(0,0,E31,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<32>:
       PIN_NUMBER='(0,0,E32,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<33>:
       PIN_NUMBER='(0,0,E33,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<34>:
       PIN_NUMBER='(0,0,E34,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<35>:
       PIN_NUMBER='(0,0,E35,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<36>:
       PIN_NUMBER='(0,0,E36,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<37>:
       PIN_NUMBER='(0,0,E37,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<38>:
       PIN_NUMBER='(0,0,E38,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<39>:
       PIN_NUMBER='(0,0,E39,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'E'<40>:
       PIN_NUMBER='(0,0,E40,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<1>:
       PIN_NUMBER='(0,0,F1,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<2>:
       PIN_NUMBER='(0,0,F2,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<3>:
       PIN_NUMBER='(0,0,F3,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<4>:
       PIN_NUMBER='(0,0,F4,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<5>:
       PIN_NUMBER='(0,0,F5,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<6>:
       PIN_NUMBER='(0,0,F6,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<7>:
       PIN_NUMBER='(0,0,F7,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<8>:
       PIN_NUMBER='(0,0,F8,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<9>:
       PIN_NUMBER='(0,0,F9,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<10>:
       PIN_NUMBER='(0,0,F10,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<11>:
       PIN_NUMBER='(0,0,F11,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<12>:
       PIN_NUMBER='(0,0,F12,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<13>:
       PIN_NUMBER='(0,0,F13,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<14>:
       PIN_NUMBER='(0,0,F14,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<15>:
       PIN_NUMBER='(0,0,F15,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<16>:
       PIN_NUMBER='(0,0,F16,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<17>:
       PIN_NUMBER='(0,0,F17,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<18>:
       PIN_NUMBER='(0,0,F18,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<19>:
       PIN_NUMBER='(0,0,F19,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<20>:
       PIN_NUMBER='(0,0,F20,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<21>:
       PIN_NUMBER='(0,0,F21,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<22>:
       PIN_NUMBER='(0,0,F22,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<23>:
       PIN_NUMBER='(0,0,F23,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<24>:
       PIN_NUMBER='(0,0,F24,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<25>:
       PIN_NUMBER='(0,0,F25,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<26>:
       PIN_NUMBER='(0,0,F26,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<27>:
       PIN_NUMBER='(0,0,F27,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<28>:
       PIN_NUMBER='(0,0,F28,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<29>:
       PIN_NUMBER='(0,0,F29,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<30>:
       PIN_NUMBER='(0,0,F30,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<31>:
       PIN_NUMBER='(0,0,F31,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<32>:
       PIN_NUMBER='(0,0,F32,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<33>:
       PIN_NUMBER='(0,0,F33,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<34>:
       PIN_NUMBER='(0,0,F34,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<35>:
       PIN_NUMBER='(0,0,F35,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<36>:
       PIN_NUMBER='(0,0,F36,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<37>:
       PIN_NUMBER='(0,0,F37,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<38>:
       PIN_NUMBER='(0,0,F38,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<39>:
       PIN_NUMBER='(0,0,F39,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'F'<40>:
       PIN_NUMBER='(0,0,F40,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<1>:
       PIN_NUMBER='(0,0,0,G1,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<2>:
       PIN_NUMBER='(0,0,0,G2,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<3>:
       PIN_NUMBER='(0,0,0,G3,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<4>:
       PIN_NUMBER='(0,0,0,G4,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<5>:
       PIN_NUMBER='(0,0,0,G5,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<6>:
       PIN_NUMBER='(0,0,0,G6,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<7>:
       PIN_NUMBER='(0,0,0,G7,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<8>:
       PIN_NUMBER='(0,0,0,G8,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<9>:
       PIN_NUMBER='(0,0,0,G9,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<10>:
       PIN_NUMBER='(0,0,0,G10,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<11>:
       PIN_NUMBER='(0,0,0,G11,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<12>:
       PIN_NUMBER='(0,0,0,G12,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<13>:
       PIN_NUMBER='(0,0,0,G13,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<14>:
       PIN_NUMBER='(0,0,0,G14,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<15>:
       PIN_NUMBER='(0,0,0,G15,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<16>:
       PIN_NUMBER='(0,0,0,G16,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<17>:
       PIN_NUMBER='(0,0,0,G17,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<18>:
       PIN_NUMBER='(0,0,0,G18,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<19>:
       PIN_NUMBER='(0,0,0,G19,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<20>:
       PIN_NUMBER='(0,0,0,G20,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<21>:
       PIN_NUMBER='(0,0,0,G21,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<22>:
       PIN_NUMBER='(0,0,0,G22,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<23>:
       PIN_NUMBER='(0,0,0,G23,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<24>:
       PIN_NUMBER='(0,0,0,G24,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<25>:
       PIN_NUMBER='(0,0,0,G25,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<26>:
       PIN_NUMBER='(0,0,0,G26,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<27>:
       PIN_NUMBER='(0,0,0,G27,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<28>:
       PIN_NUMBER='(0,0,0,G28,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<29>:
       PIN_NUMBER='(0,0,0,G29,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<30>:
       PIN_NUMBER='(0,0,0,G30,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<31>:
       PIN_NUMBER='(0,0,0,G31,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<32>:
       PIN_NUMBER='(0,0,0,G32,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<33>:
       PIN_NUMBER='(0,0,0,G33,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<34>:
       PIN_NUMBER='(0,0,0,G34,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<35>:
       PIN_NUMBER='(0,0,0,G35,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<36>:
       PIN_NUMBER='(0,0,0,G36,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<37>:
       PIN_NUMBER='(0,0,0,G37,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<38>:
       PIN_NUMBER='(0,0,0,G38,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<39>:
       PIN_NUMBER='(0,0,0,G39,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'G'<40>:
       PIN_NUMBER='(0,0,0,G40,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<1>:
       PIN_NUMBER='(0,0,0,H1,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<2>:
       PIN_NUMBER='(0,0,0,H2,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<3>:
       PIN_NUMBER='(0,0,0,H3,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<4>:
       PIN_NUMBER='(0,0,0,H4,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<5>:
       PIN_NUMBER='(0,0,0,H5,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<6>:
       PIN_NUMBER='(0,0,0,H6,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<7>:
       PIN_NUMBER='(0,0,0,H7,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<8>:
       PIN_NUMBER='(0,0,0,H8,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<9>:
       PIN_NUMBER='(0,0,0,H9,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<10>:
       PIN_NUMBER='(0,0,0,H10,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<11>:
       PIN_NUMBER='(0,0,0,H11,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<12>:
       PIN_NUMBER='(0,0,0,H12,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<13>:
       PIN_NUMBER='(0,0,0,H13,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<14>:
       PIN_NUMBER='(0,0,0,H14,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<15>:
       PIN_NUMBER='(0,0,0,H15,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<16>:
       PIN_NUMBER='(0,0,0,H16,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<17>:
       PIN_NUMBER='(0,0,0,H17,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<18>:
       PIN_NUMBER='(0,0,0,H18,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<19>:
       PIN_NUMBER='(0,0,0,H19,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<20>:
       PIN_NUMBER='(0,0,0,H20,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<21>:
       PIN_NUMBER='(0,0,0,H21,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<22>:
       PIN_NUMBER='(0,0,0,H22,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<23>:
       PIN_NUMBER='(0,0,0,H23,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<24>:
       PIN_NUMBER='(0,0,0,H24,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<25>:
       PIN_NUMBER='(0,0,0,H25,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<26>:
       PIN_NUMBER='(0,0,0,H26,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<27>:
       PIN_NUMBER='(0,0,0,H27,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<28>:
       PIN_NUMBER='(0,0,0,H28,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<29>:
       PIN_NUMBER='(0,0,0,H29,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<30>:
       PIN_NUMBER='(0,0,0,H30,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<31>:
       PIN_NUMBER='(0,0,0,H31,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<32>:
       PIN_NUMBER='(0,0,0,H32,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<33>:
       PIN_NUMBER='(0,0,0,H33,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<34>:
       PIN_NUMBER='(0,0,0,H34,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<35>:
       PIN_NUMBER='(0,0,0,H35,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<36>:
       PIN_NUMBER='(0,0,0,H36,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<37>:
       PIN_NUMBER='(0,0,0,H37,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<38>:
       PIN_NUMBER='(0,0,0,H38,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<39>:
       PIN_NUMBER='(0,0,0,H39,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'H'<40>:
       PIN_NUMBER='(0,0,0,H40,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<1>:
       PIN_NUMBER='(0,0,0,0,J1)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<2>:
       PIN_NUMBER='(0,0,0,0,J2)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<3>:
       PIN_NUMBER='(0,0,0,0,J3)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<4>:
       PIN_NUMBER='(0,0,0,0,J4)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<5>:
       PIN_NUMBER='(0,0,0,0,J5)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<6>:
       PIN_NUMBER='(0,0,0,0,J6)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<7>:
       PIN_NUMBER='(0,0,0,0,J7)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<8>:
       PIN_NUMBER='(0,0,0,0,J8)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<9>:
       PIN_NUMBER='(0,0,0,0,J9)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<10>:
       PIN_NUMBER='(0,0,0,0,J10)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<11>:
       PIN_NUMBER='(0,0,0,0,J11)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<12>:
       PIN_NUMBER='(0,0,0,0,J12)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<13>:
       PIN_NUMBER='(0,0,0,0,J13)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<14>:
       PIN_NUMBER='(0,0,0,0,J14)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<15>:
       PIN_NUMBER='(0,0,0,0,J15)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<16>:
       PIN_NUMBER='(0,0,0,0,J16)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<17>:
       PIN_NUMBER='(0,0,0,0,J17)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<18>:
       PIN_NUMBER='(0,0,0,0,J18)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<19>:
       PIN_NUMBER='(0,0,0,0,J19)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<20>:
       PIN_NUMBER='(0,0,0,0,J20)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<21>:
       PIN_NUMBER='(0,0,0,0,J21)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<22>:
       PIN_NUMBER='(0,0,0,0,J22)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<23>:
       PIN_NUMBER='(0,0,0,0,J23)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<24>:
       PIN_NUMBER='(0,0,0,0,J24)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<25>:
       PIN_NUMBER='(0,0,0,0,J25)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<26>:
       PIN_NUMBER='(0,0,0,0,J26)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<27>:
       PIN_NUMBER='(0,0,0,0,J27)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<28>:
       PIN_NUMBER='(0,0,0,0,J28)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<29>:
       PIN_NUMBER='(0,0,0,0,J29)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<30>:
       PIN_NUMBER='(0,0,0,0,J30)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<31>:
       PIN_NUMBER='(0,0,0,0,J31)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<32>:
       PIN_NUMBER='(0,0,0,0,J32)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<33>:
       PIN_NUMBER='(0,0,0,0,J33)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<34>:
       PIN_NUMBER='(0,0,0,0,J34)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<35>:
       PIN_NUMBER='(0,0,0,0,J35)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<36>:
       PIN_NUMBER='(0,0,0,0,J36)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<37>:
       PIN_NUMBER='(0,0,0,0,J37)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<38>:
       PIN_NUMBER='(0,0,0,0,J38)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<39>:
       PIN_NUMBER='(0,0,0,0,J39)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'J'<40>:
       PIN_NUMBER='(0,0,0,0,J40)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<1>:
       PIN_NUMBER='(0,0,0,0,K1)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<2>:
       PIN_NUMBER='(0,0,0,0,K2)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<3>:
       PIN_NUMBER='(0,0,0,0,K3)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<4>:
       PIN_NUMBER='(0,0,0,0,K4)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<5>:
       PIN_NUMBER='(0,0,0,0,K5)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<6>:
       PIN_NUMBER='(0,0,0,0,K6)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<7>:
       PIN_NUMBER='(0,0,0,0,K7)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<8>:
       PIN_NUMBER='(0,0,0,0,K8)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<9>:
       PIN_NUMBER='(0,0,0,0,K9)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<10>:
       PIN_NUMBER='(0,0,0,0,K10)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<11>:
       PIN_NUMBER='(0,0,0,0,K11)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<12>:
       PIN_NUMBER='(0,0,0,0,K12)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<13>:
       PIN_NUMBER='(0,0,0,0,K13)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<14>:
       PIN_NUMBER='(0,0,0,0,K14)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<15>:
       PIN_NUMBER='(0,0,0,0,K15)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<16>:
       PIN_NUMBER='(0,0,0,0,K16)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<17>:
       PIN_NUMBER='(0,0,0,0,K17)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<18>:
       PIN_NUMBER='(0,0,0,0,K18)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<19>:
       PIN_NUMBER='(0,0,0,0,K19)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<20>:
       PIN_NUMBER='(0,0,0,0,K20)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<21>:
       PIN_NUMBER='(0,0,0,0,K21)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<22>:
       PIN_NUMBER='(0,0,0,0,K22)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<23>:
       PIN_NUMBER='(0,0,0,0,K23)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<24>:
       PIN_NUMBER='(0,0,0,0,K24)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<25>:
       PIN_NUMBER='(0,0,0,0,K25)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<26>:
       PIN_NUMBER='(0,0,0,0,K26)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<27>:
       PIN_NUMBER='(0,0,0,0,K27)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<28>:
       PIN_NUMBER='(0,0,0,0,K28)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<29>:
       PIN_NUMBER='(0,0,0,0,K29)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<30>:
       PIN_NUMBER='(0,0,0,0,K30)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<31>:
       PIN_NUMBER='(0,0,0,0,K31)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<32>:
       PIN_NUMBER='(0,0,0,0,K32)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<33>:
       PIN_NUMBER='(0,0,0,0,K33)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<34>:
       PIN_NUMBER='(0,0,0,0,K34)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<35>:
       PIN_NUMBER='(0,0,0,0,K35)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<36>:
       PIN_NUMBER='(0,0,0,0,K36)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<37>:
       PIN_NUMBER='(0,0,0,0,K37)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<38>:
       PIN_NUMBER='(0,0,0,0,K38)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<39>:
       PIN_NUMBER='(0,0,0,0,K39)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'K'<40>:
       PIN_NUMBER='(0,0,0,0,K40)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
   end_pin;
   body
       PART_NAME='CON400P_40ABCDEFGHJK';
@@ -2779,12 +3239,15 @@ primitive 'DSC1123CI5-40.0000-VDD=P3V3';
     'OUTN':
       PIN_NUMBER='(5)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'OUTP':
       PIN_NUMBER='(4)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'EN':
       PIN_NUMBER='(1)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
   end_pin;
   body
       PART_NAME='DSC1123CI5';
@@ -2814,9 +3277,11 @@ primitive 'INDUCTANCE_LQH32C_23-4.7UH';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
+      PINUSE='UNSPEC';
     'A'<0>:
       PIN_NUMBER='(1)';
       PIN_GROUP='1';
+      PINUSE='UNSPEC';
   end_pin;
   body
       PART_NAME='INDUCTANCE';
@@ -2847,8 +3312,10 @@ primitive 'LGL29K-G2J1-24';
   pin
     'B':
       PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
     'A':
       PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
   end_pin;
   body
       PART_NAME='LED1';
@@ -2880,42 +3347,55 @@ primitive 'NBSG53AMNG-VCC=P3V3,VEE=GND';
     'D':
       PIN_NUMBER='(7)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'D*':
       PIN_NUMBER='(6)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'CLK':
       PIN_NUMBER='(3)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'CLK*':
       PIN_NUMBER='(2)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'SEL':
       PIN_NUMBER='(14)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'Q':
       PIN_NUMBER='(10)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'Q*':
       PIN_NUMBER='(11)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'OLS':
       PIN_NUMBER='(13)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'R':
       PIN_NUMBER='(15)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'VTCLK':
       PIN_NUMBER='(4)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'VTCLK*':
       PIN_NUMBER='(1)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'VTD':
       PIN_NUMBER='(8)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'VTD*':
       PIN_NUMBER='(5)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
   end_pin;
   body
       BODY_NAME='NBSG53A';
@@ -2946,30 +3426,37 @@ primitive 'PCA9306DCU';
       OUTPUT_TYPE='';
       INPUT_LOAD='(*,*)';
       PIN_NUMBER='(8)';
+      PINUSE='IN';
     'SCL1':
       OUTPUT_TYPE='';
       INPUT_LOAD='(*,*)';
       PIN_NUMBER='(3)';
+      PINUSE='IN';
     'SCL2':
       OUTPUT_TYPE='';
       INPUT_LOAD='(*,*)';
       PIN_NUMBER='(6)';
+      PINUSE='IN';
     'SDA1':
       OUTPUT_TYPE='';
       INPUT_LOAD='(*,*)';
       PIN_NUMBER='(4)';
+      PINUSE='IN';
     'SDA2':
       OUTPUT_TYPE='';
       INPUT_LOAD='(*,*)';
       PIN_NUMBER='(5)';
+      PINUSE='IN';
     'VREF1':
       OUTPUT_TYPE='';
       INPUT_LOAD='(*,*)';
       PIN_NUMBER='(2)';
+      PINUSE='IN';
     'VREF2':
       OUTPUT_TYPE='';
       INPUT_LOAD='(*,*)';
       PIN_NUMBER='(7)';
+      PINUSE='IN';
   end_pin;
   body
       PART_NAME='PCA9306';
@@ -3000,21 +3487,25 @@ primitive 'PCA9517DGKR';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'SCLA':
       PIN_NUMBER='(2)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'SCLB':
       PIN_NUMBER='(7)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'SDAB':
       PIN_NUMBER='(6)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'VCCA':
       PIN_NUMBER='(1)';
       PINUSE='POWER';
@@ -3034,6 +3525,7 @@ primitive 'PCA9517DGKR';
     'EN':
       PIN_NUMBER='(5)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
   end_pin;
   body
       PART_NAME='PCA9517';
@@ -3061,6 +3553,7 @@ primitive 'PCOAX-U.FL-R-SMT-1(10)';
   pin
     'A':
       PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
   end_pin;
   body
       PART_NAME='PCOAX';
@@ -3097,6 +3590,7 @@ primitive 'RJ45_DUAL_JGL_0001NL-GND_SHLD=A';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
     'MDCT1_':
       PIN_NUMBER='(3,19)';
       PIN_TYPE='ANALOG';
@@ -3105,6 +3599,7 @@ primitive 'RJ45_DUAL_JGL_0001NL-GND_SHLD=A';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
     '+MD2_':
       PIN_NUMBER='(4,20)';
       PIN_TYPE='ANALOG';
@@ -3113,6 +3608,7 @@ primitive 'RJ45_DUAL_JGL_0001NL-GND_SHLD=A';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
     'MDCT2_':
       PIN_NUMBER='(6,22)';
       PIN_TYPE='ANALOG';
@@ -3121,6 +3617,7 @@ primitive 'RJ45_DUAL_JGL_0001NL-GND_SHLD=A';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
     '+MD3_':
       PIN_NUMBER='(7,23)';
       PIN_TYPE='ANALOG';
@@ -3129,6 +3626,7 @@ primitive 'RJ45_DUAL_JGL_0001NL-GND_SHLD=A';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
     'MDCT3_':
       PIN_NUMBER='(9,25)';
       PIN_TYPE='ANALOG';
@@ -3137,6 +3635,7 @@ primitive 'RJ45_DUAL_JGL_0001NL-GND_SHLD=A';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
     '+MD4_':
       PIN_NUMBER='(10,26)';
       PIN_TYPE='ANALOG';
@@ -3145,6 +3644,7 @@ primitive 'RJ45_DUAL_JGL_0001NL-GND_SHLD=A';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
     'MDCT4_':
       PIN_NUMBER='(12,28)';
       PIN_TYPE='ANALOG';
@@ -3153,6 +3653,7 @@ primitive 'RJ45_DUAL_JGL_0001NL-GND_SHLD=A';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
     '+LED1_':
       PIN_NUMBER='(14,30)';
       PIN_TYPE='ANALOG';
@@ -3161,6 +3662,7 @@ primitive 'RJ45_DUAL_JGL_0001NL-GND_SHLD=A';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
     '+LED2_':
       PIN_NUMBER='(16,32)';
       PIN_TYPE='ANALOG';
@@ -3169,6 +3671,7 @@ primitive 'RJ45_DUAL_JGL_0001NL-GND_SHLD=A';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
     '-MD1_':
       PIN_NUMBER='(2,18)';
       PIN_TYPE='ANALOG';
@@ -3177,6 +3680,7 @@ primitive 'RJ45_DUAL_JGL_0001NL-GND_SHLD=A';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
     '-MD2_':
       PIN_NUMBER='(5,21)';
       PIN_TYPE='ANALOG';
@@ -3185,6 +3689,7 @@ primitive 'RJ45_DUAL_JGL_0001NL-GND_SHLD=A';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
     '-MD3_':
       PIN_NUMBER='(8,24)';
       PIN_TYPE='ANALOG';
@@ -3193,6 +3698,7 @@ primitive 'RJ45_DUAL_JGL_0001NL-GND_SHLD=A';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
     '-MD4_':
       PIN_NUMBER='(11,27)';
       PIN_TYPE='ANALOG';
@@ -3201,6 +3707,7 @@ primitive 'RJ45_DUAL_JGL_0001NL-GND_SHLD=A';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
     '-LED1_':
       PIN_NUMBER='(13,29)';
       PIN_TYPE='ANALOG';
@@ -3209,6 +3716,7 @@ primitive 'RJ45_DUAL_JGL_0001NL-GND_SHLD=A';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
     '-LED2_':
       PIN_NUMBER='(15,31)';
       PIN_TYPE='ANALOG';
@@ -3217,6 +3725,7 @@ primitive 'RJ45_DUAL_JGL_0001NL-GND_SHLD=A';
       NO_ASSERT_CHECK='TRUE';
       NO_DIR_CHECK='TRUE';
       ALLOW_CONNECT='TRUE';
+      PINUSE='UNSPEC';
   end_pin;
   body
       PART_NAME='RJ45_DUAL_JGL_0001NL';
@@ -3238,12 +3747,14 @@ primitive 'RSMD0402_1/16W-100,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0402';
@@ -3275,12 +3786,14 @@ primitive 'RSMD0402_1/16W-100K,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0402';
@@ -3312,12 +3825,14 @@ primitive 'RSMD0402_1/16W-150,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0402';
@@ -3349,12 +3864,14 @@ primitive 'RSMD0402_1/16W-1K,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0402';
@@ -3386,12 +3903,14 @@ primitive 'RSMD0402_1/16W-200K,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0402';
@@ -3423,12 +3942,14 @@ primitive 'RSMD0402_1/16W-2K,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0402';
@@ -3460,12 +3981,14 @@ primitive 'RSMD0402_1/16W-4.7K,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0402';
@@ -3497,12 +4020,14 @@ primitive 'RSMD0402_1/16W-56,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0402';
@@ -3534,12 +4059,14 @@ primitive 'RSMD0402_1/16W-750,1%';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0402';
@@ -3571,12 +4098,14 @@ primitive 'RSMD0603_-00,';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
     'B'<0>:
       PIN_NUMBER='(2)';
       PIN_GROUP='1';
       INPUT_LOAD='(*,*)';
       OUTPUT_LOAD='(*,*)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
   end_pin;
   body
       PART_NAME='RSMD0603';
@@ -3602,49 +4131,11 @@ primitive 'RSMD0603_-00,';
       PARENT_PPT_PART='RSMD0603_-00,';
   end_body;
 end_primitive;
-primitive 'RSMD0603_1/10W-100,1%';
-  pin
-    'A'<0>:
-      PIN_NUMBER='(1)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-    'B'<0>:
-      PIN_NUMBER='(2)';
-      PIN_GROUP='1';
-      INPUT_LOAD='(*,*)';
-      OUTPUT_LOAD='(*,*)';
-      BIDIRECTIONAL='TRUE';
-  end_pin;
-  body
-      PART_NAME='RSMD0603';
-      BODY_NAME='RSMD0603';
-      CLASS='DISCRETE';
-      PINCOUNT='2';
-      SIZE='1';
-      PHYS_DES_PREFIX='R';
-      DESCRIPTION='SMD Resistor';
-      CASE='0603';
-      SMD='YES';
-      STATUS='Preferred';
-      PART_NUMBER='R0603_100R_1%_0.1W_100PPM';
-      VALUE='100';
-      TOL='1%';
-      PWR='0.1W';
-      JEDEC_TYPE='C0603';
-      MANUFACTURER='GENERIC';
-      SCEM='http://edhcat.cern.ch/edhcat/Browser?command=searchItems&scem=11.24.~
-03.200.9';
-      PARENT_PART_TYPE='RSMD0603_1/10W';
-      PARENT_PPT='RSMD0603';
-      PARENT_PPT_PART='RSMD0603_1/10W-100,1%';
-  end_body;
-end_primitive;
 primitive 'SFP_CAGE-SP-74737-004';
   pin
     'NC':
       PIN_NUMBER='(NC)';
+      PINUSE='UNSPEC';
   end_pin;
   body
       PART_NAME='SFP_CAGE';
@@ -3673,91 +4164,119 @@ primitive 'SI5344B-B-GM-VDD=P1V8,VDDA=P3VA';
     'A0/CS':
       PIN_NUMBER='(16)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'A1/SDO':
       PIN_NUMBER='(15)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'I2C_SEL':
       PIN_NUMBER='(38)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'IN0':
       PIN_NUMBER='(43)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'IN0*':
       PIN_NUMBER='(44)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'IN1':
       PIN_NUMBER='(1)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'IN1*':
       PIN_NUMBER='(2)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'IN2':
       PIN_NUMBER='(10)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'IN2*':
       PIN_NUMBER='(11)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'IN3/FB_IN':
       PIN_NUMBER='(41)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'IN3/FB_IN*':
       PIN_NUMBER='(42)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'INTR*':
       PIN_NUMBER='(33)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'IN_SEL0':
       PIN_NUMBER='(3)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'IN_SEL1':
       PIN_NUMBER='(37)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'LOL*':
       PIN_NUMBER='(27)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'LOS_XAXB*':
       PIN_NUMBER='(28)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'OE*':
       PIN_NUMBER='(12)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'OUT0':
       PIN_NUMBER='(20)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'OUT0*':
       PIN_NUMBER='(19)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'OUT1':
       PIN_NUMBER='(25)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'OUT1*':
       PIN_NUMBER='(24)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'OUT2':
       PIN_NUMBER='(31)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'OUT2*':
       PIN_NUMBER='(30)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'OUT3':
       PIN_NUMBER='(36)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'OUT3*':
       PIN_NUMBER='(35)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'RST*':
       PIN_NUMBER='(17)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'SCLK':
       PIN_NUMBER='(14)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'SDA/SDIO':
       PIN_NUMBER='(13)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     'VDDO0':
       PIN_NUMBER='(18)';
       PINUSE='POWER';
@@ -3793,15 +4312,19 @@ primitive 'SI5344B-B-GM-VDD=P1V8,VDDA=P3VA';
     'X1':
       PIN_NUMBER='(4)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'X2':
       PIN_NUMBER='(7)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'XA':
       PIN_NUMBER='(5)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'XB':
       PIN_NUMBER='(6)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
   end_pin;
   body
       PART_NAME='SI5344';
@@ -3831,24 +4354,31 @@ primitive 'SN65LVDT125DBT-VCC=P3V3';
     'S1'<0>:
       PIN_NUMBER='(2,6,15,19)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'S0'<0>:
       PIN_NUMBER='(1,5,14,18)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'A'<0>:
       PIN_NUMBER='(3,7,12,16)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'B'<0>:
       PIN_NUMBER='(4,8,13,17)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'DE'<0>:
       PIN_NUMBER='(34,31,25,22)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'Y'<0>:
       PIN_NUMBER='(36,33,27,24)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'Z*'<0>:
       PIN_NUMBER='(35,32,26,23)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
   end_pin;
   body
       PART_NAME='SN65LVDT125';
@@ -3878,26 +4408,31 @@ primitive 'SN74AVC2T45DCU';
     'DIR':
       PIN_NUMBER='(5)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'A1':
       PIN_NUMBER='(2)';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
     'A2':
       PIN_NUMBER='(3)';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
     'B1':
       PIN_NUMBER='(7)';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
     'B2':
       PIN_NUMBER='(6)';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
     'VCCA':
       PIN_NUMBER='(1)';
       PINUSE='POWER';
@@ -3936,33 +4471,41 @@ primitive 'SN74AVC4T245PW-VCCA=P3V3,VCCB=A';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     '2OE*':
       PIN_NUMBER='(14,14,0,0)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     '2DIR':
       PIN_NUMBER='(3,3,0,0)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     '2A'<0>:
       PIN_NUMBER='(7,6,0,0)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     '1OE*':
       PIN_NUMBER='(0,0,15,15)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     '1DIR':
       PIN_NUMBER='(0,0,2,2)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     '1B'<0>:
       PIN_NUMBER='(0,0,12,13)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
     '1A'<0>:
       PIN_NUMBER='(0,0,5,4)';
       BIDIRECTIONAL='TRUE';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='BI';
   end_pin;
   body
       PART_NAME='74AVC4T245';
@@ -3993,21 +4536,25 @@ primitive 'SN74AVC8T245PW-VCCA=P3V3,VCCB=A';
     'DIR':
       PIN_NUMBER='(2*8)';
       INPUT_LOAD='(-0.001,0.001)';
+      PINUSE='IN';
     'B'<0>:
       PIN_NUMBER='(14,15,16,17,18,19,20,21)';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(64.0,-32.0)';
       OUTPUT_TYPE='(TS,TS)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
     'A'<0>:
       PIN_NUMBER='(10,9,8,7,6,5,4,3)';
       INPUT_LOAD='(-0.01,0.01)';
       OUTPUT_LOAD='(64.0,-32.0)';
       OUTPUT_TYPE='(TS,TS)';
       BIDIRECTIONAL='TRUE';
+      PINUSE='BI';
     'OE*':
       PIN_NUMBER='(22*8)';
       INPUT_LOAD='(-0.001,0.001)';
+      PINUSE='IN';
   end_pin;
   body
       CLASS='IC';
@@ -4039,27 +4586,35 @@ primitive 'SY58608UMG-VCC=P3V3';
     'VREF-AC':
       PIN_NUMBER='(3)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'Q0':
       PIN_NUMBER='(12)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'Q0*':
       PIN_NUMBER='(11)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'Q1':
       PIN_NUMBER='(10)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'Q1*':
       PIN_NUMBER='(9)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'VT':
       PIN_NUMBER='(2)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'IN*':
       PIN_NUMBER='(4)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'IN':
       PIN_NUMBER='(1)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
   end_pin;
   body
       PART_NAME='SY58608U';
@@ -4089,6 +4644,7 @@ primitive 'TPS799185DDCTG4';
     'EN':
       PIN_NUMBER='(3)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'GND':
       PIN_NUMBER='(2)';
       PINUSE='GROUND';
@@ -4100,12 +4656,15 @@ primitive 'TPS799185DDCTG4';
     'OUT':
       PIN_NUMBER='(5)';
       OUTPUT_LOAD='(1.0,-1.0)';
+      PINUSE='OUT';
     'IN':
       PIN_NUMBER='(1)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
     'NR':
       PIN_NUMBER='(4)';
       INPUT_LOAD='(-0.01,0.01)';
+      PINUSE='IN';
   end_pin;
   body
       PART_NAME='TPS799XX';

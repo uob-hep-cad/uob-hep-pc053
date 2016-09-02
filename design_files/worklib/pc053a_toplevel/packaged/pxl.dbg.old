@@ -1,6 +1,6 @@
-Log File: /tmp/fileuI5yEM
-Markers File: /tmp/filev9cPCb
-Debug File: /tmp/file06PVEZ
+Log File: /tmp/file5shFUW
+Markers File: /tmp/filepUNjyI
+Debug File: /tmp/fileN29yWf
      Debug[0] := TRUE
 Elapsed time since start = (00:00:00)
 
@@ -24,10 +24,10 @@ Elapsed time since start = (00:00:01)
  *  Packaging  *
  ***************
 
-Elapsed time since start = (00:00:01)
+Elapsed time since start = (00:00:02)
 
  *******************************
- *  End packaging  (00:00:00)  *
+ *  End packaging  (00:00:01)  *
  *******************************
 
 DDB_INFO: State file for design PC053A_TOPLEVEL successfully written.

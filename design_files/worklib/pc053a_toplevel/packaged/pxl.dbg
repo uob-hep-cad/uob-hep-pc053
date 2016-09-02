@@ -1,6 +1,6 @@
-Log File: /tmp/fileqj3SGK
-Markers File: /tmp/fileuKmwmQ
-Debug File: /tmp/filesaaKN1
+Log File: /tmp/filechACHw
+Markers File: /tmp/fileLSB3ZR
+Debug File: /tmp/fileeYGFGy
      Debug[0] := TRUE
 Elapsed time since start = (00:00:00)
 
@@ -13,7 +13,7 @@ Elapsed time since start = (00:00:00)
  *  Starting to assign physical parts.  *
  ****************************************
 
-Elapsed time since start = (00:00:01)
+Elapsed time since start = (00:00:02)
 
  ***********************************************
  *  End assigning physical parts.  (00:00:00)  *
@@ -24,7 +24,7 @@ Elapsed time since start = (00:00:01)
  *  Packaging  *
  ***************
 
-Elapsed time since start = (00:00:01)
+Elapsed time since start = (00:00:02)
 
  *******************************
  *  End packaging  (00:00:00)  *

@@ -122,26 +122,8 @@
   cnpower p3v3 *
   page11_i183
 #CELL
-  cnpassive rsmd0402 *
-  page11_i202
-#CELL
-  cninterface nbsg53a *
-  page11_i206
-#CELL
   cninterface sy58608u *
   page11_i207
-#CELL
-  cnpassive rsmd0402 *
-  page11_i210
-#ISCELL
-  cnpower gnd *
-  page11_i211
-#CELL
-  cnpassive rsmd0402 *
-  page11_i212
-#ISCELL
-  cnpower p3v3 *
-  page11_i213
 #CELL
   cnpassive capcersmdcl2 *
   page11_i215
@@ -167,12 +149,6 @@
   cnpassive capcersmdcl2 *
   page11_i222
 #CELL
-  cnpassive capacitor *
-  page11_i223
-#CELL
-  cnpassive capacitor *
-  page11_i224
-#CELL
   cndiscrete led1 *
   page11_i225
 #CELL
@@ -184,24 +160,12 @@
 #CELL
   cninterface adn2814 *
   page11_i23
-#ISCELL
-  cnpower gnd *
-  page11_i230
-#ISCELL
-  cnpower gnd *
-  page11_i231
 #CELL
   cnpassive rsmd0402 *
   page11_i232
 #CELL
   cnpassive rsmd0402 *
   page11_i233
-#CELL
-  cnpassive rsmd0402 *
-  page11_i234
-#CELL
-  cnpassive rsmd0402 *
-  page11_i235
 #CELL
   cnpassive rsmd0402 *
   page11_i236
@@ -223,9 +187,57 @@
 #CELL
   cnpassive rsmd0603 *
   page11_i242
+#CELL
+  cninterface 74avc4t245 *
+  page11_i269
 #ISCELL
   cnpower gnd *
-  page11_i243
+  page11_i271
+#ISCELL
+  cnpower cvcc *
+  page11_i272
+#ISCELL
+  cnpower gnd *
+  page11_i273
+#CELL
+  cninterface 74avc4t245 *
+  page11_i274
+#ISCELL
+  cnpower cvcc *
+  page11_i275
+#ISCELL
+  cnpower gnd *
+  page11_i277
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i278
+#ISCELL
+  cnpower p3v3 *
+  page11_i279
+#ISCELL
+  cnpower gnd *
+  page11_i280
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i281
+#ISCELL
+  cnpower cvcc *
+  page11_i282
+#ISCELL
+  cnpower gnd *
+  page11_i283
+#CELL
+  cninterface 74avc2t45 *
+  page11_i284
+#CELL
+  cnpassive capcersmdcl2 *
+  page11_i285
+#ISCELL
+  cnpower gnd *
+  page11_i288
+#ISCELL
+  cnpower cvcc *
+  page11_i289
 #ISCELL
   cnpower gnd *
   page11_i42

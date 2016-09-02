@@ -2,9 +2,6 @@
   bris_cds_standard a3-2000 *
   *
 #CELL
-  cninterface 74avc2t45 *
-  page2_i10
-#CELL
   cnconnector con400p_40abcdefghjk *
   page2_i126
 #CELL
@@ -37,9 +34,6 @@
 #CELL
   cninterface pca9517 *
   page2_i162
-#ISCELL
-  cnpower p3v3 *
-  page2_i163
 #CELL
   cnconnector con3p *
   page2_i170
@@ -67,30 +61,12 @@
 #ISCELL
   cnpower gnd *
   page2_i201
-#CELL
-  cnpassive capcersmdcl2 *
-  page2_i210
-#ISCELL
-  cnpower gnd *
-  page2_i211
-#CELL
-  cnpassive capcersmdcl2 *
-  page2_i212
-#ISCELL
-  cnpower gnd *
-  page2_i213
-#ISCELL
-  cnpower cvcc *
-  page2_i215
 #ISCELL
   cnpower cvcc *
   page2_i216
 #ISCELL
   cnpower p3v3 *
   page2_i220
-#ISCELL
-  cnpower gnd *
-  page2_i221
 #CELL
   cnpassive rsmd0402 *
   page2_i222
@@ -206,8 +182,8 @@
   cnpower cvcc *
   page2_i281
 #ISCELL
-  cnpower p3v3 *
-  page2_i46
+  cnpower cvcc *
+  page2_i282
 #ISCELL
   cnpower ctrlvcc *
   page2_i47
@@ -232,9 +208,6 @@
 #ISCELL
   cnpower p3v3 *
   page2_i69
-#ISCELL
-  cnpower p12v *
-  page2_i70
 #ISCELL
   cnpower gnd *
   page2_i71
