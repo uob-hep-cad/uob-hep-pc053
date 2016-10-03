@@ -1,141 +1,15 @@
-\t (00:00:04) allegro 16.6-2015 S055 (v16-6-112EH) Linux I32
-\t (00:00:04)     Journal start - Thu Sep  1 13:43:48 2016
-\t (00:00:04)         Host=voltar.phy.bris.ac.uk User=phdgc Pid=28488 CPUs=8
-\t (00:00:04) CmdLine= /software/CAD/Cadence/2015-16/RHELx86/SPB_16.60.055/tools/pcb/bin/allegro.exe -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/pc053a_toplevel.cpm -product Concept_HDL_studio -mpssession phdgc_ProjectMgr11240 -mpshost voltar.phy.bris.ac.uk
-\t (00:00:04) 
-\t (00:00:04) Opening existing design...
-\d (00:00:04) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_18.brd
-\i (00:00:05) trapsize 850
-\i (00:00:05) trapsize 868
-\i (00:00:06) trapsize 766
-\i (00:00:06) trapsize 992
-\i (00:00:06) ifp 
-\i (00:02:02) xhilite 
-\i (00:02:02) xrefdes J2 
-\i (00:02:02) xrefdes J2 
-\i (00:02:02) xname_flush 
-\i (00:02:02) trapsize 461
-\t (00:02:02) Symbol "J2" highlighted.
-\i (00:02:02) done 
-\i (00:02:02) ifp 
-\i (00:02:29) xhilite 
-\i (00:02:29) xrefdes R103 
-\i (00:02:29) xname_flush 
-\i (00:02:29) trapsize 461
-\t (00:02:29) Symbol "R103" highlighted.
-\i (00:02:29) done 
-\i (00:02:29) ifp 
-\i (00:03:00) xhilite 
-\i (00:03:00) xrefdes R39 
-\i (00:03:00) xname_flush 
-\i (00:03:00) trapsize 241
-\t (00:03:00) Symbol "R39" highlighted.
-\i (00:03:00) done 
-\i (00:03:00) ifp 
-\i (00:04:05) zoom out 
-\i (00:04:05) setwindow pcb
-\i (00:04:05) zoom out -19.1954 2.6077
-\i (00:04:05) trapsize 483
-\i (00:04:05) zoom out 
-\i (00:04:05) setwindow pcb
-\i (00:04:05) zoom out -19.1955 2.6077
-\i (00:04:05) trapsize 965
-\i (00:04:05) zoom out 
-\i (00:04:05) setwindow pcb
-\i (00:04:05) zoom out -19.1955 2.6076
-\i (00:04:05) trapsize 1931
-\i (00:04:06) roam start
-\i (00:04:06) roam x 16
-\i (00:04:06) roam x 48
-\i (00:04:06) roam y -64
-\i (00:04:06) roam x 64
-\i (00:04:06) roam y -96
-\i (00:04:06) roam x 128
-\i (00:04:06) roam y -144
-\i (00:04:07) roam x 128
-\i (00:04:07) roam y -160
-\i (00:04:07) roam x 96
-\i (00:04:07) roam y -160
-\i (00:04:07) roam x 64
-\i (00:04:07) roam y -128
-\i (00:04:07) roam y -16
-\i (00:04:07) roam y -16
-\i (00:04:07) roam y -32
-\i (00:04:07) roam y -64
-\i (00:04:07) roam x -32
-\i (00:04:07) roam y -64
-\i (00:04:07) roam x -16
-\i (00:04:07) roam y -80
-\i (00:04:07) roam x -32
-\i (00:04:07) roam y -96
-\i (00:04:07) roam x -32
-\i (00:04:07) roam y -64
-\i (00:04:07) roam x -16
-\i (00:04:07) roam y -64
-\i (00:04:07) roam x -16
-\i (00:04:07) roam y -64
-\i (00:04:07) roam x -16
-\i (00:04:07) roam y -48
-\i (00:04:07) roam y -32
-\i (00:04:07) roam x -16
-\i (00:04:07) roam y -16
-\i (00:04:08) roam x -16
-\i (00:04:08) roam x -16
-\i (00:04:08) roam x -32
-\i (00:04:08) roam y 16
-\i (00:04:08) roam x -32
-\i (00:04:08) roam y 16
-\i (00:04:08) roam x -64
-\i (00:04:08) roam y 16
-\i (00:04:08) roam x -64
-\i (00:04:08) roam y 16
-\i (00:04:08) roam x -48
-\i (00:04:08) roam x -16
-\i (00:04:08) roam x -16
-\i (00:04:08) roam x -16
-\i (00:04:08) roam x -16
-\i (00:04:08) roam x -16
-\i (00:04:08) roam y 16
-\i (00:04:08) roam x -16
-\i (00:04:08) roam x -16
-\i (00:04:09) roam x -16
-\i (00:04:09) roam x -16
-\i (00:04:09) roam y 16
-\i (00:04:09) roam x -16
-\i (00:04:09) roam x -64
-\i (00:04:09) roam y 32
-\i (00:04:09) roam x -64
-\i (00:04:09) roam y 16
-\i (00:04:09) roam x -112
-\i (00:04:09) roam y 48
-\i (00:04:09) roam x -160
-\i (00:04:09) roam y 32
-\i (00:04:09) roam x -80
-\i (00:04:09) roam y 16
-\i (00:04:09) roam x -64
-\i (00:04:09) roam x -32
-\i (00:04:09) roam x -16
-\i (00:04:10) roam end
-\i (00:04:11) zoom out 
-\i (00:04:11) setwindow pcb
-\i (00:04:11) zoom out -44.5578 47.6996
-\i (00:04:11) trapsize 3862
-\i (00:04:12) zoom out 
-\i (00:04:12) setwindow pcb
-\i (00:04:12) zoom out -44.5578 47.6996
-\i (00:04:12) trapsize 7724
-\i (00:04:13) roam start
-\i (00:04:13) roam x 64
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam x 16
-\i (00:04:13) roam end
-\i (00:04:51) zoom out 
-\i (00:04:51) setwindow pcb
-\i (00:04:51) zoom out -27.3339 47.6996
-\i (00:04:51) trapsize 15447
-\i (00:04:54) save 
-\i (00:04:55) fillin yes 
-\i (00:04:56) ifp 
-\i (00:04:58) exit 
-\t (00:04:58)     Journal end - Thu Sep  1 13:48:42 2016
+\t (00:00:20) allegro 16.6-2015 S055 (v16-6-112EH) Linux I32
+\t (00:00:20)     Journal start - Wed Sep  7 10:04:51 2016
+\t (00:00:20)         Host=voltar.phy.bris.ac.uk User=phdgc Pid=6021 CPUs=8
+\t (00:00:20) CmdLine= /software/CAD/Cadence/2015-16/RHELx86/SPB_16.60.055/tools/pcb/bin/allegro.exe -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/pc053a_toplevel.cpm -product Concept_HDL_studio -mpssession phdgc_ProjectMgr11240 -mpshost voltar.phy.bris.ac.uk
+\t (00:00:20) 
+\t (00:00:26) Opening existing design...
+\d (00:00:27) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_24.brd
+\i (00:00:29) trapsize 24700
+\i (00:00:29) trapsize 24075
+\i (00:00:29) trapsize 24807
+\i (00:00:31) trapsize 20890
+\i (00:00:31) trapsize 20890
+\i (00:00:32) ifp 
+\i (00:00:40) exit 
+\t (00:00:46)     Journal end - Wed Sep  7 10:05:17 2016

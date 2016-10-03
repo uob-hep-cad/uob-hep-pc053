@@ -1,0 +1,28 @@
+	(Comment
+		(Time 08/24/16,17:52:26)
+		(User phpgb)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 "sym_1")
+	)
+	(Comment
+		(Time 08/24/16,17:52:35)
+		(User phpgb)
+		(MsgId ECO_082)
+		(Text "Symbol sym_1 deleted from cell")
+		(Param1 "sym_1")
+	)
+	(Comment
+		(Time 08/24/16,17:52:48)
+		(User phpgb)
+		(MsgId ECO_021)
+		(Text "Package RJ45_DUAL_JGL_0001NL added to cell")
+		(Param1 "RJ45_DUAL_JGL_0001NL")
+	)
+	(Comment
+		(Time 08/24/16,18:12:33)
+		(User phpgb)
+		(MsgId ECO_081)
+		(Text "Symbol sym_1 added to cell")
+		(Param1 "sym_1")
+	)

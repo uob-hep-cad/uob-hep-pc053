@@ -2,9 +2,9 @@
 (                                                                     )
 (    DRC Update                                                       )
 (                                                                     )
-(    Drawing          : tr_36_60_pb.dra                               )
-(    Software Version : 16.6-2015S058                                 )
-(    Date/Time        : Thu Aug 18 17:30:49 2016                      )
+(    Drawing          : pc053a_toplevel_17.brd                        )
+(    Software Version : 16.6-2015S055                                 )
+(    Date/Time        : Thu Sep  1 12:58:05 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  0
+ ..... Total number of DRC errors  18
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************
