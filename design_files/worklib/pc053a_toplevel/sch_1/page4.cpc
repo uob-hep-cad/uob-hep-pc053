@@ -65,6 +65,15 @@
   cnpassive capcersmdcl2 *
   page4_i120
 #CELL
+  cnconnector con8p *
+  page4_i122
+#CELL
+  cnpassive rsmd0402 *
+  page4_i123
+#CELL
+  cnpassive rsmd0402 *
+  page4_i124
+#CELL
   cnpassive rsmd0402 *
   page4_i14
 #ISCELL
@@ -148,75 +157,9 @@
 #ISCELL
   cnpower p3v3 *
   page4_i6
-#CELL
-  uob_hep_pc053a_lib rj45_dual_jgl_0001nl *
-  page4_i60
-#CELL
-  uob_hep_pc053a_lib rj45_dual_jgl_0001nl *
-  page4_i61
-#CELL
-  cnpassive capcersmdcl2 *
-  page4_i62
-#CELL
-  cnpassive capcersmdcl2 *
-  page4_i63
-#CELL
-  cnpassive capcersmdcl2 *
-  page4_i64
-#CELL
-  cnpassive capcersmdcl2 *
-  page4_i65
-#CELL
-  cnpassive capcersmdcl2 *
-  page4_i66
-#CELL
-  cnpassive capcersmdcl2 *
-  page4_i67
-#CELL
-  cnpassive capcersmdcl2 *
-  page4_i68
-#CELL
-  cnpassive capcersmdcl2 *
-  page4_i69
-#ISCELL
-  cnpower gnd *
-  page4_i70
-#ISCELL
-  cnpower gnd *
-  page4_i71
-#CELL
-  cninterface 74lcx04 *
-  page4_i72
-#CELL
-  cninterface 74lcx04 *
-  page4_i73
-#CELL
-  cninterface 74lcx04 *
-  page4_i74
-#CELL
-  cninterface 74lcx04 *
-  page4_i75
 #ISCELL
   cnpower gnd *
   page4_i8
-#ISCELL
-  cnpower gnd *
-  page4_i80
-#ISCELL
-  cnpower gnd *
-  page4_i81
-#CELL
-  cnpassive rsmd0402 *
-  page4_i82
-#CELL
-  cnpassive rsmd0402 *
-  page4_i83
-#CELL
-  cnpassive rsmd0402 *
-  page4_i84
-#CELL
-  cnpassive rsmd0402 *
-  page4_i85
 #CELL
   cnlinear tps799xx *
   page4_i86

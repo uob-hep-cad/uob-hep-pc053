@@ -1,0 +1,32 @@
+Licenses in Use Report
+
+--------------------------------------------------------------------
+Consumers of license:  "Allegro_studio"
+    Server:      5280@asimov.phy.bris.ac.uk
+    Available:   4
+    In use:      2
+
+ USER                 SYSTEM               USED  STATUS
+ phdgc                voltar.phy.bris.ac.uk   1   Checked out
+ ah15346              IT061694               1   Checked out
+
+--------------------------------------------------------------------
+Consumers of license:  "Allegro_performance"
+    Server:      5280@asimov.phy.bris.ac.uk
+    Available:   2
+    In use:      2
+
+ USER                 SYSTEM               USED  STATUS
+ phdgc                voltar.phy.bris.ac.uk   1   Checked out
+ ah15346              IT061694               1   Checked out
+
+--------------------------------------------------------------------
+Consumers of license:  "PCB_design_studio"
+    Server:      5280@asimov.phy.bris.ac.uk
+    Available:   2
+    In use:      2
+
+ USER                 SYSTEM               USED  STATUS
+ phdgc                voltar.phy.bris.ac.uk   1   Checked out
+ ah15346              IT061694               1   Checked out
+

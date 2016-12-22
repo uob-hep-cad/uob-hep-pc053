@@ -2,36 +2,36 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : pc053a_toplevel_23.brd                        )
-(    Software Version : 16.6-2015S055                                 )
-(    Date/Time        : Fri Sep  2 16:43:23 2016                      )
+(    Drawing          : pc053a_toplevel_32.brd                        )
+(    Software Version : 16.6-2015S058                                 )
+(    Date/Time        : Mon Oct 24 13:25:57 2016                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 ------ Directives ------------
 
-Ripup etch:                  Yes
+Ripup etch:                  No
 Ripup delete first segment:  No
 Ripup retain bondwire:       No
 Ripup symbols:               IfSame
 Missing symbol has error:    No
 DRC update:                  Yes
-Schematic directory:         '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged'
+Schematic directory:         'P:\cad\designs\uob-hep-pc053a\trunk\design_files\worklib\pc053a_toplevel\packaged'
 Design Directory:            '.'
-Old design name:             '/projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_23.brd'
-New design name:             'pc053a_toplevel_24.brd'
+Old design name:             'P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_32.brd'
+New design name:             'pc053a_toplevel_33.brd'
 
-CmdLine: netrev -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/pc053a_toplevel.cpm -y 2 -x -O /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_23.brd /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_24.brd -w /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/temp/constraints_difference_report.xml -$
+CmdLine: netrev -proj P:\cad\designs\uob-hep-pc053a\trunk\design_files\pc053a_toplevel.cpm -y 2 -O P:\cad\designs\uob-hep-pc053a\trunk\design_files\worklib\pc053a_toplevel\physical\pc053a_toplevel_32.brd P:\cad\designs\uob-hep-pc053a\trunk\design_files\worklib\pc053a_toplevel\physical\pc053a_toplevel_33.brd -w P:\cad\designs\uob-hep-pc053a\trunk\design_files\temp\constraints_difference_report.xml -$
 
 ------ Preparing to read pst files ------
 
-Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstchip.dat 
-   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstchip.dat (00:00:00.32)
-Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstxprt.dat 
-   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstxprt.dat (00:00:00.00)
-Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstxnet.dat 
-   Finished reading /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstxnet.dat (00:00:00.00)
+Starting to read P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstchip.dat 
+   Finished reading P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstchip.dat (00:00:00.39)
+Starting to read P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstxprt.dat 
+   Finished reading P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstxprt.dat (00:00:00.01)
+Starting to read P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstxnet.dat 
+   Finished reading P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstxnet.dat (00:00:00.01)
 
 ------ Oversights/Warnings/Errors ------
 
@@ -40,64 +40,81 @@ Starting to read /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/
 
 ===========================================================
 Start Constraint Diff3 Import
-	Constraint File:    /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstcmdb.dat
-	Allegro Baseline:   /tmp/#Taaaaad18449.tmp
-	Schematic Baseline: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstcmbc.dat
-	Start time: Fri Sep  2 16:43:23 2016
+	Constraint File:    P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstcmdb.dat
+	Allegro Baseline:   C:/Users/phpgb/AppData/Local/Temp/#Taaaaad10356.tmp
+	Schematic Baseline: P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/packaged/pstcmbc.dat
+	Start time: Mon Oct 24 13:25:58 2016
 ===========================================================
 ===========================================================
-Finished Constraint Update	Time: Fri Sep  2 16:43:23 2016
+Finished Constraint Update	Time: Mon Oct 24 13:25:58 2016
 ===========================================================
 
 ------ Library Paths ------
 MODULEPATH =  . 
-           /cadence/psd15.1/share/local/pcb/modules 
-           ../../../modules 
-           ../../ltm9007_input_filter/physical 
-           ../../ltm9007_8chan_v2/physical 
-           ../../trenz_te0712/physical 
-           ../../pc052a_single_amplifier/physical 
-           ../../pc052b_resistive_splitter/physical 
-           ../../pc052c_splitter_array/physical 
+           C:/Cadence/SPB_16.6/share/local/pcb/modules 
+           ../../fmc_tlu_clock_gen/physical/ 
 
 PSMPATH =  . 
-           /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/symbols 
-           /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/formats 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/connector 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/soic 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/discrete 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/dip 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/so 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/bga 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/qfp 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/passif 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/cap 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/led 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/rel 
-           /projects/HEP_Instrumentation/cad/ral_cdslib/lib_psd15.x/symbols 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/sw 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/mec 
+           symbols 
+           .. 
+           ../symbols 
+           ../pads 
+           C:/Cadence/SPB_16.6/share/local/pcb/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/bga 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/cap 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/chip 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/connector 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/dip 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/discrete 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/icsmd 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/ipc 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/lcc 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/led 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/mec 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/passif 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/pga 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/pwr 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/qfp 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/rel 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/res 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/sip 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/so 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/soic 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/soj 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/sp 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/sw 
+           P:/cad/ral_cdslib/lib_psd15.x/symbols 
+           P:/cad/bris_cdslib/lib_psd14.x/symbols 
+           P:/cad/bris_cdslib/lib_psd14.x/formats 
+           P:\cad\cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/bga 
 
 PADPATH =  . 
            symbols 
            .. 
            ../symbols 
-           /software/CAD/Cadence/2015-16/RHELx86/SPB_16.60.055/share/local/pcb/padstacks 
-           /software/CAD/Cadence/2015-16/RHELx86/SPB_16.60.055/share/pcb/pcb_lib/symbols 
-           /software/CAD/Cadence/2015-16/RHELx86/SPB_16.60.055/share/pcb/allegrolib/symbols 
-           /projects/HEP_Instrumentation/cad/bris_cdslib/lib_psd14.x/pads 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/padstacks/padstack_smd 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/padstacks/padstack3 
-           /projects/HEP_Instrumentation/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/padstacks/padstackm 
-           /projects/HEP_Instrumentation/cad/ral_cdslib/lib_psd15.x/pads 
+           C:/Cadence/SPB_16.6/share/local/pcb/padstacks 
+           C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/symbols/ 
+           C:/Dati/Courses/AllegroCourses/DesignEntryHDL/ftb/pcb/symbols/ 
+           P:\cad\cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/padstacks/padstackm 
+           P:\cad\ral_cdslib\lib_psd15.x/pads 
+           P:\cad\bris_cdslib\lib_psd14.x/pads 
+           P:\cad\cern_cdslib\lib_psd16.x\allegro_libs\pe_allegro_lib\padstacks/padstack_smd 
+           P:\cad\cern_cdslib\lib_psd16.x\allegro_libs\pe_allegro_lib\padstacks/padstack3 
+           P:\cad\cern_cdslib\lib_psd16.x\allegro_libs\pe_allegro_lib\padstacks/padstackm 
+           P:\cad\cern_cdslib\lib_psd16.x\allegro_libs\pe_allegro_lib\padstacks/mechanical 
+           P:\cad\cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/padstacks/mechanical 
 
 
 ------ Summary Statistics ------
 
 
-netrev run on Sep 2 16:43:23 2016
+netrev run on Oct 24 13:25:57 2016
    DESIGN NAME : 'PC053A_TOPLEVEL'
-   PACKAGING ON 02-Sep-2016 AT 16:43:19
+   PACKAGING ON 24-Oct-2016 AT 13:25:40
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -126,6 +143,6 @@ netrev run on Sep 2 16:43:23 2016
  No oversight detected
  No warning detected
 
-cpu time      0:00:01
-elapsed time  0:00:01
+cpu time      0:06:04
+elapsed time  0:00:02
 

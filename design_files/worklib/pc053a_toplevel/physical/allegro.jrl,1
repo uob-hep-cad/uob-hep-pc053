@@ -1,15 +1,85 @@
-\t (00:00:20) allegro 16.6-2015 S055 (v16-6-112EH) Linux I32
-\t (00:00:20)     Journal start - Wed Sep  7 10:04:51 2016
-\t (00:00:20)         Host=voltar.phy.bris.ac.uk User=phdgc Pid=6021 CPUs=8
-\t (00:00:20) CmdLine= /software/CAD/Cadence/2015-16/RHELx86/SPB_16.60.055/tools/pcb/bin/allegro.exe -proj /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/pc053a_toplevel.cpm -product Concept_HDL_studio -mpssession phdgc_ProjectMgr11240 -mpshost voltar.phy.bris.ac.uk
-\t (00:00:20) 
-\t (00:00:26) Opening existing design...
-\d (00:00:27) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_24.brd
-\i (00:00:29) trapsize 24700
-\i (00:00:29) trapsize 24075
-\i (00:00:29) trapsize 24807
-\i (00:00:31) trapsize 20890
-\i (00:00:31) trapsize 20890
-\i (00:00:32) ifp 
-\i (00:00:40) exit 
-\t (00:00:46)     Journal end - Wed Sep  7 10:05:17 2016
+\t (00:02:08) allegro 16.6-2015 S055 (v16-6-112EH) Linux I32
+\t (00:02:08)     Journal start - Tue Dec 20 10:12:47 2016
+\t (00:02:08)         Host=fortis.phy.bris.ac.uk User=phpgb Pid=29639 CPUs=4
+\t (00:02:08) CmdLine= /software/CAD/Cadence/2015-16/RHELx86/SPB_16.60.055//tools/pcb/bin/allegro.exe pc053a_toplevel_33_ans_16-5_28oct.brd
+\t (00:02:08) 
+   (00:02:09) Searching for nsWare programs v2.62
+   (00:02:09) 	NsWare directory found: /software/CAD/Cadence/2015-16/RHELx86/SPB_16.60.055/share/local/pcb/skill/nsWare/
+   (00:02:09) 	NsWare programs must reside in this directory!
+   (00:02:09) Loading axlcore.cxt 
+\t (00:02:10) Opening existing design...
+\i (00:02:12) fillin yes 
+\w (00:02:12) WARNING(SPMHDB-212): This design has functionality disabled due to the current product plus options selected. The following features are disabled: Constraint Regions.  [help]
+\i (00:02:12) fillin confirm
+\d (00:02:12) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_33_ans_16-5_28oct.brd
+\i (00:02:13) trapsize 3885
+\i (00:02:13) trapsize 3803
+\i (00:02:13) trapsize 3899
+\i (00:02:13) trapsize 3985
+\i (00:02:13) trapsize 5520
+\i (00:02:14) generaledit 
+\i (00:02:16) setwindow form.find
+\i (00:02:16) FORM find name_type Symbol (or Pin) 
+\i (00:02:17) FORM find find_name R33 
+\i (00:02:18) setwindow pcb
+\i (00:02:18) trapsize 393
+\i (00:02:19) zoom out 1 
+\i (00:02:19) setwindow pcb
+\i (00:02:19) zoom out -28.5039 -1.4017
+\i (00:02:19) trapsize 785
+\i (00:02:34) setwindow form.find
+\i (00:02:34) FORM find find_name R26 
+\i (00:02:34) setwindow pcb
+\i (00:02:34) trapsize 529
+\i (00:02:36) zoom out 1 
+\i (00:02:36) setwindow pcb
+\i (00:02:36) zoom out -31.3455 7.9400
+\i (00:02:36) trapsize 1057
+\i (00:02:36) zoom out 1 
+\i (00:02:36) setwindow pcb
+\i (00:02:36) zoom out -31.0917 7.6228
+\i (00:02:36) trapsize 2114
+\i (00:02:37) zoom in 1 
+\i (00:02:37) setwindow pcb
+\i (00:02:37) zoom in -31.4724 8.1303
+\i (00:02:37) trapsize 1057
+\i (00:02:37) zoom in 1 
+\i (00:02:37) setwindow pcb
+\i (00:02:37) zoom in -31.4724 8.1303
+\i (00:02:37) trapsize 529
+\i (00:02:38) zoom in 1 
+\i (00:02:38) setwindow pcb
+\i (00:02:38) zoom in -29.7598 6.8723
+\i (00:02:38) trapsize 264
+\i (00:02:39) zoom out 1 
+\i (00:02:39) setwindow pcb
+\i (00:02:39) zoom out -29.7598 6.8723
+\i (00:02:39) trapsize 529
+\i (00:02:39) zoom out 1 
+\i (00:02:39) setwindow pcb
+\i (00:02:39) zoom out -29.7598 6.8723
+\i (00:02:39) trapsize 1057
+\i (00:02:39) zoom out 1 
+\i (00:02:39) setwindow pcb
+\i (00:02:39) zoom out -29.7597 6.8724
+\i (00:02:39) trapsize 2114
+\i (00:02:57) show element 
+\i (00:02:59) generaledit 
+\i (00:03:06) setwindow text
+\i (00:03:06) close 
+\i (07:59:28) setwindow form.find
+\i (07:59:28) FORM find find_name j2 
+\i (07:59:28) setwindow pcb
+\i (07:59:28) trapsize 1139
+\i (07:59:31) zoom out 1 
+\i (07:59:31) setwindow pcb
+\i (07:59:31) zoom out -40.7206 13.8760
+\i (07:59:31) trapsize 2278
+\i (07:59:31) zoom out 1 
+\i (07:59:31) setwindow pcb
+\i (07:59:31) zoom out -40.7206 13.8760
+\i (07:59:31) trapsize 4556
+\i (08:02:09) exit 
+\e (08:02:09) Do you want to save the changes you made to pc053a_toplevel_33_ans_16-5_28oct.brd?
+\i (08:02:11) fillin no 
+\t (08:02:12)     Journal end - Tue Dec 20 18:12:51 2016

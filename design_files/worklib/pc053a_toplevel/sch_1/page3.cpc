@@ -1,75 +1,6 @@
 #ISCELL
   bris_cds_standard a3-2000 *
   *
-#ISCELL
-  cnpower gnd *
-  page3_i139
-#CELL
-  cninterface 74avc8t245 *
-  page3_i140
-#ISCELL
-  cnpower gnd *
-  page3_i167
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i168
-#ISCELL
-  cnpower cvcc *
-  page3_i169
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i170
-#ISCELL
-  cnpower p3v3 *
-  page3_i171
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i180
-#ISCELL
-  cnpower p3v3 *
-  page3_i181
-#ISCELL
-  cnpower gnd *
-  page3_i182
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i183
-#ISCELL
-  cnpower p3v3 *
-  page3_i184
-#ISCELL
-  cnpower gnd *
-  page3_i185
-#CELL
-  cninterface sn65lvdt125 *
-  page3_i187
-#CELL
-  cnpassive rsmd0402 *
-  page3_i194
-#CELL
-  cnpassive rsmd0402 *
-  page3_i195
-#CELL
-  cnpassive rsmd0402 *
-  page3_i196
-#CELL
-  cnpassive rsmd0402 *
-  page3_i198
-#CELL
-  cnpassive rsmd0402 *
-  page3_i200
-#ISCELL
-  cnpower gnd *
-  page3_i203
-#CELL
-  cnpassive rsmd0402 *
-  page3_i209
-#CELL
-  cnpassive rsmd0402 *
-  page3_i210
-#ISCELL
-  cnpower cvcc *
-  page3_i213
 #CELL
   cnpassive capcersmdcl2 *
   page3_i242
@@ -89,42 +20,6 @@
   cnpassive capcersmdcl2 *
   page3_i247
 #CELL
-  cnpassive capcersmdcl2 *
-  page3_i248
-#ISCELL
-  cnpower gnd *
-  page3_i249
-#ISCELL
-  cnpower p3v3 *
-  page3_i250
-#CELL
-  cnpassive capcersmdcl2 *
-  page3_i251
-#ISCELL
-  cnpower gnd *
-  page3_i252
-#ISCELL
-  cnpower p3v3 *
-  page3_i253
-#CELL
-  cnpassive rsmd0402 *
-  page3_i254
-#ISCELL
-  cnpower p3v3 *
-  page3_i290
-#CELL
-  cnpassive rsmd0402 *
-  page3_i293
-#CELL
-  cnpassive rsmd0402 *
-  page3_i294
-#CELL
-  cnpassive rsmd0402 *
-  page3_i295
-#CELL
-  cnpassive rsmd0402 *
-  page3_i297
-#CELL
   cninterface nbsg53a *
   page3_i298
 #CELL
@@ -139,12 +34,6 @@
 #ISCELL
   cnpower gnd *
   page3_i302
-#CELL
-  cnpassive capacitor *
-  page3_i303
-#CELL
-  cnpassive capacitor *
-  page3_i304
 #CELL
   cnpassive rsmd0402 *
   page3_i305
@@ -175,3 +64,9 @@
 #CELL
   cnpassive rsmd0402 *
   page3_i314
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i315
+#CELL
+  cnpassive capcersmdcl2 *
+  page3_i316
