@@ -7,7 +7,7 @@
 			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 877 )
+			( logicalViewRevNum 878 )
 			( physicalViewRevNum 26 )
 			( otherViewRevNum 0 )
 		)
@@ -1932,7 +1932,10 @@
 				( attribute "DIFFERENTIAL_PAIR" "CLK_IN0"
 					( Origin gFrontEnd )
 				)
-				( objectStatus "clk_in0_n" )
+				( attribute "CDS_PHYS_NET_NAME" "CLK_IN0_N"
+					( Origin gPackager )
+				)
+				( objectStatus "CLK_IN0_N" )
 			)
 			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):f_fmc_clk_n"
 				( attribute "CDS_PHYS_NET_NAME" "F_FMC_CLK_N"
@@ -1971,7 +1974,10 @@
 				( attribute "DIFFERENTIAL_PAIR" "CLK_IN0"
 					( Origin gFrontEnd )
 				)
-				( objectStatus "clk_in0_p" )
+				( attribute "CDS_PHYS_NET_NAME" "CLK_IN0_P"
+					( Origin gPackager )
+				)
+				( objectStatus "CLK_IN0_P" )
 			)
 			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_3_nbsg53a_i298_vtd"
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_3_NBSG53A_I298_VTD"
@@ -2076,13 +2082,19 @@
 				( attribute "DIFFERENTIAL_PAIR" "SY5860_IN"
 					( Origin gFrontEnd )
 				)
-				( objectStatus "sy5860_in_p" )
+				( attribute "CDS_PHYS_NET_NAME" "SY5860_IN_P"
+					( Origin gPackager )
+				)
+				( objectStatus "SY5860_IN_P" )
 			)
 			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):sy5860_in_n"
 				( attribute "DIFFERENTIAL_PAIR" "SY5860_IN"
 					( Origin gFrontEnd )
 				)
-				( objectStatus "sy5860_in_n" )
+				( attribute "CDS_PHYS_NET_NAME" "SY5860_IN_N"
+					( Origin gPackager )
+				)
+				( objectStatus "SY5860_IN_N" )
 			)
 			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_4_capcersmdcl2_i119_a"
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_4_CAPCERSMDCL2_I119_A"
@@ -2349,34 +2361,52 @@
 				( objectStatus "UNNAMED_11_RSMD0402_I233_B" )
 			)
 			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_3_capcersmdcl2_i315_a"
-				( objectStatus "unnamed_3_capcersmdcl2_i315_a" )
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_3_CAPCERSMDCL2_I315_A"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_3_CAPCERSMDCL2_I315_A" )
 			)
 			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_3_capcersmdcl2_i316_a"
-				( objectStatus "unnamed_3_capcersmdcl2_i316_a" )
+				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_3_CAPCERSMDCL2_I316_A"
+					( Origin gPackager )
+				)
+				( objectStatus "UNNAMED_3_CAPCERSMDCL2_I316_A" )
 			)
 			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):clk_in1_n"
 				( attribute "DIFFERENTIAL_PAIR" "CLK_IN1"
 					( Origin gFrontEnd )
 				)
-				( objectStatus "clk_in1_n" )
+				( attribute "CDS_PHYS_NET_NAME" "CLK_IN1_N"
+					( Origin gPackager )
+				)
+				( objectStatus "CLK_IN1_N" )
 			)
 			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):clk_in1_p"
 				( attribute "DIFFERENTIAL_PAIR" "CLK_IN1"
 					( Origin gFrontEnd )
 				)
-				( objectStatus "clk_in1_p" )
+				( attribute "CDS_PHYS_NET_NAME" "CLK_IN1_P"
+					( Origin gPackager )
+				)
+				( objectStatus "CLK_IN1_P" )
 			)
 			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):clk_in2_n"
 				( attribute "DIFFERENTIAL_PAIR" "CLK_IN2"
 					( Origin gFrontEnd )
 				)
-				( objectStatus "clk_in2_n" )
+				( attribute "CDS_PHYS_NET_NAME" "CLK_IN2_N"
+					( Origin gPackager )
+				)
+				( objectStatus "CLK_IN2_N" )
 			)
 			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):clk_in2_p"
 				( attribute "DIFFERENTIAL_PAIR" "CLK_IN2"
 					( Origin gFrontEnd )
 				)
-				( objectStatus "clk_in2_p" )
+				( attribute "CDS_PHYS_NET_NAME" "CLK_IN2_P"
+					( Origin gPackager )
+				)
+				( objectStatus "CLK_IN2_P" )
 			)
 			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i91"
 				( attribute "CDS_LIB" "cnpassive"
@@ -2493,17 +2523,17 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C11" )
-				( pin "b(0)"
-					( attribute "PN" "2"
-						( Origin gPackager )
-					)
-					( objectStatus "C11.2" )
-				)
 				( pin "a(0)"
 					( attribute "PN" "1"
 						( Origin gPackager )
 					)
 					( objectStatus "C11.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C11.2" )
 				)
 			)
 			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i126"
@@ -2546,7 +2576,205 @@
 				( attribute "SEC" "2"
 					( Origin gFrontEnd )
 				)
+				( attribute "CDS_LOCATION" "P1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "2"
+					( Origin gPackager )
+				)
 				( objectStatus "P1" )
+				( pin "c(1)"
+					( attribute "PN" "C1"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C1" )
+				)
+				( pin "c(2)"
+					( attribute "PN" "C2"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C2" )
+				)
+				( pin "c(3)"
+					( attribute "PN" "C3"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C3" )
+				)
+				( pin "c(4)"
+					( attribute "PN" "C4"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C4" )
+				)
+				( pin "c(5)"
+					( attribute "PN" "C5"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C5" )
+				)
+				( pin "c(6)"
+					( attribute "PN" "C6"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C6" )
+				)
+				( pin "c(7)"
+					( attribute "PN" "C7"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C7" )
+				)
+				( pin "c(8)"
+					( attribute "PN" "C8"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C8" )
+				)
+				( pin "c(9)"
+					( attribute "PN" "C9"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C9" )
+				)
+				( pin "c(10)"
+					( attribute "PN" "C10"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C10" )
+				)
+				( pin "c(11)"
+					( attribute "PN" "C11"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C11" )
+				)
+				( pin "c(12)"
+					( attribute "PN" "C12"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C12" )
+				)
+				( pin "c(13)"
+					( attribute "PN" "C13"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C13" )
+				)
+				( pin "c(14)"
+					( attribute "PN" "C14"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C14" )
+				)
+				( pin "c(15)"
+					( attribute "PN" "C15"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C15" )
+				)
+				( pin "c(16)"
+					( attribute "PN" "C16"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C16" )
+				)
+				( pin "c(17)"
+					( attribute "PN" "C17"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C17" )
+				)
+				( pin "c(18)"
+					( attribute "PN" "C18"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C18" )
+				)
+				( pin "c(19)"
+					( attribute "PN" "C19"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C19" )
+				)
+				( pin "c(20)"
+					( attribute "PN" "C20"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C20" )
+				)
+				( pin "c(21)"
+					( attribute "PN" "C21"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C21" )
+				)
+				( pin "c(22)"
+					( attribute "PN" "C22"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C22" )
+				)
+				( pin "c(23)"
+					( attribute "PN" "C23"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C23" )
+				)
+				( pin "c(24)"
+					( attribute "PN" "C24"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C24" )
+				)
+				( pin "c(25)"
+					( attribute "PN" "C25"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C25" )
+				)
+				( pin "c(26)"
+					( attribute "PN" "C26"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C26" )
+				)
+				( pin "c(27)"
+					( attribute "PN" "C27"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C27" )
+				)
+				( pin "c(28)"
+					( attribute "PN" "C28"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C28" )
+				)
+				( pin "c(29)"
+					( attribute "PN" "C29"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C29" )
+				)
+				( pin "c(30)"
+					( attribute "PN" "C30"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C30" )
+				)
+				( pin "c(31)"
+					( attribute "PN" "C31"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C31" )
+				)
+				( pin "c(32)"
+					( attribute "PN" "C32"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.C32" )
+				)
 				( pin "c(33)"
 					( attribute "PN" "C33"
 						( Origin gPackager )
@@ -2835,198 +3063,6 @@
 					)
 					( objectStatus "P1.D40" )
 				)
-				( pin "c(4)"
-					( attribute "PN" "C4"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C4" )
-				)
-				( pin "c(6)"
-					( attribute "PN" "C6"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C6" )
-				)
-				( pin "c(1)"
-					( attribute "PN" "C1"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C1" )
-				)
-				( pin "c(7)"
-					( attribute "PN" "C7"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C7" )
-				)
-				( pin "c(3)"
-					( attribute "PN" "C3"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C3" )
-				)
-				( pin "c(5)"
-					( attribute "PN" "C5"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C5" )
-				)
-				( pin "c(2)"
-					( attribute "PN" "C2"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C2" )
-				)
-				( pin "c(13)"
-					( attribute "PN" "C13"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C13" )
-				)
-				( pin "c(28)"
-					( attribute "PN" "C28"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C28" )
-				)
-				( pin "c(14)"
-					( attribute "PN" "C14"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C14" )
-				)
-				( pin "c(10)"
-					( attribute "PN" "C10"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C10" )
-				)
-				( pin "c(17)"
-					( attribute "PN" "C17"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C17" )
-				)
-				( pin "c(27)"
-					( attribute "PN" "C27"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C27" )
-				)
-				( pin "c(21)"
-					( attribute "PN" "C21"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C21" )
-				)
-				( pin "c(23)"
-					( attribute "PN" "C23"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C23" )
-				)
-				( pin "c(25)"
-					( attribute "PN" "C25"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C25" )
-				)
-				( pin "c(22)"
-					( attribute "PN" "C22"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C22" )
-				)
-				( pin "c(18)"
-					( attribute "PN" "C18"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C18" )
-				)
-				( pin "c(24)"
-					( attribute "PN" "C24"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C24" )
-				)
-				( pin "c(11)"
-					( attribute "PN" "C11"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C11" )
-				)
-				( pin "c(30)"
-					( attribute "PN" "C30"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C30" )
-				)
-				( pin "c(12)"
-					( attribute "PN" "C12"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C12" )
-				)
-				( pin "c(19)"
-					( attribute "PN" "C19"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C19" )
-				)
-				( pin "c(29)"
-					( attribute "PN" "C29"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C29" )
-				)
-				( pin "c(16)"
-					( attribute "PN" "C16"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C16" )
-				)
-				( pin "c(26)"
-					( attribute "PN" "C26"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C26" )
-				)
-				( pin "c(15)"
-					( attribute "PN" "C15"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C15" )
-				)
-				( pin "c(9)"
-					( attribute "PN" "C9"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C9" )
-				)
-				( pin "c(8)"
-					( attribute "PN" "C8"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C8" )
-				)
-				( pin "c(20)"
-					( attribute "PN" "C20"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C20" )
-				)
-				( pin "c(31)"
-					( attribute "PN" "C31"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C31" )
-				)
-				( pin "c(32)"
-					( attribute "PN" "C32"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.C32" )
-				)
 			)
 			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i128"
 				( attribute "CDS_LIB" "cnconnector"
@@ -3068,186 +3104,84 @@
 				( attribute "SEC" "5"
 					( Origin gFrontEnd )
 				)
+				( attribute "CDS_LOCATION" "P1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "5"
+					( Origin gPackager )
+				)
 				( objectStatus "P1" )
-				( pin "k(3)"
-					( attribute "PN" "K3"
+				( pin "j(1)"
+					( attribute "PN" "J1"
 						( Origin gPackager )
 					)
-					( objectStatus "P1.K3" )
+					( objectStatus "P1.J1" )
 				)
-				( pin "k(4)"
-					( attribute "PN" "K4"
+				( pin "j(2)"
+					( attribute "PN" "J2"
 						( Origin gPackager )
 					)
-					( objectStatus "P1.K4" )
+					( objectStatus "P1.J2" )
 				)
-				( pin "k(5)"
-					( attribute "PN" "K5"
+				( pin "j(3)"
+					( attribute "PN" "J3"
 						( Origin gPackager )
 					)
-					( objectStatus "P1.K5" )
+					( objectStatus "P1.J3" )
 				)
-				( pin "k(6)"
-					( attribute "PN" "K6"
+				( pin "j(4)"
+					( attribute "PN" "J4"
 						( Origin gPackager )
 					)
-					( objectStatus "P1.K6" )
+					( objectStatus "P1.J4" )
 				)
-				( pin "k(7)"
-					( attribute "PN" "K7"
+				( pin "j(5)"
+					( attribute "PN" "J5"
 						( Origin gPackager )
 					)
-					( objectStatus "P1.K7" )
+					( objectStatus "P1.J5" )
 				)
-				( pin "k(8)"
-					( attribute "PN" "K8"
+				( pin "j(6)"
+					( attribute "PN" "J6"
 						( Origin gPackager )
 					)
-					( objectStatus "P1.K8" )
+					( objectStatus "P1.J6" )
 				)
-				( pin "k(9)"
-					( attribute "PN" "K9"
+				( pin "j(7)"
+					( attribute "PN" "J7"
 						( Origin gPackager )
 					)
-					( objectStatus "P1.K9" )
+					( objectStatus "P1.J7" )
 				)
-				( pin "k(10)"
-					( attribute "PN" "K10"
+				( pin "j(8)"
+					( attribute "PN" "J8"
 						( Origin gPackager )
 					)
-					( objectStatus "P1.K10" )
+					( objectStatus "P1.J8" )
 				)
-				( pin "k(11)"
-					( attribute "PN" "K11"
+				( pin "j(9)"
+					( attribute "PN" "J9"
 						( Origin gPackager )
 					)
-					( objectStatus "P1.K11" )
+					( objectStatus "P1.J9" )
 				)
-				( pin "k(12)"
-					( attribute "PN" "K12"
+				( pin "j(10)"
+					( attribute "PN" "J10"
 						( Origin gPackager )
 					)
-					( objectStatus "P1.K12" )
+					( objectStatus "P1.J10" )
 				)
-				( pin "k(13)"
-					( attribute "PN" "K13"
+				( pin "j(11)"
+					( attribute "PN" "J11"
 						( Origin gPackager )
 					)
-					( objectStatus "P1.K13" )
+					( objectStatus "P1.J11" )
 				)
-				( pin "k(14)"
-					( attribute "PN" "K14"
+				( pin "j(12)"
+					( attribute "PN" "J12"
 						( Origin gPackager )
 					)
-					( objectStatus "P1.K14" )
-				)
-				( pin "k(15)"
-					( attribute "PN" "K15"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.K15" )
-				)
-				( pin "k(16)"
-					( attribute "PN" "K16"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.K16" )
-				)
-				( pin "k(17)"
-					( attribute "PN" "K17"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.K17" )
-				)
-				( pin "k(18)"
-					( attribute "PN" "K18"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.K18" )
-				)
-				( pin "k(19)"
-					( attribute "PN" "K19"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.K19" )
-				)
-				( pin "k(20)"
-					( attribute "PN" "K20"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.K20" )
-				)
-				( pin "k(21)"
-					( attribute "PN" "K21"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.K21" )
-				)
-				( pin "k(22)"
-					( attribute "PN" "K22"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.K22" )
-				)
-				( pin "k(23)"
-					( attribute "PN" "K23"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.K23" )
-				)
-				( pin "k(24)"
-					( attribute "PN" "K24"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.K24" )
-				)
-				( pin "k(25)"
-					( attribute "PN" "K25"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.K25" )
-				)
-				( pin "k(26)"
-					( attribute "PN" "K26"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.K26" )
-				)
-				( pin "k(27)"
-					( attribute "PN" "K27"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.K27" )
-				)
-				( pin "k(28)"
-					( attribute "PN" "K28"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.K28" )
-				)
-				( pin "k(29)"
-					( attribute "PN" "K29"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.K29" )
-				)
-				( pin "k(30)"
-					( attribute "PN" "K30"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.K30" )
-				)
-				( pin "k(31)"
-					( attribute "PN" "K31"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.K31" )
-				)
-				( pin "k(32)"
-					( attribute "PN" "K32"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.K32" )
+					( objectStatus "P1.J12" )
 				)
 				( pin "j(13)"
 					( attribute "PN" "J13"
@@ -3429,77 +3363,185 @@
 					)
 					( objectStatus "P1.K2" )
 				)
-				( pin "j(3)"
-					( attribute "PN" "J3"
+				( pin "k(3)"
+					( attribute "PN" "K3"
 						( Origin gPackager )
 					)
-					( objectStatus "P1.J3" )
+					( objectStatus "P1.K3" )
 				)
-				( pin "j(5)"
-					( attribute "PN" "J5"
+				( pin "k(4)"
+					( attribute "PN" "K4"
 						( Origin gPackager )
 					)
-					( objectStatus "P1.J5" )
+					( objectStatus "P1.K4" )
 				)
-				( pin "j(2)"
-					( attribute "PN" "J2"
+				( pin "k(5)"
+					( attribute "PN" "K5"
 						( Origin gPackager )
 					)
-					( objectStatus "P1.J2" )
+					( objectStatus "P1.K5" )
 				)
-				( pin "j(1)"
-					( attribute "PN" "J1"
+				( pin "k(6)"
+					( attribute "PN" "K6"
 						( Origin gPackager )
 					)
-					( objectStatus "P1.J1" )
+					( objectStatus "P1.K6" )
 				)
-				( pin "j(4)"
-					( attribute "PN" "J4"
+				( pin "k(7)"
+					( attribute "PN" "K7"
 						( Origin gPackager )
 					)
-					( objectStatus "P1.J4" )
+					( objectStatus "P1.K7" )
 				)
-				( pin "j(6)"
-					( attribute "PN" "J6"
+				( pin "k(8)"
+					( attribute "PN" "K8"
 						( Origin gPackager )
 					)
-					( objectStatus "P1.J6" )
+					( objectStatus "P1.K8" )
 				)
-				( pin "j(7)"
-					( attribute "PN" "J7"
+				( pin "k(9)"
+					( attribute "PN" "K9"
 						( Origin gPackager )
 					)
-					( objectStatus "P1.J7" )
+					( objectStatus "P1.K9" )
 				)
-				( pin "j(8)"
-					( attribute "PN" "J8"
+				( pin "k(10)"
+					( attribute "PN" "K10"
 						( Origin gPackager )
 					)
-					( objectStatus "P1.J8" )
+					( objectStatus "P1.K10" )
 				)
-				( pin "j(9)"
-					( attribute "PN" "J9"
+				( pin "k(11)"
+					( attribute "PN" "K11"
 						( Origin gPackager )
 					)
-					( objectStatus "P1.J9" )
+					( objectStatus "P1.K11" )
 				)
-				( pin "j(10)"
-					( attribute "PN" "J10"
+				( pin "k(12)"
+					( attribute "PN" "K12"
 						( Origin gPackager )
 					)
-					( objectStatus "P1.J10" )
+					( objectStatus "P1.K12" )
 				)
-				( pin "j(11)"
-					( attribute "PN" "J11"
+				( pin "k(13)"
+					( attribute "PN" "K13"
 						( Origin gPackager )
 					)
-					( objectStatus "P1.J11" )
+					( objectStatus "P1.K13" )
 				)
-				( pin "j(12)"
-					( attribute "PN" "J12"
+				( pin "k(14)"
+					( attribute "PN" "K14"
 						( Origin gPackager )
 					)
-					( objectStatus "P1.J12" )
+					( objectStatus "P1.K14" )
+				)
+				( pin "k(15)"
+					( attribute "PN" "K15"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.K15" )
+				)
+				( pin "k(16)"
+					( attribute "PN" "K16"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.K16" )
+				)
+				( pin "k(17)"
+					( attribute "PN" "K17"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.K17" )
+				)
+				( pin "k(18)"
+					( attribute "PN" "K18"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.K18" )
+				)
+				( pin "k(19)"
+					( attribute "PN" "K19"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.K19" )
+				)
+				( pin "k(20)"
+					( attribute "PN" "K20"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.K20" )
+				)
+				( pin "k(21)"
+					( attribute "PN" "K21"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.K21" )
+				)
+				( pin "k(22)"
+					( attribute "PN" "K22"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.K22" )
+				)
+				( pin "k(23)"
+					( attribute "PN" "K23"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.K23" )
+				)
+				( pin "k(24)"
+					( attribute "PN" "K24"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.K24" )
+				)
+				( pin "k(25)"
+					( attribute "PN" "K25"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.K25" )
+				)
+				( pin "k(26)"
+					( attribute "PN" "K26"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.K26" )
+				)
+				( pin "k(27)"
+					( attribute "PN" "K27"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.K27" )
+				)
+				( pin "k(28)"
+					( attribute "PN" "K28"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.K28" )
+				)
+				( pin "k(29)"
+					( attribute "PN" "K29"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.K29" )
+				)
+				( pin "k(30)"
+					( attribute "PN" "K30"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.K30" )
+				)
+				( pin "k(31)"
+					( attribute "PN" "K31"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.K31" )
+				)
+				( pin "k(32)"
+					( attribute "PN" "K32"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.K32" )
 				)
 				( pin "k(33)"
 					( attribute "PN" "K33"
@@ -3590,7 +3632,145 @@
 				( attribute "SEC" "4"
 					( Origin gFrontEnd )
 				)
+				( attribute "CDS_LOCATION" "P1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "4"
+					( Origin gPackager )
+				)
 				( objectStatus "P1" )
+				( pin "g(1)"
+					( attribute "PN" "G1"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.G1" )
+				)
+				( pin "g(2)"
+					( attribute "PN" "G2"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.G2" )
+				)
+				( pin "g(3)"
+					( attribute "PN" "G3"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.G3" )
+				)
+				( pin "g(4)"
+					( attribute "PN" "G4"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.G4" )
+				)
+				( pin "g(5)"
+					( attribute "PN" "G5"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.G5" )
+				)
+				( pin "g(6)"
+					( attribute "PN" "G6"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.G6" )
+				)
+				( pin "g(7)"
+					( attribute "PN" "G7"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.G7" )
+				)
+				( pin "g(8)"
+					( attribute "PN" "G8"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.G8" )
+				)
+				( pin "g(9)"
+					( attribute "PN" "G9"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.G9" )
+				)
+				( pin "g(10)"
+					( attribute "PN" "G10"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.G10" )
+				)
+				( pin "g(11)"
+					( attribute "PN" "G11"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.G11" )
+				)
+				( pin "g(12)"
+					( attribute "PN" "G12"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.G12" )
+				)
+				( pin "g(13)"
+					( attribute "PN" "G13"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.G13" )
+				)
+				( pin "g(14)"
+					( attribute "PN" "G14"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.G14" )
+				)
+				( pin "g(15)"
+					( attribute "PN" "G15"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.G15" )
+				)
+				( pin "g(16)"
+					( attribute "PN" "G16"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.G16" )
+				)
+				( pin "g(17)"
+					( attribute "PN" "G17"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.G17" )
+				)
+				( pin "g(18)"
+					( attribute "PN" "G18"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.G18" )
+				)
+				( pin "g(19)"
+					( attribute "PN" "G19"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.G19" )
+				)
+				( pin "g(20)"
+					( attribute "PN" "G20"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.G20" )
+				)
+				( pin "g(21)"
+					( attribute "PN" "G21"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.G21" )
+				)
+				( pin "g(22)"
+					( attribute "PN" "G22"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.G22" )
+				)
 				( pin "g(23)"
 					( attribute "PN" "G23"
 						( Origin gPackager )
@@ -3939,138 +4119,6 @@
 					)
 					( objectStatus "P1.H40" )
 				)
-				( pin "g(22)"
-					( attribute "PN" "G22"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.G22" )
-				)
-				( pin "g(3)"
-					( attribute "PN" "G3"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.G3" )
-				)
-				( pin "g(5)"
-					( attribute "PN" "G5"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.G5" )
-				)
-				( pin "g(2)"
-					( attribute "PN" "G2"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.G2" )
-				)
-				( pin "g(1)"
-					( attribute "PN" "G1"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.G1" )
-				)
-				( pin "g(4)"
-					( attribute "PN" "G4"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.G4" )
-				)
-				( pin "g(6)"
-					( attribute "PN" "G6"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.G6" )
-				)
-				( pin "g(7)"
-					( attribute "PN" "G7"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.G7" )
-				)
-				( pin "g(8)"
-					( attribute "PN" "G8"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.G8" )
-				)
-				( pin "g(9)"
-					( attribute "PN" "G9"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.G9" )
-				)
-				( pin "g(10)"
-					( attribute "PN" "G10"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.G10" )
-				)
-				( pin "g(11)"
-					( attribute "PN" "G11"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.G11" )
-				)
-				( pin "g(12)"
-					( attribute "PN" "G12"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.G12" )
-				)
-				( pin "g(13)"
-					( attribute "PN" "G13"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.G13" )
-				)
-				( pin "g(14)"
-					( attribute "PN" "G14"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.G14" )
-				)
-				( pin "g(15)"
-					( attribute "PN" "G15"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.G15" )
-				)
-				( pin "g(16)"
-					( attribute "PN" "G16"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.G16" )
-				)
-				( pin "g(17)"
-					( attribute "PN" "G17"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.G17" )
-				)
-				( pin "g(18)"
-					( attribute "PN" "G18"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.G18" )
-				)
-				( pin "g(19)"
-					( attribute "PN" "G19"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.G19" )
-				)
-				( pin "g(20)"
-					( attribute "PN" "G20"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.G20" )
-				)
-				( pin "g(21)"
-					( attribute "PN" "G21"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.G21" )
-				)
 			)
 			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i136"
 				( attribute "CDS_LIB" "cnconnector"
@@ -4112,300 +4160,24 @@
 				( attribute "SEC" "3"
 					( Origin gFrontEnd )
 				)
+				( attribute "CDS_LOCATION" "P1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "3"
+					( Origin gPackager )
+				)
 				( objectStatus "P1" )
-				( pin "f(23)"
-					( attribute "PN" "F23"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F23" )
-				)
-				( pin "f(24)"
-					( attribute "PN" "F24"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F24" )
-				)
-				( pin "f(25)"
-					( attribute "PN" "F25"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F25" )
-				)
-				( pin "f(26)"
-					( attribute "PN" "F26"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F26" )
-				)
-				( pin "f(27)"
-					( attribute "PN" "F27"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F27" )
-				)
-				( pin "f(28)"
-					( attribute "PN" "F28"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F28" )
-				)
-				( pin "f(29)"
-					( attribute "PN" "F29"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F29" )
-				)
-				( pin "f(30)"
-					( attribute "PN" "F30"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F30" )
-				)
-				( pin "f(31)"
-					( attribute "PN" "F31"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F31" )
-				)
-				( pin "f(32)"
-					( attribute "PN" "F32"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F32" )
-				)
-				( pin "f(33)"
-					( attribute "PN" "F33"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F33" )
-				)
-				( pin "f(34)"
-					( attribute "PN" "F34"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F34" )
-				)
-				( pin "f(35)"
-					( attribute "PN" "F35"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F35" )
-				)
-				( pin "f(36)"
-					( attribute "PN" "F36"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F36" )
-				)
-				( pin "f(37)"
-					( attribute "PN" "F37"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F37" )
-				)
-				( pin "f(38)"
-					( attribute "PN" "F38"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F38" )
-				)
-				( pin "f(39)"
-					( attribute "PN" "F39"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F39" )
-				)
-				( pin "f(40)"
-					( attribute "PN" "F40"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F40" )
-				)
-				( pin "e(33)"
-					( attribute "PN" "E33"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.E33" )
-				)
-				( pin "e(34)"
-					( attribute "PN" "E34"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.E34" )
-				)
-				( pin "e(35)"
-					( attribute "PN" "E35"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.E35" )
-				)
-				( pin "e(36)"
-					( attribute "PN" "E36"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.E36" )
-				)
-				( pin "e(37)"
-					( attribute "PN" "E37"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.E37" )
-				)
-				( pin "e(38)"
-					( attribute "PN" "E38"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.E38" )
-				)
-				( pin "e(39)"
-					( attribute "PN" "E39"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.E39" )
-				)
-				( pin "e(40)"
-					( attribute "PN" "E40"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.E40" )
-				)
-				( pin "f(1)"
-					( attribute "PN" "F1"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F1" )
-				)
-				( pin "f(2)"
-					( attribute "PN" "F2"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F2" )
-				)
-				( pin "f(3)"
-					( attribute "PN" "F3"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F3" )
-				)
-				( pin "f(4)"
-					( attribute "PN" "F4"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F4" )
-				)
-				( pin "f(5)"
-					( attribute "PN" "F5"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F5" )
-				)
-				( pin "f(6)"
-					( attribute "PN" "F6"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F6" )
-				)
-				( pin "f(7)"
-					( attribute "PN" "F7"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F7" )
-				)
-				( pin "f(8)"
-					( attribute "PN" "F8"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F8" )
-				)
-				( pin "f(9)"
-					( attribute "PN" "F9"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F9" )
-				)
-				( pin "f(10)"
-					( attribute "PN" "F10"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F10" )
-				)
-				( pin "f(11)"
-					( attribute "PN" "F11"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F11" )
-				)
-				( pin "f(12)"
-					( attribute "PN" "F12"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F12" )
-				)
-				( pin "f(13)"
-					( attribute "PN" "F13"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F13" )
-				)
-				( pin "f(14)"
-					( attribute "PN" "F14"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F14" )
-				)
-				( pin "f(15)"
-					( attribute "PN" "F15"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F15" )
-				)
-				( pin "f(16)"
-					( attribute "PN" "F16"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F16" )
-				)
-				( pin "f(17)"
-					( attribute "PN" "F17"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F17" )
-				)
-				( pin "f(18)"
-					( attribute "PN" "F18"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F18" )
-				)
-				( pin "f(19)"
-					( attribute "PN" "F19"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F19" )
-				)
-				( pin "f(20)"
-					( attribute "PN" "F20"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F20" )
-				)
-				( pin "f(21)"
-					( attribute "PN" "F21"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F21" )
-				)
-				( pin "f(22)"
-					( attribute "PN" "F22"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.F22" )
-				)
 				( pin "e(1)"
 					( attribute "PN" "E1"
 						( Origin gPackager )
 					)
 					( objectStatus "P1.E1" )
+				)
+				( pin "e(2)"
+					( attribute "PN" "E2"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.E2" )
 				)
 				( pin "e(3)"
 					( attribute "PN" "E3"
@@ -4587,11 +4359,293 @@
 					)
 					( objectStatus "P1.E32" )
 				)
-				( pin "e(2)"
-					( attribute "PN" "E2"
+				( pin "e(33)"
+					( attribute "PN" "E33"
 						( Origin gPackager )
 					)
-					( objectStatus "P1.E2" )
+					( objectStatus "P1.E33" )
+				)
+				( pin "e(34)"
+					( attribute "PN" "E34"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.E34" )
+				)
+				( pin "e(35)"
+					( attribute "PN" "E35"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.E35" )
+				)
+				( pin "e(36)"
+					( attribute "PN" "E36"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.E36" )
+				)
+				( pin "e(37)"
+					( attribute "PN" "E37"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.E37" )
+				)
+				( pin "e(38)"
+					( attribute "PN" "E38"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.E38" )
+				)
+				( pin "e(39)"
+					( attribute "PN" "E39"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.E39" )
+				)
+				( pin "e(40)"
+					( attribute "PN" "E40"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.E40" )
+				)
+				( pin "f(1)"
+					( attribute "PN" "F1"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F1" )
+				)
+				( pin "f(2)"
+					( attribute "PN" "F2"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F2" )
+				)
+				( pin "f(3)"
+					( attribute "PN" "F3"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F3" )
+				)
+				( pin "f(4)"
+					( attribute "PN" "F4"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F4" )
+				)
+				( pin "f(5)"
+					( attribute "PN" "F5"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F5" )
+				)
+				( pin "f(6)"
+					( attribute "PN" "F6"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F6" )
+				)
+				( pin "f(7)"
+					( attribute "PN" "F7"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F7" )
+				)
+				( pin "f(8)"
+					( attribute "PN" "F8"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F8" )
+				)
+				( pin "f(9)"
+					( attribute "PN" "F9"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F9" )
+				)
+				( pin "f(10)"
+					( attribute "PN" "F10"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F10" )
+				)
+				( pin "f(11)"
+					( attribute "PN" "F11"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F11" )
+				)
+				( pin "f(12)"
+					( attribute "PN" "F12"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F12" )
+				)
+				( pin "f(13)"
+					( attribute "PN" "F13"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F13" )
+				)
+				( pin "f(14)"
+					( attribute "PN" "F14"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F14" )
+				)
+				( pin "f(15)"
+					( attribute "PN" "F15"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F15" )
+				)
+				( pin "f(16)"
+					( attribute "PN" "F16"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F16" )
+				)
+				( pin "f(17)"
+					( attribute "PN" "F17"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F17" )
+				)
+				( pin "f(18)"
+					( attribute "PN" "F18"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F18" )
+				)
+				( pin "f(19)"
+					( attribute "PN" "F19"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F19" )
+				)
+				( pin "f(20)"
+					( attribute "PN" "F20"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F20" )
+				)
+				( pin "f(21)"
+					( attribute "PN" "F21"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F21" )
+				)
+				( pin "f(22)"
+					( attribute "PN" "F22"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F22" )
+				)
+				( pin "f(23)"
+					( attribute "PN" "F23"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F23" )
+				)
+				( pin "f(24)"
+					( attribute "PN" "F24"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F24" )
+				)
+				( pin "f(25)"
+					( attribute "PN" "F25"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F25" )
+				)
+				( pin "f(26)"
+					( attribute "PN" "F26"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F26" )
+				)
+				( pin "f(27)"
+					( attribute "PN" "F27"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F27" )
+				)
+				( pin "f(28)"
+					( attribute "PN" "F28"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F28" )
+				)
+				( pin "f(29)"
+					( attribute "PN" "F29"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F29" )
+				)
+				( pin "f(30)"
+					( attribute "PN" "F30"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F30" )
+				)
+				( pin "f(31)"
+					( attribute "PN" "F31"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F31" )
+				)
+				( pin "f(32)"
+					( attribute "PN" "F32"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F32" )
+				)
+				( pin "f(33)"
+					( attribute "PN" "F33"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F33" )
+				)
+				( pin "f(34)"
+					( attribute "PN" "F34"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F34" )
+				)
+				( pin "f(35)"
+					( attribute "PN" "F35"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F35" )
+				)
+				( pin "f(36)"
+					( attribute "PN" "F36"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F36" )
+				)
+				( pin "f(37)"
+					( attribute "PN" "F37"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F37" )
+				)
+				( pin "f(38)"
+					( attribute "PN" "F38"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F38" )
+				)
+				( pin "f(39)"
+					( attribute "PN" "F39"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F39" )
+				)
+				( pin "f(40)"
+					( attribute "PN" "F40"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.F40" )
 				)
 			)
 			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i139"
@@ -4634,18 +4688,18 @@
 				( attribute "SEC" "1"
 					( Origin gFrontEnd )
 				)
-				( objectStatus "P1" )
-				( pin "a(3)"
-					( attribute "PN" "A3"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.A3" )
+				( attribute "CDS_LOCATION" "P1"
+					( Origin gPackager )
 				)
-				( pin "a(5)"
-					( attribute "PN" "A5"
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "P1" )
+				( pin "a(1)"
+					( attribute "PN" "A1"
 						( Origin gPackager )
 					)
-					( objectStatus "P1.A5" )
+					( objectStatus "P1.A1" )
 				)
 				( pin "a(2)"
 					( attribute "PN" "A2"
@@ -4653,17 +4707,23 @@
 					)
 					( objectStatus "P1.A2" )
 				)
-				( pin "a(1)"
-					( attribute "PN" "A1"
+				( pin "a(3)"
+					( attribute "PN" "A3"
 						( Origin gPackager )
 					)
-					( objectStatus "P1.A1" )
+					( objectStatus "P1.A3" )
 				)
 				( pin "a(4)"
 					( attribute "PN" "A4"
 						( Origin gPackager )
 					)
 					( objectStatus "P1.A4" )
+				)
+				( pin "a(5)"
+					( attribute "PN" "A5"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.A5" )
 				)
 				( pin "a(6)"
 					( attribute "PN" "A6"
@@ -4706,186 +4766,6 @@
 						( Origin gPackager )
 					)
 					( objectStatus "P1.A12" )
-				)
-				( pin "b(3)"
-					( attribute "PN" "B3"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B3" )
-				)
-				( pin "b(4)"
-					( attribute "PN" "B4"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B4" )
-				)
-				( pin "b(5)"
-					( attribute "PN" "B5"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B5" )
-				)
-				( pin "b(6)"
-					( attribute "PN" "B6"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B6" )
-				)
-				( pin "b(7)"
-					( attribute "PN" "B7"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B7" )
-				)
-				( pin "b(8)"
-					( attribute "PN" "B8"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B8" )
-				)
-				( pin "b(9)"
-					( attribute "PN" "B9"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B9" )
-				)
-				( pin "b(10)"
-					( attribute "PN" "B10"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B10" )
-				)
-				( pin "b(11)"
-					( attribute "PN" "B11"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B11" )
-				)
-				( pin "b(12)"
-					( attribute "PN" "B12"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B12" )
-				)
-				( pin "b(13)"
-					( attribute "PN" "B13"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B13" )
-				)
-				( pin "b(14)"
-					( attribute "PN" "B14"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B14" )
-				)
-				( pin "b(15)"
-					( attribute "PN" "B15"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B15" )
-				)
-				( pin "b(16)"
-					( attribute "PN" "B16"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B16" )
-				)
-				( pin "b(17)"
-					( attribute "PN" "B17"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B17" )
-				)
-				( pin "b(18)"
-					( attribute "PN" "B18"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B18" )
-				)
-				( pin "b(19)"
-					( attribute "PN" "B19"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B19" )
-				)
-				( pin "b(20)"
-					( attribute "PN" "B20"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B20" )
-				)
-				( pin "b(21)"
-					( attribute "PN" "B21"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B21" )
-				)
-				( pin "b(22)"
-					( attribute "PN" "B22"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B22" )
-				)
-				( pin "b(23)"
-					( attribute "PN" "B23"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B23" )
-				)
-				( pin "b(24)"
-					( attribute "PN" "B24"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B24" )
-				)
-				( pin "b(25)"
-					( attribute "PN" "B25"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B25" )
-				)
-				( pin "b(26)"
-					( attribute "PN" "B26"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B26" )
-				)
-				( pin "b(27)"
-					( attribute "PN" "B27"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B27" )
-				)
-				( pin "b(28)"
-					( attribute "PN" "B28"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B28" )
-				)
-				( pin "b(29)"
-					( attribute "PN" "B29"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B29" )
-				)
-				( pin "b(30)"
-					( attribute "PN" "B30"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B30" )
-				)
-				( pin "b(31)"
-					( attribute "PN" "B31"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B31" )
-				)
-				( pin "b(32)"
-					( attribute "PN" "B32"
-						( Origin gPackager )
-					)
-					( objectStatus "P1.B32" )
 				)
 				( pin "a(13)"
 					( attribute "PN" "A13"
@@ -5067,6 +4947,186 @@
 					)
 					( objectStatus "P1.B2" )
 				)
+				( pin "b(3)"
+					( attribute "PN" "B3"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B3" )
+				)
+				( pin "b(4)"
+					( attribute "PN" "B4"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B4" )
+				)
+				( pin "b(5)"
+					( attribute "PN" "B5"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B5" )
+				)
+				( pin "b(6)"
+					( attribute "PN" "B6"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B6" )
+				)
+				( pin "b(7)"
+					( attribute "PN" "B7"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B7" )
+				)
+				( pin "b(8)"
+					( attribute "PN" "B8"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B8" )
+				)
+				( pin "b(9)"
+					( attribute "PN" "B9"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B9" )
+				)
+				( pin "b(10)"
+					( attribute "PN" "B10"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B10" )
+				)
+				( pin "b(11)"
+					( attribute "PN" "B11"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B11" )
+				)
+				( pin "b(12)"
+					( attribute "PN" "B12"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B12" )
+				)
+				( pin "b(13)"
+					( attribute "PN" "B13"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B13" )
+				)
+				( pin "b(14)"
+					( attribute "PN" "B14"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B14" )
+				)
+				( pin "b(15)"
+					( attribute "PN" "B15"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B15" )
+				)
+				( pin "b(16)"
+					( attribute "PN" "B16"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B16" )
+				)
+				( pin "b(17)"
+					( attribute "PN" "B17"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B17" )
+				)
+				( pin "b(18)"
+					( attribute "PN" "B18"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B18" )
+				)
+				( pin "b(19)"
+					( attribute "PN" "B19"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B19" )
+				)
+				( pin "b(20)"
+					( attribute "PN" "B20"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B20" )
+				)
+				( pin "b(21)"
+					( attribute "PN" "B21"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B21" )
+				)
+				( pin "b(22)"
+					( attribute "PN" "B22"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B22" )
+				)
+				( pin "b(23)"
+					( attribute "PN" "B23"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B23" )
+				)
+				( pin "b(24)"
+					( attribute "PN" "B24"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B24" )
+				)
+				( pin "b(25)"
+					( attribute "PN" "B25"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B25" )
+				)
+				( pin "b(26)"
+					( attribute "PN" "B26"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B26" )
+				)
+				( pin "b(27)"
+					( attribute "PN" "B27"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B27" )
+				)
+				( pin "b(28)"
+					( attribute "PN" "B28"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B28" )
+				)
+				( pin "b(29)"
+					( attribute "PN" "B29"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B29" )
+				)
+				( pin "b(30)"
+					( attribute "PN" "B30"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B30" )
+				)
+				( pin "b(31)"
+					( attribute "PN" "B31"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B31" )
+				)
+				( pin "b(32)"
+					( attribute "PN" "B32"
+						( Origin gPackager )
+					)
+					( objectStatus "P1.B32" )
+				)
 				( pin "b(33)"
 					( attribute "PN" "B33"
 						( Origin gPackager )
@@ -5156,12 +5216,24 @@
 				( attribute "SEC" "1"
 					( Origin gFrontEnd )
 				)
+				( attribute "CDS_LOCATION" "IC15"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
 				( objectStatus "IC15" )
 				( pin "en"
 					( attribute "PN" "5"
 						( Origin gPackager )
 					)
 					( objectStatus "IC15.5" )
+				)
+				( pin "scla"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "IC15.2" )
 				)
 				( pin "sclb"
 					( attribute "PN" "7"
@@ -5174,12 +5246,6 @@
 						( Origin gPackager )
 					)
 					( objectStatus "IC15.3" )
-				)
-				( pin "scla"
-					( attribute "PN" "2"
-						( Origin gPackager )
-					)
-					( objectStatus "IC15.2" )
 				)
 				( pin "sdab"
 					( attribute "PN" "6"
@@ -5304,12 +5370,18 @@
 				( attribute "SEC" "1"
 					( Origin gFrontEnd )
 				)
+				( attribute "CDS_LOCATION" "J5"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
 				( objectStatus "J5" )
-				( pin "a(2)"
-					( attribute "PN" "3"
+				( pin "a(0)"
+					( attribute "PN" "1"
 						( Origin gPackager )
 					)
-					( objectStatus "J5.3" )
+					( objectStatus "J5.1" )
 				)
 				( pin "a(1)"
 					( attribute "PN" "2"
@@ -5317,11 +5389,11 @@
 					)
 					( objectStatus "J5.2" )
 				)
-				( pin "a(0)"
-					( attribute "PN" "1"
+				( pin "a(2)"
+					( attribute "PN" "3"
 						( Origin gPackager )
 					)
-					( objectStatus "J5.1" )
+					( objectStatus "J5.3" )
 				)
 			)
 			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i171"
@@ -5364,12 +5436,18 @@
 				( attribute "SEC" "1"
 					( Origin gFrontEnd )
 				)
+				( attribute "CDS_LOCATION" "J6"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
 				( objectStatus "J6" )
-				( pin "a(2)"
-					( attribute "PN" "3"
+				( pin "a(0)"
+					( attribute "PN" "1"
 						( Origin gPackager )
 					)
-					( objectStatus "J6.3" )
+					( objectStatus "J6.1" )
 				)
 				( pin "a(1)"
 					( attribute "PN" "2"
@@ -5377,11 +5455,11 @@
 					)
 					( objectStatus "J6.2" )
 				)
-				( pin "a(0)"
-					( attribute "PN" "1"
+				( pin "a(2)"
+					( attribute "PN" "3"
 						( Origin gPackager )
 					)
-					( objectStatus "J6.1" )
+					( objectStatus "J6.3" )
 				)
 			)
 			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i174"
@@ -5424,12 +5502,18 @@
 				( attribute "SEC" "1"
 					( Origin gFrontEnd )
 				)
+				( attribute "CDS_LOCATION" "J8"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
 				( objectStatus "J8" )
-				( pin "a(2)"
-					( attribute "PN" "3"
+				( pin "a(0)"
+					( attribute "PN" "1"
 						( Origin gPackager )
 					)
-					( objectStatus "J8.3" )
+					( objectStatus "J8.1" )
 				)
 				( pin "a(1)"
 					( attribute "PN" "2"
@@ -5437,11 +5521,11 @@
 					)
 					( objectStatus "J8.2" )
 				)
-				( pin "a(0)"
-					( attribute "PN" "1"
+				( pin "a(2)"
+					( attribute "PN" "3"
 						( Origin gPackager )
 					)
-					( objectStatus "J8.1" )
+					( objectStatus "J8.3" )
 				)
 			)
 			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i183"
@@ -5491,18 +5575,21 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
-				( objectStatus "C18" )
-				( pin "b(0)"
-					( attribute "PN" "2"
-						( Origin gPackager )
-					)
-					( objectStatus "C18.2" )
+				( attribute "CDS_LOCATION" "C18"
+					( Origin gPackager )
 				)
+				( objectStatus "C18" )
 				( pin "a(0)"
 					( attribute "PN" "1"
 						( Origin gPackager )
 					)
 					( objectStatus "C18.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C18.2" )
 				)
 			)
 			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i193"
@@ -5552,18 +5639,21 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
-				( objectStatus "C16" )
-				( pin "b(0)"
-					( attribute "PN" "2"
-						( Origin gPackager )
-					)
-					( objectStatus "C16.2" )
+				( attribute "CDS_LOCATION" "C16"
+					( Origin gPackager )
 				)
+				( objectStatus "C16" )
 				( pin "a(0)"
 					( attribute "PN" "1"
 						( Origin gPackager )
 					)
 					( objectStatus "C16.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C16.2" )
 				)
 			)
 			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page2_i199"
@@ -5611,6 +5701,9 @@
 					( Origin gFrontEnd )
 				)
 				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C107"
 					( Origin gPackager )
 				)
 				( objectStatus "C107" )
@@ -5684,6 +5777,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "REG1" )
+				( pin "en"
+					( attribute "PN" "3"
+						( Origin gPackager )
+					)
+					( objectStatus "REG1.3" )
+				)
 				( pin "gnd"
 					( attribute "PN" "2"
 						( Origin gPackager )
@@ -5701,12 +5800,6 @@
 						( Origin gPackager )
 					)
 					( objectStatus "REG1.4" )
-				)
-				( pin "en"
-					( attribute "PN" "3"
-						( Origin gPackager )
-					)
-					( objectStatus "REG1.3" )
 				)
 				( pin "\out\"
 					( attribute "PN" "5"
@@ -5790,6 +5883,9 @@
 					( Origin gFrontEnd )
 				)
 				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R42"
 					( Origin gPackager )
 				)
 				( objectStatus "R42" )
@@ -5883,6 +5979,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "R103"
+					( Origin gPackager )
+				)
 				( objectStatus "R103" )
 				( pin "a(0)"
 					( attribute "PN" "1"
@@ -5972,6 +6071,9 @@
 					( Origin gFrontEnd )
 				)
 				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R39"
 					( Origin gPackager )
 				)
 				( objectStatus "R39" )
@@ -6065,6 +6167,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "R140"
+					( Origin gPackager )
+				)
 				( objectStatus "R140" )
 				( pin "a(0)"
 					( attribute "PN" "1"
@@ -6154,6 +6259,9 @@
 					( Origin gFrontEnd )
 				)
 				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R411"
 					( Origin gPackager )
 				)
 				( objectStatus "R411" )
@@ -6247,6 +6355,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "R142"
+					( Origin gPackager )
+				)
 				( objectStatus "R142" )
 				( pin "a(0)"
 					( attribute "PN" "1"
@@ -6338,6 +6449,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "R143"
+					( Origin gPackager )
+				)
 				( objectStatus "R143" )
 				( pin "a(0)"
 					( attribute "PN" "1"
@@ -6399,18 +6513,6 @@
 					( Origin gPackager )
 				)
 				( objectStatus "IC2" )
-				( pin "scl"
-					( attribute "PN" "6"
-						( Origin gPackager )
-					)
-					( objectStatus "IC2.6" )
-				)
-				( pin "a2"
-					( attribute "PN" "3"
-						( Origin gPackager )
-					)
-					( objectStatus "IC2.3" )
-				)
 				( pin "a0"
 					( attribute "PN" "1"
 						( Origin gPackager )
@@ -6422,6 +6524,18 @@
 						( Origin gPackager )
 					)
 					( objectStatus "IC2.2" )
+				)
+				( pin "a2"
+					( attribute "PN" "3"
+						( Origin gPackager )
+					)
+					( objectStatus "IC2.3" )
+				)
+				( pin "scl"
+					( attribute "PN" "6"
+						( Origin gPackager )
+					)
+					( objectStatus "IC2.6" )
 				)
 				( pin "sda"
 					( attribute "PN" "5"
@@ -7058,18 +7172,33 @@
 				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
 					( Origin gPackager )
 				)
-				( objectStatus "PAGE3_I315" )
+				( attribute "CDS_PHYS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C1"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C1" )
 				( pin "a(0)"
-					( attribute "PN" "#"
+					( attribute "PN" "1"
 						( Origin gPackager )
 					)
-					( objectStatus "PAGE3_I315.1" )
+					( objectStatus "C1.1" )
 				)
 				( pin "b(0)"
-					( attribute "PN" "#"
+					( attribute "PN" "2"
 						( Origin gPackager )
 					)
-					( objectStatus "PAGE3_I315.2" )
+					( objectStatus "C1.2" )
 				)
 			)
 			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page3_i242"
@@ -7117,6 +7246,9 @@
 					( Origin gFrontEnd )
 				)
 				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C6"
 					( Origin gPackager )
 				)
 				( objectStatus "C6" )
@@ -7180,6 +7312,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "C3"
+					( Origin gPackager )
+				)
 				( objectStatus "C3" )
 				( pin "a(0)"
 					( attribute "PN" "1"
@@ -7241,6 +7376,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "C5"
+					( Origin gPackager )
+				)
 				( objectStatus "C5" )
 				( pin "a(0)"
 					( attribute "PN" "1"
@@ -7300,6 +7438,9 @@
 					( Origin gFrontEnd )
 				)
 				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C4"
 					( Origin gPackager )
 				)
 				( objectStatus "C4" )
@@ -7418,13 +7559,13 @@
 				( attribute "SEC" "1"
 					( Origin gFrontEnd )
 				)
-				( objectStatus "IC12" )
-				( pin "slicen"
-					( attribute "PN" "7"
-						( Origin gPackager )
-					)
-					( objectStatus "IC12.7" )
+				( attribute "CDS_LOCATION" "IC12"
+					( Origin gPackager )
 				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "IC12" )
 				( pin "cf1"
 					( attribute "PN" "15"
 						( Origin gPackager )
@@ -7520,6 +7661,12 @@
 						( Origin gPackager )
 					)
 					( objectStatus "IC12.21" )
+				)
+				( pin "slicen"
+					( attribute "PN" "7"
+						( Origin gPackager )
+					)
+					( objectStatus "IC12.7" )
 				)
 				( pin "slicep"
 					( attribute "PN" "6"
@@ -7692,6 +7839,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "R25"
+					( Origin gPackager )
+				)
 				( objectStatus "R25" )
 				( pin "a(0)"
 					( attribute "PN" "1"
@@ -7786,6 +7936,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "R24"
+					( Origin gPackager )
+				)
 				( objectStatus "R24" )
 				( pin "a(0)"
 					( attribute "PN" "1"
@@ -7838,6 +7991,9 @@
 					( Origin gFrontEnd )
 				)
 				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "L1"
 					( Origin gPackager )
 				)
 				( objectStatus "L1" )
@@ -7931,6 +8087,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "R23"
+					( Origin gPackager )
+				)
 				( objectStatus "R23" )
 				( pin "a(0)"
 					( attribute "PN" "1"
@@ -8020,6 +8179,9 @@
 					( Origin gFrontEnd )
 				)
 				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R29"
 					( Origin gPackager )
 				)
 				( objectStatus "R29" )
@@ -8116,6 +8278,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "R22"
+					( Origin gPackager )
+				)
 				( objectStatus "R22" )
 				( pin "a(0)"
 					( attribute "PN" "1"
@@ -8168,6 +8333,9 @@
 					( Origin gFrontEnd )
 				)
 				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "L2"
 					( Origin gPackager )
 				)
 				( objectStatus "L2" )
@@ -8261,6 +8429,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "R28"
+					( Origin gPackager )
+				)
 				( objectStatus "R28" )
 				( pin "a(0)"
 					( attribute "PN" "1"
@@ -8326,17 +8497,17 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C27" )
-				( pin "b(0)"
-					( attribute "PN" "2"
-						( Origin gPackager )
-					)
-					( objectStatus "C27.2" )
-				)
 				( pin "a(0)"
 					( attribute "PN" "1"
 						( Origin gPackager )
 					)
 					( objectStatus "C27.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C27.2" )
 				)
 			)
 			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i115"
@@ -8608,6 +8779,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "R53"
+					( Origin gPackager )
+				)
 				( objectStatus "R53" )
 				( pin "a(0)"
 					( attribute "PN" "1"
@@ -8699,6 +8873,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "R52"
+					( Origin gPackager )
+				)
 				( objectStatus "R52" )
 				( pin "a(0)"
 					( attribute "PN" "1"
@@ -8760,6 +8937,12 @@
 				( attribute "SEC" "1"
 					( Origin gFrontEnd )
 				)
+				( attribute "CDS_LOCATION" "C38"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
 				( objectStatus "C38" )
 				( pin "a(0)"
 					( attribute "PN" "1"
@@ -8820,6 +9003,12 @@
 				)
 				( attribute "SEC" "1"
 					( Origin gFrontEnd )
+				)
+				( attribute "CDS_LOCATION" "C42"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
 				)
 				( objectStatus "C42" )
 				( pin "a(0)"
@@ -8910,6 +9099,9 @@
 					( Origin gFrontEnd )
 				)
 				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R34"
 					( Origin gPackager )
 				)
 				( objectStatus "R34" )
@@ -9003,6 +9195,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "R12"
+					( Origin gPackager )
+				)
 				( objectStatus "R12" )
 				( pin "a(0)"
 					( attribute "PN" "1"
@@ -9062,6 +9257,9 @@
 					( Origin gFrontEnd )
 				)
 				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C39"
 					( Origin gPackager )
 				)
 				( objectStatus "C39" )
@@ -9125,6 +9323,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "C44"
+					( Origin gPackager )
+				)
 				( objectStatus "C44" )
 				( pin "a(0)"
 					( attribute "PN" "1"
@@ -9184,6 +9385,9 @@
 					( Origin gFrontEnd )
 				)
 				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C43"
 					( Origin gPackager )
 				)
 				( objectStatus "C43" )
@@ -9247,6 +9451,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "C33"
+					( Origin gPackager )
+				)
 				( objectStatus "C33" )
 				( pin "a(0)"
 					( attribute "PN" "1"
@@ -9306,6 +9513,9 @@
 					( Origin gFrontEnd )
 				)
 				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C34"
 					( Origin gPackager )
 				)
 				( objectStatus "C34" )
@@ -9369,6 +9579,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "C36"
+					( Origin gPackager )
+				)
 				( objectStatus "C36" )
 				( pin "a(0)"
 					( attribute "PN" "1"
@@ -9428,6 +9641,9 @@
 					( Origin gFrontEnd )
 				)
 				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C37"
 					( Origin gPackager )
 				)
 				( objectStatus "C37" )
@@ -9491,6 +9707,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "C40"
+					( Origin gPackager )
+				)
 				( objectStatus "C40" )
 				( pin "a(0)"
 					( attribute "PN" "1"
@@ -9550,6 +9769,9 @@
 					( Origin gFrontEnd )
 				)
 				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C41"
 					( Origin gPackager )
 				)
 				( objectStatus "C41" )
@@ -9613,6 +9835,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "C35"
+					( Origin gPackager )
+				)
 				( objectStatus "C35" )
 				( pin "a(0)"
 					( attribute "PN" "1"
@@ -9674,18 +9899,21 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
-				( objectStatus "C30" )
-				( pin "b(0)"
-					( attribute "PN" "2"
-						( Origin gPackager )
-					)
-					( objectStatus "C30.2" )
+				( attribute "CDS_LOCATION" "C30"
+					( Origin gPackager )
 				)
+				( objectStatus "C30" )
 				( pin "a(0)"
 					( attribute "PN" "1"
 						( Origin gPackager )
 					)
 					( objectStatus "C30.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C30.2" )
 				)
 			)
 			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i156"
@@ -9733,6 +9961,9 @@
 					( Origin gFrontEnd )
 				)
 				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C29"
 					( Origin gPackager )
 				)
 				( objectStatus "C29" )
@@ -9796,6 +10027,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "C15"
+					( Origin gPackager )
+				)
 				( objectStatus "C15" )
 				( pin "a(0)"
 					( attribute "PN" "1"
@@ -9850,19 +10084,10 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "J4"
+					( Origin gPackager )
+				)
 				( objectStatus "J4" )
-				( pin "\rd-\"
-					( attribute "PN" "12"
-						( Origin gPackager )
-					)
-					( objectStatus "J4.12" )
-				)
-				( pin "\td+\"
-					( attribute "PN" "18"
-						( Origin gPackager )
-					)
-					( objectStatus "J4.18" )
-				)
 				( pin "los"
 					( attribute "PN" "8"
 						( Origin gPackager )
@@ -9898,6 +10123,18 @@
 						( Origin gPackager )
 					)
 					( objectStatus "J4.13" )
+				)
+				( pin "\rd-\"
+					( attribute "PN" "12"
+						( Origin gPackager )
+					)
+					( objectStatus "J4.12" )
+				)
+				( pin "\td+\"
+					( attribute "PN" "18"
+						( Origin gPackager )
+					)
+					( objectStatus "J4.18" )
 				)
 				( pin "\td-\"
 					( attribute "PN" "19"
@@ -10605,12 +10842,6 @@
 					( Origin gPackager )
 				)
 				( objectStatus "IC3" )
-				( pin "ols"
-					( attribute "PN" "13"
-						( Origin gPackager )
-					)
-					( objectStatus "IC3.13" )
-				)
 				( pin "clk"
 					( attribute "PN" "3"
 						( Origin gPackager )
@@ -10623,17 +10854,23 @@
 					)
 					( objectStatus "IC3.2" )
 				)
+				( pin "d"
+					( attribute "PN" "7"
+						( Origin gPackager )
+					)
+					( objectStatus "IC3.7" )
+				)
 				( pin "\d*\"
 					( attribute "PN" "6"
 						( Origin gPackager )
 					)
 					( objectStatus "IC3.6" )
 				)
-				( pin "d"
-					( attribute "PN" "7"
+				( pin "ols"
+					( attribute "PN" "13"
 						( Origin gPackager )
 					)
-					( objectStatus "IC3.7" )
+					( objectStatus "IC3.13" )
 				)
 				( pin "q"
 					( attribute "PN" "10"
@@ -10719,18 +10956,33 @@
 				( attribute "CDS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
 					( Origin gPackager )
 				)
-				( objectStatus "PAGE3_I316" )
+				( attribute "CDS_PHYS_PART_NAME" "CAPCERSMDCL2_0402-100NF,16V_GEN"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C2"
+					( Origin gPackager )
+				)
+				( attribute "LOCATION" "C2"
+					( Origin gPackager )
+				)
+				( attribute "CDS_SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( objectStatus "C2" )
 				( pin "a(0)"
-					( attribute "PN" "#"
+					( attribute "PN" "1"
 						( Origin gPackager )
 					)
-					( objectStatus "PAGE3_I316.1" )
+					( objectStatus "C2.1" )
 				)
 				( pin "b(0)"
-					( attribute "PN" "#"
+					( attribute "PN" "2"
 						( Origin gPackager )
 					)
-					( objectStatus "PAGE3_I316.2" )
+					( objectStatus "C2.2" )
 				)
 			)
 			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page11_i269"
@@ -10834,17 +11086,17 @@
 					)
 					( objectStatus "QZ1.1" )
 				)
-				( pin "outp"
-					( attribute "PN" "4"
-						( Origin gPackager )
-					)
-					( objectStatus "QZ1.4" )
-				)
 				( pin "outn"
 					( attribute "PN" "5"
 						( Origin gPackager )
 					)
 					( objectStatus "QZ1.5" )
+				)
+				( pin "outp"
+					( attribute "PN" "4"
+						( Origin gPackager )
+					)
+					( objectStatus "QZ1.4" )
 				)
 			)
 			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i56"
@@ -11272,6 +11524,12 @@
 					( Origin gPackager )
 				)
 				( objectStatus "J2" )
+				( pin "a(0)"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "J2.1" )
+				)
 				( pin "a(1)"
 					( attribute "PN" "2"
 						( Origin gPackager )
@@ -11283,12 +11541,6 @@
 						( Origin gPackager )
 					)
 					( objectStatus "J2.3" )
-				)
-				( pin "a(0)"
-					( attribute "PN" "1"
-						( Origin gPackager )
-					)
-					( objectStatus "J2.1" )
 				)
 			)
 			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i29"
@@ -11486,17 +11738,17 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R11" )
-				( pin "b(0)"
-					( attribute "PN" "2"
-						( Origin gPackager )
-					)
-					( objectStatus "R11.2" )
-				)
 				( pin "a(0)"
 					( attribute "PN" "1"
 						( Origin gPackager )
 					)
 					( objectStatus "R11.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R11.2" )
 				)
 			)
 			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i33"
@@ -11543,11 +11795,11 @@
 					( Origin gPackager )
 				)
 				( objectStatus "J3" )
-				( pin "a(2)"
-					( attribute "PN" "3"
+				( pin "a(0)"
+					( attribute "PN" "1"
 						( Origin gPackager )
 					)
-					( objectStatus "J3.3" )
+					( objectStatus "J3.1" )
 				)
 				( pin "a(1)"
 					( attribute "PN" "2"
@@ -11555,11 +11807,11 @@
 					)
 					( objectStatus "J3.2" )
 				)
-				( pin "a(0)"
-					( attribute "PN" "1"
+				( pin "a(2)"
+					( attribute "PN" "3"
 						( Origin gPackager )
 					)
-					( objectStatus "J3.1" )
+					( objectStatus "J3.3" )
 				)
 			)
 			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i37"
@@ -11727,17 +11979,17 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C8" )
-				( pin "b(0)"
-					( attribute "PN" "2"
-						( Origin gPackager )
-					)
-					( objectStatus "C8.2" )
-				)
 				( pin "a(0)"
 					( attribute "PN" "1"
 						( Origin gPackager )
 					)
 					( objectStatus "C8.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C8.2" )
 				)
 			)
 			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i40"
@@ -11935,17 +12187,17 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R8" )
-				( pin "b(0)"
-					( attribute "PN" "2"
-						( Origin gPackager )
-					)
-					( objectStatus "R8.2" )
-				)
 				( pin "a(0)"
 					( attribute "PN" "1"
 						( Origin gPackager )
 					)
 					( objectStatus "R8.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R8.2" )
 				)
 			)
 			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i47"
@@ -12029,17 +12281,17 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R13" )
-				( pin "b(0)"
-					( attribute "PN" "2"
-						( Origin gPackager )
-					)
-					( objectStatus "R13.2" )
-				)
 				( pin "a(0)"
 					( attribute "PN" "1"
 						( Origin gPackager )
 					)
 					( objectStatus "R13.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R13.2" )
 				)
 			)
 			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page4_i48"
@@ -13148,6 +13400,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "R242"
+					( Origin gPackager )
+				)
 				( objectStatus "R242" )
 				( pin "a(0)"
 					( attribute "PN" "1"
@@ -13239,6 +13494,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "R138"
+					( Origin gPackager )
+				)
 				( objectStatus "R138" )
 				( pin "a(0)"
 					( attribute "PN" "1"
@@ -13328,6 +13586,9 @@
 					( Origin gFrontEnd )
 				)
 				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R1328"
 					( Origin gPackager )
 				)
 				( objectStatus "R1328" )
@@ -14769,17 +15030,11 @@
 					( Origin gPackager )
 				)
 				( objectStatus "IC4" )
-				( pin "\in3/fb_in*\"
-					( attribute "PN" "42"
+				( pin "\a0/cs\"
+					( attribute "PN" "16"
 						( Origin gPackager )
 					)
-					( objectStatus "IC4.42" )
-				)
-				( pin "\in3/fb_in\"
-					( attribute "PN" "41"
-						( Origin gPackager )
-					)
-					( objectStatus "IC4.41" )
+					( objectStatus "IC4.16" )
 				)
 				( pin "\a1/sdo\"
 					( attribute "PN" "15"
@@ -14787,23 +15042,17 @@
 					)
 					( objectStatus "IC4.15" )
 				)
-				( pin "in0"
-					( attribute "PN" "43"
-						( Origin gPackager )
-					)
-					( objectStatus "IC4.43" )
-				)
 				( pin "i2c_sel"
 					( attribute "PN" "38"
 						( Origin gPackager )
 					)
 					( objectStatus "IC4.38" )
 				)
-				( pin "\a0/cs\"
-					( attribute "PN" "16"
+				( pin "in0"
+					( attribute "PN" "43"
 						( Origin gPackager )
 					)
-					( objectStatus "IC4.16" )
+					( objectStatus "IC4.43" )
 				)
 				( pin "\in0*\"
 					( attribute "PN" "44"
@@ -14834,6 +15083,18 @@
 						( Origin gPackager )
 					)
 					( objectStatus "IC4.11" )
+				)
+				( pin "\in3/fb_in\"
+					( attribute "PN" "41"
+						( Origin gPackager )
+					)
+					( objectStatus "IC4.41" )
+				)
+				( pin "\in3/fb_in*\"
+					( attribute "PN" "42"
+						( Origin gPackager )
+					)
+					( objectStatus "IC4.42" )
 				)
 				( pin "in_sel0"
 					( attribute "PN" "3"
@@ -15069,6 +15330,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "R43"
+					( Origin gPackager )
+				)
 				( objectStatus "R43" )
 				( pin "a(0)"
 					( attribute "PN" "1"
@@ -15128,6 +15392,9 @@
 					( Origin gFrontEnd )
 				)
 				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C17"
 					( Origin gPackager )
 				)
 				( objectStatus "C17" )
@@ -15302,30 +15569,6 @@
 					( Origin gPackager )
 				)
 				( objectStatus "IC1" )
-				( pin "scl1"
-					( attribute "NO_ASSERT_CHECK" "<< NULL >>"
-						( Origin gFrontEnd )
-					)
-					( attribute "NO_DIR_CHECK" "<< NULL >>"
-						( Origin gFrontEnd )
-					)
-					( attribute "PN" "3"
-						( Origin gPackager )
-					)
-					( objectStatus "IC1.3" )
-				)
-				( pin "sda1"
-					( attribute "NO_ASSERT_CHECK" "<< NULL >>"
-						( Origin gFrontEnd )
-					)
-					( attribute "NO_DIR_CHECK" "<< NULL >>"
-						( Origin gFrontEnd )
-					)
-					( attribute "PN" "4"
-						( Origin gPackager )
-					)
-					( objectStatus "IC1.4" )
-				)
 				( pin "en"
 					( attribute "NO_ASSERT_CHECK" "<< NULL >>"
 						( Origin gFrontEnd )
@@ -15338,6 +15581,18 @@
 					)
 					( objectStatus "IC1.8" )
 				)
+				( pin "scl1"
+					( attribute "NO_ASSERT_CHECK" "<< NULL >>"
+						( Origin gFrontEnd )
+					)
+					( attribute "NO_DIR_CHECK" "<< NULL >>"
+						( Origin gFrontEnd )
+					)
+					( attribute "PN" "3"
+						( Origin gPackager )
+					)
+					( objectStatus "IC1.3" )
+				)
 				( pin "scl2"
 					( attribute "NO_ASSERT_CHECK" "<< NULL >>"
 						( Origin gFrontEnd )
@@ -15349,6 +15604,18 @@
 						( Origin gPackager )
 					)
 					( objectStatus "IC1.6" )
+				)
+				( pin "sda1"
+					( attribute "NO_ASSERT_CHECK" "<< NULL >>"
+						( Origin gFrontEnd )
+					)
+					( attribute "NO_DIR_CHECK" "<< NULL >>"
+						( Origin gFrontEnd )
+					)
+					( attribute "PN" "4"
+						( Origin gPackager )
+					)
+					( objectStatus "IC1.4" )
 				)
 				( pin "sda2"
 					( attribute "NO_ASSERT_CHECK" "<< NULL >>"
@@ -15432,6 +15699,9 @@
 					( Origin gFrontEnd )
 				)
 				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "C117"
 					( Origin gPackager )
 				)
 				( objectStatus "C117" )
@@ -15525,6 +15795,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "R40"
+					( Origin gPackager )
+				)
 				( objectStatus "R40" )
 				( pin "a(0)"
 					( attribute "PN" "1"
@@ -15614,6 +15887,9 @@
 					( Origin gFrontEnd )
 				)
 				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R41"
 					( Origin gPackager )
 				)
 				( objectStatus "R41" )
@@ -16188,6 +16464,9 @@
 				( attribute "SEC" "1"
 					( Origin gPackager )
 				)
+				( attribute "CDS_LOCATION" "R54"
+					( Origin gPackager )
+				)
 				( objectStatus "R54" )
 				( pin "a(0)"
 					( attribute "PN" "1"
@@ -16277,6 +16556,9 @@
 					( Origin gFrontEnd )
 				)
 				( attribute "SEC" "1"
+					( Origin gPackager )
+				)
+				( attribute "CDS_LOCATION" "R55"
 					( Origin gPackager )
 				)
 				( objectStatus "R55" )
@@ -16608,17 +16890,17 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C54" )
-				( pin "b(0)"
-					( attribute "PN" "2"
-						( Origin gPackager )
-					)
-					( objectStatus "C54.2" )
-				)
 				( pin "a(0)"
 					( attribute "PN" "1"
 						( Origin gPackager )
 					)
 					( objectStatus "C54.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C54.2" )
 				)
 			)
 			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page5_i332"
@@ -16672,17 +16954,17 @@
 					( Origin gPackager )
 				)
 				( objectStatus "C55" )
-				( pin "b(0)"
-					( attribute "PN" "2"
-						( Origin gPackager )
-					)
-					( objectStatus "C55.2" )
-				)
 				( pin "a(0)"
 					( attribute "PN" "1"
 						( Origin gPackager )
 					)
 					( objectStatus "C55.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "C55.2" )
 				)
 			)
 			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page5_i275"
@@ -17964,18 +18246,6 @@
 					( Origin gPackager )
 				)
 				( objectStatus "IC5" )
-				( pin "q"
-					( attribute "PN" "1"
-						( Origin gPackager )
-					)
-					( objectStatus "IC5.1" )
-				)
-				( pin "\q*\"
-					( attribute "PN" "6"
-						( Origin gPackager )
-					)
-					( objectStatus "IC5.6" )
-				)
 				( pin "\+in\"
 					( attribute "PN" "3"
 						( Origin gPackager )
@@ -17987,6 +18257,18 @@
 						( Origin gPackager )
 					)
 					( objectStatus "IC5.4" )
+				)
+				( pin "q"
+					( attribute "PN" "1"
+						( Origin gPackager )
+					)
+					( objectStatus "IC5.1" )
+				)
+				( pin "\q*\"
+					( attribute "PN" "6"
+						( Origin gPackager )
+					)
+					( objectStatus "IC5.6" )
 				)
 				( pin "vcc"
 					( attribute "PN" "5"
@@ -18305,17 +18587,17 @@
 					( Origin gPackager )
 				)
 				( objectStatus "IC6" )
-				( pin "\-in\"
-					( attribute "PN" "4"
-						( Origin gPackager )
-					)
-					( objectStatus "IC6.4" )
-				)
 				( pin "\+in\"
 					( attribute "PN" "3"
 						( Origin gPackager )
 					)
 					( objectStatus "IC6.3" )
+				)
+				( pin "\-in\"
+					( attribute "PN" "4"
+						( Origin gPackager )
+					)
+					( objectStatus "IC6.4" )
 				)
 				( pin "q"
 					( attribute "PN" "1"
@@ -18520,11 +18802,11 @@
 					)
 					( objectStatus "IC7.3" )
 				)
-				( pin "\q*\"
-					( attribute "PN" "6"
+				( pin "\-in\"
+					( attribute "PN" "4"
 						( Origin gPackager )
 					)
-					( objectStatus "IC7.6" )
+					( objectStatus "IC7.4" )
 				)
 				( pin "q"
 					( attribute "PN" "1"
@@ -18532,11 +18814,11 @@
 					)
 					( objectStatus "IC7.1" )
 				)
-				( pin "\-in\"
-					( attribute "PN" "4"
+				( pin "\q*\"
+					( attribute "PN" "6"
 						( Origin gPackager )
 					)
-					( objectStatus "IC7.4" )
+					( objectStatus "IC7.6" )
 				)
 				( pin "vcc"
 					( attribute "PN" "5"
@@ -18834,17 +19116,17 @@
 					( Origin gPackager )
 				)
 				( objectStatus "IC9" )
-				( pin "\y*\(0)"
-					( attribute "PN" "10"
-						( Origin gPackager )
-					)
-					( objectStatus "IC9.10" )
-				)
 				( pin "a(0)"
 					( attribute "PN" "11"
 						( Origin gPackager )
 					)
 					( objectStatus "IC9.11" )
+				)
+				( pin "\y*\(0)"
+					( attribute "PN" "10"
+						( Origin gPackager )
+					)
+					( objectStatus "IC9.10" )
 				)
 			)
 			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page5_i313"
@@ -19191,17 +19473,17 @@
 					( Origin gPackager )
 				)
 				( objectStatus "R49" )
-				( pin "b(0)"
-					( attribute "PN" "2"
-						( Origin gPackager )
-					)
-					( objectStatus "R49.2" )
-				)
 				( pin "a(0)"
 					( attribute "PN" "1"
 						( Origin gPackager )
 					)
 					( objectStatus "R49.1" )
+				)
+				( pin "b(0)"
+					( attribute "PN" "2"
+						( Origin gPackager )
+					)
+					( objectStatus "R49.2" )
 				)
 			)
 			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page5_i317"
@@ -19453,12 +19735,6 @@
 					( Origin gPackager )
 				)
 				( objectStatus "IC8" )
-				( pin "ro(0)"
-					( attribute "PN" "7"
-						( Origin gPackager )
-					)
-					( objectStatus "IC8.7" )
-				)
 				( pin "rim(0)"
 					( attribute "PN" "1"
 						( Origin gPackager )
@@ -19470,6 +19746,12 @@
 						( Origin gPackager )
 					)
 					( objectStatus "IC8.2" )
+				)
+				( pin "ro(0)"
+					( attribute "PN" "7"
+						( Origin gPackager )
+					)
+					( objectStatus "IC8.7" )
 				)
 			)
 			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page5_i321"
@@ -19866,12 +20148,6 @@
 					( Origin gPackager )
 				)
 				( objectStatus "IC8" )
-				( pin "ro(0)"
-					( attribute "PN" "6"
-						( Origin gPackager )
-					)
-					( objectStatus "IC8.6" )
-				)
 				( pin "rim(0)"
 					( attribute "PN" "4"
 						( Origin gPackager )
@@ -19883,6 +20159,12 @@
 						( Origin gPackager )
 					)
 					( objectStatus "IC8.3" )
+				)
+				( pin "ro(0)"
+					( attribute "PN" "6"
+						( Origin gPackager )
+					)
+					( objectStatus "IC8.6" )
 				)
 			)
 			( gate "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):page5_i326"
@@ -19931,23 +20213,11 @@
 					( Origin gPackager )
 				)
 				( objectStatus "J1" )
-				( pin "a(2)"
-					( attribute "PN" "3"
-						( Origin gPackager )
-					)
-					( objectStatus "J1.3" )
-				)
 				( pin "a(0)"
 					( attribute "PN" "1"
 						( Origin gPackager )
 					)
 					( objectStatus "J1.1" )
-				)
-				( pin "a(4)"
-					( attribute "PN" "5"
-						( Origin gPackager )
-					)
-					( objectStatus "J1.5" )
 				)
 				( pin "a(1)"
 					( attribute "PN" "2"
@@ -19955,11 +20225,23 @@
 					)
 					( objectStatus "J1.2" )
 				)
+				( pin "a(2)"
+					( attribute "PN" "3"
+						( Origin gPackager )
+					)
+					( objectStatus "J1.3" )
+				)
 				( pin "a(3)"
 					( attribute "PN" "4"
 						( Origin gPackager )
 					)
 					( objectStatus "J1.4" )
+				)
+				( pin "a(4)"
+					( attribute "PN" "5"
+						( Origin gPackager )
+					)
+					( objectStatus "J1.5" )
 				)
 				( pin "a(5)"
 					( attribute "PN" "6"

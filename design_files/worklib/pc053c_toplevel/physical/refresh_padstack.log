@@ -1,0 +1,87 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Refresh Padstack                                                 )
+(                                                                     )
+(    Drawing          : rj45_jt3_1125.dra                             )
+(    Software Version : 16.6-2015S058                                 )
+(    Date/Time        : Fri Sep 30 17:33:20 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Fri Sep 30 17:33:20 2016				Page     1
+
+
+------ Pad Stack Refresh Options ------
+
+Input design  = 'P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/rj45_jt3_1125.dra'
+Output design = ''
+Reset symbol text and size locations   = 'NO'
+
+
+------ Library Paths ------
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.6/share/local/pcb/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/bga 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/cap 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/chip 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/connector 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/dip 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/discrete 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/icsmd 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/ipc 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/lcc 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/led 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/mec 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/passif 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/pga 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/pwr 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/qfp 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/rel 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/res 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/sip 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/so 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/soic 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/soj 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/sp 
+           P:/cad/cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/sw 
+           P:/cad/ral_cdslib/lib_psd15.x/symbols 
+           P:/cad/bris_cdslib/lib_psd14.x/symbols 
+           P:/cad/bris_cdslib/lib_psd14.x/formats 
+           P:\cad\cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/symbols/bga 
+           P:\cad\cern_cdslib/lib_psd16.x/allegro_libs/pe_ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.6/share/local/pcb/padstacks 
+           C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/symbols/ 
+           C:/Dati/Courses/AllegroCourses/DesignEntryHDL/ftb/pcb/symbols/ 
+           P:\cad\cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/padstacks/padstackm 
+           P:\cad\ral_cdslib\lib_psd15.x/pads 
+           P:\cad\bris_cdslib\lib_psd14.x/pads 
+           P:\cad\cern_cdslib\lib_psd16.x\allegro_libs\pe_allegro_lib\padstacks/padstack_smd 
+           P:\cad\cern_cdslib\lib_psd16.x\allegro_libs\pe_allegro_lib\padstacks/padstack3 
+           P:\cad\cern_cdslib\lib_psd16.x\allegro_libs\pe_allegro_lib\padstacks/padstackm 
+           P:\cad\cern_cdslib/lib_psd16.x/allegro_libs/pe_allegro_lib/padstacks/mechanical 
+
+
+------ Pad Stack Refresh Messages ------
+
+'PAD_55_35D_PB'  pad stack refresh starting.
+
+     'PAD_55_35D_PB'  pad stack refreshed successfully.
+     
+'HOLE_90_PB'  pad stack refresh starting.
+
+     'HOLE_90_PB'  pad stack refreshed successfully.
+     
+Completed refreshing all pad stacks successfully.

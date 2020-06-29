@@ -1,19 +1,44 @@
-\t (00:00:03) allegro 16.6-2015 S055 (v16-6-112EH) Linux I32
-\t (00:00:03)     Journal start - Thu Dec 22 16:32:33 2016
-\t (00:00:03)         Host=voltar.phy.bris.ac.uk User=phdgc Pid=30686 CPUs=8
-\t (00:00:03) CmdLine= /eda/cadence/2015-16/RHELx86/SPB_16.60.055/tools/pcb/bin/allegro.exe ./pc053a_toplevel/physical/pc053a_toplevel_33_ans_16-5_routed.brd
-\t (00:00:03) 
-   (00:00:03) Searching for nsWare programs v2.62
-   (00:00:03) 	NsWare directory found: /home/phdgc/pcbenv/nsWare/
-   (00:00:03) 	NsWare programs must reside in this directory!
-   (00:00:03) Loading axlcore.cxt 
-\t (00:00:05) Opening existing design...
-\d (00:00:05) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_33_ans_16-5_routed.brd
-\i (00:00:05) trapsize 5513
-\i (00:00:05) trapsize 5401
-\i (00:00:05) trapsize 5532
-\i (00:00:06) trapsize 4812
-\i (00:00:06) trapsize 5520
-\i (00:00:06) generaledit 
-\i (00:00:10) exit 
-\t (00:00:10)     Journal end - Thu Dec 22 16:32:40 2016
+\t (00:00:01) allegro 17.2 S059 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Thu Oct 10 10:47:41 2019
+\t (00:00:01)         Host=IT062971 User=phpgb Pid=10756 CPUs=8
+\t (00:00:01) CmdLine= allegro -proj P:\cad\designs\uob-hep-pc053a\trunk\design_files\pc053a_toplevel.cpm -product Allegro_performance -mpssession phpgb_ProjectMgr28774 -mpshost IT062971
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:01) Opening existing design...
+\i (00:00:02) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged pc053c_toplevel_01
+\d (00:00:02) Design opened: P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/pc053c_toplevel_01.brd
+\i (00:00:02) trapsize 4543
+\i (00:00:02) trapsize 4629
+\i (00:00:02) trapsize 4543
+\i (00:00:02) trapsize 4543
+\i (00:00:02) generaledit 
+\i (00:00:05) xrefdes Ic3 
+\i (00:00:05) xrefdes IC3 
+\i (00:00:05) xname_flush 
+\i (00:00:05) trapsize 672
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in -19.8936 15.5232
+\i (00:00:06) trapsize 336
+\i (00:00:06) zoom in 1 
+\i (00:00:06) setwindow pcb
+\i (00:00:06) zoom in -19.8936 15.5098
+\i (00:00:06) trapsize 168
+\i (00:00:07) prepopup -21.3888 15.6375
+\i (00:00:45) refresh symbol 
+\i (00:01:08) setwindow form.upd_element
+\i (00:01:08) FORM upd_element close  
+\i (00:01:08) setwindow pcb
+\i (00:01:08) generaledit 
+\i (00:01:21) xrefdes Ic11 
+\i (00:01:21) xrefdes IC11 
+\i (00:01:21) xname_flush 
+\i (00:01:21) trapsize 1136
+\i (00:26:10) xrefdes Ic3 
+\i (00:26:10) xrefdes IC3 
+\i (00:26:10) xname_flush 
+\i (00:26:10) trapsize 672
+\i (00:26:41) xname_flush 
+\i (00:26:53) xname_flush 
+\i (00:27:00) exit 
+\t (00:27:01)     Journal end - Thu Oct 10 11:14:40 2019

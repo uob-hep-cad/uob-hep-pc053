@@ -1,85 +1,181 @@
-\t (00:02:08) allegro 16.6-2015 S055 (v16-6-112EH) Linux I32
-\t (00:02:08)     Journal start - Tue Dec 20 10:12:47 2016
-\t (00:02:08)         Host=fortis.phy.bris.ac.uk User=phpgb Pid=29639 CPUs=4
-\t (00:02:08) CmdLine= /software/CAD/Cadence/2015-16/RHELx86/SPB_16.60.055//tools/pcb/bin/allegro.exe pc053a_toplevel_33_ans_16-5_28oct.brd
-\t (00:02:08) 
-   (00:02:09) Searching for nsWare programs v2.62
-   (00:02:09) 	NsWare directory found: /software/CAD/Cadence/2015-16/RHELx86/SPB_16.60.055/share/local/pcb/skill/nsWare/
-   (00:02:09) 	NsWare programs must reside in this directory!
-   (00:02:09) Loading axlcore.cxt 
-\t (00:02:10) Opening existing design...
-\i (00:02:12) fillin yes 
-\w (00:02:12) WARNING(SPMHDB-212): This design has functionality disabled due to the current product plus options selected. The following features are disabled: Constraint Regions.  [help]
-\i (00:02:12) fillin confirm
-\d (00:02:12) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/pc053a_toplevel_33_ans_16-5_28oct.brd
-\i (00:02:13) trapsize 3885
-\i (00:02:13) trapsize 3803
-\i (00:02:13) trapsize 3899
-\i (00:02:13) trapsize 3985
-\i (00:02:13) trapsize 5520
-\i (00:02:14) generaledit 
-\i (00:02:16) setwindow form.find
-\i (00:02:16) FORM find name_type Symbol (or Pin) 
-\i (00:02:17) FORM find find_name R33 
-\i (00:02:18) setwindow pcb
-\i (00:02:18) trapsize 393
-\i (00:02:19) zoom out 1 
-\i (00:02:19) setwindow pcb
-\i (00:02:19) zoom out -28.5039 -1.4017
-\i (00:02:19) trapsize 785
-\i (00:02:34) setwindow form.find
-\i (00:02:34) FORM find find_name R26 
-\i (00:02:34) setwindow pcb
-\i (00:02:34) trapsize 529
-\i (00:02:36) zoom out 1 
-\i (00:02:36) setwindow pcb
-\i (00:02:36) zoom out -31.3455 7.9400
-\i (00:02:36) trapsize 1057
-\i (00:02:36) zoom out 1 
-\i (00:02:36) setwindow pcb
-\i (00:02:36) zoom out -31.0917 7.6228
-\i (00:02:36) trapsize 2114
-\i (00:02:37) zoom in 1 
-\i (00:02:37) setwindow pcb
-\i (00:02:37) zoom in -31.4724 8.1303
-\i (00:02:37) trapsize 1057
-\i (00:02:37) zoom in 1 
-\i (00:02:37) setwindow pcb
-\i (00:02:37) zoom in -31.4724 8.1303
-\i (00:02:37) trapsize 529
-\i (00:02:38) zoom in 1 
-\i (00:02:38) setwindow pcb
-\i (00:02:38) zoom in -29.7598 6.8723
-\i (00:02:38) trapsize 264
-\i (00:02:39) zoom out 1 
-\i (00:02:39) setwindow pcb
-\i (00:02:39) zoom out -29.7598 6.8723
-\i (00:02:39) trapsize 529
-\i (00:02:39) zoom out 1 
-\i (00:02:39) setwindow pcb
-\i (00:02:39) zoom out -29.7598 6.8723
-\i (00:02:39) trapsize 1057
-\i (00:02:39) zoom out 1 
-\i (00:02:39) setwindow pcb
-\i (00:02:39) zoom out -29.7597 6.8724
-\i (00:02:39) trapsize 2114
-\i (00:02:57) show element 
-\i (00:02:59) generaledit 
-\i (00:03:06) setwindow text
-\i (00:03:06) close 
-\i (07:59:28) setwindow form.find
-\i (07:59:28) FORM find find_name j2 
-\i (07:59:28) setwindow pcb
-\i (07:59:28) trapsize 1139
-\i (07:59:31) zoom out 1 
-\i (07:59:31) setwindow pcb
-\i (07:59:31) zoom out -40.7206 13.8760
-\i (07:59:31) trapsize 2278
-\i (07:59:31) zoom out 1 
-\i (07:59:31) setwindow pcb
-\i (07:59:31) zoom out -40.7206 13.8760
-\i (07:59:31) trapsize 4556
-\i (08:02:09) exit 
-\e (08:02:09) Do you want to save the changes you made to pc053a_toplevel_33_ans_16-5_28oct.brd?
-\i (08:02:11) fillin no 
-\t (08:02:12)     Journal end - Tue Dec 20 18:12:51 2016
+\t (00:00:01) allegro 17.2 S059 Windows SPB 64-bit Edition
+\t (00:00:01)     Journal start - Thu Oct 10 10:44:26 2019
+\t (00:00:01)         Host=IT062971 User=phpgb Pid=5104 CPUs=8
+\t (00:00:01) CmdLine= allegro -proj P:\cad\designs\uob-hep-pc053a\trunk\design_files\pc053a_toplevel.cpm -product Allegro_performance -mpssession phpgb_ProjectMgr28774 -mpshost IT062971
+\t (00:00:01) 
+   (00:00:01) Loading axlcore.cxt 
+\t (00:00:01) Opening existing design...
+\i (00:00:01) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged pc053c_toplevel_01
+\d (00:00:01) Design opened: P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/pc053c_toplevel_01.brd
+\i (00:00:02) trapsize 4543
+\i (00:00:02) trapsize 4629
+\i (00:00:02) trapsize 4543
+\i (00:00:02) trapsize 4543
+\i (00:00:03) placementedit 
+\i (00:00:12) xrefdes Ic3 
+\i (00:00:12) xrefdes IC3 
+\i (00:00:12) xname_flush 
+\i (00:00:12) trapsize 672
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in -19.2753 15.7920
+\i (00:00:14) trapsize 336
+\i (00:00:16) pick grid -16.7553 19.0983
+\t (00:00:16) last pick:  -16.7640 19.0500
+\i (00:00:25) setwindow form.mini
+\i (00:00:25) FORM mini class ETCH 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) QtSignal CVPLayerGrid CVPBoxAllL3gnd clicked false
+\i (00:00:31) QtSignal CVPLayerGrid CVPBoxAllL3gnd clicked true
+\i (00:00:34) QtSignal CVPLayerGrid CVPBoxAllL3pwr clicked false
+\i (00:00:36) QtSignal CVPLayerGrid CVPBoxAllL3pwr clicked true
+\i (00:00:38) zoom in 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom in -22.0170 17.8685
+\i (00:00:38) trapsize 168
+\i (00:00:38) zoom out 1 
+\i (00:00:38) setwindow pcb
+\i (00:00:38) zoom out -22.0170 17.8686
+\i (00:00:38) trapsize 336
+\i (00:01:03) zoom in 1 
+\i (00:01:03) setwindow pcb
+\i (00:01:03) zoom in -20.7335 17.0688
+\i (00:01:03) trapsize 168
+\i (00:01:04) roam start
+\i (00:01:04) roam y -16
+\i (00:01:04) roam y -16
+\i (00:01:04) roam x 16
+\i (00:01:04) roam y 96
+\i (00:01:04) roam x 48
+\i (00:01:04) roam y 112
+\i (00:01:05) roam x 32
+\i (00:01:05) roam y 48
+\i (00:01:05) roam x 16
+\i (00:01:05) roam y 32
+\i (00:01:05) roam end
+\i (00:01:06) roam start
+\i (00:01:06) roam y 16
+\i (00:01:06) roam y 48
+\i (00:01:06) roam y 32
+\i (00:01:06) roam y 48
+\i (00:01:06) roam y 32
+\i (00:01:06) roam end
+\i (00:01:14) zoom in 1 
+\i (00:01:14) setwindow pcb
+\i (00:01:14) zoom in -20.7817 14.0933
+\i (00:01:14) trapsize 84
+\i (00:01:15) zoom out 1 
+\i (00:01:15) setwindow pcb
+\i (00:01:15) zoom out -20.9429 14.4629
+\i (00:01:15) trapsize 168
+\i (00:01:15) zoom out 1 
+\i (00:01:15) setwindow pcb
+\i (00:01:15) zoom out -20.9430 14.4628
+\i (00:01:15) trapsize 336
+\i (00:01:18) pop dyn_option_select 'Application Mode@:@General Edit' 
+\i (00:01:18) generaledit 
+\i (00:01:57) zoom in 1 
+\i (00:01:57) setwindow pcb
+\i (00:01:57) zoom in -21.7090 15.4708
+\i (00:01:57) trapsize 168
+\i (00:01:57) zoom in 1 
+\i (00:01:57) setwindow pcb
+\i (00:01:57) zoom in -21.7090 15.4708
+\i (00:01:57) trapsize 84
+\i (00:02:00) roam start
+\i (00:02:00) roam x 32
+\i (00:02:00) roam y -64
+\i (00:02:00) roam y -48
+\i (00:02:00) roam x 32
+\i (00:02:00) roam y -64
+\i (00:02:00) roam x 16
+\i (00:02:00) roam y -32
+\i (00:02:00) roam x 32
+\i (00:02:00) roam y -32
+\i (00:02:00) roam x 32
+\i (00:02:00) roam y -48
+\i (00:02:00) roam x 16
+\i (00:02:00) roam y -32
+\i (00:02:00) roam x 16
+\i (00:02:00) roam y -48
+\i (00:02:00) roam x 48
+\i (00:02:00) roam y -80
+\i (00:02:00) roam x 48
+\i (00:02:00) roam y -128
+\i (00:02:00) roam end
+\i (00:02:01) roam start
+\i (00:02:02) roam y -16
+\i (00:02:02) roam y -80
+\i (00:02:02) roam y -64
+\i (00:02:02) roam y -32
+\i (00:02:02) roam x -16
+\i (00:02:02) roam y -112
+\i (00:02:02) roam x -16
+\i (00:02:02) roam y -96
+\i (00:02:02) roam y -16
+\i (00:02:02) roam y -32
+\i (00:02:02) roam y -64
+\i (00:02:02) roam y -32
+\i (00:02:02) roam y -16
+\i (00:02:02) roam y -64
+\i (00:02:02) roam end
+\i (00:02:07) zoom out 1 
+\i (00:02:07) setwindow pcb
+\i (00:02:07) zoom out -20.6436 17.2198
+\i (00:02:07) trapsize 168
+\i (00:02:07) zoom out 1 
+\i (00:02:07) setwindow pcb
+\i (00:02:07) zoom out -20.6436 17.2198
+\i (00:02:07) trapsize 336
+\i (00:02:12) zoom in 1 
+\i (00:02:12) setwindow pcb
+\i (00:02:12) zoom in -20.3613 17.7978
+\i (00:02:12) trapsize 168
+\i (00:02:13) zoom in 1 
+\i (00:02:13) setwindow pcb
+\i (00:02:13) zoom in -20.3680 17.8549
+\i (00:02:13) trapsize 84
+\i (00:02:14) zoom out 1 
+\i (00:02:14) setwindow pcb
+\i (00:02:14) zoom out -20.5629 17.8533
+\i (00:02:14) trapsize 168
+\i (00:02:14) zoom out 1 
+\i (00:02:14) setwindow pcb
+\i (00:02:14) zoom out -20.5628 17.8533
+\i (00:02:14) trapsize 336
+\i (00:02:17) roam start
+\i (00:02:17) roam x 80
+\i (00:02:17) roam y 48
+\i (00:02:17) roam x 80
+\i (00:02:17) roam y 64
+\i (00:02:17) roam x 32
+\i (00:02:17) roam y 32
+\i (00:02:17) roam x 64
+\i (00:02:17) roam y 48
+\i (00:02:17) roam end
+\i (00:02:47) roam start
+\i (00:02:47) roam x -16
+\i (00:02:47) roam y 64
+\i (00:02:47) roam x -16
+\i (00:02:47) roam y 32
+\i (00:02:47) roam x -32
+\i (00:02:47) roam y 48
+\i (00:02:47) roam end
+\i (00:02:47) zoom in 1 
+\i (00:02:47) setwindow pcb
+\i (00:02:47) zoom in -21.5490 13.5072
+\i (00:02:47) trapsize 168
+\i (00:02:48) zoom in 1 
+\i (00:02:48) setwindow pcb
+\i (00:02:48) zoom in -21.5490 13.5072
+\i (00:02:48) trapsize 84
+\i (00:02:50) zoom out 1 
+\i (00:02:50) setwindow pcb
+\i (00:02:50) zoom out -21.6901 13.8096
+\i (00:02:50) trapsize 168
+\i (00:02:50) zoom out 1 
+\i (00:02:50) setwindow pcb
+\i (00:02:50) zoom out -21.6901 13.8096
+\i (00:02:50) trapsize 336
+\i (00:02:58) exit 
+\t (00:02:59)     Journal end - Thu Oct 10 10:47:24 2019

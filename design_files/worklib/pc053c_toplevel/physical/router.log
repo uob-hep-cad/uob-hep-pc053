@@ -1,0 +1,8 @@
+
+---------------------------------------------------------------------------
+BOARD: P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/physical/pc053c_toplevel_50.brd ROUTER: 17.2
+DATE: Mon Nov 04 11:41:26 2019        HOST: IT062971
+---------------------------------------------------------------------------
+Cnt St-ex Router      Att  Inv Miss Com% Drcs Vias   Etch  Cpu exec  Cpu Tot
+--------- ------    ----- ---- ---- ---- ---- ---- ------  -------- --------
+  Start    ----       702    0    0 100%    0  564   136.0  0:02:02  0:02:02

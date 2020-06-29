@@ -7,7 +7,7 @@
 			( 16.6 )
 		)
 		( revisionNumber
-			( logicalViewRevNum 875 )
+			( logicalViewRevNum 876 )
 			( physicalViewRevNum 26 )
 			( otherViewRevNum 0 )
 		)
@@ -2054,6 +2054,12 @@
 				)
 				( objectStatus "UNNAMED_11_ADN2814_I23_DATAOUTP" )
 			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):sy5860_in_p"
+				( objectStatus "sy5860_in_p" )
+			)
+			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):sy5860_in_n"
+				( objectStatus "sy5860_in_n" )
+			)
 			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_4_capcersmdcl2_i119_a"
 				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_4_CAPCERSMDCL2_I119_A"
 					( Origin gPackager )
@@ -2065,18 +2071,6 @@
 					( Origin gPackager )
 				)
 				( objectStatus "UNNAMED_4_CAPCERSMDCL2_I120_A" )
-			)
-			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_11_rsmd0603_i241_b"
-				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_11_RSMD0603_I241_B"
-					( Origin gPackager )
-				)
-				( objectStatus "UNNAMED_11_RSMD0603_I241_B" )
-			)
-			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):unnamed_11_rsmd0603_i242_b"
-				( attribute "CDS_PHYS_NET_NAME" "UNNAMED_11_RSMD0603_I242_B"
-					( Origin gPackager )
-				)
-				( objectStatus "UNNAMED_11_RSMD0603_I242_B" )
 			)
 			( signal "@uob_hep_pc053a_lib.pc053a_toplevel(sch_1):sfp_los"
 				( attribute "CDS_PHYS_NET_NAME" "SFP_LOS"
@@ -16091,7 +16085,7 @@
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(1730,4440)"
+				( attribute "XY" "(1420,4440)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "RSMD0603"
@@ -16182,7 +16176,7 @@
 					( Units "uVoltage" "V" 1.000000)
 					( Origin gFrontEnd )
 				)
-				( attribute "XY" "(1730,4240)"
+				( attribute "XY" "(1400,4240)"
 					( Origin gFrontEnd )
 				)
 				( attribute "CHIPS_PART_NAME" "RSMD0603"
