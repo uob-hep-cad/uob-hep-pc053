@@ -1,0 +1,35 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Glossing                                                         )
+(                                                                     )
+(    Drawing          : pc053c_toplevel_50gloss.brd                   )
+(    Software Version : 17.2S060                                      )
+(    Date/Time        : Mon Nov 04 11:42:15 2019                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+**WARNING: Disabling dynamic shapes
+
+
+
+Line Smooth glossing in progress.
+Started on Mon Nov 04 11:42:15 2019
+
+ Smooth Functions  :  bubbles maximize 45 jogs dangling clines add 45s
+ Number of executions  : 1
+ Corner type  : 45
+ Length limit is -0.0001.
+
+ Maximum 45 limit is -0.0001.
+
+
+Elapsed time:  0 hr 0 min 1 sec ( 0.00 hr)
+Actual time of completion: Mon Nov 04 11:42:16 2019
+
+ - 0 - Error(s) from Line smooth Glossing
+
+WARNING: Glossing operations may leave fillets out of date.
+
+
+Glossing complete.

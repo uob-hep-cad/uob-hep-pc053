@@ -1,0 +1,114 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : pc053e_toplevel_64.brd                        )
+(    Software Version : 17.4S011                                      )
+(    Date/Time        : Wed Apr 14 17:14:46 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  Yes
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               IfSame
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'Z:\cad\designs\uob-hep-pc053a\trunk\design_files\worklib\pc053e_toplevel\packaged'
+Design Directory:            'Z:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical'
+Old design name:             'Z:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical/pc053e_toplevel_64.brd'
+New design name:             'Z:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical/pc053e_toplevel_65.brd'
+
+CmdLine: netrev -proj Z:\cad\designs\uob-hep-pc053a\trunk\design_files\pc053e_toplevel.cpm -y 2 -x -z -O Z:\cad\designs\uob-hep-pc053a\trunk\design_files\worklib\pc053e_toplevel\physical\pc053e_toplevel_64.brd Z:\cad\designs\uob-hep-pc053a\trunk\design_files\worklib\pc053e_toplevel\physical\pc053e_toplevel_65.brd -q Z:\cad\designs\uob-hep-pc053a\trunk\design_files\temp\constraints_difference_report.xml -$
+
+------ Preparing to read pst files ------
+
+Starting to read Z:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/packaged/pstchip.dat 
+   Finished reading Z:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/packaged/pstchip.dat (00:00:00.47)
+Starting to read Z:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/packaged/pstxprt.dat 
+   Finished reading Z:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/packaged/pstxprt.dat (00:00:00.00)
+Starting to read Z:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/packaged/pstxnet.dat 
+   Finished reading Z:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/packaged/pstxnet.dat (00:00:00.02)
+
+------ Oversights/Warnings/Errors ------
+
+
+
+
+===========================================================
+Start Constraint Diff3 Import
+	Constraint File:    Z:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/packaged/pstcmdb.dat
+	Allegro Baseline:   C:/Users/phdgc/AppData/Local/Temp/#Taaaaai20300.tmp
+	Start time: Wed Apr 14 17:14:46 2021
+===========================================================
+
+
+The constraint difference report file can be viewed using the following command:
+cdnFlowOOSMsg.exe -file file:///Z:/cad/designs/uob-hep-pc053a/trunk/design_files/temp/constraints_difference_report.xml
+
+===========================================================
+Finished Constraint Update	Time: Wed Apr 14 17:14:46 2021
+===========================================================
+
+------ Library Paths ------
+MODULEPATH =  . 
+           c:/cadence/spb_17.4/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/spb_17.4/share/local/pcb/symbols 
+           c:/cadence/spb_17.4/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_17.4/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/spb_17.4/share/local/pcb/padstacks 
+           c:/cadence/spb_17.4/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_17.4/share/pcb/allegrolib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Apr 14 17:14:46 2021
+   DESIGN NAME : 'PC053E_TOPLEVEL'
+   PACKAGING ON 14-Apr-2021 AT 17:14:17
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   DIRECTORIES  <none>
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   LIBRARIES  'uob_hep_pc053a_lib' 'cnstandard' 'cnpower' 'cnconnector'
+              'cndiscrete' 'cninterface' 'cnlinear' 'cnmemory' 'cnspecial'
+              'cnmech' 'cncmos' 'standard' 'bris_cds_standard' 'bris_cds_logic'
+              'cnpassive' 'bris_cds_analogue' 'bris_cds_discrete'
+              'bris_cds_connectors'
+   MASTER_LIBRARIES  <none>
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:12:46
+elapsed time  0:00:01
+

@@ -1,0 +1,319 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Jan  8 12:15:57 2021
+# Process ID: 13146
+# Current directory: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel
+# Command line: vivado
+# Log file: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/vivado.log
+# Journal file: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/software/CAD/Xilinx/2020.2/Vivado/2020.2/data/ip'.
+INFO: [IP_Flow 19-3899] Cannot get the environment domain name variable for the component vendor name. Setting the vendor name to 'user.org'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:03:26 . Memory (MB): peak = 7564.570 ; gain = 75.551 ; free physical = 7881 ; free virtual = 159930
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcsg324-2
+INFO: [Device 21-403] Loading part xc7a35tcsg324-2
+INFO: [Project 1-454] Reading design checkpoint '/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/temac_gbe_v9_0_rgmii/temac_gbe_v9_0_rgmii.dcp' for cell 'infra/eth/emac0'
+INFO: [Project 1-454] Reading design checkpoint '/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/mac_fifo_axi4/mac_fifo_axi4.dcp' for cell 'infra/eth/fifo'
+INFO: [Project 1-454] Reading design checkpoint '/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.dcp' for cell 'payload/egen[0].wrapper/rob/evt/fgen[1].fifo'
+Netlist sorting complete. Time (s): cpu = 00:00:00.24 ; elapsed = 00:00:00.24 . Memory (MB): peak = 7612.152 ; gain = 0.000 ; free physical = 7593 ; free virtual = 159648
+INFO: [Netlist 29-17] Analyzing 3143 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[1].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[1].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[2].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[2].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[3].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[3].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[4].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[4].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[1].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[1].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[2].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[2].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[3].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[3].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[4].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[4].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[1].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[1].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[2].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[2].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[3].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[3].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[4].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[4].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[1].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[1].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[2].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[2].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[3].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[3].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[4].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[4].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[1].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[1].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[2].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[2].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[3].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[3].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[4].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[4].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/mac_fifo_axi4/mac_fifo_axi4.xdc] for cell 'infra/eth/fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/mac_fifo_axi4/mac_fifo_axi4.xdc] for cell 'infra/eth/fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/temac_gbe_v9_0_rgmii/synth/temac_gbe_v9_0_rgmii_board.xdc] for cell 'infra/eth/emac0/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/temac_gbe_v9_0_rgmii/synth/temac_gbe_v9_0_rgmii_board.xdc] for cell 'infra/eth/emac0/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/temac_gbe_v9_0_rgmii/synth/temac_gbe_v9_0_rgmii.xdc] for cell 'infra/eth/emac0/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/temac_gbe_v9_0_rgmii/synth/temac_gbe_v9_0_rgmii.xdc] for cell 'infra/eth/emac0/U0'
+Sourcing Tcl File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/src/ipbus-firmware/components/ipbus_util/firmware/ucf/clock_utils.tcl]
+Finished Sourcing Tcl File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/src/ipbus-firmware/components/ipbus_util/firmware/ucf/clock_utils.tcl]
+Sourcing Tcl File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/src/ipbus-firmware/boards/enclustra_ax3_pm3/synth/firmware/ucf/enclustra_ax3_pm3.tcl]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/src/ipbus-firmware/boards/enclustra_ax3_pm3/synth/firmware/ucf/enclustra_ax3_pm3.tcl:81]
+INFO: [Timing 38-2] Deriving generated clocks [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/src/ipbus-firmware/boards/enclustra_ax3_pm3/synth/firmware/ucf/enclustra_ax3_pm3.tcl:81]
+Finished Sourcing Tcl File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/src/ipbus-firmware/boards/enclustra_ax3_pm3/synth/firmware/ucf/enclustra_ax3_pm3.tcl]
+Sourcing Tcl File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/src/timing-board-firmware/components/hw/firmware/ucf/pc053d_ax3_pm3.tcl]
+INFO: [Timing 38-2] Deriving generated clocks [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/src/timing-board-firmware/components/hw/firmware/ucf/pc053d_ax3_pm3.tcl:8]
+Finished Sourcing Tcl File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/src/timing-board-firmware/components/hw/firmware/ucf/pc053d_ax3_pm3.tcl]
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[1].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[1].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[2].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[2].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[3].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[3].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[4].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[4].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[1].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[1].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[2].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[2].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[3].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[3].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[4].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[4].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[1].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[1].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[2].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[2].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[3].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[3].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[4].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[4].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[1].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[1].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[2].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[2].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[3].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[3].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[4].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[4].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[1].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[1].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[2].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[2].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[3].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[3].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[4].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[4].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/mac_fifo_axi4/mac_fifo_axi4_clocks.xdc] for cell 'infra/eth/fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/mac_fifo_axi4/mac_fifo_axi4_clocks.xdc] for cell 'infra/eth/fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/temac_gbe_v9_0_rgmii/synth/temac_gbe_v9_0_rgmii_clocks.xdc] for cell 'infra/eth/emac0/U0'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'infra/eth/emac0/U0' of design 'synth_1' [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/temac_gbe_v9_0_rgmii/synth/temac_gbe_v9_0_rgmii_clocks.xdc:29]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'infra/eth/emac0/U0_rgmii_rx_clk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/temac_gbe_v9_0_rgmii/synth/temac_gbe_v9_0_rgmii_clocks.xdc:29]
+INFO: [Vivado 12-3272] Current instance is the top level cell 'infra/eth/emac0/U0' of design 'synth_1' [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/temac_gbe_v9_0_rgmii/synth/temac_gbe_v9_0_rgmii_clocks.xdc:30]
+INFO: [Vivado 12-3272] Current instance is the top level cell 'infra/eth/emac0/U0' of design 'synth_1' [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/temac_gbe_v9_0_rgmii/synth/temac_gbe_v9_0_rgmii_clocks.xdc:53]
+INFO: [Vivado 12-3272] Current instance is the top level cell 'infra/eth/emac0/U0' of design 'synth_1' [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/temac_gbe_v9_0_rgmii/synth/temac_gbe_v9_0_rgmii_clocks.xdc:54]
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/temac_gbe_v9_0_rgmii/synth/temac_gbe_v9_0_rgmii_clocks.xdc] for cell 'infra/eth/emac0/U0'
+INFO: [Project 1-1715] 4 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-1687] 28 scoped IP constraints or related sub-commands were skipped due to synthesis logic optimizations usually triggered by constant connectivity or unconnected output pins. To review the skipped constraints and messages, run the command 'set_param netlist.IPMsgFiltering false' before opening the design.
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 8227.129 ; gain = 0.000 ; free physical = 7078 ; free virtual = 159132
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 138 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 3 instances
+  OBUFDS => OBUFDS: 5 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 122 instances
+  RAM64X1D => RAM64X1D (RAMD64E(x2)): 8 instances
+
+open_run: Time (s): cpu = 00:00:27 ; elapsed = 00:00:59 . Memory (MB): peak = 8417.410 ; gain = 805.258 ; free physical = 6919 ; free virtual = 158976
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Fri Jan  8 14:38:34 2021] Launched synth_1...
+Run output will be captured here: /users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.runs/synth_1/runme.log
+close_design
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcsg324-2
+INFO: [Project 1-454] Reading design checkpoint '/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/temac_gbe_v9_0_rgmii/temac_gbe_v9_0_rgmii.dcp' for cell 'infra/eth/emac0'
+INFO: [Project 1-454] Reading design checkpoint '/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/mac_fifo_axi4/mac_fifo_axi4.dcp' for cell 'infra/eth/fifo'
+INFO: [Project 1-454] Reading design checkpoint '/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.dcp' for cell 'payload/egen[0].wrapper/rob/evt/fgen[1].fifo'
+Netlist sorting complete. Time (s): cpu = 00:00:00.27 ; elapsed = 00:00:00.26 . Memory (MB): peak = 8417.410 ; gain = 0.000 ; free physical = 7123 ; free virtual = 159093
+INFO: [Netlist 29-17] Analyzing 3143 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[1].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[1].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[2].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[2].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[3].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[3].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[4].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[4].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[1].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[1].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[2].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[2].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[3].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[3].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[4].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[4].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[1].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[1].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[2].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[2].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[3].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[3].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[4].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[4].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[1].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[1].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[2].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[2].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[3].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[3].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[4].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[4].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[1].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[1].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[2].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[2].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[3].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[3].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[4].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[4].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/mac_fifo_axi4/mac_fifo_axi4.xdc] for cell 'infra/eth/fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/mac_fifo_axi4/mac_fifo_axi4.xdc] for cell 'infra/eth/fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/temac_gbe_v9_0_rgmii/synth/temac_gbe_v9_0_rgmii_board.xdc] for cell 'infra/eth/emac0/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/temac_gbe_v9_0_rgmii/synth/temac_gbe_v9_0_rgmii_board.xdc] for cell 'infra/eth/emac0/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/temac_gbe_v9_0_rgmii/synth/temac_gbe_v9_0_rgmii.xdc] for cell 'infra/eth/emac0/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/temac_gbe_v9_0_rgmii/synth/temac_gbe_v9_0_rgmii.xdc] for cell 'infra/eth/emac0/U0'
+Sourcing Tcl File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/src/ipbus-firmware/components/ipbus_util/firmware/ucf/clock_utils.tcl]
+Finished Sourcing Tcl File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/src/ipbus-firmware/components/ipbus_util/firmware/ucf/clock_utils.tcl]
+Sourcing Tcl File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/src/ipbus-firmware/boards/enclustra_ax3_pm3/synth/firmware/ucf/enclustra_ax3_pm3.tcl]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/src/ipbus-firmware/boards/enclustra_ax3_pm3/synth/firmware/ucf/enclustra_ax3_pm3.tcl:81]
+INFO: [Timing 38-2] Deriving generated clocks [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/src/ipbus-firmware/boards/enclustra_ax3_pm3/synth/firmware/ucf/enclustra_ax3_pm3.tcl:81]
+Finished Sourcing Tcl File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/src/ipbus-firmware/boards/enclustra_ax3_pm3/synth/firmware/ucf/enclustra_ax3_pm3.tcl]
+Sourcing Tcl File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/src/timing-board-firmware/components/hw/firmware/ucf/pc053d_ax3_pm3.tcl]
+INFO: [Timing 38-2] Deriving generated clocks [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/src/timing-board-firmware/components/hw/firmware/ucf/pc053d_ax3_pm3.tcl:8]
+Finished Sourcing Tcl File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/src/timing-board-firmware/components/hw/firmware/ucf/pc053d_ax3_pm3.tcl]
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[1].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[1].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[2].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[2].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[3].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[3].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[4].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/egen[0].wrapper/rob/evt/fgen[4].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[1].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[1].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[2].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[2].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[3].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[3].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[4].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[0].part/rob/evt/fgen[4].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[1].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[1].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[2].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[2].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[3].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[3].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[4].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[1].part/rob/evt/fgen[4].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[1].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[1].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[2].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[2].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[3].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[3].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[4].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[2].part/rob/evt/fgen[4].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[1].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[1].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[2].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[2].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[3].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[3].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[4].fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/pdts_evt_fifo/pdts_evt_fifo_clocks.xdc] for cell 'payload/master/master/pgen[3].part/rob/evt/fgen[4].fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/mac_fifo_axi4/mac_fifo_axi4_clocks.xdc] for cell 'infra/eth/fifo/U0'
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/mac_fifo_axi4/mac_fifo_axi4_clocks.xdc] for cell 'infra/eth/fifo/U0'
+Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/temac_gbe_v9_0_rgmii/synth/temac_gbe_v9_0_rgmii_clocks.xdc] for cell 'infra/eth/emac0/U0'
+INFO: [Vivado 12-3272] Current instance is the top level cell 'infra/eth/emac0/U0' of design 'synth_1' [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/temac_gbe_v9_0_rgmii/synth/temac_gbe_v9_0_rgmii_clocks.xdc:29]
+INFO: [Constraints 18-483] create_clock: no pin(s)/port(s)/net(s) specified as objects, only virtual clock 'infra/eth/emac0/U0_rgmii_rx_clk' will be created. If you don't want this, please specify pin(s)/ports(s)/net(s) as objects to the command. [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/temac_gbe_v9_0_rgmii/synth/temac_gbe_v9_0_rgmii_clocks.xdc:29]
+INFO: [Vivado 12-3272] Current instance is the top level cell 'infra/eth/emac0/U0' of design 'synth_1' [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/temac_gbe_v9_0_rgmii/synth/temac_gbe_v9_0_rgmii_clocks.xdc:30]
+INFO: [Vivado 12-3272] Current instance is the top level cell 'infra/eth/emac0/U0' of design 'synth_1' [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/temac_gbe_v9_0_rgmii/synth/temac_gbe_v9_0_rgmii_clocks.xdc:53]
+INFO: [Vivado 12-3272] Current instance is the top level cell 'infra/eth/emac0/U0' of design 'synth_1' [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/temac_gbe_v9_0_rgmii/synth/temac_gbe_v9_0_rgmii_clocks.xdc:54]
+Finished Parsing XDC File [/users/phdgc/DUNE/firmware/PDTS/work_zcu102_pc053d/build/proj/top_a35/top_a35/top_a35.gen/sources_1/ip/temac_gbe_v9_0_rgmii/synth/temac_gbe_v9_0_rgmii_clocks.xdc] for cell 'infra/eth/emac0/U0'
+INFO: [Project 1-1715] 4 XPM XDC files have been applied to the design.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-1687] 28 scoped IP constraints or related sub-commands were skipped due to synthesis logic optimizations usually triggered by constant connectivity or unconnected output pins. To review the skipped constraints and messages, run the command 'set_param netlist.IPMsgFiltering false' before opening the design.
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 8417.410 ; gain = 0.000 ; free physical = 7015 ; free virtual = 158985
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 138 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 3 instances
+  OBUFDS => OBUFDS: 5 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 122 instances
+  RAM64X1D => RAM64X1D (RAMD64E(x2)): 8 instances
+
+open_run: Time (s): cpu = 00:00:15 ; elapsed = 00:00:10 . Memory (MB): peak = 8523.898 ; gain = 106.488 ; free physical = 6946 ; free virtual = 158915
+close_project
+open_project /users/phdgc/DUNE/firmware/PDTS/work_ipbus-contrib-enclustra/build/proj/top_a35-macprom-example/top_a35-macprom-example/top_a35-macprom-example.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/software/CAD/Xilinx/2020.2/Vivado/2020.2/data/ip'.
+close_project
+open_project /users/phdgc/DUNE/firmware/PDTS/work_ipbus-contrib-enclustra/build/proj/top_a35-macprom-example/top_a35-macprom-example/top_a35-macprom-example.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/software/CAD/Xilinx/2020.2/Vivado/2020.2/data/ip'.
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Wed Jan 13 10:02:18 2021] Launched mac_fifo_axi4_synth_1, temac_gbe_v9_0_rgmii_synth_1, synth_1...
+Run output will be captured here:
+mac_fifo_axi4_synth_1: /users/phdgc/DUNE/firmware/PDTS/work_ipbus-contrib-enclustra/build/proj/top_a35-macprom-example/top_a35-macprom-example/top_a35-macprom-example.runs/mac_fifo_axi4_synth_1/runme.log
+temac_gbe_v9_0_rgmii_synth_1: /users/phdgc/DUNE/firmware/PDTS/work_ipbus-contrib-enclustra/build/proj/top_a35-macprom-example/top_a35-macprom-example/top_a35-macprom-example.runs/temac_gbe_v9_0_rgmii_synth_1/runme.log
+synth_1: /users/phdgc/DUNE/firmware/PDTS/work_ipbus-contrib-enclustra/build/proj/top_a35-macprom-example/top_a35-macprom-example/top_a35-macprom-example.runs/synth_1/runme.log
+[Wed Jan 13 10:02:18 2021] Launched impl_1...
+Run output will be captured here: /users/phdgc/DUNE/firmware/PDTS/work_ipbus-contrib-enclustra/build/proj/top_a35-macprom-example/top_a35-macprom-example/top_a35-macprom-example.runs/impl_1/runme.log
+close_project
+open_project /users/phdgc/DUNE/firmware/PDTS/work_ipbus-contrib-enclustra/build/proj/top_a35-macprom-example/top_a35-macprom-example/top_a35-macprom-example.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/software/CAD/Xilinx/2020.2/Vivado/2020.2/data/ip'.
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Wed Jan 13 10:42:16 2021] Launched mac_fifo_axi4_synth_1, temac_gbe_v9_0_rgmii_synth_1, synth_1...
+Run output will be captured here:
+mac_fifo_axi4_synth_1: /users/phdgc/DUNE/firmware/PDTS/work_ipbus-contrib-enclustra/build/proj/top_a35-macprom-example/top_a35-macprom-example/top_a35-macprom-example.runs/mac_fifo_axi4_synth_1/runme.log
+temac_gbe_v9_0_rgmii_synth_1: /users/phdgc/DUNE/firmware/PDTS/work_ipbus-contrib-enclustra/build/proj/top_a35-macprom-example/top_a35-macprom-example/top_a35-macprom-example.runs/temac_gbe_v9_0_rgmii_synth_1/runme.log
+synth_1: /users/phdgc/DUNE/firmware/PDTS/work_ipbus-contrib-enclustra/build/proj/top_a35-macprom-example/top_a35-macprom-example/top_a35-macprom-example.runs/synth_1/runme.log
+[Wed Jan 13 10:42:16 2021] Launched impl_1...
+Run output will be captured here: /users/phdgc/DUNE/firmware/PDTS/work_ipbus-contrib-enclustra/build/proj/top_a35-macprom-example/top_a35-macprom-example/top_a35-macprom-example.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jan 13 11:19:06 2021...

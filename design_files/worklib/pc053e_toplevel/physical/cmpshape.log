@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Compose Shapes                                                   )
+(                                                                     )
+(    Drawing          : pc053a_toplevel_09.brd                        )
+(    Software Version : 16.6-2015S058                                 )
+(    Date/Time        : Fri Aug 26 15:32:18 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+current class name(BOARD GEOMETRY)
+Find smallest gap failed. Be cautious, this may not be an error
+Retrieve closedLoop with segments (nil) failed
+A total of 1 shapes were created.
+current class name(BOARD GEOMETRY)
+Get shape struct returns nil
+A total of 0 shapes were created.
+There are segments remaining which do not form a closed shape based on current gap settings.
+Use the "Close Shape" option from the RMB popup to close any shape(s) left open.
+current class name(BOARD GEOMETRY)
+Find smallest gap failed. Be cautious, this may not be an error
+A total of 1 shapes were created.

@@ -1,0 +1,94 @@
+
+*********************************************************************
+                         ROUTER-LOG
+*********************************************************************
+
+NEW ROUTE on P:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/physical/pc053c_toplevel_50.brd
+Started on   Mon Nov 04 11:41:26 2019
+
+---------------------------------------------------------------------
+Statistics at the Start of the Route:
+----------------------------
+
+    Board Statistics:
+    -----------------
+        Components:  Placed 194  Unplaced 0  Total 194
+        Nets:  W/Rats 145  No/Rats 2  Total 148
+        Pins:  W/Rats 823  No/Rats 27  Unused 207  Unplaced 0  Total 1057
+        Equivalent ICs (1 pin = 1/14 EIC)  75
+        Router Keepin (in) (-2.5577,-0.0931) by (0.4041,2.5734)
+        Board area (sq in)  7.9
+        Board density (sq in/EIC) 0.105
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                677          25          702
+        Already Connected          677          25          702
+        Missing Connections          0           0            0
+        Connection Completion      100.00%     100.00%      100.00%
+        Manh Distance (inches)     160.22
+        Etch Length (inches)       135.24        1.09       136.33
+        Number of vias		   549          15          564
+        Vias per Connection          0.81        0.60         0.80
+        Smd pins with attached clines                       771
+
+
+
+---------------------------------------------------------------------
+General Routing Parameters
+--------------------------
+
+    Checkpoint at:  Last step 1:  Last execution 1
+    Overwrite router.log
+    Auto Save ON
+    Dynamic Control OFF
+    Direct Path Router OFF
+    Component Orientation  HORIZONTAL
+    Order Connections Short First
+    Max net priority 0
+    Corner type: 45
+    Side Entry ALLOWED
+    DO NOT FORCE to Pin Escape
+    Ripup/Cleanup Pin Escapes OFF
+    Via Preference OFF
+
+
+---------------------------------------------------------------------
+Layers and Drc Rules
+--------------------
+
+    Subclass                          Spacing       Line Width
+    Idx Name                Dir   ll    lv    vv    Def   Neck    Via    Max45
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     1  TOP                  H 0.1520 0.1520 0.1270  0.1270 0.1270  0.6000 0.6350
+        X grids:     0.1000  Offset: 0.0000
+        Y grids:     0.1000  Offset: 0.0000
+    --- ----                ---   --    --    --    ---   ----    ---    ---
+     6  BOTTOM               V 0.1520 0.1520 0.1270  0.1270 0.1270  0.6000 0.6350
+        X grids:     0.1000  Offset: 0.0000
+        Y grids:     0.1000  Offset: 0.0000
+
+    ATTEMPTS: 0 this step: 0 skips:  
+    count_invalid 0 in 0  0:0:0 hours
+---------------------------------------------------------------------
+Statistics at the End of the Route:
+----------------------------
+
+
+    Connection Statistics:        W/Rats      No/Rats      Total
+    ----------------------        ------      -------      -----
+        Connections                677          25          702
+        Already Connected          677          25          702
+        Missing Connections          0           0            0
+        Connection Completion      100.00%     100.00%      100.00%
+        Etch Length (inches)       135.23        1.09       136.31
+        Number of vias		   549          15          564
+        Vias per Connection          0.81        0.60         0.80
+        Smd pins with attached clines                       771
+
+
+
+    Total cpu time - 0:2:2 hours
+    Total elapsed time - -4519:-30:-14 hours
+    Invalid Count Time: 0 0:0:0 hours
+    Route ended on  Mon Nov 04 11:41:26 2019

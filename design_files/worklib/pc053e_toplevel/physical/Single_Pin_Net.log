@@ -1,0 +1,32 @@
+
+
+
+	Oct 28 15:32:31 2016
+
+	Single Pin Net Logfile
+
+
+Net name - CTRLVCC, is a single pin net
+	Located at - 3.890000 16.930000
+
+Net name - FMC_DI_P, is a single pin net
+	Located at - -1.190000 29.630000
+
+Net name - FMC_DI_N, is a single pin net
+	Located at - -1.190000 28.360000
+
+Net name - VCC, is a single pin net
+	Located at - -20.289000 44.844000
+
+Net name - T_FMC_N, is a single pin net
+	Located at - -29.145000 28.126000
+
+Net name - T_FMC_P, is a single pin net
+	Located at - -29.145000 28.626000
+
+Net name - F_CDR_D_N, is a single pin net
+	Located at - -36.884000 34.422000
+
+Net name - F_CDR_D_P, is a single pin net
+	Located at - -35.184000 34.422000
+

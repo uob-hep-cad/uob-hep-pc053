@@ -1,29 +1,25 @@
-\t (00:00:01) allegro 17.2 S055 Windows SPB 64-bit Edition
-\t (00:00:01)     Journal start - Thu Jun 25 15:08:54 2020
-\t (00:00:01)         Host=IT074217 User=phdgc Pid=14552 CPUs=12
-\t (00:00:01) CmdLine= allegro -proj Z:\cad\designs\uob-hep-pc053a\trunk\design_files\pc053c_toplevel.cpm -product PCB_librarian_expert -mpssession phdgc_ProjectMgr15888 -mpshost IT074217
-\t (00:00:01) 
-   (00:00:01) Loading axlcore.cxt 
-\t (00:00:04) Opening existing design...
-\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged pc053c_toplevel_61
-\d (00:00:04) Design opened: Z:/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/physical/pc053c_toplevel_61.brd
-\i (00:00:04) trapsize 1317
-\i (00:00:04) trapsize 1362
-\i (00:00:05) trapsize 1317
-\i (00:00:05) trapsize 1317
-\i (00:00:06) generaledit 
-\i (00:00:07) trapsize 1702
-\i (00:00:16) show element 
-\i (00:00:19) setwindow form.find
-\i (00:00:19) FORM find symbols NO 
-\i (00:00:23) FORM find clines YES 
-\i (00:00:28) setwindow pcb
-\i (00:00:28) pick grid -2.2261 2.7379
-\t (00:00:28) last pick:  -2.2000 2.7000
-\i (00:00:39) cdsdoc allegro allegrolaunch 
-\i (00:01:11) setwindow text
-\i (00:01:11) close
-\i (00:01:17) exit 
-\e (00:01:17) Do you want to save the changes you made to pc053c_toplevel_61.brd?
-\i (00:01:19) fillin no 
-\t (00:01:19)     Journal end - Thu Jun 25 15:10:12 2020
+\t (00:01:26) allegro 17.4 S012 Linux SPB 64-bit Edition
+\t (00:01:26)     Journal start - Wed Apr  7 14:15:30 2021
+\t (00:01:26)         Host=dilbert User=phdgc Pid=5285 CPUs=20
+\t (00:01:26) CmdLine= /software/CAD/Cadence/SPB174//tools/bin/allegro.exe
+\t (00:01:26) 
+   (00:01:26) Loading axlcore.cxt 
+   (00:01:26) *Error* load: can't access file - "~/Download/fcircle.il"
+   (00:01:26) Searching for nsWare programs v2.62
+   (00:01:26) 	NsWare directory found: /users/phdgc/pcbenv/nsWare/
+   (00:01:26) 	NsWare programs must reside in this directory!
+\t (00:01:27) Opening existing design...
+\i (00:01:32) fillin yes 
+\i (00:01:32) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pc053c_toplevel_61"
+\d (00:01:32) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053c_toplevel/physical/pc053c_toplevel_61.brd
+\i (00:01:32) trapsize 1659
+\i (00:01:32) trapsize 1740
+\i (00:01:32) trapsize 1761
+\i (00:01:32) trapsize 1634
+\i (00:01:32) trapsize 1634
+\i (00:01:33) generaledit 
+\i (00:01:41) open 
+\i (00:01:48) fillin "menu_cancel"
+\i (00:01:48) generaledit 
+\i (00:01:51) exit 
+\t (00:01:51)     Journal end - Wed Apr  7 14:15:55 2021

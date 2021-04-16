@@ -1,0 +1,74 @@
+\t (00:00:22) allegro 17.4 S012 Linux SPB 64-bit Edition
+\t (00:00:22)     Journal start - Fri Apr 16 16:53:01 2021
+\t (00:00:22)         Host=dilbert User=phdgc Pid=13699 CPUs=20
+\t (00:00:22) CmdLine= /software/CAD/Cadence/SPB174//tools/bin/allegro.exe
+\t (00:00:22) 
+\d (00:00:22) Design opened: /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical/pc053e_toplevel_66.brd
+\i (00:00:22) generaledit 
+\i (00:00:28) odb_out 
+\t (00:00:28) Valor: Extract out files
+\i (00:00:29) fillin yes 
+\t (00:00:30) extracting technology file
+\t (00:00:30) Starting techfile...
+\t (00:00:32) extracting cross-section report
+\i (00:00:32) reports 'Cross-Section Report' nographic write /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053e_toplevel/physical/crosssection_pc053e_toplevel_66.out 
+\t (00:00:32) extracting DFA requirements
+\t (00:00:32) Extracting Analysis Regions
+\t (00:00:32) extracting Component Properties
+\t (00:00:32)  ----- Valor extract completed successfully with zones ----- 
+
+\t (00:00:32) Valor: Extract out files dra
+\t (00:00:32) Starting extracta...
+\t (00:00:34) Valor: Extract out files dra
+\t (00:00:34) Starting extracta...
+\e (00:00:35) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
+\t (00:00:36) Valor: Extract out files dra
+\t (00:00:36) Starting extracta...
+\e (00:00:37) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
+\t (00:00:38) Valor: Extract out files dra
+\t (00:00:38) Starting extracta...
+\t (00:00:41) Valor: Extract out files dra
+\t (00:00:41) Starting extracta...
+\e (00:00:42) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
+\t (00:00:43) Valor: Extract out files dra
+\t (00:00:43) Starting extracta...
+\e (00:00:44) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
+\t (00:00:45) Valor: Extract out files dra
+\t (00:00:45) Starting extracta...
+\e (00:00:46) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
+\t (00:00:47) Valor: Extract out files dra
+\t (00:00:47) Starting extracta...
+\e (00:00:47) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
+\t (00:00:49) Valor: Extract out files dra
+\t (00:00:49) Starting extracta...
+\e (00:00:49) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
+\t (00:00:50) Valor: Extract out files dra
+\t (00:00:50) Starting extracta...
+\t (00:00:52) Valor: Extract out files dra
+\t (00:00:52) Starting extracta...
+\e (00:00:52) ERROR(SPMHGE-268): extracta had errors, use Viewlog to review the log file.
+\t (00:00:53) Valor: Extract out files dra
+\t (00:00:53) Starting extracta...
+\t (00:00:55) Starting ODB++ Inside export...
+   (00:05:40) Loading mfg.cxt 
+   (00:05:40) Loading signal.cxt 
+\i (00:05:40) trapsize 6449
+\i (00:05:40) generaledit 
+\i (00:05:50) setwindow text
+\i (00:05:50) close
+\i (00:05:56) zoom out 1 
+\i (00:05:56) setwindow pcb
+\i (00:05:56) zoom out -82.4012 22.5637
+\i (00:05:56) trapsize 12898
+\i (00:05:57) zoom in 1 
+\i (00:05:57) setwindow pcb
+\i (00:05:57) zoom in -82.1433 22.5638
+\i (00:05:57) trapsize 6449
+\i (00:05:58) zoom out 1 
+\i (00:05:58) setwindow pcb
+\i (00:05:58) zoom out -81.7563 22.5638
+\i (00:05:58) trapsize 12898
+\i (00:06:00) exit 
+\e (00:06:00) Do you want to save the changes you made to pc053e_toplevel_66.brd?
+\i (00:06:02) fillin yes 
+\t (00:06:02)     Journal end - Fri Apr 16 16:58:41 2021

@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : rj45_dual_JGL.dra                             )
+(    Software Version : 16.6-2015S055                                 )
+(    Date/Time        : Thu Sep  1 13:11:48 2016                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = /projects/HEP_Instrumentation/cad/designs/uob-hep-pc053a/trunk/design_files/worklib/pc053a_toplevel/physical/symbols
+    Name      = rj45_dual_jgl.psm
+    User      = phdgc
+    Machine   = voltar.phy.bris.ac.uk
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+
